@@ -15,6 +15,8 @@ Output:
 
 import csv
 import json
+import re
+from collections import defaultdict
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
@@ -31,9 +33,44 @@ def _table_type(title: str) -> str:
 
 
 def _field_label(label: str) -> str:
-    import re
-
     return re.sub(r"[^a-z0-9]+", "_", label.lower()).strip("_")
+
+
+def _parent_ids(gnd_id: str) -> list[str]:
+    """Return [dsd_id, district_id, province_id, country_id] for a GND id."""
+    return [gnd_id[:7], gnd_id[:5], gnd_id[:4], gnd_id[:2]]
+
+
+def _aggregate_rows(gnd_rows, sorted_field_ids):
+    """Aggregate GND rows into parent-level rows by summing numeric fields."""
+    buckets = defaultdict(list)
+    for row in gnd_rows:
+        for parent_id in _parent_ids(row["gnd_id"]):
+            buckets[parent_id].append(row["data"])
+
+    agg_rows = []
+    for region_id, data_list in buckets.items():
+        merged = {}
+        for fid in sorted_field_ids:
+            total = 0
+            is_float = False
+            ok = True
+            for d in data_list:
+                raw = d.get(fid, 0)
+                try:
+                    v = float(raw)
+                    if not float(raw).is_integer():
+                        is_float = True
+                    total += v
+                except (ValueError, TypeError):
+                    ok = False
+                    break
+            if ok:
+                merged[fid] = total if is_float else int(total)
+            else:
+                merged[fid] = ""
+        agg_rows.append({"region_id": region_id, "data": merged})
+    return agg_rows
 
 
 def load_metadata():
@@ -99,13 +136,24 @@ def write_csvs(tables, fields, rows):
             writer = csv.writer(f)
             writer.writerow(["region_id"] + field_labels)
 
-            for row in rows[table_id]:
-                values = [row["gnd_id"]] + [
+            gnd_rows = rows[table_id]
+            agg_rows = _aggregate_rows(gnd_rows, sorted_field_ids)
+
+            all_rows = [
+                {"region_id": r["gnd_id"], "data": r["data"]} for r in gnd_rows
+            ] + agg_rows
+            all_rows.sort(key=lambda r: r["region_id"])
+
+            for row in all_rows:
+                values = [row["region_id"]] + [
                     row["data"].get(fid, "") for fid in sorted_field_ids
                 ]
                 writer.writerow(values)
 
-        print(f"  wrote {out_path.name}  ({len(rows[table_id])} rows)")
+        total_rows = len(gnd_rows) + len(agg_rows)
+        print(
+            f"  wrote {out_path.name}  ({total_rows} rows: {len(gnd_rows)} GND + {len(agg_rows)} aggregated)"
+        )
 
 
 def main():
