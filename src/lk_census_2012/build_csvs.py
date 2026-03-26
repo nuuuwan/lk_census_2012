@@ -8,8 +8,8 @@ Source layout:
     data_<dsd_num>.json — census data     (gnd_num → table_id → field_id → value)
 
 Output:
-  data/table_<NN>_<title_slug>.csv
-    Columns: gnd_id, <field labels (lower_snake_case) …>
+  data/<NN>-<type>-<title_slug>.csv   (type: person | household)
+    Columns: region_id, <field labels (lower_snake_case) …>
     One row per GND record.
 """
 
@@ -24,6 +24,10 @@ OUTPUT_DATA_DIR = REPO_ROOT / "data"
 
 def _slug(title: str) -> str:
     return title.lower().replace(" ", "_").replace("/", "_")
+
+
+def _table_type(title: str) -> str:
+    return "person" if "Population" in title else "household"
 
 
 def _field_label(label: str) -> str:
@@ -68,6 +72,8 @@ def build_rows_by_table(table_ids):
 
 def write_csvs(tables, fields, rows):
     OUTPUT_DATA_DIR.mkdir(exist_ok=True)
+    for old in OUTPUT_DATA_DIR.glob("*.csv"):
+        old.unlink()
 
     for table_id, table_meta in sorted(
         tables.items(), key=lambda x: int(x[0])
@@ -81,9 +87,12 @@ def write_csvs(tables, fields, rows):
             _field_label(table_fields[fid]) for fid in sorted_field_ids
         ]
 
-        title_slug = _slug(table_meta["Title"])
+        title = table_meta["Title"]
+        title_slug = _slug(title)
+        table_type = _table_type(title)
         out_path = (
-            OUTPUT_DATA_DIR / f"table_{int(table_id):02d}_{title_slug}.csv"
+            OUTPUT_DATA_DIR
+            / f"{int(table_id):02d}-{table_type}-{title_slug}.csv"
         )
 
         with open(out_path, "w", newline="", encoding="utf-8") as f:
