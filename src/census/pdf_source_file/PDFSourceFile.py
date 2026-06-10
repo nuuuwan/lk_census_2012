@@ -3,10 +3,15 @@ import os
 import requests
 from utils import File, Log
 
+from census.pdf_source_file.PDFSourceFileMetadataMixin import \
+    PDFSourceFileMetadataMixin
+from census.pdf_source_file.PDFSourceFileTxtMixin import PDFSourceFileTxtMixin
+
 log = Log("PDFSourceFile")
 
 
-class PDFSourceFile:
+class PDFSourceFile(PDFSourceFileMetadataMixin, PDFSourceFileTxtMixin):
+    DIR_ORIGINAL_DATA = "original_data"
     DIR_DATA = "data"
 
     def __init__(self, group, i_group, url):
@@ -15,22 +20,29 @@ class PDFSourceFile:
         self.url = url
 
     @property
+    def doc_id(self):
+        return f"{self.group}_P{self.i_group:02d}"
+
+    @property
     def local_path(self):
-        return os.path.join(
-            self.DIR_DATA, f"{self.group}_P{self.i_group:02d}.pdf"
-        )
+        return os.path.join(self.DIR_ORIGINAL_DATA, self.doc_id + ".pdf")
 
     def download(self):
         if not os.path.exists(self.local_path):
-            log.debug(f"🌐 Downloading {self.url}...")
             response = requests.get(self.url, timeout=10)
             response.raise_for_status()
             os.makedirs(self.DIR_DATA, exist_ok=True)
             with open(self.local_path, "wb") as f:
                 f.write(response.content)
-            log.info(f"Downloaded {self.url} to {File(self.local_path)}.")
+            log.info(f"🌐 Downloaded {self.url} to {File(self.local_path)}.")
         else:
             log.debug(f"File {File(self.local_path)} already exists.")
+
+    @property
+    def dir_data(self):
+        dir_data = os.path.join(self.DIR_DATA, self.doc_id)
+        os.makedirs(dir_data, exist_ok=True)
+        return dir_data
 
     @classmethod
     def list(cls):
@@ -46,7 +58,12 @@ class PDFSourceFile:
                 files.append(cls(group, i_group, url))
         return files
 
+    def build(self):
+        self.download()
+        self.to_metadata()
+        self.to_txt()
+
     @classmethod
     def build_all(cls):
         for file in cls.list():
-            file.download()
+            file.build()
