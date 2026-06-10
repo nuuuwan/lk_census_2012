@@ -44,7 +44,17 @@ class PDFSourceFileDataMixin:
         if tokens[:2] == ["number", "Total"]:
             return None
         i_field_start = n_tokens - len(fields) + 1
-        region_name = " ".join(tokens[0:(i_field_start)])
+        region_name_and_num = " ".join(tokens[0:(i_field_start)])
+
+        words = region_name_and_num.split()
+        last_word = words[-1]
+        if last_word[0].isdigit():
+            gnd_num = last_word
+            region_name = " ".join(words[:-1])
+        else:
+            gnd_num = None
+            region_name = region_name_and_num
+
         total_value_from_source = ParseUtils.parse_int(tokens[i_field_start])
         values_only = [
             ParseUtils.parse_int(token)
@@ -54,6 +64,7 @@ class PDFSourceFileDataMixin:
         total_value = sum(values_only)
         return dict(
             region_name=region_name,
+            gnd_num=gnd_num,
             values=values,
             total_value=total_value,
             total_value_from_source=total_value_from_source,
