@@ -66,7 +66,7 @@ class PDFSourceFile(
         self.download()
         self.to_metadata()
         self.to_txt()
-        self.extract_data()
+        self.build_data()
 
     @classmethod
     def build_all(cls):

@@ -48,23 +48,17 @@ class EntLoadMixin:
     def list_from_name_fuzzy(
         cls,
         name_fuzzy: str,
-        filter_ent_type: EntType = None,
-        filter_parent_id: str = None,
-        limit: int = 5,
-        min_fuzz_ratio: int = 80,
+        filter_ent_type_and_id_list: list[tuple[EntType, str]],
+        limit: int,
+        min_fuzz_ratio: int,
     ) -> list:
-        entity_type_list = (
-            [filter_ent_type] if filter_ent_type else EntType.list()
-        )
-
         ent_and_ratio_list = []
-        for entity_type in entity_type_list:
+        for entity_type, filter_parent_id in filter_ent_type_and_id_list:
             for ent in cls.list_from_type(entity_type):
                 if filter_parent_id and not ent.is_parent_id(
                     filter_parent_id
                 ):
                     continue
-
                 fuzz_ratio = fuzz.ratio(ent.name, name_fuzzy)
                 ent_and_ratio_list.append([ent, fuzz_ratio])
 

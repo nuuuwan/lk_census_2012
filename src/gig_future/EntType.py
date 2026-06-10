@@ -33,7 +33,6 @@ class EntType:
             EntType.ED,
             EntType.PD,
             EntType.LG,
-            EntType.MOH,
         ]
 
     @property
@@ -85,7 +84,6 @@ EntType.GND = EntType("gnd")
 EntType.ED = EntType("ed")
 EntType.PD = EntType("pd")
 EntType.LG = EntType("lg")
-EntType.MOH = EntType("moh")
 EntType.UNKNOWN = EntType("unknown")
 
 EntType.ID_TYPE_CONFIG = {
@@ -102,8 +100,5 @@ EntType.ID_TYPE_CONFIG = {
     },
     "LG": {
         8: EntType.LG,
-    },
-    "MOH": {
-        9: EntType.MOH,
     },
 }
