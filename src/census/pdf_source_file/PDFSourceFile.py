@@ -3,6 +3,8 @@ import os
 import requests
 from utils import File, Log
 
+from census.pdf_source_file.PDFSourceFileDataMixin import \
+    PDFSourceFileDataMixin
 from census.pdf_source_file.PDFSourceFileMetadataMixin import \
     PDFSourceFileMetadataMixin
 from census.pdf_source_file.PDFSourceFileTxtMixin import PDFSourceFileTxtMixin
@@ -10,7 +12,9 @@ from census.pdf_source_file.PDFSourceFileTxtMixin import PDFSourceFileTxtMixin
 log = Log("PDFSourceFile")
 
 
-class PDFSourceFile(PDFSourceFileMetadataMixin, PDFSourceFileTxtMixin):
+class PDFSourceFile(
+    PDFSourceFileMetadataMixin, PDFSourceFileTxtMixin, PDFSourceFileDataMixin
+):
     DIR_ORIGINAL_DATA = "original_data"
     DIR_DATA = "data"
 
@@ -62,6 +66,7 @@ class PDFSourceFile(PDFSourceFileMetadataMixin, PDFSourceFileTxtMixin):
         self.download()
         self.to_metadata()
         self.to_txt()
+        self.extract_data()
 
     @classmethod
     def build_all(cls):
