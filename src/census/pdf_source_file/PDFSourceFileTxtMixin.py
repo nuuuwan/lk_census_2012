@@ -4,7 +4,8 @@ import tempfile
 import camelot
 import pandas as pd
 from pypdf import PdfReader, PdfWriter
-from utils import File, Log
+
+from utils_future import File, Log
 
 log = Log("PDFSourceFileTxtMixin")
 

@@ -1,13 +1,13 @@
 import os
 
 import requests
-from utils import File, Log
 
 from census.pdf_source_file.PDFSourceFileDataMixin import \
     PDFSourceFileDataMixin
 from census.pdf_source_file.PDFSourceFileMetadataMixin import \
     PDFSourceFileMetadataMixin
 from census.pdf_source_file.PDFSourceFileTxtMixin import PDFSourceFileTxtMixin
+from utils_future import File, Log
 
 log = Log("PDFSourceFile")
 

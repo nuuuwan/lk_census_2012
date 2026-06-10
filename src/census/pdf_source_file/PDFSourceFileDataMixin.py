@@ -1,6 +1,6 @@
 import os
 
-from utils import File, JSONFile, Log
+from utils_future import File, JSONFile, Log
 
 log = Log("PDFSourceFileDataMixin")
 

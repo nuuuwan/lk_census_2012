@@ -1,7 +1,8 @@
 import os
 
 from pypdf import PdfReader
-from utils import File, JSONFile, Log
+
+from utils_future import File, JSONFile, Log
 
 log = Log("PDFSourceFileMetadataMixin")
 
