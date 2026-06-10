@@ -2,7 +2,7 @@
 
 ## 2026-03-26
 
-DATASET: #Sri Lanka — #Census of Population and Housing 2012
+#SriLanka — #Census of Population and Housing 2012
 
 🇱🇰 I've shared data from Sri Lanka's 2024 Census. Now here's the 2012 Census too, so you can compare and track how things have changed.
 
