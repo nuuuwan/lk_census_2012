@@ -12,4 +12,4 @@ class PDFSourceFileBase:
 
     @property
     def doc_id(self):
-        return self.group + "-" + self.title.lower().replace(" ", "-")
+        return self.group + "-" + self.title.title().replace(" ", "-")
