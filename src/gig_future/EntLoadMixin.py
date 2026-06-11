@@ -59,6 +59,7 @@ class EntLoadMixin:
             x = x[:n2]
         return x
 
+    # flake8: noqa: C901
     @classmethod
     def list_from_name_fuzzy(
         cls,
@@ -70,7 +71,9 @@ class EntLoadMixin:
         ent_and_ratio_list = []
         for entity_type, filter_parent_id in filter_ent_type_and_id_list:
             for ent in cls.list_from_type(entity_type):
-                if filter_parent_id and not ent.is_parent_id(filter_parent_id):
+                if filter_parent_id and not ent.is_parent_id(
+                    filter_parent_id
+                ):
                     continue
                 for fuzzy_name in fuzzy_name_list:
                     for ent_name in [ent.name] + ent.other_name_list:
