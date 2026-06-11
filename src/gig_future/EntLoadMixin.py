@@ -1,3 +1,5 @@
+from functools import cache
+
 from rapidfuzz import fuzz
 
 from gig_future.EntType import EntType
@@ -44,6 +46,25 @@ class EntLoadMixin:
         id_list = [ent.id for ent in ent_list]
         return id_list
 
+    @staticmethod
+    @cache
+    def clean_name(x):
+        x = x.replace("korale", " korale")
+        x = x.replace("nuwaraeliya", "nuwara eliya")
+
+        x = x.replace("-", " ")
+        x = x.split("(")[0]
+        x = x.strip()
+        x = x.lower()
+        words = x.split()
+        words = [word for word in words if word]
+        words.sort()
+        x = " ".join(words)
+        n = len(x)
+        if x[: n // 2] == x[n // 2:]:
+            x = x[: n // 2]
+        return x
+
     @classmethod
     def list_from_name_fuzzy(
         cls,
@@ -59,7 +80,9 @@ class EntLoadMixin:
                     filter_parent_id
                 ):
                     continue
-                fuzz_ratio = fuzz.ratio(ent.name, name_fuzzy)
+                fuzz_ratio = fuzz.ratio(
+                    cls.clean_name(ent.name), cls.clean_name(name_fuzzy)
+                )
                 ent_and_ratio_list.append([ent, fuzz_ratio])
 
         return [

@@ -1,9 +1,7 @@
 import os
-import tempfile
 
 import camelot
 import pandas as pd
-from pypdf import PdfReader, PdfWriter
 
 from utils_future import File, Log
 
@@ -19,22 +17,13 @@ class PDFSourceFileTxtMixin:
         if os.path.exists(self.txt_path):
             log.debug(f"{File(self.txt_path)} already exists.")
             return
-        reader = PdfReader(self.local_path)
+
+        tables = camelot.read_pdf(
+            self.local_path, pages="all", flavor="stream"
+        )
         dfs = []
-
-        with tempfile.TemporaryDirectory() as tmpdir:
-            for page_num, page in enumerate(reader.pages, start=1):
-                writer = PdfWriter()
-                writer.add_page(page)
-                tmp_path = os.path.join(tmpdir, f"page_{page_num:04d}.pdf")
-                with open(tmp_path, "wb") as f:
-                    writer.write(f)
-
-                tables = camelot.read_pdf(
-                    tmp_path, pages="1", flavor="stream"
-                )
-                for table in tables:
-                    dfs.append(table.df)
+        for table in tables:
+            dfs.append(table.df)
 
         if not dfs:
             log.warning(f"No tables found in {self.local_path}")
