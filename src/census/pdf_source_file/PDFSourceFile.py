@@ -38,7 +38,7 @@ class PDFSourceFile(
     @classmethod
     def list(cls):
         files = []
-        for config in SourceConfig.LIST:
+        for config in SourceConfig.LIST[-1:]:
             file = cls(
                 group=config["group"],
                 i_group=config["i_group"],

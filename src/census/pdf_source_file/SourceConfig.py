@@ -1,7 +1,7 @@
 class SourceConfig:
     LIST = [
         dict(
-            group="population",
+            group="Population",
             i_group=1,
             title="Age Groups",
             fields=[
@@ -30,7 +30,7 @@ class SourceConfig:
             offset=3,
         ),
         dict(
-            group="population",
+            group="Population",
             i_group=2,
             title="Gender",
             fields=["Male", "Female"],
@@ -38,7 +38,7 @@ class SourceConfig:
             offset=2,
         ),
         dict(
-            group="population",
+            group="Population",
             i_group=3,
             title="Economic Activity",
             fields=["Employed", "Unemployed", "Economically not active"],
@@ -46,7 +46,7 @@ class SourceConfig:
             offset=5,
         ),
         dict(
-            group="population",
+            group="Population",
             i_group=4,
             title="Educational Attainment",
             fields=[
@@ -58,6 +58,21 @@ class SourceConfig:
                 "No schooling",
             ],
             i_total=1,
+            offset=5,
+        ),
+        dict(
+            group="Housing",
+            i_group=1,
+            title="Solid Waste Disposal",
+            fields=[
+                "Collected by Local Authorities",
+                "Burnt by Occupants",
+                "Buried by Occupants",
+                "Composting by Occupants",
+                "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc",
+                "Other",
+            ],
+            i_total=2,
             offset=5,
         ),
     ]
