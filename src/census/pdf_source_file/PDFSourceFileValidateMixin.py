@@ -98,7 +98,7 @@ class PDFSourceFileValidateMixin:
     def validate(self):
         validation_file = JSONFile(self.validation_path())
         if os.path.exists(validation_file.path):
-            log.info(f"{validation_file} exists")
+            log.debug(f"{validation_file} exists")
             return
 
         data_list = self.read_data_list()

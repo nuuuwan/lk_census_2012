@@ -11,6 +11,7 @@ log = Log("PDFSourceFileDataExpandMixin")
 
 class PDFSourceFileDataMixin:
     MAX_NO_ENT_LIST = 10
+    MIN_DATA_LIST_SIZE = 14_000
 
     @classmethod
     def _remap_region_name(cls, region_name):
@@ -154,4 +155,11 @@ class PDFSourceFileDataMixin:
 
     def read_data_list(self):
         data_file = JSONFile(self.data_path)
-        return data_file.read()
+        data_list = data_file.read()
+        n_data_list = len(data_list)
+        if len(data_list) < self.MIN_DATA_LIST_SIZE:
+            raise ValueError(
+                f"Data list size {n_data_list} < {self.MIN_DATA_LIST_SIZE}"
+            )
+        log.info(f"Read {n_data_list:,} rows from {data_file}.")
+        return data_list
