@@ -8,6 +8,7 @@ class PDFSourceFileBuilderMixin:
         log.info("-" * 20)
         log.info(f"{self.doc_id}...")
         log.info("-" * 20)
+
         self.download()
         self.to_metadata()
         self.to_txt()
@@ -18,5 +19,4 @@ class PDFSourceFileBuilderMixin:
     @classmethod
     def build_all(cls):
         for file in cls.list():
-            file.build()
             file.build()

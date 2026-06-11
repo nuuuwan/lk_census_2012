@@ -17,10 +17,11 @@ class PDFSourceFileTxtMixin:
         if os.path.exists(self.txt_path):
             log.debug(f"{File(self.txt_path)} exists.")
             return
-
+        log.debug(f"Extracting tables from {File(self.local_path)}...")
         tables = camelot.read_pdf(
             self.local_path, pages="all", flavor="stream"
         )
+        log.debug(f"Found {len(tables)} tables in {File(self.local_path)}.")
         dfs = []
         for table in tables:
             dfs.append(table.df)
