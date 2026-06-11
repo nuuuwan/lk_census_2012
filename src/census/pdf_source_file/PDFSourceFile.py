@@ -6,6 +6,8 @@ from census.pdf_source_file.PDFSourceFileDataMixin import \
     PDFSourceFileDataMixin
 from census.pdf_source_file.PDFSourceFileMetadataMixin import \
     PDFSourceFileMetadataMixin
+from census.pdf_source_file.PDFSourceFileRawDataMixin import \
+    PDFSourceFileRawDataMixin
 from census.pdf_source_file.PDFSourceFileTxtMixin import PDFSourceFileTxtMixin
 from census.pdf_source_file.PDFSourceFileValidateMixin import \
     PDFSourceFileValidateMixin
@@ -18,6 +20,7 @@ class PDFSourceFile(
     PDFSourceFileMetadataMixin,
     PDFSourceFileTxtMixin,
     PDFSourceFileDataMixin,
+    PDFSourceFileRawDataMixin,
     PDFSourceFileValidateMixin,
 ):
     DIR_ORIGINAL_DATA = "original_data"
@@ -75,6 +78,7 @@ class PDFSourceFile(
         self.download()
         self.to_metadata()
         self.to_txt()
+        self.build_raw_data()
         self.build_data()
         self.validate_data()
 

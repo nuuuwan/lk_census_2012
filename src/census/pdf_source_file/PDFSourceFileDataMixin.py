@@ -1,124 +1,159 @@
 import os
 
-from census.pdf_source_file.ParseUtils import ParseUtils
-from census.pdf_source_file.PDFSourceFileDataExpandMixin import \
-    PDFSourceFileDataExpandMixin
-from utils_future import File, JSONFile, Log
+from census.pdf_source_file.Corrections import Corrections
+from gig_future import Ent, EntType
+from utils_future import JSONFile, Log
 
-log = Log("PDFSourceFileDataMixin")
+log = Log("PDFSourceFileDataExpandMixin")
 
 
-class PDFSourceFileDataMixin(PDFSourceFileDataExpandMixin):
+class PDFSourceFileDataMixin:
+    MAX_NO_ENT_LIST = 10
+
+    @classmethod
+    def _remap_region_name(cls, region_name):
+        idx = Corrections.GND_RENAME_MAP | Corrections.DSD_RENAME_MAP
+        for item in Corrections.DSD_UPDATE_MAP:
+            name = item.get("name")
+            current_names = item.get("current_names", [])
+            if name:
+                idx[name] = current_names[0]
+        return idx.get(region_name, region_name)
+
+    # flake8: noqa: C901
+    @classmethod
+    def get_filter_ent_type_and_id_list(
+        cls, previous_ent_type, previous_ent_id, gnd_num
+    ):
+        if previous_ent_type is None:
+            return [(EntType.COUNTRY, "LK")]
+
+        if previous_ent_type == EntType.COUNTRY:
+            return [(EntType.DISTRICT, previous_ent_id)]
+
+        if previous_ent_type == EntType.DISTRICT:
+            return [(EntType.DSD, previous_ent_id)]
+
+        if previous_ent_type == EntType.DSD:
+            return [(EntType.GND, previous_ent_id)]
+
+        if previous_ent_type == EntType.GND:
+            if gnd_num is None:
+                return [
+                    (EntType.GND, previous_ent_id[:7]),
+                    (EntType.DSD, previous_ent_id[:5]),
+                    (EntType.DISTRICT, previous_ent_id[:2]),
+                ]
+
+            return [(EntType.GND, previous_ent_id[:7])]
+
+        raise ValueError(f"Unexpected previous_ent_type: {previous_ent_type}")
+
+    @classmethod
+    def _expand_data_list(cls, data_list):
+        n_data_list = len(data_list)
+        log.info(f"Expanding data {n_data_list} rows")
+        previous_ent_type = None
+        previous_ent_id = None
+        new_data_list = []
+        no_ent_list = []
+        for data in data_list:
+
+            filter_ent_type_and_id_list = cls.get_filter_ent_type_and_id_list(
+                previous_ent_type, previous_ent_id, data.get("gnd_num")
+            )
+
+            # Correct for Pre-2019 DSD Data
+            id_list = [
+                ent_id for ent_type, ent_id in filter_ent_type_and_id_list
+            ]
+            for item in Corrections.DSD_UPDATE_MAP:
+                current_ids = item["current_ids"]
+                if set(id_list) & set(current_ids):
+                    for current_id in current_ids:
+                        filter_ent_type_and_id_list.append(
+                            (EntType.GND, current_id)
+                        )
+            if "LK-6148" in id_list:
+                filter_ent_type_and_id_list.append((EntType.GND, "LK-6145"))
+            if "LK-6145" in id_list:
+                filter_ent_type_and_id_list.append((EntType.GND, "LK-6148"))
+
+            region_name = data["region_name"]
+            alt_region_name = cls._remap_region_name(region_name)
+
+            ents = Ent.list_from_name_fuzzy(
+                [region_name, alt_region_name],
+                filter_ent_type_and_id_list=filter_ent_type_and_id_list,
+                limit=1,
+                min_fuzz_ratio=80,
+            )
+
+            if len(ents) == 0:
+                log.error(f"No match: {region_name} ({previous_ent_id=})")
+                no_ent_list.append((region_name, previous_ent_id))
+                if len(no_ent_list) > cls.MAX_NO_ENT_LIST:
+                    print("\t{")
+                    print("\t\t#")
+                    for region_name, previous_ent_id in no_ent_list:
+                        print(
+                            f'\t\t"{region_name}":"{region_name}",'
+                            + f"  # after {previous_ent_id}"
+                        )
+                    print("\t\t#")
+                    print("\t}")
+                    raise ValueError("Too many entries with no matching ent.")
+
+                continue
+
+            ent = ents[0]
+            new_data = dict(
+                region_id=ent.id,
+                region_name=ent.name,
+                total_value=data["total_value"],
+                values=data["values"],
+            )
+            previous_ent_type = EntType.from_id(ent.id)
+            previous_ent_id = ent.id
+            new_data_list.append(new_data)
+            n_completed = len(new_data_list)
+            if previous_ent_type != EntType.GND:
+                p_completed = n_completed / n_data_list
+                log.debug(
+                    f"{n_completed}/{n_data_list} - {p_completed:.1%}) {ent.id} {ent.name}"
+                )
+
+        if no_ent_list:
+            log.error(f"🛑 {len(no_ent_list)} entries had no matching ent.")
+            print("\t{")
+            print("\t\t#")
+            for region_name, previous_ent_id in no_ent_list:
+                print(
+                    f'\t\t"{region_name}":"{region_name}",'
+                    + f"  # after {previous_ent_id}"
+                )
+            print("\t\t#")
+            print("\t}")
+
+        log.info(
+            f"Expanded data list from {len(data_list)}"
+            + f" to {len(new_data_list)} entries."
+        )
+        return new_data_list
 
     @property
     def data_path(self):
         return os.path.join(self.dir_data, "data.json")
-
-    @property
-    def errors_path(self):
-        return os.path.join(self.dir_data, "errors.json")
-
-    def extract_fields(self, lines):
-        fields = []
-        for i_line, line in enumerate(lines):
-            line = line.replace("\u2010", "-")
-            tokens = line.split()
-            if tokens[:2] == ["number", "Total"]:
-                fields = tokens[2:]
-                return fields, i_line
-
-            if tokens[:6] == [
-                "District,",
-                "DS",
-                "division",
-                "and",
-                "GN",
-                "division",
-            ]:
-                fields = ["Both sexes", "Male", "Female"]
-                return fields, i_line
-
-        raise ValueError("Fields not found in the text file.")
-
-    @staticmethod
-    def _extract_line(line, fields):
-        line = line.replace("\u2010", "-")
-        tokens = line.split()
-        print(tokens)
-        n_tokens = len(tokens)
-        if n_tokens < 1 + len(fields):
-            return None
-        i_field_start = n_tokens - len(fields)
-        print(f"{i_field_start=}")
-        region_name_and_num = " ".join(tokens[0:(i_field_start)])
-
-        words = region_name_and_num.split()
-        last_word = words[-1]
-        if any([c.isdigit() for c in last_word]):
-            gnd_num = last_word
-            region_name = " ".join(words[:-1])
-        elif len(words) > 2 and words[-2].isdigit():
-            gnd_num = words[-2] + "" + words[-1]
-            region_name = " ".join(words[:-2])
-        else:
-            gnd_num = None
-            region_name = region_name_and_num
-
-        values_only = [
-            ParseUtils.parse_int(token) for token in tokens[i_field_start:]
-        ]
-        if len(values_only) != len(fields):
-            raise ValueError(
-                f"Expected {len(fields)} values but found {len(values_only)}"
-            )
-
-        values = dict(zip(fields, values_only))
-        total_value = sum(values_only)
-        d = dict(
-            region_name=region_name,
-            gnd_num=gnd_num,
-            values=values,
-            total_value=total_value,
-        )
-        log.debug(d)
-        return d
-
-    def _dedupe_lines(self, lines):
-        seen = set()
-        deduped_lines = []
-        for line in lines:
-            if line not in seen:
-                deduped_lines.append(line)
-                seen.add(line)
-        return deduped_lines
 
     def build_data(self):
         data_file = JSONFile(self.data_path)
         if data_file.exists:
             log.debug(f"{data_file} exists.")
             return
-
-        lines = File(self.txt_path).read_lines()
-        lines = self._dedupe_lines(lines)
-
-        fields, offset = self.extract_fields(lines)
-        log.debug(f"{fields=}")
-        errors = []
-        d_list = []
-        for line in lines[offset + 1:]:
-            d = self._extract_line(line, fields)
-            if d:
-                d_list.append(d)
-
-        if errors:
-            errors_file = JSONFile(self.errors_path)
-            errors_file.write(errors)
-            log.warning(f"Wrote {len(errors)} errors to {errors_file}.")
-
-        d_list = self._expand_data_list(d_list)
-
-        data_file.write(d_list)
-        log.info(f"Wrote {len(d_list)} rows to {data_file}.")
+        raw_data_list = self.read_raw_data_list()
+        data_list = self._expand_data_list(raw_data_list)
+        data_file.write(data_list)
+        log.info(f"Wrote {len(data_list)} rows to {data_file}.")
 
     def read_data_list(self):
         data_file = JSONFile(self.data_path)
