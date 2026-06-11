@@ -13,7 +13,7 @@ class PDFSourceFileTxtMixin:
     def txt_path(self):
         return os.path.join(self.dir_data, "data.txt")
 
-    def to_txt(self):
+    def build_txt(self):
         if os.path.exists(self.txt_path):
             log.debug(f"{File(self.txt_path)} exists.")
             return

@@ -11,7 +11,7 @@ class PDFSourceFileBuilderMixin:
 
         self.download()
         self.to_metadata()
-        self.to_txt()
+        self.build_txt()
         self.build_raw_data()
         self.build_data()
         self.validate()
