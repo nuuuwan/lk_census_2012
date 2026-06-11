@@ -188,7 +188,7 @@ class SourceConfig:
                 "Other",
             ],
             i_total=2,
-            offset=5,
+            offset=3,
         ),
         dict(
             group="Housing",

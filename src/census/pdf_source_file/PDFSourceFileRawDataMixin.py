@@ -83,7 +83,7 @@ class PDFSourceFileRawDataMixin:
 
         errors = []
         d_list = []
-        for line in lines[self.offset + 1 : self.MAX_LINES_TO_PROCESS]:
+        for line in lines[self.offset + 1: self.MAX_LINES_TO_PROCESS]:
             d = self._extract_line(line, self.fields, self.i_total)
             if d:
                 d_list.append(d)
