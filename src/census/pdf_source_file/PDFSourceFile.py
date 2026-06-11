@@ -2,15 +2,19 @@ import os
 
 import requests
 
-from census.pdf_source_file.PDFSourceFileDataMixin import \
-    PDFSourceFileDataMixin
-from census.pdf_source_file.PDFSourceFileMetadataMixin import \
-    PDFSourceFileMetadataMixin
-from census.pdf_source_file.PDFSourceFileRawDataMixin import \
-    PDFSourceFileRawDataMixin
+from census.pdf_source_file.PDFSourceFileDataMixin import (
+    PDFSourceFileDataMixin,
+)
+from census.pdf_source_file.PDFSourceFileMetadataMixin import (
+    PDFSourceFileMetadataMixin,
+)
+from census.pdf_source_file.PDFSourceFileRawDataMixin import (
+    PDFSourceFileRawDataMixin,
+)
 from census.pdf_source_file.PDFSourceFileTxtMixin import PDFSourceFileTxtMixin
-from census.pdf_source_file.PDFSourceFileValidateMixin import \
-    PDFSourceFileValidateMixin
+from census.pdf_source_file.PDFSourceFileValidateMixin import (
+    PDFSourceFileValidateMixin,
+)
 from utils_future import File, Log
 
 log = Log("PDFSourceFile")
@@ -25,7 +29,7 @@ class PDFSourceFile(
 ):
     DIR_ORIGINAL_DATA = "original_data"
     DIR_DATA = "data"
-    GROUP_CONFIG_LIST = [("population", 1), ("housing", 0)]
+    GROUP_CONFIG_LIST = [("population", 3), ("housing", 0)]
 
     def __init__(self, group, i_group, url):
         self.group = group

@@ -1,0 +1,1025 @@
+[
+  {
+    "region_name": "Sri Lnka",
+    "gnd_num": null,
+    "total_value_from_source": 15227773,
+    "total_value": 15227773,
+    "values": {
+      "Employed": 7335432,
+      "Unemployed": 521938,
+      "Economically not active": 7370403
+    }
+  },
+  {
+    "region_name": "Colombo",
+    "gnd_num": null,
+    "total_value_from_source": 1820445,
+    "total_value": 1820445,
+    "values": {
+      "Employed": 904028,
+      "Unemployed": 44665,
+      "Economically not active": 871752
+    }
+  },
+  {
+    "region_name": "Colombo",
+    "gnd_num": null,
+    "total_value_from_source": 240430,
+    "total_value": 240430,
+    "values": {
+      "Employed": 110920,
+      "Unemployed": 6209,
+      "Economically not active": 123301
+    }
+  },
+  {
+    "region_name": "Sammanthranapura",
+    "gnd_num": null,
+    "total_value_from_source": 5480,
+    "total_value": 5480,
+    "values": {
+      "Employed": 2844,
+      "Unemployed": 149,
+      "Economically not active": 2487
+    }
+  },
+  {
+    "region_name": "Mattakkuliya",
+    "gnd_num": null,
+    "total_value_from_source": 20737,
+    "total_value": 20737,
+    "values": {
+      "Employed": 9672,
+      "Unemployed": 466,
+      "Economically not active": 10599
+    }
+  },
+  {
+    "region_name": "Modara",
+    "gnd_num": null,
+    "total_value_from_source": 13335,
+    "total_value": 13335,
+    "values": {
+      "Employed": 5964,
+      "Unemployed": 327,
+      "Economically not active": 7044
+    }
+  },
+  {
+    "region_name": "Madampitiya",
+    "gnd_num": null,
+    "total_value_from_source": 8920,
+    "total_value": 8920,
+    "values": {
+      "Employed": 4639,
+      "Unemployed": 219,
+      "Economically not active": 4062
+    }
+  },
+  {
+    "region_name": "Mahawatta",
+    "gnd_num": null,
+    "total_value_from_source": 6547,
+    "total_value": 6547,
+    "values": {
+      "Employed": 3185,
+      "Unemployed": 167,
+      "Economically not active": 3195
+    }
+  },
+  {
+    "region_name": "Aluthmawatha",
+    "gnd_num": null,
+    "total_value_from_source": 10296,
+    "total_value": 10296,
+    "values": {
+      "Employed": 4499,
+      "Unemployed": 272,
+      "Economically not active": 5525
+    }
+  },
+  {
+    "region_name": "Lunupokuna",
+    "gnd_num": null,
+    "total_value_from_source": 9765,
+    "total_value": 9765,
+    "values": {
+      "Employed": 4732,
+      "Unemployed": 267,
+      "Economically not active": 4766
+    }
+  },
+  {
+    "region_name": "Bloemendhal",
+    "gnd_num": null,
+    "total_value_from_source": 10393,
+    "total_value": 10393,
+    "values": {
+      "Employed": 4755,
+      "Unemployed": 261,
+      "Economically not active": 5377
+    }
+  },
+  {
+    "region_name": "Kotahena East",
+    "gnd_num": null,
+    "total_value_from_source": 5200,
+    "total_value": 5200,
+    "values": {
+      "Employed": 2076,
+      "Unemployed": 159,
+      "Economically not active": 2965
+    }
+  },
+  {
+    "region_name": "Kotahena West",
+    "gnd_num": null,
+    "total_value_from_source": 7483,
+    "total_value": 7483,
+    "values": {
+      "Employed": 3111,
+      "Unemployed": 172,
+      "Economically not active": 4200
+    }
+  },
+  {
+    "region_name": "Kochchikade North",
+    "gnd_num": null,
+    "total_value_from_source": 7509,
+    "total_value": 7509,
+    "values": {
+      "Employed": 3526,
+      "Unemployed": 171,
+      "Economically not active": 3812
+    }
+  },
+  {
+    "region_name": "Jinthupitiya",
+    "gnd_num": null,
+    "total_value_from_source": 6330,
+    "total_value": 6330,
+    "values": {
+      "Employed": 2821,
+      "Unemployed": 205,
+      "Economically not active": 3304
+    }
+  },
+  {
+    "region_name": "Masangasweediya",
+    "gnd_num": null,
+    "total_value_from_source": 6231,
+    "total_value": 6231,
+    "values": {
+      "Employed": 2885,
+      "Unemployed": 135,
+      "Economically not active": 3211
+    }
+  },
+  {
+    "region_name": "New Bazaar",
+    "gnd_num": null,
+    "total_value_from_source": 9566,
+    "total_value": 9566,
+    "values": {
+      "Employed": 4003,
+      "Unemployed": 402,
+      "Economically not active": 5161
+    }
+  },
+  {
+    "region_name": "Grandpass South",
+    "gnd_num": null,
+    "total_value_from_source": 12790,
+    "total_value": 12790,
+    "values": {
+      "Employed": 5643,
+      "Unemployed": 390,
+      "Economically not active": 6757
+    }
+  },
+  {
+    "region_name": "Grandpass North",
+    "gnd_num": null,
+    "total_value_from_source": 6455,
+    "total_value": 6455,
+    "values": {
+      "Employed": 2854,
+      "Unemployed": 196,
+      "Economically not active": 3405
+    }
+  },
+  {
+    "region_name": "Nawagampura",
+    "gnd_num": null,
+    "total_value_from_source": 5045,
+    "total_value": 5045,
+    "values": {
+      "Employed": 2220,
+      "Unemployed": 81,
+      "Economically not active": 2744
+    }
+  },
+  {
+    "region_name": "Maligawatta East",
+    "gnd_num": null,
+    "total_value_from_source": 8256,
+    "total_value": 8256,
+    "values": {
+      "Employed": 3584,
+      "Unemployed": 219,
+      "Economically not active": 4453
+    }
+  },
+  {
+    "region_name": "Khettarama",
+    "gnd_num": null,
+    "total_value_from_source": 9160,
+    "total_value": 9160,
+    "values": {
+      "Employed": 4260,
+      "Unemployed": 280,
+      "Economically not active": 4620
+    }
+  },
+  {
+    "region_name": "Aluthkade East",
+    "gnd_num": null,
+    "total_value_from_source": 7165,
+    "total_value": 7165,
+    "values": {
+      "Employed": 3032,
+      "Unemployed": 128,
+      "Economically not active": 4005
+    }
+  },
+  {
+    "region_name": "Aluthkade West",
+    "gnd_num": null,
+    "total_value_from_source": 5472,
+    "total_value": 5472,
+    "values": {
+      "Employed": 2502,
+      "Unemployed": 118,
+      "Economically not active": 2852
+    }
+  },
+  {
+    "region_name": "Kochchikade South",
+    "gnd_num": null,
+    "total_value_from_source": 5890,
+    "total_value": 5890,
+    "values": {
+      "Employed": 2850,
+      "Unemployed": 163,
+      "Economically not active": 2877
+    }
+  },
+  {
+    "region_name": "Pettah",
+    "gnd_num": null,
+    "total_value_from_source": 1903,
+    "total_value": 1903,
+    "values": {
+      "Employed": 1837,
+      "Unemployed": 8,
+      "Economically not active": 58
+    }
+  },
+  {
+    "region_name": "Fort",
+    "gnd_num": null,
+    "total_value_from_source": 1377,
+    "total_value": 1377,
+    "values": {
+      "Employed": 1234,
+      "Unemployed": 5,
+      "Economically not active": 138
+    }
+  },
+  {
+    "region_name": "Galle Face",
+    "gnd_num": null,
+    "total_value_from_source": 2818,
+    "total_value": 2818,
+    "values": {
+      "Employed": 1320,
+      "Unemployed": 67,
+      "Economically not active": 1431
+    }
+  },
+  {
+    "region_name": "Slave Island",
+    "gnd_num": null,
+    "total_value_from_source": 2901,
+    "total_value": 2901,
+    "values": {
+      "Employed": 1320,
+      "Unemployed": 58,
+      "Economically not active": 1523
+    }
+  },
+  {
+    "region_name": "Hunupitiya",
+    "gnd_num": null,
+    "total_value_from_source": 5156,
+    "total_value": 5156,
+    "values": {
+      "Employed": 2490,
+      "Unemployed": 168,
+      "Economically not active": 2498
+    }
+  },
+  {
+    "region_name": "Suduwella",
+    "gnd_num": null,
+    "total_value_from_source": 2965,
+    "total_value": 2965,
+    "values": {
+      "Employed": 1301,
+      "Unemployed": 95,
+      "Economically not active": 1569
+    }
+  },
+  {
+    "region_name": "Keselwatta",
+    "gnd_num": null,
+    "total_value_from_source": 5282,
+    "total_value": 5282,
+    "values": {
+      "Employed": 2449,
+      "Unemployed": 187,
+      "Economically not active": 2646
+    }
+  },
+  {
+    "region_name": "Panchikawatta",
+    "gnd_num": null,
+    "total_value_from_source": 6168,
+    "total_value": 6168,
+    "values": {
+      "Employed": 2750,
+      "Unemployed": 114,
+      "Economically not active": 3304
+    }
+  },
+  {
+    "region_name": "Maligawatta West",
+    "gnd_num": null,
+    "total_value_from_source": 6701,
+    "total_value": 6701,
+    "values": {
+      "Employed": 2860,
+      "Unemployed": 144,
+      "Economically not active": 3697
+    }
+  },
+  {
+    "region_name": "Maligakanda",
+    "gnd_num": null,
+    "total_value_from_source": 6194,
+    "total_value": 6194,
+    "values": {
+      "Employed": 2786,
+      "Unemployed": 95,
+      "Economically not active": 3313
+    }
+  },
+  {
+    "region_name": "Maradana",
+    "gnd_num": null,
+    "total_value_from_source": 3543,
+    "total_value": 3543,
+    "values": {
+      "Employed": 1680,
+      "Unemployed": 123,
+      "Economically not active": 1740
+    }
+  },
+  {
+    "region_name": "Ibbanwala",
+    "gnd_num": null,
+    "total_value_from_source": 2299,
+    "total_value": 2299,
+    "values": {
+      "Employed": 1062,
+      "Unemployed": 34,
+      "Economically not active": 1203
+    }
+  },
+  {
+    "region_name": "Wekanda",
+    "gnd_num": null,
+    "total_value_from_source": 5098,
+    "total_value": 5098,
+    "values": {
+      "Employed": 2174,
+      "Unemployed": 164,
+      "Economically not active": 2760
+    }
+  },
+  {
+    "region_name": "Kolonnawa",
+    "gnd_num": null,
+    "total_value_from_source": 144266,
+    "total_value": 144266,
+    "values": {
+      "Employed": 69880,
+      "Unemployed": 3937,
+      "Economically not active": 70449
+    }
+  },
+  {
+    "region_name": "Wadulla",
+    "gnd_num": "509D",
+    "total_value_from_source": 5518,
+    "total_value": 5518,
+    "values": {
+      "Employed": 3028,
+      "Unemployed": 167,
+      "Economically not active": 2323
+    }
+  },
+  {
+    "region_name": "Sedawatta",
+    "gnd_num": "509A",
+    "total_value_from_source": 5113,
+    "total_value": 5113,
+    "values": {
+      "Employed": 2741,
+      "Unemployed": 107,
+      "Economically not active": 2265
+    }
+  },
+  {
+    "region_name": "Halmulla",
+    "gnd_num": "509C",
+    "total_value_from_source": 1704,
+    "total_value": 1704,
+    "values": {
+      "Employed": 764,
+      "Unemployed": 39,
+      "Economically not active": 901
+    }
+  },
+  {
+    "region_name": "Kotuvila",
+    "gnd_num": "509",
+    "total_value_from_source": 3782,
+    "total_value": 3782,
+    "values": {
+      "Employed": 1945,
+      "Unemployed": 181,
+      "Economically not active": 1656
+    }
+  },
+  {
+    "region_name": "Veheragoda",
+    "gnd_num": "509B",
+    "total_value_from_source": 1525,
+    "total_value": 1525,
+    "values": {
+      "Employed": 798,
+      "Unemployed": 20,
+      "Economically not active": 707
+    }
+  },
+  {
+    "region_name": "Orugodawatta",
+    "gnd_num": "510A",
+    "total_value_from_source": 4330,
+    "total_value": 4330,
+    "values": {
+      "Employed": 2321,
+      "Unemployed": 131,
+      "Economically not active": 1878
+    }
+  },
+  {
+    "region_name": "Meethotamulla",
+    "gnd_num": "510",
+    "total_value_from_source": 6226,
+    "total_value": 6226,
+    "values": {
+      "Employed": 3023,
+      "Unemployed": 249,
+      "Economically not active": 2954
+    }
+  },
+  {
+    "region_name": "Welewatta",
+    "gnd_num": "508A",
+    "total_value_from_source": 3330,
+    "total_value": 3330,
+    "values": {
+      "Employed": 1615,
+      "Unemployed": 83,
+      "Economically not active": 1632
+    }
+  },
+  {
+    "region_name": "Kittampahuwa",
+    "gnd_num": "508",
+    "total_value_from_source": 4164,
+    "total_value": 4164,
+    "values": {
+      "Employed": 1798,
+      "Unemployed": 126,
+      "Economically not active": 2240
+    }
+  },
+  {
+    "region_name": "Wennawatta",
+    "gnd_num": "507",
+    "total_value_from_source": 5493,
+    "total_value": 5493,
+    "values": {
+      "Employed": 2528,
+      "Unemployed": 108,
+      "Economically not active": 2857
+    }
+  },
+  {
+    "region_name": "Maha Buthgamuwa B",
+    "gnd_num": "506C",
+    "total_value_from_source": 2731,
+    "total_value": 2731,
+    "values": {
+      "Employed": 1254,
+      "Unemployed": 77,
+      "Economically not active": 1400
+    }
+  },
+  {
+    "region_name": "Kuda Buthgamuwa",
+    "gnd_num": "506A",
+    "total_value_from_source": 3560,
+    "total_value": 3560,
+    "values": {
+      "Employed": 1714,
+      "Unemployed": 73,
+      "Economically not active": 1773
+    }
+  },
+  {
+    "region_name": "Kelanimulla",
+    "gnd_num": "504",
+    "total_value_from_source": 3074,
+    "total_value": 3074,
+    "values": {
+      "Employed": 1537,
+      "Unemployed": 31,
+      "Economically not active": 1506
+    }
+  },
+  {
+    "region_name": "Ambathale",
+    "gnd_num": "501A",
+    "total_value_from_source": 2177,
+    "total_value": 2177,
+    "values": {
+      "Employed": 1110,
+      "Unemployed": 80,
+      "Economically not active": 987
+    }
+  },
+  {
+    "region_name": "Mulleriyawa North",
+    "gnd_num": "501",
+    "total_value_from_source": 3453,
+    "total_value": 3453,
+    "values": {
+      "Employed": 1799,
+      "Unemployed": 86,
+      "Economically not active": 1568
+    }
+  },
+  {
+    "region_name": "Belagama",
+    "gnd_num": "504A",
+    "total_value_from_source": 2554,
+    "total_value": 2554,
+    "values": {
+      "Employed": 1237,
+      "Unemployed": 77,
+      "Economically not active": 1240
+    }
+  },
+  {
+    "region_name": "Kotikawatta East",
+    "gnd_num": "505",
+    "total_value_from_source": 2722,
+    "total_value": 2722,
+    "values": {
+      "Employed": 1246,
+      "Unemployed": 130,
+      "Economically not active": 1346
+    }
+  },
+  {
+    "region_name": "Maha Buthgamuwa A",
+    "gnd_num": "506",
+    "total_value_from_source": 2585,
+    "total_value": 2585,
+    "values": {
+      "Employed": 1171,
+      "Unemployed": 67,
+      "Economically not active": 1347
+    }
+  },
+  {
+    "region_name": "Maha Buthgamuwa C",
+    "gnd_num": "506D",
+    "total_value_from_source": 3044,
+    "total_value": 3044,
+    "values": {
+      "Employed": 1482,
+      "Unemployed": 74,
+      "Economically not active": 1488
+    }
+  },
+  {
+    "region_name": "Wellampitiya",
+    "gnd_num": "511",
+    "total_value_from_source": 1679,
+    "total_value": 1679,
+    "values": {
+      "Employed": 778,
+      "Unemployed": 48,
+      "Economically not active": 853
+    }
+  },
+  {
+    "region_name": "Kuruniyawatta",
+    "gnd_num": "510B",
+    "total_value_from_source": 2607,
+    "total_value": 2607,
+    "values": {
+      "Employed": 1317,
+      "Unemployed": 50,
+      "Economically not active": 1240
+    }
+  },
+  {
+    "region_name": "Kolonnawa",
+    "gnd_num": "512",
+    "total_value_from_source": 1814,
+    "total_value": 1814,
+    "values": {
+      "Employed": 765,
+      "Unemployed": 62,
+      "Economically not active": 987
+    }
+  },
+  {
+    "region_name": "Dahampura",
+    "gnd_num": "511A",
+    "total_value_from_source": 4254,
+    "total_value": 4254,
+    "values": {
+      "Employed": 1954,
+      "Unemployed": 81,
+      "Economically not active": 2219
+    }
+  },
+  {
+    "region_name": "Singhapura",
+    "gnd_num": "512B",
+    "total_value_from_source": 3074,
+    "total_value": 3074,
+    "values": {
+      "Employed": 1398,
+      "Unemployed": 121,
+      "Economically not active": 1555
+    }
+  },
+  {
+    "region_name": "Megoda Kolonnawa",
+    "gnd_num": "513A",
+    "total_value_from_source": 7014,
+    "total_value": 7014,
+    "values": {
+      "Employed": 3316,
+      "Unemployed": 144,
+      "Economically not active": 3554
+    }
+  },
+  {
+    "region_name": "Bopetta",
+    "gnd_num": "513D",
+    "total_value_from_source": 2373,
+    "total_value": 2373,
+    "values": {
+      "Employed": 1044,
+      "Unemployed": 46,
+      "Economically not active": 1283
+    }
+  },
+  {
+    "region_name": "Batalandahena",
+    "gnd_num": "506B",
+    "total_value_from_source": 3487,
+    "total_value": 3487,
+    "values": {
+      "Employed": 1645,
+      "Unemployed": 83,
+      "Economically not active": 1759
+    }
+  },
+  {
+    "region_name": "Kotikawatta West",
+    "gnd_num": "505C",
+    "total_value_from_source": 2303,
+    "total_value": 2303,
+    "values": {
+      "Employed": 1101,
+      "Unemployed": 74,
+      "Economically not active": 1128
+    }
+  },
+  {
+    "region_name": "Mulleriyawa South",
+    "gnd_num": "503A",
+    "total_value_from_source": 3850,
+    "total_value": 3850,
+    "values": {
+      "Employed": 1938,
+      "Unemployed": 96,
+      "Economically not active": 1816
+    }
+  },
+  {
+    "region_name": "Malgama",
+    "gnd_num": "503C",
+    "total_value_from_source": 3948,
+    "total_value": 3948,
+    "values": {
+      "Employed": 1944,
+      "Unemployed": 117,
+      "Economically not active": 1887
+    }
+  },
+  {
+    "region_name": "Udumulla North",
+    "gnd_num": "502",
+    "total_value_from_source": 2013,
+    "total_value": 2013,
+    "values": {
+      "Employed": 943,
+      "Unemployed": 83,
+      "Economically not active": 987
+    }
+  },
+  {
+    "region_name": "Maligagodella",
+    "gnd_num": "502B",
+    "total_value_from_source": 1576,
+    "total_value": 1576,
+    "values": {
+      "Employed": 762,
+      "Unemployed": 67,
+      "Economically not active": 747
+    }
+  },
+  {
+    "region_name": "Rajasinghagama",
+    "gnd_num": "502C",
+    "total_value_from_source": 5001,
+    "total_value": 5001,
+    "values": {
+      "Employed": 2252,
+      "Unemployed": 118,
+      "Economically not active": 2631
+    }
+  },
+  {
+    "region_name": "Udumulla South",
+    "gnd_num": "502A",
+    "total_value_from_source": 1890,
+    "total_value": 1890,
+    "values": {
+      "Employed": 949,
+      "Unemployed": 50,
+      "Economically not active": 891
+    }
+  },
+  {
+    "region_name": "Himbutana East",
+    "gnd_num": "503B",
+    "total_value_from_source": 2995,
+    "total_value": 2995,
+    "values": {
+      "Employed": 1494,
+      "Unemployed": 86,
+      "Economically not active": 1415
+    }
+  },
+  {
+    "region_name": "Himbutana West",
+    "gnd_num": "503",
+    "total_value_from_source": 2601,
+    "total_value": 2601,
+    "values": {
+      "Employed": 1393,
+      "Unemployed": 59,
+      "Economically not active": 1149
+    }
+  },
+  {
+    "region_name": "Malpura",
+    "gnd_num": "505A",
+    "total_value_from_source": 3340,
+    "total_value": 3340,
+    "values": {
+      "Employed": 1575,
+      "Unemployed": 74,
+      "Economically not active": 1691
+    }
+  },
+  {
+    "region_name": "Gothatuwa New Town",
+    "gnd_num": "505B",
+    "total_value_from_source": 1564,
+    "total_value": 1564,
+    "values": {
+      "Employed": 753,
+      "Unemployed": 41,
+      "Economically not active": 770
+    }
+  },
+  {
+    "region_name": "Kajugahawatta",
+    "gnd_num": "513C",
+    "total_value_from_source": 2082,
+    "total_value": 2082,
+    "values": {
+      "Employed": 1049,
+      "Unemployed": 68,
+      "Economically not active": 965
+    }
+  },
+  {
+    "region_name": "Gothatuwa",
+    "gnd_num": "513",
+    "total_value_from_source": 1961,
+    "total_value": 1961,
+    "values": {
+      "Employed": 913,
+      "Unemployed": 50,
+      "Economically not active": 998
+    }
+  },
+  {
+    "region_name": "Salamulla",
+    "gnd_num": "512A",
+    "total_value_from_source": 3869,
+    "total_value": 3869,
+    "values": {
+      "Employed": 1750,
+      "Unemployed": 117,
+      "Economically not active": 2002
+    }
+  },
+  {
+    "region_name": "Wijayapura",
+    "gnd_num": "512D",
+    "total_value_from_source": 2420,
+    "total_value": 2420,
+    "values": {
+      "Employed": 909,
+      "Unemployed": 83,
+      "Economically not active": 1428
+    }
+  },
+  {
+    "region_name": "Gajabapura",
+    "gnd_num": "512C",
+    "total_value_from_source": 1959,
+    "total_value": 1959,
+    "values": {
+      "Employed": 833,
+      "Unemployed": 42,
+      "Economically not active": 1084
+    }
+  },
+  {
+    "region_name": "Madinnagoda",
+    "gnd_num": "513B",
+    "total_value_from_source": 3009,
+    "total_value": 3009,
+    "values": {
+      "Employed": 1673,
+      "Unemployed": 73,
+      "Economically not active": 1263
+    }
+  },
+  {
+    "region_name": "Elhena",
+    "gnd_num": "513E",
+    "total_value_from_source": 1763,
+    "total_value": 1763,
+    "values": {
+      "Employed": 1000,
+      "Unemployed": 38,
+      "Economically not active": 725
+    }
+  },
+  {
+    "region_name": "Dodamgahahena",
+    "gnd_num": "505D",
+    "total_value_from_source": 2735,
+    "total_value": 2735,
+    "values": {
+      "Employed": 1321,
+      "Unemployed": 60,
+      "Economically not active": 1354
+    }
+  },
+  {
+    "region_name": "Kaduwela",
+    "gnd_num": null,
+    "total_value_from_source": 198846,
+    "total_value": 198846,
+    "values": {
+      "Employed": 101044,
+      "Unemployed": 4820,
+      "Economically not active": 92982
+    }
+  },
+  {
+    "region_name": "Welivita",
+    "gnd_num": "475",
+    "total_value_from_source": 3832,
+    "total_value": 3832,
+    "values": {
+      "Employed": 1750,
+      "Unemployed": 93,
+      "Economically not active": 1989
+    }
+  },
+  {
+    "region_name": "Raggahawatta",
+    "gnd_num": "474A",
+    "total_value_from_source": 3136,
+    "total_value": 3136,
+    "values": {
+      "Employed": 1540,
+      "Unemployed": 58,
+      "Economically not active": 1538
+    }
+  },
+  {
+    "region_name": "Hewagama",
+    "gnd_num": "474",
+    "total_value_from_source": 3260,
+    "total_value": 3260,
+    "values": {
+      "Employed": 1634,
+      "Unemployed": 102,
+      "Economically not active": 1524
+    }
+  },
+  {
+    "region_name": "Kaduwela",
+    "gnd_num": "473A",
+    "total_value_from_source": 3426,
+    "total_value": 3426,
+    "values": {
+      "Employed": 1894,
+      "Unemployed": 146,
+      "Economically not active": 1386
+    }
+  },
+  {
+    "region_name": "Pahala Bomiriya",
+    "gnd_num": "472A",
+    "total_value_from_source": 3292,
+    "total_value": 3292,
+    "values": {
+      "Employed": 1647,
+      "Unemployed": 61,
+      "Economically not active": 1584
+    }
+  },
+  {
+    "region_name": "Ihala Bomiriya",
+    "gnd_num": "471",
+    "total_value_from_source": 3258,
+    "total_value": 3258,
+    "values": {
+      "Employed": 1456,
+      "Unemployed": 72,
+      "Economically not active": 1730
+    }
+  },
+  {
+    "region_name": "Wekewatta",
+    "gnd_num": "471A",
+    "total_value_from_source": 2982,
+    "total_value": 2982,
+    "values": {
+      "Employed": 1511,
+      "Unemployed": 105,
+      "Economically not active": 1366
+    }
+  }
+]

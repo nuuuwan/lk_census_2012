@@ -7,6 +7,7 @@ log = Log("PDFSourceFileDataMixin")
 
 
 class PDFSourceFileRawDataMixin:
+    MAX_LINES_TO_PROCESS = 100
 
     @property
     def raw_data_path(self):
@@ -17,31 +18,49 @@ class PDFSourceFileRawDataMixin:
         return os.path.join(self.dir_data, "errors.json")
 
     def extract_fields(self, lines):
-        fields = None
-        i_total = None
-        i_line = None
 
-        for i_line, line in enumerate(lines[:10]):
-            line = line.replace("\u2010", "-").replace("\xa0", " ")
-            tokens = line.split("\t")
+        fields, i_total, offset = {
+            "population_P01": (
+                [
+                    "0-4",
+                    "5-9",
+                    "10-14",
+                    "15-19",
+                    "20-24",
+                    "25-29",
+                    "30-34",
+                    "35-39",
+                    "40-44",
+                    "45-49",
+                    "50-54",
+                    "55-59",
+                    "60-64",
+                    "65-69",
+                    "70-74",
+                    "75-79",
+                    "80-84",
+                    "85-89",
+                    "90-94",
+                    "95 & above",
+                ],
+                2,
+                5,
+            ),
+            "population_P02": (
+                ["Male", "Female"],
+                2,
+                2,
+            ),
+            "population_P03": (
+                ["Employed", "Unemployed", "Economically not active"],
+                2,
+                5,
+            ),
+        }.get(self.doc_id, (None, None, None))
 
-            if tokens[:3] == ["", "number", "Total"]:
-                fields = tokens[3:]
-                i_total = 2
-
-            if tokens[:2] == ["District, DS division and GN division", ""]:
-                fields = tokens[3:]
-                i_total = 2
-
-            if fields:
-                non_empty_fields = [field for field in fields if field]
-                if non_empty_fields:
-                    break
-
-        if not fields:
-            raise ValueError("Could not find fields in the first 10 lines.")
-
-        return fields, i_total, i_line
+        if fields:
+            return fields, i_total, offset
+        raise ValueError("Could not find fields in the first 10 lines.")
 
     @staticmethod
     def _extract_line(line, fields, i_total):
@@ -111,7 +130,7 @@ class PDFSourceFileRawDataMixin:
         log.debug(f"{fields=}")
         errors = []
         d_list = []
-        for line in lines[offset + 1:]:
+        for line in lines[offset + 1 : self.MAX_LINES_TO_PROCESS]:
             d = self._extract_line(line, fields, i_total)
             if d:
                 d_list.append(d)
