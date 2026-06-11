@@ -15,7 +15,7 @@ class PDFSourceFileTxtMixin:
 
     def to_txt(self):
         if os.path.exists(self.txt_path):
-            log.debug(f"{File(self.txt_path)} already exists.")
+            log.debug(f"{File(self.txt_path)} exists.")
             return
 
         tables = camelot.read_pdf(

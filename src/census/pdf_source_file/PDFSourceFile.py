@@ -2,10 +2,12 @@ import os
 
 import requests
 
-from census.pdf_source_file.PDFSourceFileDataMixin import \
-    PDFSourceFileDataMixin
-from census.pdf_source_file.PDFSourceFileMetadataMixin import \
-    PDFSourceFileMetadataMixin
+from census.pdf_source_file.PDFSourceFileDataMixin import (
+    PDFSourceFileDataMixin,
+)
+from census.pdf_source_file.PDFSourceFileMetadataMixin import (
+    PDFSourceFileMetadataMixin,
+)
 from census.pdf_source_file.PDFSourceFileTxtMixin import PDFSourceFileTxtMixin
 from utils_future import File, Log
 
@@ -40,7 +42,7 @@ class PDFSourceFile(
                 f.write(response.content)
             log.info(f"🌐 Downloaded {self.url} to {File(self.local_path)}.")
         else:
-            log.debug(f"File {File(self.local_path)} already exists.")
+            log.debug(f"File {File(self.local_path)} exists.")
 
     @property
     def dir_data(self):

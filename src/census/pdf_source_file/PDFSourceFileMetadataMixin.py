@@ -14,7 +14,7 @@ class PDFSourceFileMetadataMixin:
 
     def to_metadata(self):
         if os.path.exists(self.metadata_path):
-            log.debug(f"{File(self.metadata_path)} already exists.")
+            log.debug(f"{File(self.metadata_path)} exists.")
             return
         reader = PdfReader(self.local_path)
         first_page_lines = [
