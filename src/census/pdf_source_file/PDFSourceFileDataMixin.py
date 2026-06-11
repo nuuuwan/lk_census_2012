@@ -143,10 +143,8 @@ class PDFSourceFileDataMixin:
                         filter_ent_type_and_id_list.append(
                             (EntType.GND, current_id)
                         )
-                if "LK-6148" in current_ids:
-                    filter_ent_type_and_id_list.append(
-                        (EntType.GND, "LK-6145")
-                    )
+            if "LK-6148" in id_list:
+                filter_ent_type_and_id_list.append((EntType.GND, "LK-6145"))
 
             region_name = data["region_name"]
             alt_region_name = PDFSourceFileDataMixin._remap_region_name(
