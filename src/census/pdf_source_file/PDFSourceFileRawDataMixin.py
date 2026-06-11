@@ -45,7 +45,6 @@ class PDFSourceFileRawDataMixin:
         total_value = sum(values_only)
         d = dict(
             region_name=region_name,
-            gnd_num=gnd_num,
             total_value_from_source=total_value_from_source,
             total_value=total_value,
             values=values,
