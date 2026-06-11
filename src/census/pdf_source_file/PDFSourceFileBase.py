@@ -8,6 +8,7 @@ class PDFSourceFileBase:
     title: str
     fields: list[str]
     i_total: int
+    has_gnd_num: bool
 
     @property
     def doc_id(self):

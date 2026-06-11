@@ -60,9 +60,25 @@ class Corrections:
         "Verugal/ Echchilampattai": "Verugal",  # after LK-5330080
         #
         "Kommathurai EastKommathur": "Kommathurai East",  # after LK-5112090
+        #
+        # after LK-4104
+        "Valikamam West (Chankanai)": "Valikamam West (Chankanai)",
+        "Vedducoddai East": "Vedducoddai East",  # after LK-4104
+        "Vedducoddai North": "Vedducoddai North",  # after LK-4104
+        "Sangarathai": "Sangarathai",  # after LK-4104
+        "Arali West": "Arali West",  # after LK-4104
+        "Arali Centre": "Arali Centre",  # after LK-4104
+        "Arali South": "Arali South",  # after LK-4104
+        "Arali East": "Arali East",  # after LK-4104
+        "Arali North": "Arali North",  # after LK-4104
+        "Vedducoddai South": "Vedducoddai South",  # after LK-4104
+        # after LK-4104
+        "Vedducoddai South West (North)": "Vedducoddai South West (North)",
+        #
     }
 
     DSD_RENAME_MAP = {
         "Ellainagar": "Eravur Town",
         "Kalmunai Tamil Division (Sub D": "Kalmunai North",
+        "Kalmunai Tamil Division": "Kalmunai North",
     }

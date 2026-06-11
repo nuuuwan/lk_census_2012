@@ -93,7 +93,7 @@ class PDFSourceFileDataMixin:
             )
 
             if len(ents) == 0:
-                log.error(f"No match: {region_name} ({previous_ent_id=})")
+                log.error(f'No match: "{region_name}" ({previous_ent_id=})')
                 no_ent_list.append((region_name, previous_ent_id))
                 if len(no_ent_list) > cls.MAX_NO_ENT_LIST:
                     print("\t{")

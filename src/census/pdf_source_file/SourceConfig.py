@@ -27,6 +27,7 @@ class SourceConfig:
                 "95 & above",
             ],
             i_total=2,
+            has_gnd_num=False,
         ),
         dict(
             group="Population",
@@ -34,6 +35,7 @@ class SourceConfig:
             title="Gender",
             fields=["Male", "Female"],
             i_total=2,
+            has_gnd_num=False,
         ),
         dict(
             group="Population",
@@ -41,6 +43,7 @@ class SourceConfig:
             title="Economic Activity",
             fields=["Employed", "Unemployed", "Economically not active"],
             i_total=2,
+            has_gnd_num=False,
         ),
         dict(
             group="Population",
@@ -55,6 +58,7 @@ class SourceConfig:
                 "No schooling",
             ],
             i_total=1,
+            has_gnd_num=False,
         ),
         dict(
             group="Housing",
@@ -69,7 +73,8 @@ class SourceConfig:
                 + " Road/River/Canal/Sea/Creek/Forest etc",
                 "Other",
             ],
-            i_total=2,
+            i_total=1,
+            has_gnd_num=True,
         ),
         dict(
             group="Housing",
@@ -84,6 +89,7 @@ class SourceConfig:
                 "Other",
             ],
             i_total=2,
+            has_gnd_num=False,
         ),
         dict(
             group="Housing",
@@ -98,6 +104,7 @@ class SourceConfig:
                 "Other",
             ],
             i_total=2,
+            has_gnd_num=False,
         ),
         dict(
             group="Housing",
@@ -119,6 +126,7 @@ class SourceConfig:
                 "Other",
             ],
             i_total=2,
+            has_gnd_num=False,
         ),
         dict(
             group="Housing",
@@ -133,6 +141,7 @@ class SourceConfig:
                 "Other",
             ],
             i_total=2,
+            has_gnd_num=False,
         ),
         dict(
             group="Housing",
@@ -147,6 +156,7 @@ class SourceConfig:
                 "Not using a toilet",
             ],
             i_total=2,
+            has_gnd_num=False,
         ),
         dict(
             group="Housing",
@@ -162,6 +172,7 @@ class SourceConfig:
                 "Other",
             ],
             i_total=2,
+            has_gnd_num=False,
         ),
         dict(
             group="Housing",
@@ -178,6 +189,7 @@ class SourceConfig:
                 "Other",
             ],
             i_total=2,
+            has_gnd_num=False,
         ),
         dict(
             group="Housing",
@@ -194,6 +206,7 @@ class SourceConfig:
                 "Other",
             ],
             i_total=2,
+            has_gnd_num=False,
         ),
         dict(
             group="Housing",
@@ -211,6 +224,7 @@ class SourceConfig:
                 "Hut/Shanty",
             ],
             i_total=2,
+            has_gnd_num=False,
         ),
         dict(
             group="Housing",
@@ -223,5 +237,6 @@ class SourceConfig:
                 "Un-classified",
             ],
             i_total=2,
+            has_gnd_num=False,
         ),
     ]

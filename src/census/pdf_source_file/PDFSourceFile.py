@@ -32,13 +32,14 @@ class PDFSourceFile(
     @classmethod
     def list(cls):
         files = []
-        for config in SourceConfig.LIST:
+        for config in SourceConfig.LIST[:5]:
             file = cls(
                 group=config["group"],
                 i_group=config["i_group"],
                 title=config.get("title"),
                 fields=config["fields"],
                 i_total=config["i_total"],
+                has_gnd_num=config["has_gnd_num"],
             )
             files.append(file)
 

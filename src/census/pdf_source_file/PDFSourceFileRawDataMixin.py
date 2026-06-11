@@ -17,26 +17,50 @@ class PDFSourceFileRawDataMixin:
     def errors_path(self):
         return os.path.join(self.dir_data, "errors.json")
 
-    @classmethod
-    def _extract_line(cls, line, fields, i_total):
+    @staticmethod
+    def _is_gnd_num(word):
+        n_word = len(word)
+        has_digit = any(c.isdigit() for c in word)
+        has_slash = "/" in word
+        return has_digit and (n_word <= 5 or (has_slash and n_word <= 7))
+
+    def _extract_line(self, line, fields, i_total):
         line = (
             line.replace("\u2010", "-")
             .replace("\xa0", " ")
             .replace("\u00a0", " ")
         )
-        tokens = line.split(cls.DELIM_TXT)
+        tokens = line.split(self.DELIM_TXT)
+        tokens = [token for token in tokens if token]
+
         n_tokens = len(tokens)
         if n_tokens < 1 + len(fields):
             return None
         if not tokens[0]:
             return None
-        region_name_and_num = " ".join(tokens[0:(i_total)])
-        region_name = region_name_and_num.strip()
+        region_name_and_num = " ".join(tokens[0:(i_total)]).strip()
+
+        gnd_num = None
+        if self.has_gnd_num:
+            words = region_name_and_num.split(" ")
+            if len(words[-1]) <= 2 and words[-2].isnumeric():
+                words = words[:-2] + [words[-2] + "" + words[-1]]
+
+            last_word = words[-1]
+            if self._is_gnd_num(last_word):
+                region_name = " ".join(words[:-1])
+                gnd_num = last_word
+            else:
+                region_name = region_name_and_num
+
+        else:
+            region_name = region_name_and_num
+
         if not region_name:
             raise ValueError(f"Region name is empty ({region_name_and_num=})")
 
-        total_value_from_source = ParseUtils.parse_int(tokens[i_total])
         n_fields = len(fields)
+        total_value_from_source = ParseUtils.parse_int(tokens[-n_fields])
         values_only = [
             ParseUtils.parse_int(token) for token in tokens[-n_fields:]
         ]
@@ -45,6 +69,7 @@ class PDFSourceFileRawDataMixin:
         total_value = sum(values_only)
         d = dict(
             region_name=region_name,
+            gnd_num=gnd_num,
             total_value_from_source=total_value_from_source,
             total_value=total_value,
             values=values,
