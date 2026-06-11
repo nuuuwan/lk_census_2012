@@ -1,3 +1,4 @@
+import hashlib
 from functools import cache
 
 from rapidfuzz import fuzz
@@ -7,6 +8,7 @@ from utils_future import String
 
 
 class EntLoadMixin:
+
     @classmethod
     def from_dict(cls, d):
         d = d.copy()
@@ -61,13 +63,14 @@ class EntLoadMixin:
 
     # flake8: noqa: C901
     @classmethod
-    def list_from_name_fuzzy(
+    def list_from_name_fuzzy_hot(
         cls,
         fuzzy_name_list: list[str],
         filter_ent_type_and_id_list: list[tuple[EntType, str]],
         limit: int,
         min_fuzz_ratio: int,
     ) -> list:
+
         ent_and_ratio_list = []
         for entity_type, filter_parent_id in filter_ent_type_and_id_list:
             for ent in cls.list_from_type(entity_type):
@@ -88,3 +91,35 @@ class EntLoadMixin:
             for item in sorted(ent_and_ratio_list, key=lambda x: -x[1])
             if item[1] >= min_fuzz_ratio
         ][:limit]
+
+    HACK_CACHE = {}
+
+    @classmethod
+    def list_from_name_fuzzy(
+        cls,
+        fuzzy_name_list: list[str],
+        filter_ent_type_and_id_list: list[tuple[EntType, str]],
+        limit: int,
+        min_fuzz_ratio: int,
+    ) -> list:
+        h = hashlib.md5(
+            str(
+                [
+                    fuzzy_name_list,
+                    filter_ent_type_and_id_list,
+                    limit,
+                    min_fuzz_ratio,
+                ]
+            ).encode("utf-8")
+        ).hexdigest()
+        if h in cls.HACK_CACHE:
+            return cls.HACK_CACHE[h]
+
+        result = cls.list_from_name_fuzzy_hot(
+            fuzzy_name_list,
+            filter_ent_type_and_id_list,
+            limit,
+            min_fuzz_ratio,
+        )
+        cls.HACK_CACHE[h] = result
+        return result
