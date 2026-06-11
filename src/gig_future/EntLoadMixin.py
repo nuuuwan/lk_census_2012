@@ -49,26 +49,20 @@ class EntLoadMixin:
     @staticmethod
     @cache
     def clean_name(x):
-        x = x.replace("korale", " korale")
-        x = x.replace("nuwaraeliya", "nuwara eliya")
-
         x = x.replace("-", " ")
         x = x.split("(")[0]
         x = x.strip()
         x = x.lower()
-        words = x.split()
-        words = [word for word in words if word]
-        words.sort()
-        x = " ".join(words)
         n = len(x)
-        if x[: n // 2] == x[n // 2:]:
-            x = x[: n // 2]
+        n2 = n // 2
+        if x[:n2] == x[n2:]:
+            x = x[:n2]
         return x
 
     @classmethod
     def list_from_name_fuzzy(
         cls,
-        name_fuzzy: str,
+        fuzzy_name_list: list[str],
         filter_ent_type_and_id_list: list[tuple[EntType, str]],
         limit: int,
         min_fuzz_ratio: int,
@@ -76,14 +70,13 @@ class EntLoadMixin:
         ent_and_ratio_list = []
         for entity_type, filter_parent_id in filter_ent_type_and_id_list:
             for ent in cls.list_from_type(entity_type):
-                if filter_parent_id and not ent.is_parent_id(
-                    filter_parent_id
-                ):
+                if filter_parent_id and not ent.is_parent_id(filter_parent_id):
                     continue
-                fuzz_ratio = fuzz.ratio(
-                    cls.clean_name(ent.name), cls.clean_name(name_fuzzy)
-                )
-                ent_and_ratio_list.append([ent, fuzz_ratio])
+                for fuzzy_name in fuzzy_name_list:
+                    fuzz_ratio = fuzz.ratio(
+                        cls.clean_name(ent.name), cls.clean_name(fuzzy_name)
+                    )
+                    ent_and_ratio_list.append([ent, fuzz_ratio])
 
         return [
             item[0]

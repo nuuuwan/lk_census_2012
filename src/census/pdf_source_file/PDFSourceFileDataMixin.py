@@ -1,5 +1,6 @@
 import os
 
+from census.pdf_source_file.Corrections import Corrections
 from gig_future import Ent, EntType
 from utils_future import File, JSONFile, Log
 
@@ -15,61 +16,9 @@ class ParseUtils:
         return int(x)
 
 
-DSD_UPDATE_MAP = [
-    dict(
-        id="LK-2303",
-        current_ids=["LK-2302", "LK-2303"],
-        name="Kothmale",
-        current_names=["Kothmale East", "Kothmale West"],
-        year_last_modified="2019",
-    ),  # Kothmale → Kothmale East + Kothmale West
-    dict(
-        id="LK-2306",
-        current_ids=["LK-2306", "LK-2307"],
-        current_names=["Hanguranketha", "Mathurata"],
-        year_last_modified="2019",
-    ),  # Hanguranketha → Hanguranketha + Mathurata
-    dict(
-        id="LK-2309",
-        current_ids=["LK-2309", "LK-2310"],
-        current_names=["Walapane", "Niladandahinna"],
-        year_last_modified="2019",
-    ),  # Walapane → Walapane + Niladandahinna
-    dict(
-        id="LK-2312",
-        current_ids=["LK-2312", "LK-2313"],
-        current_names=["Nuwara-Eliya", "Thalawakelle"],
-        year_last_modified="2019",
-    ),  # Nuwara-Eliya → Nuwara-Eliya + Thalawakelle
-    dict(
-        id="LK-2315",
-        current_ids=["LK-2314", "LK-2315"],
-        name="Ambagamuwa",
-        current_names=["Ambagamuwa Korale", "Norwood"],
-        year_last_modified="2019",
-    ),  # Ambagamuwa → Ambagamuwa Korale + Norwood
-    dict(
-        id="LK-3136",
-        current_ids=["LK-3135", "LK-3136", "LK-3137"],
-        current_names=["Hikkaduwa", "Rathgama", "Madampagama"],
-        year_last_modified="2019",
-    ),  # Hikkaduwa → Hikkaduwa + Rathgama + Madampagama
-    dict(
-        id="LK-3127",
-        current_ids=["LK-3127", "LK-3128"],
-        current_names=["Baddegama", "Wanduramba"],
-        year_last_modified="2019",
-    ),  # Baddegama → Baddegama + Wanduramba
-    dict(
-        id="LK-9118",
-        current_ids=["LK-9118", "LK-9119"],
-        current_names=["Balangoda", "Kaltota"],
-        year_last_modified="2019",
-    ),  # Balangoda → Balangoda + Kaltota
-]
-
-
 class PDFSourceFileDataMixin:
+
+    MAX_NO_ENT_LIST = 10
 
     @property
     def data_path(self):
@@ -130,20 +79,42 @@ class PDFSourceFileDataMixin:
 
     @staticmethod
     def _remap_region_name(region_name):
-        idx = {
-            "Kandy Four Gravets & Gangawata Korale": "Gangawata Korale",
-            "Ambanganga Korale": "Ambanganga",
-            "Laggala-Pallegama": "Laggala",
-            "Pathameny": "Pattameni",
-            "Attiaddy": "Aththiyadi",
-            "Nallur Irajathani": "Nallur Rajathani",
-        }
-        for item in DSD_UPDATE_MAP:
+        idx = Corrections.GND_RENAME_MAP | Corrections.DSD_RENAME_MAP
+        for item in Corrections.DSD_UPDATE_MAP:
             name = item.get("name")
             current_names = item.get("current_names", [])
             if name:
                 idx[name] = current_names[0]
         return idx.get(region_name, region_name)
+
+    # flake8: noqa: C901
+    @staticmethod
+    def get_filter_ent_type_and_id_list(
+        previous_ent_type, previous_ent_id, gnd_num
+    ):
+        if previous_ent_type is None:
+            return [(EntType.COUNTRY, "LK")]
+
+        if previous_ent_type == EntType.COUNTRY:
+            return [(EntType.DISTRICT, previous_ent_id)]
+
+        if previous_ent_type == EntType.DISTRICT:
+            return [(EntType.DSD, previous_ent_id)]
+
+        if previous_ent_type == EntType.DSD:
+            return [(EntType.GND, previous_ent_id)]
+
+        if previous_ent_type == EntType.GND:
+            if gnd_num is None:
+                return [
+                    (EntType.GND, previous_ent_id[:7]),
+                    (EntType.DSD, previous_ent_id[:5]),
+                    (EntType.DISTRICT, previous_ent_id[:2]),
+                ]
+
+            return [(EntType.GND, previous_ent_id[:7])]
+
+        raise ValueError(f"Unexpected previous_ent_type: {previous_ent_type}")
 
     @staticmethod
     def _expand_data_list(data_list):
@@ -154,45 +125,18 @@ class PDFSourceFileDataMixin:
         new_data_list = []
         no_ent_list = []
         for data in data_list:
-            region_name = data["region_name"]
-            region_name = PDFSourceFileDataMixin._remap_region_name(
-                region_name
-            )
 
-            if previous_ent_type is not None and region_name == "Sri Lnka":
-                continue
-
-            if previous_ent_type is None:
-                filter_ent_type_and_id_list = [(EntType.COUNTRY, "LK")]
-            elif previous_ent_type == EntType.COUNTRY:
-                filter_ent_type_and_id_list = [
-                    (EntType.DISTRICT, previous_ent_id)
-                ]
-            elif previous_ent_type == EntType.DISTRICT:
-                filter_ent_type_and_id_list = [(EntType.DSD, previous_ent_id)]
-            elif previous_ent_type == EntType.DSD:
-                filter_ent_type_and_id_list = [(EntType.GND, previous_ent_id)]
-            elif previous_ent_type == EntType.GND:
-                if data["gnd_num"] is None:
-                    filter_ent_type_and_id_list = [
-                        (EntType.GND, previous_ent_id[:7]),
-                        (EntType.DSD, previous_ent_id[:5]),
-                        (EntType.DISTRICT, previous_ent_id[:2]),
-                    ]
-                else:
-                    filter_ent_type_and_id_list = [
-                        (EntType.GND, previous_ent_id[:7])
-                    ]
-            else:
-                raise ValueError(
-                    f"Unexpected previous_ent_type: {previous_ent_type}"
+            filter_ent_type_and_id_list = (
+                PDFSourceFileDataMixin.get_filter_ent_type_and_id_list(
+                    previous_ent_type, previous_ent_id, data.get("gnd_num")
                 )
+            )
 
             # Correct for Pre-2019 DSD Data
             id_list = [
                 ent_id for ent_type, ent_id in filter_ent_type_and_id_list
             ]
-            for item in DSD_UPDATE_MAP:
+            for item in Corrections.DSD_UPDATE_MAP:
                 current_ids = item["current_ids"]
                 if set(id_list) & set(current_ids):
                     for current_id in current_ids:
@@ -200,8 +144,13 @@ class PDFSourceFileDataMixin:
                             (EntType.GND, current_id)
                         )
 
+            region_name = data["region_name"]
+            alt_region_name = PDFSourceFileDataMixin._remap_region_name(
+                region_name
+            )
+
             ents = Ent.list_from_name_fuzzy(
-                region_name,
+                [region_name, alt_region_name],
                 filter_ent_type_and_id_list=filter_ent_type_and_id_list,
                 limit=1,
                 min_fuzz_ratio=80,
@@ -209,9 +158,16 @@ class PDFSourceFileDataMixin:
 
             if len(ents) == 0:
                 log.error(f"No match: {region_name} ({previous_ent_id=})")
-                no_ent_list.append(data)
-                if len(no_ent_list) > 10:
+                no_ent_list.append((region_name, previous_ent_id))
+                if len(no_ent_list) > PDFSourceFileDataMixin.MAX_NO_ENT_LIST:
+                    for region_name, previous_ent_id in no_ent_list:
+                        print(
+                            f'"{region_name}":"{region_name}",'
+                            + f"  # after {previous_ent_id}"
+                        )
+
                     raise ValueError("Too many entries with no matching ent.")
+
                 continue
 
             ent = ents[0]

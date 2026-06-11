@@ -57,7 +57,9 @@ class EntType:
 
     @property
     def temp_data_path(self):
-        temp_gig_dir_ents = os.path.join(tempfile.gettempdir(), "gig", "ents")
+        temp_gig_dir_ents = os.path.join(
+            tempfile.gettempdir(), "lk_census_2012", "gig", "ents"
+        )
         os.makedirs(temp_gig_dir_ents, exist_ok=True)
         return os.path.join(temp_gig_dir_ents, f"{self.name}.tsv")
 
