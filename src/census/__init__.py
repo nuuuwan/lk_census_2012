@@ -5,4 +5,5 @@ from census.pdf_source_file import (Corrections, ParseUtils, PDFSourceFile,
                                     PDFSourceFileDataExpandMixin,
                                     PDFSourceFileDataMixin,
                                     PDFSourceFileMetadataMixin,
-                                    PDFSourceFileTxtMixin)
+                                    PDFSourceFileTxtMixin,
+                                    PDFSourceFileValidateMixin)

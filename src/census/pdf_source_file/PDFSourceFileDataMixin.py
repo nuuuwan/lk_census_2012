@@ -102,3 +102,7 @@ class PDFSourceFileDataMixin(PDFSourceFileDataExpandMixin):
 
         data_file.write(d_list)
         log.info(f"Wrote {len(d_list)} rows to {data_file}.")
+
+    def read_data_list(self):
+        data_file = JSONFile(self.data_path)
+        return data_file.read()

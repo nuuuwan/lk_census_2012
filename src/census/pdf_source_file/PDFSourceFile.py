@@ -7,13 +7,18 @@ from census.pdf_source_file.PDFSourceFileDataMixin import \
 from census.pdf_source_file.PDFSourceFileMetadataMixin import \
     PDFSourceFileMetadataMixin
 from census.pdf_source_file.PDFSourceFileTxtMixin import PDFSourceFileTxtMixin
+from census.pdf_source_file.PDFSourceFileValidateMixin import \
+    PDFSourceFileValidateMixin
 from utils_future import File, Log
 
 log = Log("PDFSourceFile")
 
 
 class PDFSourceFile(
-    PDFSourceFileMetadataMixin, PDFSourceFileTxtMixin, PDFSourceFileDataMixin
+    PDFSourceFileMetadataMixin,
+    PDFSourceFileTxtMixin,
+    PDFSourceFileDataMixin,
+    PDFSourceFileValidateMixin,
 ):
     DIR_ORIGINAL_DATA = "original_data"
     DIR_DATA = "data"
@@ -67,6 +72,7 @@ class PDFSourceFile(
         self.to_metadata()
         self.to_txt()
         self.build_data()
+        self.validate_data()
 
     @classmethod
     def build_all(cls):
