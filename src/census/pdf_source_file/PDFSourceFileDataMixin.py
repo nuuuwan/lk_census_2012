@@ -160,12 +160,15 @@ class PDFSourceFileDataMixin:
                 log.error(f"No match: {region_name} ({previous_ent_id=})")
                 no_ent_list.append((region_name, previous_ent_id))
                 if len(no_ent_list) > PDFSourceFileDataMixin.MAX_NO_ENT_LIST:
+                    print("\t{")
+                    print("\t\t#")
                     for region_name, previous_ent_id in no_ent_list:
                         print(
-                            f'"{region_name}":"{region_name}",'
+                            f'\t\t"{region_name}":"{region_name}",'
                             + f"  # after {previous_ent_id}"
                         )
-
+                    print("\t\t#")
+                    print("\t}")
                     raise ValueError("Too many entries with no matching ent.")
 
                 continue
