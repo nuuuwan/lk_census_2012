@@ -17,14 +17,14 @@ class PDFSourceFileRawDataMixin:
     def errors_path(self):
         return os.path.join(self.dir_data, "errors.json")
 
-    @staticmethod
-    def _extract_line(line, fields, i_total):
+    @classmethod
+    def _extract_line(cls, line, fields, i_total):
         line = (
             line.replace("\u2010", "-")
             .replace("\xa0", " ")
             .replace("\u00a0", " ")
         )
-        tokens = line.split("\t")
+        tokens = line.split(cls.DELIM_TXT)
         n_tokens = len(tokens)
         if n_tokens < 1 + len(fields):
             return None
@@ -90,6 +90,9 @@ class PDFSourceFileRawDataMixin:
             errors_file = JSONFile(self.errors_path)
             errors_file.write(errors)
             log.warning(f"Wrote {len(errors)} errors to {errors_file}.")
+
+        if len(d_list) == 0:
+            raise ValueError("No valid data extracted from lines.")
 
         raw_data_file.write(d_list)
         log.info(f"Wrote {len(d_list)} rows to {raw_data_file}.")
