@@ -1,8 +1,9 @@
 import os
 
 from census.pdf_source_file.ParseUtils import ParseUtils
-from census.pdf_source_file.PDFSourceFileDataExpandMixin import \
-    PDFSourceFileDataExpandMixin
+from census.pdf_source_file.PDFSourceFileDataExpandMixin import (
+    PDFSourceFileDataExpandMixin,
+)
 from utils_future import File, JSONFile, Log
 
 log = Log("PDFSourceFileDataMixin")
@@ -55,7 +56,7 @@ class PDFSourceFileDataMixin(PDFSourceFileDataExpandMixin):
         total_value_from_source = ParseUtils.parse_int(tokens[i_field_start])
         values_only = [
             ParseUtils.parse_int(token)
-            for token in tokens[i_field_start + 1:]
+            for token in tokens[i_field_start + 1 :]
         ]
         values = dict(zip(fields, values_only))
         total_value = sum(values_only)
@@ -77,6 +78,11 @@ class PDFSourceFileDataMixin(PDFSourceFileDataExpandMixin):
         return deduped_lines
 
     def build_data(self):
+        data_file = JSONFile(self.data_path)
+        if data_file.exists:
+            log.debug(f"{data_file} exists.")
+            return
+
         lines = File(self.txt_path).read_lines()
         lines = self._dedupe_lines(lines)
 
@@ -94,6 +100,6 @@ class PDFSourceFileDataMixin(PDFSourceFileDataExpandMixin):
             log.warning(f"Wrote {len(errors)} errors to {errors_file}.")
 
         d_list = self._expand_data_list(d_list)
-        data_file = JSONFile(self.data_path)
+
         data_file.write(d_list)
         log.info(f"Wrote {len(d_list)} rows to {data_file}.")
