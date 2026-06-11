@@ -19,7 +19,6 @@ class PDFSourceFileTxtMixin:
         if os.path.exists(self.txt_path):
             log.debug(f"{File(self.txt_path)} exists.")
             return
-        log.debug(f"Extracting tables from {File(self.local_path)}...")
 
         doc = pymupdf.open(self.local_path)
         n_pages = len(doc)
