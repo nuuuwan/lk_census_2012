@@ -59,18 +59,7 @@ class Corrections:
         "Kommathurai EastKommathurai": "Kommathurai East",  # after LK-5112090
         "Verugal/ Echchilampattai": "Verugal",  # after LK-5330080
         #
-        # "Victoria": "Victoria",  # after LK-2124415
         "Kommathurai EastKommathur": "Kommathurai East",  # after LK-5112090
-        # "Eravur - 4": "Eravur - 4",  # after LK-5112110
-        # "Ellainagar": "Ellainagar",  # after LK-5115
-        # "Kalmunai Tamil Division (Sub D": "Kalmunai Tamil Division (Sub D",  # after LK-5218255
-        # "Periyaneelavanai 01B": "Periyaneelavanai 01B",  # after LK-5218255
-        # "Periyaneelavanai 01A": "Periyaneelavanai 01A",  # after LK-5218255
-        # "Periyaneelavanai 01": "Periyaneelavanai 01",  # after LK-5218255
-        # "Periyaneelavanai 02": "Periyaneelavanai 02",  # after LK-5218255
-        # "Chenaikudiyiruppu 01A": "Chenaikudiyiruppu 01A",  # after LK-5218255
-        # "Pandiruppu  01": "Pandiruppu  01",  # after LK-5218255
-        #
     }
 
     DSD_RENAME_MAP = {
