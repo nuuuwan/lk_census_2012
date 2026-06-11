@@ -2,6 +2,7 @@ import os
 
 import camelot
 import pandas as pd
+import pymupdf
 
 from utils_future import File, Log
 
@@ -18,13 +19,24 @@ class PDFSourceFileTxtMixin:
             log.debug(f"{File(self.txt_path)} exists.")
             return
         log.debug(f"Extracting tables from {File(self.local_path)}...")
-        tables = camelot.read_pdf(
-            self.local_path, pages="all", flavor="stream"
-        )
-        log.debug(f"Found {len(tables)} tables in {File(self.local_path)}.")
+
+        doc = pymupdf.open(self.local_path)
+        n_pages = len(doc)
+        doc.close()
+        log.debug(f"Found {n_pages} pages in {File(self.local_path)}.")
+
         dfs = []
-        for table in tables:
-            dfs.append(table.df)
+        for i_page in range(1, n_pages + 1):
+            try:
+                tables = camelot.read_pdf(
+                    self.local_path,
+                    pages=str(i_page),
+                    flavor="stream",
+                )
+                for table in tables:
+                    dfs.append(table.df)
+            except Exception as e:
+                log.warning(f"Skipping page {i_page}: {e}")
 
         if not dfs:
             log.warning(f"No tables found in {self.local_path}")
