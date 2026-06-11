@@ -66,7 +66,8 @@ class Corrections:
         "Unit 9. &": "Unit 9 & 10. Pavatkulam",  # after LK-4312085
         "Valaichchenai": "Valaichchenai",  # after LK-5104010
         "Valaichchenai": "Valaichchenai",  # after LK-5104010
-        "Si(cid:425)andy 1Si(cid:425)andy": "Si(cid:425)andy 1Si(cid:425)andy",  # after LK-5112005
+        # after LK-5112005
+        "Si(cid:425)andy 1Si(cid:425)andy": "Si(cid:425)andy 1Si(cid:425)andy",
         "Kommathurai EastKommathur": "Kommathurai EastKommathur",  # after LK-5112090
         "Ellainagar": "Ellainagar",  # after LK-5115
         #

@@ -63,5 +63,5 @@ class PDFSourceFileTxtMixin:
             return
 
         df = pd.concat(dfs, ignore_index=True)
-        df.to_csv(self.txt_path, sep=" | ", index=False, header=False)
+        df.to_csv(self.txt_path, sep="|", index=False, header=False)
         log.info(f"Saved {len(df)} rows to {File(self.txt_path)}.")
