@@ -1,9 +1,8 @@
 import os
 
 from census.pdf_source_file.ParseUtils import ParseUtils
-from census.pdf_source_file.PDFSourceFileDataExpandMixin import (
-    PDFSourceFileDataExpandMixin,
-)
+from census.pdf_source_file.PDFSourceFileDataExpandMixin import \
+    PDFSourceFileDataExpandMixin
 from utils_future import File, JSONFile, Log
 
 log = Log("PDFSourceFileDataMixin")
@@ -56,7 +55,7 @@ class PDFSourceFileDataMixin(PDFSourceFileDataExpandMixin):
         total_value_from_source = ParseUtils.parse_int(tokens[i_field_start])
         values_only = [
             ParseUtils.parse_int(token)
-            for token in tokens[i_field_start + 1 :]
+            for token in tokens[i_field_start + 1:]
         ]
         values = dict(zip(fields, values_only))
         total_value = sum(values_only)
