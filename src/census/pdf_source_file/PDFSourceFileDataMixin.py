@@ -118,7 +118,7 @@ class PDFSourceFileDataMixin:
             previous_ent_id = ent.id
             new_data_list.append(new_data)
             n_completed = len(new_data_list)
-            if previous_ent_type != EntType.GND:
+            if previous_ent_type not in [EntType.GND, EntType.DSD]:
                 p_completed = n_completed / n_data_list
                 log.debug(
                     f"{n_completed}/{n_data_list} - {p_completed:.1%}) {ent.id} {ent.name}"
