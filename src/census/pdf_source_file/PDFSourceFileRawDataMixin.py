@@ -17,39 +17,46 @@ class PDFSourceFileRawDataMixin:
         return os.path.join(self.dir_data, "errors.json")
 
     def extract_fields(self, lines):
-        fields = []
+        fields = None
+        i_total = None
+        i_line = None
+
         for i_line, line in enumerate(lines[:10]):
             line = line.replace("\u2010", "-").replace("\xa0", " ")
             tokens = line.split("\t")
-            print(i_line, tokens)
-            if tokens[:2] == ["number", "Total"]:
-                fields = tokens[2:]
-                return fields, i_line
+
+            if tokens[:3] == ["", "number", "Total"]:
+                fields = tokens[3:]
+                i_total = 2
 
             if tokens[:2] == ["District, DS division and GN division", ""]:
                 fields = tokens[3:]
-                return fields, i_line
+                i_total = 2
 
-        raise ValueError("Fields not found in the text file.")
+            if fields:
+                non_empty_fields = [field for field in fields if field]
+                if non_empty_fields:
+                    break
+
+        if not fields:
+            raise ValueError("Could not find fields in the first 10 lines.")
+
+        return fields, i_total, i_line
 
     @staticmethod
-    def _extract_line(line, fields):
+    def _extract_line(line, fields, i_total):
         line = (
             line.replace("\u2010", "-")
             .replace("\xa0", " ")
             .replace("\u00a0", " ")
         )
         tokens = line.split("\t")
-        print(tokens)
         n_tokens = len(tokens)
         if n_tokens < 1 + len(fields):
             return None
         if not tokens[0]:
             return None
-        i_field_start = n_tokens - len(fields)
-        print(f"{i_field_start=}")
-        region_name_and_num = " ".join(tokens[0: (i_field_start - 1)])
-
+        region_name_and_num = " ".join(tokens[0:(i_total)])
         words = region_name_and_num.split(" ")
         last_word = words[-1]
         if any([c.isdigit() for c in last_word]):
@@ -61,28 +68,25 @@ class PDFSourceFileRawDataMixin:
         else:
             gnd_num = None
             region_name = region_name_and_num
-
         region_name = region_name.strip()
         if not region_name:
             raise ValueError(f"Region name is empty ({region_name_and_num=})")
 
+        total_value_from_source = ParseUtils.parse_int(tokens[i_total])
+        n_fields = len(fields)
         values_only = [
-            ParseUtils.parse_int(token) for token in tokens[i_field_start:]
+            ParseUtils.parse_int(token) for token in tokens[-n_fields:]
         ]
-        if len(values_only) != len(fields):
-            raise ValueError(
-                f"Expected {len(fields)} values but found {len(values_only)}"
-            )
 
         values = dict(zip(fields, values_only))
         total_value = sum(values_only)
         d = dict(
             region_name=region_name,
             gnd_num=gnd_num,
-            values=values,
+            total_value_from_source=total_value_from_source,
             total_value=total_value,
+            values=values,
         )
-        log.debug(d)
         return d
 
     def _dedupe_lines(self, lines):
@@ -103,12 +107,12 @@ class PDFSourceFileRawDataMixin:
         lines = File(self.txt_path).read_lines()
         lines = self._dedupe_lines(lines)
 
-        fields, offset = self.extract_fields(lines)
+        fields, i_total, offset = self.extract_fields(lines)
         log.debug(f"{fields=}")
         errors = []
         d_list = []
         for line in lines[offset + 1:]:
-            d = self._extract_line(line, fields)
+            d = self._extract_line(line, fields, i_total)
             if d:
                 d_list.append(d)
 

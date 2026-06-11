@@ -25,7 +25,7 @@ class PDFSourceFile(
 ):
     DIR_ORIGINAL_DATA = "original_data"
     DIR_DATA = "data"
-    GROUP_CONFIG_LIST = [("population", 2), ("housing", 0)]
+    GROUP_CONFIG_LIST = [("population", 1), ("housing", 0)]
 
     def __init__(self, group, i_group, url):
         self.group = group
