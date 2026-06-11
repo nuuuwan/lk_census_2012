@@ -11,6 +11,10 @@ class EntBase:
         return self.d["name"]
 
     @property
+    def other_name_list(self):
+        return self.d["other_names"].split(",")
+
+    @property
     def acronym(self):
         return "".join([c for c in self.name if c.isupper()])
 

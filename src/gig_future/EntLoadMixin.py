@@ -73,10 +73,12 @@ class EntLoadMixin:
                 if filter_parent_id and not ent.is_parent_id(filter_parent_id):
                     continue
                 for fuzzy_name in fuzzy_name_list:
-                    fuzz_ratio = fuzz.ratio(
-                        cls.clean_name(ent.name), cls.clean_name(fuzzy_name)
-                    )
-                    ent_and_ratio_list.append([ent, fuzz_ratio])
+                    for ent_name in [ent.name] + ent.other_name_list:
+                        fuzz_ratio = fuzz.ratio(
+                            cls.clean_name(ent_name),
+                            cls.clean_name(fuzzy_name),
+                        )
+                        ent_and_ratio_list.append([ent, fuzz_ratio])
 
         return [
             item[0]
