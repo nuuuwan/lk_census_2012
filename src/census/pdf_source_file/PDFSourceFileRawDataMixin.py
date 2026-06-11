@@ -83,7 +83,13 @@ class PDFSourceFileRawDataMixin:
 
         errors = []
         d_list = []
-        for line in lines[self.offset + 1: self.MAX_LINES_TO_PROCESS]:
+        has_found_sl = False
+        for line in lines[: self.MAX_LINES_TO_PROCESS]:
+            if not has_found_sl:
+                if "Sri" in line:
+                    has_found_sl = True
+                else:
+                    continue
             d = self._extract_line(line, self.fields, self.i_total)
             if d:
                 d_list.append(d)
