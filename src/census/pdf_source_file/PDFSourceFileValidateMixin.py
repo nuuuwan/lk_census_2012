@@ -119,7 +119,9 @@ class PDFSourceFileValidateMixin:
             (EntType.DSD, EntType.GND),
         ]:
             errors.extend(
-                self.validate_totals(data_idx, parent_ent_type, child_ent_type)
+                self.validate_totals(
+                    data_idx, parent_ent_type, child_ent_type
+                )
             )
 
         validation_file = JSONFile(self.validation_path())
