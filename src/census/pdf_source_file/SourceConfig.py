@@ -69,7 +69,8 @@ class SourceConfig:
                 "Burnt by Occupants",
                 "Buried by Occupants",
                 "Composting by Occupants",
-                "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc",
+                "Dispose by Occupants into"
+                + " Road/River/Canal/Sea/Creek/Forest etc",
                 "Other",
             ],
             i_total=2,
