@@ -25,7 +25,9 @@ class PDFSourceFileDataMixin:
     # flake8: noqa: C901
     @classmethod
     def get_filter_ent_type_and_id_list(
-        cls, previous_ent_type, previous_ent_id, gnd_num
+        cls,
+        previous_ent_type,
+        previous_ent_id,
     ):
         if previous_ent_type is None:
             return [(EntType.COUNTRY, "LK")]
@@ -40,14 +42,11 @@ class PDFSourceFileDataMixin:
             return [(EntType.GND, previous_ent_id)]
 
         if previous_ent_type == EntType.GND:
-            if gnd_num is None:
-                return [
-                    (EntType.GND, previous_ent_id[:7]),
-                    (EntType.DSD, previous_ent_id[:5]),
-                    (EntType.DISTRICT, previous_ent_id[:2]),
-                ]
-
-            return [(EntType.GND, previous_ent_id[:7])]
+            return [
+                (EntType.GND, previous_ent_id[:7]),
+                (EntType.DSD, previous_ent_id[:5]),
+                (EntType.DISTRICT, previous_ent_id[:2]),
+            ]
 
         raise ValueError(f"Unexpected previous_ent_type: {previous_ent_type}")
 
@@ -62,7 +61,8 @@ class PDFSourceFileDataMixin:
         for data in tqdm(data_list, desc="Expanding data"):
 
             filter_ent_type_and_id_list = cls.get_filter_ent_type_and_id_list(
-                previous_ent_type, previous_ent_id, data.get("gnd_num")
+                previous_ent_type,
+                previous_ent_id,
             )
 
             # Correct for Pre-2019 DSD Data

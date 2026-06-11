@@ -31,23 +31,9 @@ class PDFSourceFileRawDataMixin:
         if not tokens[0]:
             return None
         region_name_and_num = " ".join(tokens[0:(i_total)])
-        words = region_name_and_num.split(" ")
-        last_word = words[-1]
-        if any([c.isdigit() for c in last_word]):
-            gnd_num = last_word
-            region_name = " ".join(words[:-1])
-        elif len(words) > 2 and words[-2].isdigit():
-            gnd_num = words[-2] + "" + words[-1]
-            region_name = " ".join(words[:-2])
-        else:
-            gnd_num = None
-            region_name = region_name_and_num
-        region_name = region_name.strip()
+        region_name = region_name_and_num.strip()
         if not region_name:
             raise ValueError(f"Region name is empty ({region_name_and_num=})")
-
-        if len(region_name) < 4:
-            return None
 
         total_value_from_source = ParseUtils.parse_int(tokens[i_total])
         n_fields = len(fields)

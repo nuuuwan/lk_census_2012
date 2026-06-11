@@ -59,18 +59,6 @@ class Corrections:
         "Kommathurai EastKommathurai": "Kommathurai East",  # after LK-5112090
         "Verugal/ Echchilampattai": "Verugal",  # after LK-5330080
         #
-        # "Victoria": "Victoria",  # after LK-2124415
-        "Halvitigala Step": "Halvitigala Colony 2",  # after LK-3118075
-        "Acres": "Acres 20,40,60",  # after LK-4306030
-        "Unit 5.  &": "Unit 5 & 6. Pavatkulam",  # after LK-4312040
-        "Unit 9. &": "Unit 9 & 10. Pavatkulam",  # after LK-4312085
-        "Valaichchenai": "Valaichchenai",  # after LK-5104010
-        "Valaichchenai": "Valaichchenai",  # after LK-5104010
-        # after LK-5112005
-        "Si(cid:425)andy 1Si(cid:425)andy": "Si(cid:425)andy 1Si(cid:425)andy",
-        "Kommathurai EastKommathur": "Kommathurai EastKommathur",  # after LK-5112090
-        "Ellainagar": "Ellainagar",  # after LK-5115
-        #
     }
 
     DSD_RENAME_MAP = {
