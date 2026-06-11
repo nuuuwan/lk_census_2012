@@ -1,0 +1,887 @@
+[
+  {
+    "validation": "ent_coverage",
+    "ent_type_name": "dsd",
+    "missing_ent_ids": [
+      "LK-2310",
+      "LK-2302",
+      "LK-2307",
+      "LK-3128",
+      "LK-2313",
+      "LK-3135",
+      "LK-9119",
+      "LK-3137",
+      "LK-2314"
+    ]
+  },
+  {
+    "validation": "ent_coverage",
+    "ent_type_name": "gnd",
+    "missing_ent_ids": [
+      "LK-9118195",
+      "LK-5112120",
+      "LK-1227590",
+      "LK-5112235",
+      "LK-1339265",
+      "LK-9118170",
+      "LK-6233095",
+      "LK-5112230",
+      "LK-5218090",
+      "LK-2203155",
+      "LK-6218135",
+      "LK-7133080",
+      "LK-9118185",
+      "LK-5133060",
+      "LK-5115015",
+      "LK-5221095",
+      "LK-5109012",
+      "LK-5130011",
+      "LK-9118165",
+      "LK-9118180",
+      "LK-9118205",
+      "LK-2203295",
+      "LK-1339260",
+      "LK-7118190",
+      "LK-5124009",
+      "LK-5224010",
+      "LK-5112006",
+      "LK-3127175",
+      "LK-5327185",
+      "LK-5104003",
+      "LK-5104013",
+      "LK-9119060",
+      "LK-2203160",
+      "LK-5112115",
+      "LK-5104005",
+      "LK-5112210",
+      "LK-5133019",
+      "LK-5104004",
+      "LK-5136230",
+      "LK-5124070",
+      "LK-4130005",
+      "LK-9118190",
+      "LK-5224065",
+      "LK-5109065",
+      "LK-1306275",
+      "LK-5212205",
+      "LK-4130155",
+      "LK-5124030",
+      "LK-3124020",
+      "LK-5112215",
+      "LK-5115040",
+      "LK-5136235",
+      "LK-5109022",
+      "LK-3127165",
+      "LK-2309380",
+      "LK-5112200",
+      "LK-5124017",
+      "LK-9118200",
+      "LK-5112014",
+      "LK-6124225",
+      "LK-4133055",
+      "LK-5104055",
+      "LK-1209415",
+      "LK-5221050",
+      "LK-8215055",
+      "LK-5218030",
+      "LK-3127220",
+      "LK-5224055",
+      "LK-4133065",
+      "LK-5215110",
+      "LK-7127130",
+      "LK-8124160",
+      "LK-5224060",
+      "LK-5109021",
+      "LK-5221100",
+      "LK-6124210",
+      "LK-5218025",
+      "LK-3248160",
+      "LK-6124215",
+      "LK-5224050",
+      "LK-5112016",
+      "LK-9118175",
+      "LK-5127018",
+      "LK-5124065"
+    ]
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-82",
+    "parent_values": {
+      "Primary": 110918,
+      "Secondary": 186294,
+      "G.C.E.(O/L)": 49219,
+      "G.C.E.(A/L)": 30992,
+      "Degree and above": 6693,
+      "No schooling": 23222
+    },
+    "sum_child_values": {
+      "Primary": 100040,
+      "Secondary": 168068,
+      "G.C.E.(O/L)": 43934,
+      "G.C.E.(A/L)": 26474,
+      "Degree and above": 5529,
+      "No schooling": 20815
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1209",
+    "parent_values": {
+      "Primary": 26210,
+      "Secondary": 61759,
+      "G.C.E.(O/L)": 25258,
+      "G.C.E.(A/L)": 15114,
+      "Degree and above": 2519,
+      "No schooling": 2590
+    },
+    "sum_child_values": {
+      "Primary": 25829,
+      "Secondary": 60641,
+      "G.C.E.(O/L)": 24953,
+      "G.C.E.(A/L)": 14917,
+      "Degree and above": 2492,
+      "No schooling": 2563
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1227",
+    "parent_values": {
+      "Primary": 28443,
+      "Secondary": 65290,
+      "G.C.E.(O/L)": 36225,
+      "G.C.E.(A/L)": 27234,
+      "Degree and above": 5255,
+      "No schooling": 3044
+    },
+    "sum_child_values": {
+      "Primary": 28106,
+      "Secondary": 64619,
+      "G.C.E.(O/L)": 35627,
+      "G.C.E.(A/L)": 26886,
+      "Degree and above": 5208,
+      "No schooling": 3023
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1306",
+    "parent_values": {
+      "Primary": 18473,
+      "Secondary": 40315,
+      "G.C.E.(O/L)": 21601,
+      "G.C.E.(A/L)": 15518,
+      "Degree and above": 2807,
+      "No schooling": 1898
+    },
+    "sum_child_values": {
+      "Primary": 18178,
+      "Secondary": 39719,
+      "G.C.E.(O/L)": 21527,
+      "G.C.E.(A/L)": 15493,
+      "Degree and above": 2805,
+      "No schooling": 1851
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1339",
+    "parent_values": {
+      "Primary": 12022,
+      "Secondary": 21141,
+      "G.C.E.(O/L)": 8964,
+      "G.C.E.(A/L)": 5512,
+      "Degree and above": 750,
+      "No schooling": 1724
+    },
+    "sum_child_values": {
+      "Primary": 11443,
+      "Secondary": 20358,
+      "G.C.E.(O/L)": 8702,
+      "G.C.E.(A/L)": 5342,
+      "Degree and above": 729,
+      "No schooling": 1630
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2203",
+    "parent_values": {
+      "Primary": 17286,
+      "Secondary": 28991,
+      "G.C.E.(O/L)": 8555,
+      "G.C.E.(A/L)": 4927,
+      "Degree and above": 999,
+      "No schooling": 2425
+    },
+    "sum_child_values": {
+      "Primary": 16478,
+      "Secondary": 27723,
+      "G.C.E.(O/L)": 8215,
+      "G.C.E.(A/L)": 4682,
+      "Degree and above": 956,
+      "No schooling": 2303
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2303",
+    "parent_values": {
+      "Primary": 29710,
+      "Secondary": 34199,
+      "G.C.E.(O/L)": 13300,
+      "G.C.E.(A/L)": 7073,
+      "Degree and above": 1169,
+      "No schooling": 6213
+    },
+    "sum_child_values": {
+      "Primary": 19611,
+      "Secondary": 20422,
+      "G.C.E.(O/L)": 7576,
+      "G.C.E.(A/L)": 3634,
+      "Degree and above": 613,
+      "No schooling": 4225
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2306",
+    "parent_values": {
+      "Primary": 23593,
+      "Secondary": 33543,
+      "G.C.E.(O/L)": 10648,
+      "G.C.E.(A/L)": 6664,
+      "Degree and above": 1345,
+      "No schooling": 4916
+    },
+    "sum_child_values": {
+      "Primary": 14347,
+      "Secondary": 20852,
+      "G.C.E.(O/L)": 7164,
+      "G.C.E.(A/L)": 4522,
+      "Degree and above": 922,
+      "No schooling": 2765
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2309",
+    "parent_values": {
+      "Primary": 31213,
+      "Secondary": 38798,
+      "G.C.E.(O/L)": 10180,
+      "G.C.E.(A/L)": 5706,
+      "Degree and above": 949,
+      "No schooling": 7434
+    },
+    "sum_child_values": {
+      "Primary": 17794,
+      "Secondary": 21962,
+      "G.C.E.(O/L)": 6179,
+      "G.C.E.(A/L)": 3373,
+      "Degree and above": 531,
+      "No schooling": 4373
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2312",
+    "parent_values": {
+      "Primary": 67623,
+      "Secondary": 70176,
+      "G.C.E.(O/L)": 24189,
+      "G.C.E.(A/L)": 12237,
+      "Degree and above": 2036,
+      "No schooling": 15172
+    },
+    "sum_child_values": {
+      "Primary": 23272,
+      "Secondary": 32220,
+      "G.C.E.(O/L)": 12632,
+      "G.C.E.(A/L)": 6587,
+      "Degree and above": 1071,
+      "No schooling": 5608
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2315",
+    "parent_values": {
+      "Primary": 66000,
+      "Secondary": 68589,
+      "G.C.E.(O/L)": 23342,
+      "G.C.E.(A/L)": 10820,
+      "Degree and above": 1660,
+      "No schooling": 15155
+    },
+    "sum_child_values": {
+      "Primary": 10077,
+      "Secondary": 16605,
+      "G.C.E.(O/L)": 6690,
+      "G.C.E.(A/L)": 3426,
+      "Degree and above": 523,
+      "No schooling": 1974
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3124",
+    "parent_values": {
+      "Primary": 13385,
+      "Secondary": 20279,
+      "G.C.E.(O/L)": 7020,
+      "G.C.E.(A/L)": 4935,
+      "Degree and above": 686,
+      "No schooling": 3088
+    },
+    "sum_child_values": {
+      "Primary": 13143,
+      "Secondary": 19898,
+      "G.C.E.(O/L)": 6927,
+      "G.C.E.(A/L)": 4884,
+      "Degree and above": 679,
+      "No schooling": 3060
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3127",
+    "parent_values": {
+      "Primary": 15421,
+      "Secondary": 28304,
+      "G.C.E.(O/L)": 11992,
+      "G.C.E.(A/L)": 9391,
+      "Degree and above": 1618,
+      "No schooling": 2390
+    },
+    "sum_child_values": {
+      "Primary": 8442,
+      "Secondary": 16856,
+      "G.C.E.(O/L)": 7571,
+      "G.C.E.(A/L)": 6046,
+      "Degree and above": 1084,
+      "No schooling": 1193
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3136",
+    "parent_values": {
+      "Primary": 20234,
+      "Secondary": 41831,
+      "G.C.E.(O/L)": 16861,
+      "G.C.E.(A/L)": 10688,
+      "Degree and above": 1545,
+      "No schooling": 2225
+    },
+    "sum_child_values": {
+      "Primary": 4703,
+      "Secondary": 10557,
+      "G.C.E.(O/L)": 5330,
+      "G.C.E.(A/L)": 3706,
+      "Degree and above": 520,
+      "No schooling": 410
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3248",
+    "parent_values": {
+      "Primary": 10706,
+      "Secondary": 21335,
+      "G.C.E.(O/L)": 9434,
+      "G.C.E.(A/L)": 5592,
+      "Degree and above": 1155,
+      "No schooling": 1346
+    },
+    "sum_child_values": {
+      "Primary": 10404,
+      "Secondary": 20797,
+      "G.C.E.(O/L)": 9211,
+      "G.C.E.(A/L)": 5508,
+      "Degree and above": 1141,
+      "No schooling": 1324
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4130",
+    "parent_values": {
+      "Primary": 14224,
+      "Secondary": 28214,
+      "G.C.E.(O/L)": 9682,
+      "G.C.E.(A/L)": 5586,
+      "Degree and above": 1770,
+      "No schooling": 715
+    },
+    "sum_child_values": {
+      "Primary": 13947,
+      "Secondary": 27305,
+      "G.C.E.(O/L)": 9396,
+      "G.C.E.(A/L)": 5437,
+      "Degree and above": 1672,
+      "No schooling": 698
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4133",
+    "parent_values": {
+      "Primary": 11240,
+      "Secondary": 23608,
+      "G.C.E.(O/L)": 13257,
+      "G.C.E.(A/L)": 11000,
+      "Degree and above": 4008,
+      "No schooling": 725
+    },
+    "sum_child_values": {
+      "Primary": 10525,
+      "Secondary": 22121,
+      "G.C.E.(O/L)": 12492,
+      "G.C.E.(A/L)": 10275,
+      "Degree and above": 3749,
+      "No schooling": 672
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4415",
+    "parent_values": {
+      "Primary": 7713,
+      "Secondary": 12106,
+      "G.C.E.(O/L)": 3604,
+      "G.C.E.(A/L)": 1618,
+      "Degree and above": 463,
+      "No schooling": 519
+    },
+    "sum_child_values": {
+      "Primary": 7692,
+      "Secondary": 12059,
+      "G.C.E.(O/L)": 3594,
+      "G.C.E.(A/L)": 1614,
+      "Degree and above": 463,
+      "No schooling": 509
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5112",
+    "parent_values": {
+      "Primary": 27241,
+      "Secondary": 24745,
+      "G.C.E.(O/L)": 5768,
+      "G.C.E.(A/L)": 3732,
+      "Degree and above": 665,
+      "No schooling": 5944
+    },
+    "sum_child_values": {
+      "Primary": 24122,
+      "Secondary": 21829,
+      "G.C.E.(O/L)": 5307,
+      "G.C.E.(A/L)": 3428,
+      "Degree and above": 624,
+      "No schooling": 4793
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5115",
+    "parent_values": {
+      "Primary": 6730,
+      "Secondary": 7603,
+      "G.C.E.(O/L)": 2823,
+      "G.C.E.(A/L)": 2156,
+      "Degree and above": 537,
+      "No schooling": 2066
+    },
+    "sum_child_values": {
+      "Primary": 5191,
+      "Secondary": 5567,
+      "G.C.E.(O/L)": 2093,
+      "G.C.E.(A/L)": 1631,
+      "Degree and above": 422,
+      "No schooling": 1644
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5124",
+    "parent_values": {
+      "Primary": 11872,
+      "Secondary": 11889,
+      "G.C.E.(O/L)": 6251,
+      "G.C.E.(A/L)": 3402,
+      "Degree and above": 592,
+      "No schooling": 1514
+    },
+    "sum_child_values": {
+      "Primary": 8229,
+      "Secondary": 8215,
+      "G.C.E.(O/L)": 4670,
+      "G.C.E.(A/L)": 2654,
+      "Degree and above": 492,
+      "No schooling": 1013
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5133",
+    "parent_values": {
+      "Primary": 13058,
+      "Secondary": 12063,
+      "G.C.E.(O/L)": 3146,
+      "G.C.E.(A/L)": 1425,
+      "Degree and above": 391,
+      "No schooling": 2759
+    },
+    "sum_child_values": {
+      "Primary": 12711,
+      "Secondary": 11804,
+      "G.C.E.(O/L)": 3117,
+      "G.C.E.(A/L)": 1412,
+      "Degree and above": 385,
+      "No schooling": 2718
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5212",
+    "parent_values": {
+      "Primary": 13318,
+      "Secondary": 22769,
+      "G.C.E.(O/L)": 8719,
+      "G.C.E.(A/L)": 5247,
+      "Degree and above": 623,
+      "No schooling": 2187
+    },
+    "sum_child_values": {
+      "Primary": 12927,
+      "Secondary": 22127,
+      "G.C.E.(O/L)": 8463,
+      "G.C.E.(A/L)": 5173,
+      "Degree and above": 608,
+      "No schooling": 2138
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5215",
+    "parent_values": {
+      "Primary": 8732,
+      "Secondary": 16832,
+      "G.C.E.(O/L)": 6289,
+      "G.C.E.(A/L)": 5650,
+      "Degree and above": 919,
+      "No schooling": 1408
+    },
+    "sum_child_values": {
+      "Primary": 8402,
+      "Secondary": 16134,
+      "G.C.E.(O/L)": 6157,
+      "G.C.E.(A/L)": 5587,
+      "Degree and above": 912,
+      "No schooling": 1344
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5218",
+    "parent_values": {
+      "Primary": 17789,
+      "Secondary": 18499,
+      "G.C.E.(O/L)": 6852,
+      "G.C.E.(A/L)": 5183,
+      "Degree and above": 1172,
+      "No schooling": 4197
+    },
+    "sum_child_values": {
+      "Primary": 17326,
+      "Secondary": 18061,
+      "G.C.E.(O/L)": 6603,
+      "G.C.E.(A/L)": 4874,
+      "Degree and above": 1083,
+      "No schooling": 4140
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5221",
+    "parent_values": {
+      "Primary": 7135,
+      "Secondary": 9033,
+      "G.C.E.(O/L)": 5280,
+      "G.C.E.(A/L)": 3889,
+      "Degree and above": 972,
+      "No schooling": 676
+    },
+    "sum_child_values": {
+      "Primary": 6143,
+      "Secondary": 7890,
+      "G.C.E.(O/L)": 4462,
+      "G.C.E.(A/L)": 3318,
+      "Degree and above": 847,
+      "No schooling": 537
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5224",
+    "parent_values": {
+      "Primary": 12227,
+      "Secondary": 13623,
+      "G.C.E.(O/L)": 5992,
+      "G.C.E.(A/L)": 4918,
+      "Degree and above": 1427,
+      "No schooling": 1579
+    },
+    "sum_child_values": {
+      "Primary": 10598,
+      "Secondary": 11936,
+      "G.C.E.(O/L)": 5207,
+      "G.C.E.(A/L)": 4364,
+      "Degree and above": 1254,
+      "No schooling": 1258
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5327",
+    "parent_values": {
+      "Primary": 17541,
+      "Secondary": 19616,
+      "G.C.E.(O/L)": 5491,
+      "G.C.E.(A/L)": 3504,
+      "Degree and above": 763,
+      "No schooling": 2849
+    },
+    "sum_child_values": {
+      "Primary": 17214,
+      "Secondary": 19209,
+      "G.C.E.(O/L)": 5435,
+      "G.C.E.(A/L)": 3461,
+      "Degree and above": 751,
+      "No schooling": 2827
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6124",
+    "parent_values": {
+      "Primary": 13423,
+      "Secondary": 22529,
+      "G.C.E.(O/L)": 7617,
+      "G.C.E.(A/L)": 5562,
+      "Degree and above": 1302,
+      "No schooling": 1868
+    },
+    "sum_child_values": {
+      "Primary": 12982,
+      "Secondary": 21766,
+      "G.C.E.(O/L)": 7304,
+      "G.C.E.(A/L)": 5318,
+      "Degree and above": 1251,
+      "No schooling": 1788
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6145",
+    "parent_values": {
+      "Primary": 14610,
+      "Secondary": 24243,
+      "G.C.E.(O/L)": 9580,
+      "G.C.E.(A/L)": 7013,
+      "Degree and above": 1330,
+      "No schooling": 1600
+    },
+    "sum_child_values": {
+      "Primary": 15161,
+      "Secondary": 25217,
+      "G.C.E.(O/L)": 9924,
+      "G.C.E.(A/L)": 7227,
+      "Degree and above": 1359,
+      "No schooling": 1676
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6148",
+    "parent_values": {
+      "Primary": 7300,
+      "Secondary": 12565,
+      "G.C.E.(O/L)": 4791,
+      "G.C.E.(A/L)": 3557,
+      "Degree and above": 686,
+      "No schooling": 851
+    },
+    "sum_child_values": {
+      "Primary": 6749,
+      "Secondary": 11591,
+      "G.C.E.(O/L)": 4447,
+      "G.C.E.(A/L)": 3343,
+      "Degree and above": 657,
+      "No schooling": 775
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6218",
+    "parent_values": {
+      "Primary": 19825,
+      "Secondary": 24034,
+      "G.C.E.(O/L)": 5486,
+      "G.C.E.(A/L)": 2661,
+      "Degree and above": 428,
+      "No schooling": 2641
+    },
+    "sum_child_values": {
+      "Primary": 19440,
+      "Secondary": 23631,
+      "G.C.E.(O/L)": 5397,
+      "G.C.E.(A/L)": 2590,
+      "Degree and above": 422,
+      "No schooling": 2578
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6233",
+    "parent_values": {
+      "Primary": 15656,
+      "Secondary": 26033,
+      "G.C.E.(O/L)": 7520,
+      "G.C.E.(A/L)": 5204,
+      "Degree and above": 916,
+      "No schooling": 1865
+    },
+    "sum_child_values": {
+      "Primary": 15356,
+      "Secondary": 25471,
+      "G.C.E.(O/L)": 7225,
+      "G.C.E.(A/L)": 4942,
+      "Degree and above": 884,
+      "No schooling": 1836
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-7118",
+    "parent_values": {
+      "Primary": 9087,
+      "Secondary": 15804,
+      "G.C.E.(O/L)": 4517,
+      "G.C.E.(A/L)": 2072,
+      "Degree and above": 341,
+      "No schooling": 1110
+    },
+    "sum_child_values": {
+      "Primary": 8834,
+      "Secondary": 15512,
+      "G.C.E.(O/L)": 4398,
+      "G.C.E.(A/L)": 2038,
+      "Degree and above": 339,
+      "No schooling": 1059
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-7127",
+    "parent_values": {
+      "Primary": 11304,
+      "Secondary": 19240,
+      "G.C.E.(O/L)": 5838,
+      "G.C.E.(A/L)": 3557,
+      "Degree and above": 638,
+      "No schooling": 1519
+    },
+    "sum_child_values": {
+      "Primary": 11044,
+      "Secondary": 18754,
+      "G.C.E.(O/L)": 5632,
+      "G.C.E.(A/L)": 3417,
+      "Degree and above": 615,
+      "No schooling": 1489
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-7133",
+    "parent_values": {
+      "Primary": 10670,
+      "Secondary": 21995,
+      "G.C.E.(O/L)": 14636,
+      "G.C.E.(A/L)": 12450,
+      "Degree and above": 3182,
+      "No schooling": 1140
+    },
+    "sum_child_values": {
+      "Primary": 9930,
+      "Secondary": 20531,
+      "G.C.E.(O/L)": 13682,
+      "G.C.E.(A/L)": 11628,
+      "Degree and above": 3015,
+      "No schooling": 1041
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-8124",
+    "parent_values": {
+      "Primary": 23190,
+      "Secondary": 33034,
+      "G.C.E.(O/L)": 11567,
+      "G.C.E.(A/L)": 7846,
+      "Degree and above": 1569,
+      "No schooling": 5433
+    },
+    "sum_child_values": {
+      "Primary": 22700,
+      "Secondary": 32137,
+      "G.C.E.(O/L)": 11152,
+      "G.C.E.(A/L)": 7506,
+      "Degree and above": 1498,
+      "No schooling": 5339
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-8215",
+    "parent_values": {
+      "Primary": 407,
+      "Secondary": 791,
+      "G.C.E.(O/L)": 446,
+      "G.C.E.(A/L)": 485,
+      "Degree and above": 92,
+      "No schooling": 105
+    },
+    "sum_child_values": {
+      "Primary": 10878,
+      "Secondary": 18226,
+      "G.C.E.(O/L)": 5285,
+      "G.C.E.(A/L)": 4518,
+      "Degree and above": 1164,
+      "No schooling": 2407
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-9118",
+    "parent_values": {
+      "Primary": 19131,
+      "Secondary": 30748,
+      "G.C.E.(O/L)": 11761,
+      "G.C.E.(A/L)": 7626,
+      "Degree and above": 1459,
+      "No schooling": 4047
+    },
+    "sum_child_values": {
+      "Primary": 11720,
+      "Secondary": 17943,
+      "G.C.E.(O/L)": 6949,
+      "G.C.E.(A/L)": 4402,
+      "Degree and above": 871,
+      "No schooling": 2684
+    }
+  }
+]
