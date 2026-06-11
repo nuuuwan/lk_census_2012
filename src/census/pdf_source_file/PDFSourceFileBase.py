@@ -8,7 +8,6 @@ class PDFSourceFileBase:
     title: str
     fields: list[str]
     i_total: int
-    offset: int
 
     @property
     def doc_id(self):

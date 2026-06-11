@@ -27,7 +27,6 @@ class SourceConfig:
                 "95 & above",
             ],
             i_total=2,
-            offset=3,
         ),
         dict(
             group="Population",
@@ -35,7 +34,6 @@ class SourceConfig:
             title="Gender",
             fields=["Male", "Female"],
             i_total=2,
-            offset=2,
         ),
         dict(
             group="Population",
@@ -43,7 +41,6 @@ class SourceConfig:
             title="Economic Activity",
             fields=["Employed", "Unemployed", "Economically not active"],
             i_total=2,
-            offset=5,
         ),
         dict(
             group="Population",
@@ -58,7 +55,6 @@ class SourceConfig:
                 "No schooling",
             ],
             i_total=1,
-            offset=5,
         ),
         dict(
             group="Housing",
@@ -74,7 +70,6 @@ class SourceConfig:
                 "Other",
             ],
             i_total=2,
-            offset=5,
         ),
         dict(
             group="Housing",
@@ -89,7 +84,6 @@ class SourceConfig:
                 "Other",
             ],
             i_total=2,
-            offset=4,
         ),
         dict(
             group="Housing",
@@ -104,7 +98,6 @@ class SourceConfig:
                 "Other",
             ],
             i_total=2,
-            offset=4,
         ),
         dict(
             group="Housing",
@@ -126,7 +119,6 @@ class SourceConfig:
                 "Other",
             ],
             i_total=2,
-            offset=4,
         ),
         dict(
             group="Housing",
@@ -141,7 +133,6 @@ class SourceConfig:
                 "Other",
             ],
             i_total=2,
-            offset=4,
         ),
         dict(
             group="Housing",
@@ -156,7 +147,6 @@ class SourceConfig:
                 "Not using a toilet",
             ],
             i_total=2,
-            offset=4,
         ),
         dict(
             group="Housing",
@@ -172,7 +162,6 @@ class SourceConfig:
                 "Other",
             ],
             i_total=2,
-            offset=4,
         ),
         dict(
             group="Housing",
@@ -189,7 +178,6 @@ class SourceConfig:
                 "Other",
             ],
             i_total=2,
-            offset=3,
         ),
         dict(
             group="Housing",
@@ -206,7 +194,6 @@ class SourceConfig:
                 "Other",
             ],
             i_total=2,
-            offset=3,
         ),
         dict(
             group="Housing",
@@ -224,7 +211,6 @@ class SourceConfig:
                 "Hut/Shanty",
             ],
             i_total=2,
-            offset=3,
         ),
         dict(
             group="Housing",
@@ -237,6 +223,5 @@ class SourceConfig:
                 "Un-classified",
             ],
             i_total=2,
-            offset=2,
         ),
     ]
