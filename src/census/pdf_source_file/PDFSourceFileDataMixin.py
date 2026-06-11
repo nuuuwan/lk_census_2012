@@ -20,24 +20,36 @@ class PDFSourceFileDataMixin(PDFSourceFileDataExpandMixin):
 
     def extract_fields(self, lines):
         fields = []
-        for line in lines:
+        for i_line, line in enumerate(lines):
             line = line.replace("\u2010", "-")
             tokens = line.split()
             if tokens[:2] == ["number", "Total"]:
                 fields = tokens[2:]
-                return fields
+                return fields, i_line
+
+            if tokens[:6] == [
+                "District,",
+                "DS",
+                "division",
+                "and",
+                "GN",
+                "division",
+            ]:
+                fields = ["Both sexes", "Male", "Female"]
+                return fields, i_line
+
         raise ValueError("Fields not found in the text file.")
 
     @staticmethod
     def _extract_line(line, fields):
         line = line.replace("\u2010", "-")
         tokens = line.split()
+        print(tokens)
         n_tokens = len(tokens)
-        if n_tokens < 10:
+        if n_tokens < 1 + len(fields):
             return None
-        if tokens[:2] == ["number", "Total"]:
-            return None
-        i_field_start = n_tokens - len(fields) + 1
+        i_field_start = n_tokens - len(fields)
+        print(f"{i_field_start=}")
         region_name_and_num = " ".join(tokens[0:(i_field_start)])
 
         words = region_name_and_num.split()
@@ -52,20 +64,24 @@ class PDFSourceFileDataMixin(PDFSourceFileDataExpandMixin):
             gnd_num = None
             region_name = region_name_and_num
 
-        total_value_from_source = ParseUtils.parse_int(tokens[i_field_start])
         values_only = [
-            ParseUtils.parse_int(token)
-            for token in tokens[i_field_start + 1:]
+            ParseUtils.parse_int(token) for token in tokens[i_field_start:]
         ]
+        if len(values_only) != len(fields):
+            raise ValueError(
+                f"Expected {len(fields)} values but found {len(values_only)}"
+            )
+
         values = dict(zip(fields, values_only))
         total_value = sum(values_only)
-        return dict(
+        d = dict(
             region_name=region_name,
             gnd_num=gnd_num,
             values=values,
             total_value=total_value,
-            total_value_from_source=total_value_from_source,
         )
+        log.debug(d)
+        return d
 
     def _dedupe_lines(self, lines):
         seen = set()
@@ -85,10 +101,11 @@ class PDFSourceFileDataMixin(PDFSourceFileDataExpandMixin):
         lines = File(self.txt_path).read_lines()
         lines = self._dedupe_lines(lines)
 
-        fields = self.extract_fields(lines)
+        fields, offset = self.extract_fields(lines)
+        log.debug(f"{fields=}")
         errors = []
         d_list = []
-        for line in lines:
+        for line in lines[offset + 1:]:
             d = self._extract_line(line, fields)
             if d:
                 d_list.append(d)

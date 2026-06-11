@@ -110,7 +110,6 @@ class PDFSourceFileDataExpandMixin:
                 region_name=ent.name,
                 total_value=data["total_value"],
                 values=data["values"],
-                total_value_from_source=data["total_value_from_source"],
             )
             previous_ent_type = EntType.from_id(ent.id)
             previous_ent_id = ent.id
