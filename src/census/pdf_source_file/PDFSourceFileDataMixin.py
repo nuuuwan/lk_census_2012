@@ -1,5 +1,7 @@
 import os
 
+from tqdm import tqdm
+
 from census.pdf_source_file.Corrections import Corrections
 from gig_future import Ent, EntType
 from utils_future import JSONFile, Log
@@ -57,7 +59,7 @@ class PDFSourceFileDataMixin:
         previous_ent_id = None
         new_data_list = []
         no_ent_list = []
-        for data in data_list:
+        for data in tqdm(data_list, desc="Expanding data"):
 
             filter_ent_type_and_id_list = cls.get_filter_ent_type_and_id_list(
                 previous_ent_type, previous_ent_id, data.get("gnd_num")
@@ -117,12 +119,6 @@ class PDFSourceFileDataMixin:
             previous_ent_type = EntType.from_id(ent.id)
             previous_ent_id = ent.id
             new_data_list.append(new_data)
-            n_completed = len(new_data_list)
-            if previous_ent_type not in [EntType.GND, EntType.DSD]:
-                p_completed = n_completed / n_data_list
-                log.debug(
-                    f"{n_completed}/{n_data_list} - {p_completed:.1%}) {ent.id} {ent.name}"
-                )
 
         if no_ent_list:
             log.error(f"🛑 {len(no_ent_list)} entries had no matching ent.")
