@@ -1,9 +1,12 @@
-import os
-
-import requests
-
+from census.pdf_source_file.PDFSourceFileBase import PDFSourceFileBase
+from census.pdf_source_file.PDFSourceFileBuilderMixin import (
+    PDFSourceFileBuilderMixin,
+)
 from census.pdf_source_file.PDFSourceFileDataMixin import (
     PDFSourceFileDataMixin,
+)
+from census.pdf_source_file.PDFSourceFileDownloadMixin import (
+    PDFSourceFileDownloadMixin,
 )
 from census.pdf_source_file.PDFSourceFileMetadataMixin import (
     PDFSourceFileMetadataMixin,
@@ -15,78 +18,35 @@ from census.pdf_source_file.PDFSourceFileTxtMixin import PDFSourceFileTxtMixin
 from census.pdf_source_file.PDFSourceFileValidateMixin import (
     PDFSourceFileValidateMixin,
 )
-from utils_future import File, Log
+from census.pdf_source_file.SourceConfig import SourceConfig
+from utils_future import Log
 
 log = Log("PDFSourceFile")
 
 
 class PDFSourceFile(
+    PDFSourceFileBase,
+    PDFSourceFileBuilderMixin,
+    PDFSourceFileDownloadMixin,
     PDFSourceFileMetadataMixin,
     PDFSourceFileTxtMixin,
     PDFSourceFileDataMixin,
     PDFSourceFileRawDataMixin,
     PDFSourceFileValidateMixin,
 ):
-    DIR_ORIGINAL_DATA = "original_data"
-    DIR_DATA = "data"
-    GROUP_CONFIG_LIST = [("population", 3), ("housing", 0)]
-
-    def __init__(self, group, i_group, url):
-        self.group = group
-        self.i_group = i_group
-        self.url = url
-
-    @property
-    def doc_id(self):
-        return f"{self.group}_P{self.i_group:02d}"
-
-    @property
-    def local_path(self):
-        return os.path.join(self.DIR_ORIGINAL_DATA, self.doc_id + ".pdf")
-
-    def download(self):
-        if not os.path.exists(self.local_path):
-            response = requests.get(self.url, timeout=10)
-            response.raise_for_status()
-            os.makedirs(self.DIR_DATA, exist_ok=True)
-            with open(self.local_path, "wb") as f:
-                f.write(response.content)
-            log.info(f"🌐 Downloaded {self.url} to {File(self.local_path)}.")
-        else:
-            log.debug(f"File {File(self.local_path)} exists.")
-
-    @property
-    def dir_data(self):
-        dir_data = os.path.join(self.DIR_DATA, self.doc_id)
-        os.makedirs(dir_data, exist_ok=True)
-        return dir_data
 
     @classmethod
     def list(cls):
         files = []
-        for group, n_group in cls.GROUP_CONFIG_LIST:
-            for i_group in range(1, n_group + 1):
-                code = group[0].upper()
-                url = (
-                    "http://203.94.94.83:8041"
-                    + "/Pages/Activities/Reports/FinalReport_GN"
-                    + f"/{group}/{code}{i_group}.pdf"
-                )
-                files.append(cls(group, i_group, url))
+        for config in SourceConfig.LIST:
+            file = cls(
+                group=config["group"],
+                i_group=config["i_group"],
+                title=config.get("title"),
+                fields=config["fields"],
+                i_total=config["i_total"],
+                offset=config["offset"],
+            )
+            files.append(file)
+
         return files
-
-    def build(self):
-        log.info("-" * 64)
-        log.info(f"{self.doc_id}...")
-        log.info("-" * 64)
-        self.download()
-        self.to_metadata()
-        self.to_txt()
-        self.build_raw_data()
-        self.build_data()
-        self.validate_data()
-
-    @classmethod
-    def build_all(cls):
-        for file in cls.list():
-            file.build()

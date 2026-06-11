@@ -2,8 +2,11 @@
 # flake8: noqa: F408
 
 from census.pdf_source_file import (Corrections, ParseUtils, PDFSourceFile,
+                                    PDFSourceFileBase,
+                                    PDFSourceFileBuilderMixin,
                                     PDFSourceFileDataMixin,
+                                    PDFSourceFileDownloadMixin,
                                     PDFSourceFileMetadataMixin,
                                     PDFSourceFileRawDataMixin,
                                     PDFSourceFileTxtMixin,
-                                    PDFSourceFileValidateMixin)
+                                    PDFSourceFileValidateMixin, SourceConfig)

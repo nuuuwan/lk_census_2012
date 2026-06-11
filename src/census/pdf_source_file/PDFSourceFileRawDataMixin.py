@@ -17,51 +17,6 @@ class PDFSourceFileRawDataMixin:
     def errors_path(self):
         return os.path.join(self.dir_data, "errors.json")
 
-    def extract_fields(self, lines):
-
-        fields, i_total, offset = {
-            "population_P01": (
-                [
-                    "0-4",
-                    "5-9",
-                    "10-14",
-                    "15-19",
-                    "20-24",
-                    "25-29",
-                    "30-34",
-                    "35-39",
-                    "40-44",
-                    "45-49",
-                    "50-54",
-                    "55-59",
-                    "60-64",
-                    "65-69",
-                    "70-74",
-                    "75-79",
-                    "80-84",
-                    "85-89",
-                    "90-94",
-                    "95 & above",
-                ],
-                2,
-                5,
-            ),
-            "population_P02": (
-                ["Male", "Female"],
-                2,
-                2,
-            ),
-            "population_P03": (
-                ["Employed", "Unemployed", "Economically not active"],
-                2,
-                5,
-            ),
-        }.get(self.doc_id, (None, None, None))
-
-        if fields:
-            return fields, i_total, offset
-        raise ValueError("Could not find fields in the first 10 lines.")
-
     @staticmethod
     def _extract_line(line, fields, i_total):
         line = (
@@ -126,12 +81,10 @@ class PDFSourceFileRawDataMixin:
         lines = File(self.txt_path).read_lines()
         lines = self._dedupe_lines(lines)
 
-        fields, i_total, offset = self.extract_fields(lines)
-        log.debug(f"{fields=}")
         errors = []
         d_list = []
-        for line in lines[offset + 1 : self.MAX_LINES_TO_PROCESS]:
-            d = self._extract_line(line, fields, i_total)
+        for line in lines[self.offset + 1 : self.MAX_LINES_TO_PROCESS]:
+            d = self._extract_line(line, self.fields, self.i_total)
             if d:
                 d_list.append(d)
 
