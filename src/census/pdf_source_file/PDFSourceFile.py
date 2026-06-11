@@ -22,6 +22,7 @@ class PDFSourceFile(
 ):
     DIR_ORIGINAL_DATA = "original_data"
     DIR_DATA = "data"
+    GROUP_CONFIG_LIST = [("population", 2), ("housing", 0)]
 
     def __init__(self, group, i_group, url):
         self.group = group
@@ -56,7 +57,7 @@ class PDFSourceFile(
     @classmethod
     def list(cls):
         files = []
-        for group, n_group in [("population", 1), ("housing", 0)]:
+        for group, n_group in cls.GROUP_CONFIG_LIST:
             for i_group in range(1, n_group + 1):
                 code = group[0].upper()
                 url = (
@@ -68,6 +69,9 @@ class PDFSourceFile(
         return files
 
     def build(self):
+        log.info("-" * 64)
+        log.info(f"{self.doc_id}...")
+        log.info("-" * 64)
         self.download()
         self.to_metadata()
         self.to_txt()
