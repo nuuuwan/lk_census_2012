@@ -6,4 +6,5 @@ class ParseUtils:
         x = x.replace(",", "")
         if x == "" or x == "-":
             return 0
+        x = x.replace(" ", "")
         return int(x)
