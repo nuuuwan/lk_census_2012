@@ -57,6 +57,11 @@ class Corrections:
         "UthuchchenaiOothuchenai": "Uthuchchenai",  # after LK-5110015
         "Si(cid:425)andy 1Si(cid:425)andy 1": "Sittandy 1",  # after LK-5112015
         "Kommathurai EastKommathurai": "Kommathurai East",  # after LK-5112090
+        #
+        # "Eravur - 4": "Eravur - 4",  # after LK-5112110
+        # "Ellainagar": "Ellainagar",  # after LK-5115
+        "Verugal/ Echchilampattai": "Verugal",  # after LK-5330080
+        #
     }
 
     DSD_RENAME_MAP = {
