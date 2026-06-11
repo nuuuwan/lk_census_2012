@@ -18,10 +18,13 @@ class PDFSourceFileDownloadMixin:
     @property
     def url(self):
         code = self.group[0].upper()
+        group_str = self.group
+        if group_str == "Population":
+            group_str = group_str.lower()
         return (
             "http://203.94.94.83:8041"
             + "/Pages/Activities/Reports/FinalReport_GN"
-            + f"/{self.group}/{code}{self.i_group}.pdf"
+            + f"/{group_str}/{code}{self.i_group}.pdf"
         )
 
     def download(self):
