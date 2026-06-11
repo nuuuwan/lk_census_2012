@@ -3,6 +3,7 @@ import os
 import camelot
 import pandas as pd
 import pymupdf
+from tqdm import tqdm
 
 from utils_future import File, Log
 
@@ -24,7 +25,7 @@ class PDFSourceFileTxtMixin:
         n_pages = len(doc)
 
         dfs = []
-        for i_page in range(1, n_pages + 1):
+        for i_page in tqdm(range(1, n_pages + 1), desc="Extracting pages"):
             page = doc[i_page - 1]
             width = page.rect.width
             height = page.rect.height
