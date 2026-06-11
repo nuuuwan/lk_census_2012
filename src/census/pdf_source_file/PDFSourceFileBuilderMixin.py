@@ -13,7 +13,7 @@ class PDFSourceFileBuilderMixin:
         self.to_txt()
         self.build_raw_data()
         self.build_data()
-        self.validate_data()
+        self.validate()
 
     @classmethod
     def build_all(cls):
