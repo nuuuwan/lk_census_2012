@@ -7,7 +7,7 @@ log = Log("PDFSourceFileDataMixin")
 
 
 class PDFSourceFileRawDataMixin:
-    MAX_LINES_TO_PROCESS = 100
+    MAX_LINES_TO_PROCESS = None
 
     @property
     def raw_data_path(self):
@@ -45,6 +45,9 @@ class PDFSourceFileRawDataMixin:
         region_name = region_name.strip()
         if not region_name:
             raise ValueError(f"Region name is empty ({region_name_and_num=})")
+
+        if len(region_name) < 4:
+            return None
 
         total_value_from_source = ParseUtils.parse_int(tokens[i_total])
         n_fields = len(fields)
@@ -84,7 +87,11 @@ class PDFSourceFileRawDataMixin:
         errors = []
         d_list = []
         has_found_sl = False
-        for line in lines[: self.MAX_LINES_TO_PROCESS]:
+        for line in (
+            lines[: self.MAX_LINES_TO_PROCESS]
+            if self.MAX_LINES_TO_PROCESS
+            else lines
+        ):
             if not has_found_sl:
                 if "Sri" in line:
                     has_found_sl = True
