@@ -1,0 +1,1290 @@
+[
+  {
+    "region_id": "LK",
+    "region_name": "Sri Lanka",
+    "total_value": 5264282,
+    "values": {
+      "Water seal and connected to a septic tank": 4683248,
+      "Water seal and connected to a piped sewer system": 240322,
+      "Pour flush toilet (Not water seal)": 111732,
+      "Direct pit": 136544,
+      "Other": 4154,
+      "Not using a toilet": 88282
+    },
+    "total_value_from_source": 5264282
+  },
+  {
+    "region_id": "LK-11",
+    "region_name": "Colombo",
+    "total_value": 572475,
+    "values": {
+      "Water seal and connected to a septic tank": 457919,
+      "Water seal and connected to a piped sewer system": 95894,
+      "Pour flush toilet (Not water seal)": 8172,
+      "Direct pit": 8631,
+      "Other": 1534,
+      "Not using a toilet": 325
+    },
+    "total_value_from_source": 572475
+  },
+  {
+    "region_id": "LK-1103",
+    "region_name": "Colombo",
+    "total_value": 68245,
+    "values": {
+      "Water seal and connected to a septic tank": 22210,
+      "Water seal and connected to a piped sewer system": 44053,
+      "Pour flush toilet (Not water seal)": 781,
+      "Direct pit": 664,
+      "Other": 477,
+      "Not using a toilet": 60
+    },
+    "total_value_from_source": 68245
+  },
+  {
+    "region_id": "LK-1103005",
+    "region_name": "Sammanthranapura",
+    "total_value": 1743,
+    "values": {
+      "Water seal and connected to a septic tank": 1408,
+      "Water seal and connected to a piped sewer system": 258,
+      "Pour flush toilet (Not water seal)": 49,
+      "Direct pit": 10,
+      "Other": 16,
+      "Not using a toilet": 2
+    },
+    "total_value_from_source": 1743
+  },
+  {
+    "region_id": "LK-1103010",
+    "region_name": "Mattakkuliya",
+    "total_value": 6304,
+    "values": {
+      "Water seal and connected to a septic tank": 3721,
+      "Water seal and connected to a piped sewer system": 2404,
+      "Pour flush toilet (Not water seal)": 78,
+      "Direct pit": 90,
+      "Other": 8,
+      "Not using a toilet": 3
+    },
+    "total_value_from_source": 6304
+  },
+  {
+    "region_id": "LK-1103015",
+    "region_name": "Modara",
+    "total_value": 3967,
+    "values": {
+      "Water seal and connected to a septic tank": 942,
+      "Water seal and connected to a piped sewer system": 2975,
+      "Pour flush toilet (Not water seal)": 4,
+      "Direct pit": 19,
+      "Other": 4,
+      "Not using a toilet": 23
+    },
+    "total_value_from_source": 3967
+  },
+  {
+    "region_id": "LK-1103020",
+    "region_name": "Madampitiya",
+    "total_value": 2916,
+    "values": {
+      "Water seal and connected to a septic tank": 2055,
+      "Water seal and connected to a piped sewer system": 739,
+      "Pour flush toilet (Not water seal)": 3,
+      "Direct pit": 98,
+      "Other": 16,
+      "Not using a toilet": 5
+    },
+    "total_value_from_source": 2916
+  },
+  {
+    "region_id": "LK-1103025",
+    "region_name": "Mahawatta",
+    "total_value": 1995,
+    "values": {
+      "Water seal and connected to a septic tank": 639,
+      "Water seal and connected to a piped sewer system": 1286,
+      "Pour flush toilet (Not water seal)": 37,
+      "Direct pit": 4,
+      "Other": 26,
+      "Not using a toilet": 3
+    },
+    "total_value_from_source": 1995
+  },
+  {
+    "region_id": "LK-1103030",
+    "region_name": "Aluthmawatha",
+    "total_value": 3236,
+    "values": {
+      "Water seal and connected to a septic tank": 563,
+      "Water seal and connected to a piped sewer system": 2651,
+      "Pour flush toilet (Not water seal)": 0,
+      "Direct pit": 22,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 3236
+  },
+  {
+    "region_id": "LK-1103035",
+    "region_name": "Lunupokuna",
+    "total_value": 2839,
+    "values": {
+      "Water seal and connected to a septic tank": 1277,
+      "Water seal and connected to a piped sewer system": 1552,
+      "Pour flush toilet (Not water seal)": 3,
+      "Direct pit": 4,
+      "Other": 2,
+      "Not using a toilet": 1
+    },
+    "total_value_from_source": 2839
+  },
+  {
+    "region_id": "LK-1103040",
+    "region_name": "Bloemendhal",
+    "total_value": 3267,
+    "values": {
+      "Water seal and connected to a septic tank": 1008,
+      "Water seal and connected to a piped sewer system": 1986,
+      "Pour flush toilet (Not water seal)": 60,
+      "Direct pit": 184,
+      "Other": 29,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 3267
+  },
+  {
+    "region_id": "LK-1103045",
+    "region_name": "Kotahena East",
+    "total_value": 1605,
+    "values": {
+      "Water seal and connected to a septic tank": 741,
+      "Water seal and connected to a piped sewer system": 863,
+      "Pour flush toilet (Not water seal)": 1,
+      "Direct pit": 0,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 1605
+  },
+  {
+    "region_id": "LK-1103050",
+    "region_name": "Kotahena West",
+    "total_value": 2210,
+    "values": {
+      "Water seal and connected to a septic tank": 836,
+      "Water seal and connected to a piped sewer system": 1372,
+      "Pour flush toilet (Not water seal)": 0,
+      "Direct pit": 0,
+      "Other": 0,
+      "Not using a toilet": 2
+    },
+    "total_value_from_source": 2210
+  },
+  {
+    "region_id": "LK-1103055",
+    "region_name": "Kochchikade North",
+    "total_value": 1935,
+    "values": {
+      "Water seal and connected to a septic tank": 274,
+      "Water seal and connected to a piped sewer system": 1514,
+      "Pour flush toilet (Not water seal)": 114,
+      "Direct pit": 32,
+      "Other": 0,
+      "Not using a toilet": 1
+    },
+    "total_value_from_source": 1935
+  },
+  {
+    "region_id": "LK-1103060",
+    "region_name": "Jinthupitiya",
+    "total_value": 1768,
+    "values": {
+      "Water seal and connected to a septic tank": 514,
+      "Water seal and connected to a piped sewer system": 1249,
+      "Pour flush toilet (Not water seal)": 2,
+      "Direct pit": 2,
+      "Other": 1,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 1768
+  },
+  {
+    "region_id": "LK-1103065",
+    "region_name": "Masangasweediya",
+    "total_value": 1689,
+    "values": {
+      "Water seal and connected to a septic tank": 264,
+      "Water seal and connected to a piped sewer system": 1418,
+      "Pour flush toilet (Not water seal)": 6,
+      "Direct pit": 1,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 1689
+  },
+  {
+    "region_id": "LK-1103070",
+    "region_name": "New Bazaar",
+    "total_value": 2612,
+    "values": {
+      "Water seal and connected to a septic tank": 747,
+      "Water seal and connected to a piped sewer system": 1835,
+      "Pour flush toilet (Not water seal)": 9,
+      "Direct pit": 7,
+      "Other": 13,
+      "Not using a toilet": 1
+    },
+    "total_value_from_source": 2612
+  },
+  {
+    "region_id": "LK-1103075",
+    "region_name": "Grandpass South",
+    "total_value": 3816,
+    "values": {
+      "Water seal and connected to a septic tank": 1479,
+      "Water seal and connected to a piped sewer system": 2199,
+      "Pour flush toilet (Not water seal)": 103,
+      "Direct pit": 31,
+      "Other": 1,
+      "Not using a toilet": 3
+    },
+    "total_value_from_source": 3816
+  },
+  {
+    "region_id": "LK-1103080",
+    "region_name": "Grandpass North",
+    "total_value": 1695,
+    "values": {
+      "Water seal and connected to a septic tank": 582,
+      "Water seal and connected to a piped sewer system": 1053,
+      "Pour flush toilet (Not water seal)": 43,
+      "Direct pit": 16,
+      "Other": 1,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 1695
+  },
+  {
+    "region_id": "LK-1103085",
+    "region_name": "Nawagampura",
+    "total_value": 1465,
+    "values": {
+      "Water seal and connected to a septic tank": 575,
+      "Water seal and connected to a piped sewer system": 880,
+      "Pour flush toilet (Not water seal)": 0,
+      "Direct pit": 4,
+      "Other": 0,
+      "Not using a toilet": 6
+    },
+    "total_value_from_source": 1465
+  },
+  {
+    "region_id": "LK-1103090",
+    "region_name": "Maligawatta East",
+    "total_value": 2344,
+    "values": {
+      "Water seal and connected to a septic tank": 636,
+      "Water seal and connected to a piped sewer system": 1704,
+      "Pour flush toilet (Not water seal)": 2,
+      "Direct pit": 2,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 2344
+  },
+  {
+    "region_id": "LK-1103095",
+    "region_name": "Khettarama",
+    "total_value": 2729,
+    "values": {
+      "Water seal and connected to a septic tank": 403,
+      "Water seal and connected to a piped sewer system": 1798,
+      "Pour flush toilet (Not water seal)": 72,
+      "Direct pit": 95,
+      "Other": 357,
+      "Not using a toilet": 4
+    },
+    "total_value_from_source": 2729
+  },
+  {
+    "region_id": "LK-1103100",
+    "region_name": "Aluthkade East",
+    "total_value": 1803,
+    "values": {
+      "Water seal and connected to a septic tank": 344,
+      "Water seal and connected to a piped sewer system": 1443,
+      "Pour flush toilet (Not water seal)": 6,
+      "Direct pit": 7,
+      "Other": 1,
+      "Not using a toilet": 2
+    },
+    "total_value_from_source": 1803
+  },
+  {
+    "region_id": "LK-1103105",
+    "region_name": "Aluthkade West",
+    "total_value": 1342,
+    "values": {
+      "Water seal and connected to a septic tank": 220,
+      "Water seal and connected to a piped sewer system": 1117,
+      "Pour flush toilet (Not water seal)": 2,
+      "Direct pit": 3,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 1342
+  },
+  {
+    "region_id": "LK-1103110",
+    "region_name": "Kochchikade South",
+    "total_value": 1500,
+    "values": {
+      "Water seal and connected to a septic tank": 249,
+      "Water seal and connected to a piped sewer system": 1222,
+      "Pour flush toilet (Not water seal)": 26,
+      "Direct pit": 2,
+      "Other": 0,
+      "Not using a toilet": 1
+    },
+    "total_value_from_source": 1500
+  },
+  {
+    "region_id": "LK-1103115",
+    "region_name": "Pettah",
+    "total_value": 35,
+    "values": {
+      "Water seal and connected to a septic tank": 9,
+      "Water seal and connected to a piped sewer system": 26,
+      "Pour flush toilet (Not water seal)": 0,
+      "Direct pit": 0,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 35
+  },
+  {
+    "region_id": "LK-1103120",
+    "region_name": "Fort",
+    "total_value": 130,
+    "values": {
+      "Water seal and connected to a septic tank": 36,
+      "Water seal and connected to a piped sewer system": 94,
+      "Pour flush toilet (Not water seal)": 0,
+      "Direct pit": 0,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 130
+  },
+  {
+    "region_id": "LK-1103125",
+    "region_name": "Galle Face",
+    "total_value": 770,
+    "values": {
+      "Water seal and connected to a septic tank": 271,
+      "Water seal and connected to a piped sewer system": 499,
+      "Pour flush toilet (Not water seal)": 0,
+      "Direct pit": 0,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 770
+  },
+  {
+    "region_id": "LK-1103130",
+    "region_name": "Slave Island",
+    "total_value": 739,
+    "values": {
+      "Water seal and connected to a septic tank": 160,
+      "Water seal and connected to a piped sewer system": 565,
+      "Pour flush toilet (Not water seal)": 5,
+      "Direct pit": 8,
+      "Other": 0,
+      "Not using a toilet": 1
+    },
+    "total_value_from_source": 739
+  },
+  {
+    "region_id": "LK-1103135",
+    "region_name": "Hunupitiya",
+    "total_value": 1425,
+    "values": {
+      "Water seal and connected to a septic tank": 164,
+      "Water seal and connected to a piped sewer system": 1227,
+      "Pour flush toilet (Not water seal)": 29,
+      "Direct pit": 5,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 1425
+  },
+  {
+    "region_id": "LK-1103140",
+    "region_name": "Suduwella",
+    "total_value": 795,
+    "values": {
+      "Water seal and connected to a septic tank": 258,
+      "Water seal and connected to a piped sewer system": 533,
+      "Pour flush toilet (Not water seal)": 0,
+      "Direct pit": 3,
+      "Other": 0,
+      "Not using a toilet": 1
+    },
+    "total_value_from_source": 795
+  },
+  {
+    "region_id": "LK-1103145",
+    "region_name": "Keselwatta",
+    "total_value": 1443,
+    "values": {
+      "Water seal and connected to a septic tank": 466,
+      "Water seal and connected to a piped sewer system": 964,
+      "Pour flush toilet (Not water seal)": 13,
+      "Direct pit": 0,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 1443
+  },
+  {
+    "region_id": "LK-1103150",
+    "region_name": "Panchikawatta",
+    "total_value": 1793,
+    "values": {
+      "Water seal and connected to a septic tank": 144,
+      "Water seal and connected to a piped sewer system": 1576,
+      "Pour flush toilet (Not water seal)": 71,
+      "Direct pit": 0,
+      "Other": 2,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 1793
+  },
+  {
+    "region_id": "LK-1103155",
+    "region_name": "Maligawatta West",
+    "total_value": 1938,
+    "values": {
+      "Water seal and connected to a septic tank": 132,
+      "Water seal and connected to a piped sewer system": 1797,
+      "Pour flush toilet (Not water seal)": 8,
+      "Direct pit": 1,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 1938
+  },
+  {
+    "region_id": "LK-1103160",
+    "region_name": "Maligakanda",
+    "total_value": 1588,
+    "values": {
+      "Water seal and connected to a septic tank": 308,
+      "Water seal and connected to a piped sewer system": 1263,
+      "Pour flush toilet (Not water seal)": 16,
+      "Direct pit": 1,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 1588
+  },
+  {
+    "region_id": "LK-1103165",
+    "region_name": "Maradana",
+    "total_value": 948,
+    "values": {
+      "Water seal and connected to a septic tank": 202,
+      "Water seal and connected to a piped sewer system": 746,
+      "Pour flush toilet (Not water seal)": 0,
+      "Direct pit": 0,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 948
+  },
+  {
+    "region_id": "LK-1103170",
+    "region_name": "Ibbanwala",
+    "total_value": 475,
+    "values": {
+      "Water seal and connected to a septic tank": 302,
+      "Water seal and connected to a piped sewer system": 173,
+      "Pour flush toilet (Not water seal)": 0,
+      "Direct pit": 0,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 475
+  },
+  {
+    "region_id": "LK-1103175",
+    "region_name": "Wekanda",
+    "total_value": 1386,
+    "values": {
+      "Water seal and connected to a septic tank": 281,
+      "Water seal and connected to a piped sewer system": 1072,
+      "Pour flush toilet (Not water seal)": 19,
+      "Direct pit": 13,
+      "Other": 0,
+      "Not using a toilet": 1
+    },
+    "total_value_from_source": 1386
+  },
+  {
+    "region_id": "LK-1106",
+    "region_name": "Kolonnawa",
+    "total_value": 45446,
+    "values": {
+      "Water seal and connected to a septic tank": 38504,
+      "Water seal and connected to a piped sewer system": 3605,
+      "Pour flush toilet (Not water seal)": 803,
+      "Direct pit": 1976,
+      "Other": 537,
+      "Not using a toilet": 21
+    },
+    "total_value_from_source": 45446
+  },
+  {
+    "region_id": "LK-1106005",
+    "region_name": "Wadulla",
+    "total_value": 1812,
+    "values": {
+      "Water seal and connected to a septic tank": 1026,
+      "Water seal and connected to a piped sewer system": 697,
+      "Pour flush toilet (Not water seal)": 0,
+      "Direct pit": 35,
+      "Other": 44,
+      "Not using a toilet": 10
+    },
+    "total_value_from_source": 1812
+  },
+  {
+    "region_id": "LK-1106010",
+    "region_name": "Sedawatta",
+    "total_value": 1617,
+    "values": {
+      "Water seal and connected to a septic tank": 959,
+      "Water seal and connected to a piped sewer system": 121,
+      "Pour flush toilet (Not water seal)": 6,
+      "Direct pit": 348,
+      "Other": 180,
+      "Not using a toilet": 3
+    },
+    "total_value_from_source": 1617
+  },
+  {
+    "region_id": "LK-1106015",
+    "region_name": "Halmulla",
+    "total_value": 540,
+    "values": {
+      "Water seal and connected to a septic tank": 540,
+      "Water seal and connected to a piped sewer system": 0,
+      "Pour flush toilet (Not water seal)": 0,
+      "Direct pit": 0,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 540
+  },
+  {
+    "region_id": "LK-1106020",
+    "region_name": "Kotuvila",
+    "total_value": 1254,
+    "values": {
+      "Water seal and connected to a septic tank": 1151,
+      "Water seal and connected to a piped sewer system": 13,
+      "Pour flush toilet (Not water seal)": 7,
+      "Direct pit": 81,
+      "Other": 2,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 1254
+  },
+  {
+    "region_id": "LK-1106025",
+    "region_name": "Veheragoda",
+    "total_value": 476,
+    "values": {
+      "Water seal and connected to a septic tank": 432,
+      "Water seal and connected to a piped sewer system": 30,
+      "Pour flush toilet (Not water seal)": 0,
+      "Direct pit": 2,
+      "Other": 12,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 476
+  },
+  {
+    "region_id": "LK-1106030",
+    "region_name": "Orugodawatta",
+    "total_value": 1260,
+    "values": {
+      "Water seal and connected to a septic tank": 1033,
+      "Water seal and connected to a piped sewer system": 185,
+      "Pour flush toilet (Not water seal)": 0,
+      "Direct pit": 28,
+      "Other": 13,
+      "Not using a toilet": 1
+    },
+    "total_value_from_source": 1260
+  },
+  {
+    "region_id": "LK-1106035",
+    "region_name": "Meethotamulla",
+    "total_value": 1906,
+    "values": {
+      "Water seal and connected to a septic tank": 1605,
+      "Water seal and connected to a piped sewer system": 107,
+      "Pour flush toilet (Not water seal)": 112,
+      "Direct pit": 80,
+      "Other": 2,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 1906
+  },
+  {
+    "region_id": "LK-1106040",
+    "region_name": "Welewatta",
+    "total_value": 1083,
+    "values": {
+      "Water seal and connected to a septic tank": 1073,
+      "Water seal and connected to a piped sewer system": 2,
+      "Pour flush toilet (Not water seal)": 4,
+      "Direct pit": 4,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 1083
+  },
+  {
+    "region_id": "LK-1106045",
+    "region_name": "Kittampahuwa",
+    "total_value": 1272,
+    "values": {
+      "Water seal and connected to a septic tank": 1242,
+      "Water seal and connected to a piped sewer system": 22,
+      "Pour flush toilet (Not water seal)": 0,
+      "Direct pit": 8,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 1272
+  },
+  {
+    "region_id": "LK-1106050",
+    "region_name": "Wennawatta",
+    "total_value": 1774,
+    "values": {
+      "Water seal and connected to a septic tank": 1754,
+      "Water seal and connected to a piped sewer system": 2,
+      "Pour flush toilet (Not water seal)": 3,
+      "Direct pit": 13,
+      "Other": 1,
+      "Not using a toilet": 1
+    },
+    "total_value_from_source": 1774
+  },
+  {
+    "region_id": "LK-1106055",
+    "region_name": "Maha Buthgamuwa B",
+    "total_value": 867,
+    "values": {
+      "Water seal and connected to a septic tank": 842,
+      "Water seal and connected to a piped sewer system": 15,
+      "Pour flush toilet (Not water seal)": 0,
+      "Direct pit": 10,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 867
+  },
+  {
+    "region_id": "LK-1106060",
+    "region_name": "Kuda Buthgamuwa",
+    "total_value": 1193,
+    "values": {
+      "Water seal and connected to a septic tank": 1088,
+      "Water seal and connected to a piped sewer system": 98,
+      "Pour flush toilet (Not water seal)": 2,
+      "Direct pit": 5,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 1193
+  },
+  {
+    "region_id": "LK-1106065",
+    "region_name": "Kelanimulla",
+    "total_value": 1005,
+    "values": {
+      "Water seal and connected to a septic tank": 888,
+      "Water seal and connected to a piped sewer system": 6,
+      "Pour flush toilet (Not water seal)": 73,
+      "Direct pit": 36,
+      "Other": 2,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 1005
+  },
+  {
+    "region_id": "LK-1106070",
+    "region_name": "Ambathale",
+    "total_value": 694,
+    "values": {
+      "Water seal and connected to a septic tank": 678,
+      "Water seal and connected to a piped sewer system": 15,
+      "Pour flush toilet (Not water seal)": 0,
+      "Direct pit": 0,
+      "Other": 0,
+      "Not using a toilet": 1
+    },
+    "total_value_from_source": 694
+  },
+  {
+    "region_id": "LK-1106075",
+    "region_name": "Mulleriyawa North",
+    "total_value": 1098,
+    "values": {
+      "Water seal and connected to a septic tank": 1020,
+      "Water seal and connected to a piped sewer system": 65,
+      "Pour flush toilet (Not water seal)": 9,
+      "Direct pit": 4,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 1098
+  },
+  {
+    "region_id": "LK-1106080",
+    "region_name": "Belagama",
+    "total_value": 843,
+    "values": {
+      "Water seal and connected to a septic tank": 827,
+      "Water seal and connected to a piped sewer system": 1,
+      "Pour flush toilet (Not water seal)": 7,
+      "Direct pit": 7,
+      "Other": 0,
+      "Not using a toilet": 1
+    },
+    "total_value_from_source": 843
+  },
+  {
+    "region_id": "LK-1106085",
+    "region_name": "Kotikawatta East",
+    "total_value": 891,
+    "values": {
+      "Water seal and connected to a septic tank": 808,
+      "Water seal and connected to a piped sewer system": 19,
+      "Pour flush toilet (Not water seal)": 6,
+      "Direct pit": 57,
+      "Other": 0,
+      "Not using a toilet": 1
+    },
+    "total_value_from_source": 891
+  },
+  {
+    "region_id": "LK-1106090",
+    "region_name": "Maha Buthgamuwa A",
+    "total_value": 793,
+    "values": {
+      "Water seal and connected to a septic tank": 740,
+      "Water seal and connected to a piped sewer system": 44,
+      "Pour flush toilet (Not water seal)": 0,
+      "Direct pit": 9,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 793
+  },
+  {
+    "region_id": "LK-1106095",
+    "region_name": "Maha Buthgamuwa C",
+    "total_value": 935,
+    "values": {
+      "Water seal and connected to a septic tank": 848,
+      "Water seal and connected to a piped sewer system": 87,
+      "Pour flush toilet (Not water seal)": 0,
+      "Direct pit": 0,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 935
+  },
+  {
+    "region_id": "LK-1106100",
+    "region_name": "Wellampitiya",
+    "total_value": 496,
+    "values": {
+      "Water seal and connected to a septic tank": 361,
+      "Water seal and connected to a piped sewer system": 125,
+      "Pour flush toilet (Not water seal)": 0,
+      "Direct pit": 1,
+      "Other": 9,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 496
+  },
+  {
+    "region_id": "LK-1106105",
+    "region_name": "Kuruniyawatta",
+    "total_value": 781,
+    "values": {
+      "Water seal and connected to a septic tank": 649,
+      "Water seal and connected to a piped sewer system": 37,
+      "Pour flush toilet (Not water seal)": 7,
+      "Direct pit": 15,
+      "Other": 72,
+      "Not using a toilet": 1
+    },
+    "total_value_from_source": 781
+  },
+  {
+    "region_id": "LK-1106110",
+    "region_name": "Kolonnawa",
+    "total_value": 537,
+    "values": {
+      "Water seal and connected to a septic tank": 257,
+      "Water seal and connected to a piped sewer system": 223,
+      "Pour flush toilet (Not water seal)": 2,
+      "Direct pit": 55,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 537
+  },
+  {
+    "region_id": "LK-1106115",
+    "region_name": "Dahampura",
+    "total_value": 1343,
+    "values": {
+      "Water seal and connected to a septic tank": 1101,
+      "Water seal and connected to a piped sewer system": 49,
+      "Pour flush toilet (Not water seal)": 1,
+      "Direct pit": 5,
+      "Other": 187,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 1343
+  },
+  {
+    "region_id": "LK-1106120",
+    "region_name": "Singhapura",
+    "total_value": 954,
+    "values": {
+      "Water seal and connected to a septic tank": 863,
+      "Water seal and connected to a piped sewer system": 30,
+      "Pour flush toilet (Not water seal)": 1,
+      "Direct pit": 59,
+      "Other": 0,
+      "Not using a toilet": 1
+    },
+    "total_value_from_source": 954
+  },
+  {
+    "region_id": "LK-1106125",
+    "region_name": "Megoda Kolonnawa",
+    "total_value": 2188,
+    "values": {
+      "Water seal and connected to a septic tank": 1559,
+      "Water seal and connected to a piped sewer system": 114,
+      "Pour flush toilet (Not water seal)": 255,
+      "Direct pit": 258,
+      "Other": 2,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 2188
+  },
+  {
+    "region_id": "LK-1106130",
+    "region_name": "Bopetta",
+    "total_value": 735,
+    "values": {
+      "Water seal and connected to a septic tank": 626,
+      "Water seal and connected to a piped sewer system": 105,
+      "Pour flush toilet (Not water seal)": 4,
+      "Direct pit": 0,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 735
+  },
+  {
+    "region_id": "LK-1106135",
+    "region_name": "Batalandahena",
+    "total_value": 1104,
+    "values": {
+      "Water seal and connected to a septic tank": 1070,
+      "Water seal and connected to a piped sewer system": 4,
+      "Pour flush toilet (Not water seal)": 26,
+      "Direct pit": 3,
+      "Other": 1,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 1104
+  },
+  {
+    "region_id": "LK-1106140",
+    "region_name": "Kotikawatta West",
+    "total_value": 781,
+    "values": {
+      "Water seal and connected to a septic tank": 574,
+      "Water seal and connected to a piped sewer system": 2,
+      "Pour flush toilet (Not water seal)": 1,
+      "Direct pit": 200,
+      "Other": 4,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 781
+  },
+  {
+    "region_id": "LK-1106145",
+    "region_name": "Mulleriyawa South",
+    "total_value": 1225,
+    "values": {
+      "Water seal and connected to a septic tank": 1136,
+      "Water seal and connected to a piped sewer system": 61,
+      "Pour flush toilet (Not water seal)": 14,
+      "Direct pit": 13,
+      "Other": 1,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 1225
+  },
+  {
+    "region_id": "LK-1106150",
+    "region_name": "Malgama",
+    "total_value": 1278,
+    "values": {
+      "Water seal and connected to a septic tank": 1209,
+      "Water seal and connected to a piped sewer system": 17,
+      "Pour flush toilet (Not water seal)": 41,
+      "Direct pit": 7,
+      "Other": 3,
+      "Not using a toilet": 1
+    },
+    "total_value_from_source": 1278
+  },
+  {
+    "region_id": "LK-1106155",
+    "region_name": "Udumulla North",
+    "total_value": 654,
+    "values": {
+      "Water seal and connected to a septic tank": 543,
+      "Water seal and connected to a piped sewer system": 90,
+      "Pour flush toilet (Not water seal)": 11,
+      "Direct pit": 10,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 654
+  },
+  {
+    "region_id": "LK-1106160",
+    "region_name": "Maligagodella",
+    "total_value": 523,
+    "values": {
+      "Water seal and connected to a septic tank": 504,
+      "Water seal and connected to a piped sewer system": 11,
+      "Pour flush toilet (Not water seal)": 8,
+      "Direct pit": 0,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 523
+  },
+  {
+    "region_id": "LK-1106165",
+    "region_name": "Rajasinghagama",
+    "total_value": 1520,
+    "values": {
+      "Water seal and connected to a septic tank": 1177,
+      "Water seal and connected to a piped sewer system": 246,
+      "Pour flush toilet (Not water seal)": 24,
+      "Direct pit": 73,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 1520
+  },
+  {
+    "region_id": "LK-1106170",
+    "region_name": "Udumulla South",
+    "total_value": 638,
+    "values": {
+      "Water seal and connected to a septic tank": 512,
+      "Water seal and connected to a piped sewer system": 126,
+      "Pour flush toilet (Not water seal)": 0,
+      "Direct pit": 0,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 638
+  },
+  {
+    "region_id": "LK-1106175",
+    "region_name": "Himbutana East",
+    "total_value": 985,
+    "values": {
+      "Water seal and connected to a septic tank": 897,
+      "Water seal and connected to a piped sewer system": 8,
+      "Pour flush toilet (Not water seal)": 72,
+      "Direct pit": 8,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 985
+  },
+  {
+    "region_id": "LK-1106180",
+    "region_name": "Himbutana West",
+    "total_value": 877,
+    "values": {
+      "Water seal and connected to a septic tank": 813,
+      "Water seal and connected to a piped sewer system": 49,
+      "Pour flush toilet (Not water seal)": 3,
+      "Direct pit": 12,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 877
+  },
+  {
+    "region_id": "LK-1106185",
+    "region_name": "Malpura",
+    "total_value": 803,
+    "values": {
+      "Water seal and connected to a septic tank": 677,
+      "Water seal and connected to a piped sewer system": 98,
+      "Pour flush toilet (Not water seal)": 25,
+      "Direct pit": 2,
+      "Other": 1,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 803
+  },
+  {
+    "region_id": "LK-1106190",
+    "region_name": "Gothatuwa New Town",
+    "total_value": 515,
+    "values": {
+      "Water seal and connected to a septic tank": 450,
+      "Water seal and connected to a piped sewer system": 12,
+      "Pour flush toilet (Not water seal)": 50,
+      "Direct pit": 3,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 515
+  },
+  {
+    "region_id": "LK-1106195",
+    "region_name": "Kajugahawatta",
+    "total_value": 645,
+    "values": {
+      "Water seal and connected to a septic tank": 626,
+      "Water seal and connected to a piped sewer system": 7,
+      "Pour flush toilet (Not water seal)": 10,
+      "Direct pit": 2,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 645
+  },
+  {
+    "region_id": "LK-1106200",
+    "region_name": "Gothatuwa",
+    "total_value": 616,
+    "values": {
+      "Water seal and connected to a septic tank": 249,
+      "Water seal and connected to a piped sewer system": 27,
+      "Pour flush toilet (Not water seal)": 4,
+      "Direct pit": 335,
+      "Other": 1,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 616
+  },
+  {
+    "region_id": "LK-1106205",
+    "region_name": "Salamulla",
+    "total_value": 1226,
+    "values": {
+      "Water seal and connected to a septic tank": 940,
+      "Water seal and connected to a piped sewer system": 283,
+      "Pour flush toilet (Not water seal)": 1,
+      "Direct pit": 2,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 1226
+  },
+  {
+    "region_id": "LK-1106210",
+    "region_name": "Wijayapura",
+    "total_value": 755,
+    "values": {
+      "Water seal and connected to a septic tank": 593,
+      "Water seal and connected to a piped sewer system": 86,
+      "Pour flush toilet (Not water seal)": 0,
+      "Direct pit": 76,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 755
+  },
+  {
+    "region_id": "LK-1106215",
+    "region_name": "Gajabapura",
+    "total_value": 633,
+    "values": {
+      "Water seal and connected to a septic tank": 421,
+      "Water seal and connected to a piped sewer system": 117,
+      "Pour flush toilet (Not water seal)": 0,
+      "Direct pit": 95,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 633
+  },
+  {
+    "region_id": "LK-1106220",
+    "region_name": "Madinnagoda",
+    "total_value": 899,
+    "values": {
+      "Water seal and connected to a septic tank": 789,
+      "Water seal and connected to a piped sewer system": 93,
+      "Pour flush toilet (Not water seal)": 11,
+      "Direct pit": 6,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 899
+  },
+  {
+    "region_id": "LK-1106225",
+    "region_name": "Elhena",
+    "total_value": 541,
+    "values": {
+      "Water seal and connected to a septic tank": 486,
+      "Water seal and connected to a piped sewer system": 54,
+      "Pour flush toilet (Not water seal)": 0,
+      "Direct pit": 1,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 541
+  },
+  {
+    "region_id": "LK-1106230",
+    "region_name": "Dodamgahahena",
+    "total_value": 881,
+    "values": {
+      "Water seal and connected to a septic tank": 868,
+      "Water seal and connected to a piped sewer system": 2,
+      "Pour flush toilet (Not water seal)": 3,
+      "Direct pit": 8,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 881
+  },
+  {
+    "region_id": "LK-1109",
+    "region_name": "Kaduwela",
+    "total_value": 65495,
+    "values": {
+      "Water seal and connected to a septic tank": 59392,
+      "Water seal and connected to a piped sewer system": 3864,
+      "Pour flush toilet (Not water seal)": 1346,
+      "Direct pit": 816,
+      "Other": 63,
+      "Not using a toilet": 14
+    },
+    "total_value_from_source": 65495
+  },
+  {
+    "region_id": "LK-1109005",
+    "region_name": "Welivita",
+    "total_value": 1269,
+    "values": {
+      "Water seal and connected to a septic tank": 1254,
+      "Water seal and connected to a piped sewer system": 1,
+      "Pour flush toilet (Not water seal)": 2,
+      "Direct pit": 10,
+      "Other": 1,
+      "Not using a toilet": 1
+    },
+    "total_value_from_source": 1269
+  },
+  {
+    "region_id": "LK-1109010",
+    "region_name": "Raggahawatta",
+    "total_value": 1008,
+    "values": {
+      "Water seal and connected to a septic tank": 968,
+      "Water seal and connected to a piped sewer system": 7,
+      "Pour flush toilet (Not water seal)": 2,
+      "Direct pit": 31,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 1008
+  },
+  {
+    "region_id": "LK-1109015",
+    "region_name": "Hewagama",
+    "total_value": 1105,
+    "values": {
+      "Water seal and connected to a septic tank": 987,
+      "Water seal and connected to a piped sewer system": 35,
+      "Pour flush toilet (Not water seal)": 71,
+      "Direct pit": 11,
+      "Other": 0,
+      "Not using a toilet": 1
+    },
+    "total_value_from_source": 1105
+  },
+  {
+    "region_id": "LK-1109020",
+    "region_name": "Kaduwela",
+    "total_value": 1066,
+    "values": {
+      "Water seal and connected to a septic tank": 983,
+      "Water seal and connected to a piped sewer system": 59,
+      "Pour flush toilet (Not water seal)": 22,
+      "Direct pit": 1,
+      "Other": 0,
+      "Not using a toilet": 1
+    },
+    "total_value_from_source": 1066
+  },
+  {
+    "region_id": "LK-1109025",
+    "region_name": "Pahala Bomiriya A",
+    "total_value": 1089,
+    "values": {
+      "Water seal and connected to a septic tank": 1024,
+      "Water seal and connected to a piped sewer system": 30,
+      "Pour flush toilet (Not water seal)": 29,
+      "Direct pit": 6,
+      "Other": 0,
+      "Not using a toilet": 0
+    },
+    "total_value_from_source": 1089
+  },
+  {
+    "region_id": "LK-1109030",
+    "region_name": "Ihala Bomiriya",
+    "total_value": 1073,
+    "values": {
+      "Water seal and connected to a septic tank": 1035,
+      "Water seal and connected to a piped sewer system": 30,
+      "Pour flush toilet (Not water seal)": 0,
+      "Direct pit": 3,
+      "Other": 0,
+      "Not using a toilet": 5
+    },
+    "total_value_from_source": 1073
+  }
+]
