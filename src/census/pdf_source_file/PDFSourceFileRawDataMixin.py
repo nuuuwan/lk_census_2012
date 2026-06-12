@@ -49,7 +49,7 @@ class PDFSourceFileRawDataMixin:
             .replace("\u00a0", " ")
         )
         tokens = line.split(self.DELIM_TXT)
-        tokens = [token.strip() for token in tokens if token.strip()]
+        tokens = [t.strip() for t in tokens if t.strip()]
 
         n_tokens = len(tokens)
         if n_tokens < 1 + len(fields):
@@ -58,22 +58,34 @@ class PDFSourceFileRawDataMixin:
             return None
         i_fields_start = n_tokens - len(fields)
         region_name_and_num = " ".join(tokens[0 : i_fields_start - 1]).strip()
-        print(f"{region_name_and_num=}")
 
         region_name, gnd_num = self._extract_gnd_num(region_name_and_num)
-        print(f"{region_name=}, {gnd_num=}")
 
         if not region_name:
+            log.debug(f"{fields=}")
+            log.debug(f"{tokens=}")
+            log.debug(f"{region_name_and_num=}")
             raise ValueError(f"Region name is empty ({region_name_and_num=})")
 
         n_fields = len(fields)
-        total_value_from_source = ParseUtils.parse_int(tokens[-n_fields])
+        total_value_from_source = ParseUtils.parse_int(tokens[-n_fields - 1])
         values_only = [
             ParseUtils.parse_int(token) for token in tokens[-n_fields:]
         ]
-
         values = dict(zip(fields, values_only))
         total_value = sum(values_only)
+
+        if total_value != total_value_from_source:
+            log.debug(f"{fields=}")
+            log.debug(f"{tokens=}")
+            log.debug(tokens[-n_fields])
+            log.debug(tokens[-n_fields:])
+            raise ValueError(
+                f"Total value mismatch for {region_name_and_num}: "
+                f"{total_value_from_source} (from source)"
+                + f" vs {total_value} (sum of fields)"
+            )
+
         d = dict(
             region_name=region_name,
             gnd_num=gnd_num,
