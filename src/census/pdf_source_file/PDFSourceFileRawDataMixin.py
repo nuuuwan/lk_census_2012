@@ -49,7 +49,7 @@ class PDFSourceFileRawDataMixin:
             .replace("\u00a0", " ")
         )
         tokens = line.split(self.DELIM_TXT)
-        tokens = [token.strip() for token in tokens]
+        tokens = [token.strip() for token in tokens if token.strip()]
 
         n_tokens = len(tokens)
         if n_tokens < 1 + len(fields):
@@ -57,7 +57,7 @@ class PDFSourceFileRawDataMixin:
         if not tokens[0]:
             return None
         i_fields_start = n_tokens - len(fields)
-        region_name_and_num = " ".join(tokens[0: i_fields_start - 1]).strip()
+        region_name_and_num = " ".join(tokens[0 : i_fields_start - 1]).strip()
         print(f"{region_name_and_num=}")
 
         region_name, gnd_num = self._extract_gnd_num(region_name_and_num)

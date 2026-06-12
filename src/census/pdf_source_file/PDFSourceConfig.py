@@ -112,6 +112,7 @@ class PDFSourceConfig:
                 "Bottled water",
                 "Other",
             ],
+            row_tol=2,
         ),
         dict(
             group="Housing",
