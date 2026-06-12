@@ -3,6 +3,7 @@
 
 from census.pdf_source_file.Corrections import Corrections
 from census.pdf_source_file.ParseUtils import ParseUtils
+from census.pdf_source_file.PDFSourceConfig import PDFSourceConfig
 from census.pdf_source_file.PDFSourceFile import PDFSourceFile
 from census.pdf_source_file.PDFSourceFileBase import PDFSourceFileBase
 from census.pdf_source_file.PDFSourceFileBuilderMixin import \
@@ -19,4 +20,3 @@ from census.pdf_source_file.PDFSourceFileRawDataMixin import \
 from census.pdf_source_file.PDFSourceFileTxtMixin import PDFSourceFileTxtMixin
 from census.pdf_source_file.PDFSourceFileValidateMixin import \
     PDFSourceFileValidateMixin
-from census.pdf_source_file.SourceConfig import SourceConfig

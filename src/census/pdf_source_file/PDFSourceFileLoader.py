@@ -1,11 +1,11 @@
-from census.pdf_source_file.SourceConfig import SourceConfig
+from census.pdf_source_file.PDFSourceConfig import PDFSourceConfig
 
 
 class PDFSourceFileLoader:
     @classmethod
     def list(cls):
         files = []
-        for config in SourceConfig.LIST[:5]:
+        for config in PDFSourceConfig.LIST[:5]:
             file = cls(
                 group=config["group"],
                 i_group=config["i_group"],

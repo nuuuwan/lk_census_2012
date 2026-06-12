@@ -1,4 +1,4 @@
-class SourceConfig:
+class PDFSourceConfig:
     LIST = [
         dict(
             group="Population",
