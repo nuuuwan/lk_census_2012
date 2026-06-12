@@ -78,9 +78,7 @@ class EntLoadMixin:
         ent_and_ratio_list = []
         for entity_type, filter_parent_id in filter_ent_type_and_id_list:
             for ent in cls.list_from_type(entity_type):
-                if filter_parent_id and not ent.is_parent_id(
-                    filter_parent_id
-                ):
+                if filter_parent_id and not ent.is_parent_id(filter_parent_id):
                     continue
                 for fuzzy_name in fuzzy_name_list:
                     for ent_name in [ent.name] + ent.other_name_list:
@@ -106,9 +104,9 @@ class EntLoadMixin:
     def load_hack_cache(cls):
         if os.path.exists(cls.HACK_CACHE_PATH):
             cls.HACK_CACHE = cls.HACK_CACHE_FILE.read()
-            log.info(
-                f"Wrote {len(cls.HACK_CACHE)}"
-                + f" entries to {cls.HACK_CACHE_FILE}."
+            log.debug(
+                f"Read {len(cls.HACK_CACHE)}"
+                + f" entries from {cls.HACK_CACHE_FILE}."
             )
         else:
             cls.HACK_CACHE = {}
@@ -117,9 +115,9 @@ class EntLoadMixin:
     def store_hack_cache(cls):
         os.makedirs(os.path.dirname(cls.HACK_CACHE_PATH), exist_ok=True)
         cls.HACK_CACHE_FILE.write(cls.HACK_CACHE)
-        log.debug(
-            f"Read {len(cls.HACK_CACHE)}"
-            + f" entries from {cls.HACK_CACHE_FILE}."
+        log.info(
+            f"Wrote {len(cls.HACK_CACHE)}"
+            + f" entries to {cls.HACK_CACHE_FILE}."
         )
 
     @classmethod
