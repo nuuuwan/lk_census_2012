@@ -34,14 +34,14 @@ class PDFSourceConfig:
             i_group=2,
             title="Gender",
             fields=["Male", "Female"],
-            has_gnd_num=False,
+            has_gnd_num=True,
         ),
         dict(
             group="Population",
             i_group=3,
             title="Economic Activity",
             fields=["Employed", "Unemployed", "Economically not active"],
-            has_gnd_num=False,
+            has_gnd_num=True,
         ),
         dict(
             group="Population",
@@ -55,7 +55,7 @@ class PDFSourceConfig:
                 "Degree and above",
                 "No schooling",
             ],
-            has_gnd_num=False,
+            has_gnd_num=True,
         ),
         dict(
             group="Housing",

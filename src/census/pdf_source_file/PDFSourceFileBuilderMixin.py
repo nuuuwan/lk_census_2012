@@ -5,9 +5,6 @@ log = Log("PDFSourceFileBuilderMixin")
 
 class PDFSourceFileBuilderMixin:
     def build(self):
-        log.info("-" * 20)
-        log.info(f"{self.doc_id}...")
-        log.info("-" * 20)
 
         self.download()
         self.to_metadata()
@@ -19,5 +16,10 @@ class PDFSourceFileBuilderMixin:
 
     @classmethod
     def build_all(cls):
-        for file in cls.list():
+        file_list = cls.list()
+        n_files = len(file_list)
+        for i_file, file in enumerate(file_list, start=1):
+            log.info("-" * 20)
+            log.info(f"{i_file}/{n_files}) {file.doc_id}...")
+            log.info("-" * 20)
             file.build()

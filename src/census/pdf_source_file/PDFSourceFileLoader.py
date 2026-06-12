@@ -5,7 +5,7 @@ class PDFSourceFileLoader:
     @classmethod
     def list(cls):
         files = []
-        for config in PDFSourceConfig.LIST[:2]:
+        for config in PDFSourceConfig.LIST[:3]:
             file = cls(
                 group=config["group"],
                 i_group=config["i_group"],

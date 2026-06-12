@@ -24,6 +24,20 @@ class PDFSourceFileRawDataMixin:
         has_slash = "/" in word
         return has_digit and (n_word <= 5 or (has_slash and n_word <= 7))
 
+    def _extract_gnd_num(self, region_name_and_num):
+
+        if self.has_gnd_num:
+            words = region_name_and_num.split(" ")
+            if len(words[-1]) <= 2 and words[-2].isnumeric():
+                words = words[:-2] + [words[-2] + "" + words[-1]]
+
+            last_word = words[-1]
+            if self._is_gnd_num(last_word):
+                region_name = " ".join(words[:-1])
+                return region_name, last_word
+
+        return region_name_and_num, None
+
     def _extract_line(self, line, fields):
         line = (
             line.replace("\u2010", "-")
@@ -41,21 +55,7 @@ class PDFSourceFileRawDataMixin:
         i_fields_start = n_tokens - len(fields)
         region_name_and_num = " ".join(tokens[0: i_fields_start - 1]).strip()
 
-        gnd_num = None
-        if self.has_gnd_num:
-            words = region_name_and_num.split(" ")
-            if len(words[-1]) <= 2 and words[-2].isnumeric():
-                words = words[:-2] + [words[-2] + "" + words[-1]]
-
-            last_word = words[-1]
-            if self._is_gnd_num(last_word):
-                region_name = " ".join(words[:-1])
-                gnd_num = last_word
-            else:
-                region_name = region_name_and_num
-
-        else:
-            region_name = region_name_and_num
+        region_name, gnd_num = self._extract_gnd_num(region_name_and_num)
 
         if not region_name:
             raise ValueError(f"Region name is empty ({region_name_and_num=})")
