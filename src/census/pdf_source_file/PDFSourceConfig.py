@@ -52,6 +52,7 @@ class PDFSourceConfig:
                 "Degree and above",
                 "No schooling",
             ],
+            has_gnd_num=False,
         ),
         dict(
             group="Housing",

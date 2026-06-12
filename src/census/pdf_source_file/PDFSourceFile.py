@@ -10,7 +10,6 @@ from census.pdf_source_file.PDFSourceFileMetadataMixin import \
     PDFSourceFileMetadataMixin
 from census.pdf_source_file.PDFSourceFileRawDataMixin import \
     PDFSourceFileRawDataMixin
-from census.pdf_source_file.PDFSourceFileTxtMixin import PDFSourceFileTxtMixin
 from census.pdf_source_file.PDFSourceFileValidateMixin import \
     PDFSourceFileValidateMixin
 from utils_future import Log
@@ -26,9 +25,8 @@ class PDFSourceFile(
     #
     PDFSourceFileDownloadMixin,
     PDFSourceFileMetadataMixin,
-    PDFSourceFileTxtMixin,
-    PDFSourceFileDataMixin,
     PDFSourceFileRawDataMixin,
+    PDFSourceFileDataMixin,
     PDFSourceFileValidateMixin,
 ):
 

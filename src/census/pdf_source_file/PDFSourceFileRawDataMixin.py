@@ -1,160 +1,205 @@
 import os
+import re
+
+import camelot
+import pandas as pd
+import pymupdf
+from tqdm import tqdm
 
 from census.pdf_source_file.ParseUtils import ParseUtils
 from utils_future import File, JSONFile, Log
 
-log = Log("PDFSourceFileDataMixin")
+log = Log("PDFSourceFileRawDataMixin")
 
 
 class PDFSourceFileRawDataMixin:
-    MAX_LINES_TO_PROCESS = 8000
+    MAX_PAGES_TO_PROCESS = 10
+
+    DASH_MAP = {
+        "\u2010": "-",
+        "\u2011": "-",
+        "\u2012": "-",
+        "\u2013": "-",
+        "\u2014": "-",
+        "\u2212": "-",
+    }
 
     @property
     def raw_data_path(self):
         return os.path.join(self.dir_data, "raw_data.json")
 
     @property
-    def errors_path(self):
-        return os.path.join(self.dir_data, "errors.json")
+    def numeric_columns(self):
+        return ["total_value"] + self.fields
 
-    @staticmethod
-    def _is_gnd_num(word):
-        n_word = len(word)
-        has_digit = any(c.isdigit() for c in word)
-        has_slash = "/" in word
-        return has_digit and (n_word <= 5 or (has_slash and n_word <= 8))
-
-    def _extract_gnd_num(self, region_name_and_num):
-
-        if self.has_gnd_num:
-            words = region_name_and_num.split(" ")
-            if (
-                len(words) >= 2
-                and len(words[-1]) <= 2
-                and words[-2].isnumeric()
-            ):
-                words = words[:-2] + [words[-2] + "" + words[-1]]
-
-            last_word = words[-1]
-            if self._is_gnd_num(last_word):
-                region_name = " ".join(words[:-1])
-                return region_name, last_word
-
-        return region_name_and_num, None
-
-    def _extract_line(self, line, fields):
-        line = (
-            line.replace("\u2010", "-")
-            .replace("\xa0", " ")
-            .replace("\u00a0", " ")
+    @property
+    def column_names(self):
+        return (
+            ["region_name"]
+            + (["gnd_num"] if self.has_gnd_num else [])
+            + self.numeric_columns
         )
-        tokens = line.split(self.DELIM_TXT)
-        tokens = [t.strip() for t in tokens if t.strip()]
-        if len(tokens) > 1 + 1 + 1 + len(fields):
-            tokens = tokens[-1:]
 
-        n_tokens = len(tokens)
-        if n_tokens < 2 + len(fields):
-            return None
-        if not tokens[0]:
-            return None
+    @property
+    def n_columns(self):
+        return len(self.column_names)
 
-        i_fields_start = n_tokens - len(fields)
+    # Minimum width (points) of a whitespace gap to count as a column
+    # separator.
+    COL_GAP_MIN = 12
+    # Tolerance (points) for matching a gap to an existing separator cluster.
+    COL_CLUSTER_TOL = 45
 
-        region_name_and_num = " ".join(tokens[0: i_fields_start - 1]).strip()
-        region_name, gnd_num = self._extract_gnd_num(region_name_and_num)
+    @classmethod
+    def _infer_columns(cls, page, n_columns):
+        words = page.get_text("words")
 
-        if not region_name:
-            log.debug(f"{fields=}")
-            log.debug(f"{tokens=}")
-            log.debug(f"{region_name_and_num=}")
-            raise ValueError(f"Region name is empty ({region_name_and_num=})")
+        rows = {}
+        Q_Y = 5
+        for w in words:
+            y0, x0, y1, x1, text = w[:5]
+            y_key = round((y0 + y1) / 2.0 / Q_Y) * Q_Y
+            rows.setdefault(y_key, []).append((x0, x1, text))
 
-        n_fields = len(fields)
+        # Collect mid-x of every wide gap between consecutive words in a row.
+        clusters = []  # each: {"count": int, "mids": [float]}
+        for row in rows.values():
+            xs = sorted(row)
+            for (_, x1_a, w_a), (x0_b, _, w_b) in zip(xs, xs[1:]):
+                assert x1_a <= x0_b
+                if x0_b - x1_a < cls.COL_GAP_MIN:
+                    continue
+                mid = (x1_a + x0_b) / 2.0
+                for c in clusters:
+                    centroid = sum(c["mids"]) / len(c["mids"])
+                    if abs(mid - centroid) <= cls.COL_CLUSTER_TOL:
+                        c["count"] += 1
+                        c["mids"].append(mid)
+                        break
+                else:
+                    clusters.append({"count": 1, "mids": [mid]})
 
-        try:
-            total_value_from_source = ParseUtils.parse_int(
-                tokens[-n_fields - 1]
-            )
-            values_only = [
-                ParseUtils.parse_int(token) for token in tokens[-n_fields:]
-            ]
-        except Exception as e:
-            log.debug(f"{fields=}")
-            log.debug(f"{tokens=}")
-            log.debug("total token=" + tokens[-n_fields])
-            log.debug("values tokens=" + str(tokens[-n_fields:]))
-            raise e
+        # Keep the most persistent separators, then order them left to right.
+        clusters.sort(key=lambda c: c["count"], reverse=True)
 
-        values = dict(zip(fields, values_only))
-        total_value = sum(values_only)
+        seps = sorted(
+            round(sum(c["mids"]) / len(c["mids"]), 2)
+            for c in clusters[: n_columns - 1]
+        )
 
-        if total_value != total_value_from_source:
-            log.debug(f"{fields=}")
-            log.debug(f"{tokens=}")
-            log.debug("total token=" + tokens[-n_fields])
-            log.debug("values tokens=" + str(tokens[-n_fields:]))
+        if len(seps) != n_columns - 1:
+            log.debug(f"len(rows)={len(rows)}")
+            log.debug(f"len(clusters)={len(clusters)}")
+            log.debug(f"Inferred {len(seps)} separators: {seps}")
             raise ValueError(
-                f"Total value mismatch for {region_name_and_num}: "
-                f"{total_value_from_source} (from source)"
-                + f" vs {total_value} (sum of fields)"
+                f"Invalid number of seperators: {
+                    len(seps)} != {
+                    n_columns - 1}."
+            )
+        columns = ",".join(str(s) for s in seps)
+        return columns
+
+    def _normalize_columns(self, df):
+        n = self.n_columns
+        if df.shape[1] > n:
+            df = df.iloc[:, :n]
+        elif df.shape[1] < n:
+            for j in range(df.shape[1], n):
+                df[j] = ""
+        df.columns = self.column_names
+        return df
+
+    _NUM_RE = re.compile(r"^-?\d+(\.\d+)?$")
+
+    @classmethod
+    def _is_numeric_cell(cls, v):
+        s = str(v).strip().replace("\xa0", "").replace(",", "")
+        if s in ("", "-"):
+            return True
+        return bool(cls._NUM_RE.match(s))
+
+    def _is_valid_row(self, row):
+        if str(row["region_name"]).strip().replace("\xa0", "") == "":
+            return False
+        return all(
+            self._is_numeric_cell(row[col]) for col in self.numeric_columns
+        )
+
+    def _filter_valid_rows(self, df):
+        mask = df.apply(self._is_valid_row, axis=1)
+        n_dropped = int((~mask).sum())
+        if n_dropped:
+            log.debug(f"Dropping {n_dropped} malformed rows.")
+        return df[mask].reset_index(drop=True)
+
+    def remap_raw_data(self, d):
+        values = {
+            field: ParseUtils.parse_int(d[field]) for field in self.fields
+        }
+
+        total_value = sum(values.values())
+        total_value_from_source = ParseUtils.parse_int(d["total_value"])
+        if total_value != total_value_from_source:
+            log.debug(f"{d=}")
+            raise ValueError(
+                f"Totals mismatch for {d['region_name']}:"
+                + f" {total_value} != {total_value_from_source}"
             )
 
-        d = dict(
-            region_name=region_name,
-            gnd_num=gnd_num,
-            total_value_from_source=total_value_from_source,
+        return dict(
+            region_name=d["region_name"],
+            gnd_num=d.get("gnd_num"),
             total_value=total_value,
             values=values,
+            total_value_from_source=total_value_from_source,
         )
-        return d
-
-    def _dedupe_lines(self, lines):
-        seen = set()
-        deduped_lines = []
-        for line in lines:
-            if line not in seen:
-                deduped_lines.append(line)
-                seen.add(line)
-        return deduped_lines
 
     def build_raw_data(self):
-        raw_data_file = JSONFile(self.raw_data_path)
-        if raw_data_file.exists:
-            log.debug(f"{raw_data_file} exists.")
+        if os.path.exists(self.raw_data_path):
+            log.debug(f"{File(self.raw_data_path)} exists.")
             return
 
-        lines = File(self.txt_path).read_lines()
-        lines = self._dedupe_lines(lines)
+        doc = pymupdf.open(self.local_path)
+        n_pages = len(doc)
+        last_page = min(n_pages, self.MAX_PAGES_TO_PROCESS or n_pages)
 
-        errors = []
-        d_list = []
-        has_found_sl = False
-        for line in (
-            lines[: self.MAX_LINES_TO_PROCESS]
-            if self.MAX_LINES_TO_PROCESS
-            else lines
+        dfs = []
+        for i_page in tqdm(
+            range(1, last_page + 1), desc="Extracting raw data"
         ):
-            if not has_found_sl:
-                if "Sri" in line:
-                    has_found_sl = True
-                else:
-                    continue
-            d = self._extract_line(line, self.fields)
-            if d:
-                d_list.append(d)
+            columns = self._infer_columns(doc[i_page - 1], self.n_columns)
+            tables = camelot.read_pdf(
+                self.local_path,
+                pages=str(i_page),
+                flavor="stream",
+                edge_tol=500,
+                row_tol=self.row_tol,
+                strip_text="\n",
+                columns=[columns],
+            )
+            for table in tables:
+                dfs.append(self._normalize_columns(table.df))
 
-        if errors:
-            errors_file = JSONFile(self.errors_path)
-            errors_file.write(errors)
-            log.warning(f"Wrote {len(errors)} errors to {errors_file}.")
+        doc.close()
 
-        if len(d_list) == 0:
-            raise ValueError("No valid data extracted from lines.")
+        if not dfs:
+            log.warning(f"No tables found in {self.local_path}")
+            return
 
-        raw_data_file.write(d_list)
-        log.info(f"Wrote {len(d_list)} rows to {raw_data_file}.")
+        df = pd.concat(dfs, ignore_index=True)
+        df = df.replace(self.DASH_MAP, regex=True)
+        df = self._filter_valid_rows(df)
+
+        if df.empty:
+            log.warning(f"No valid rows after filtering in {self.local_path}")
+            return
+
+        data_list = [
+            self.remap_raw_data(d) for d in df.to_dict(orient="records")
+        ]
+        json_file = JSONFile(self.raw_data_path)
+        json_file.write(data_list)
+        log.info(f"Wrote {len(data_list)} rows to {json_file}.")
 
     def read_raw_data_list(self):
-        raw_data_file = JSONFile(self.raw_data_path)
-        return raw_data_file.read()
+        return JSONFile(self.raw_data_path).read()
