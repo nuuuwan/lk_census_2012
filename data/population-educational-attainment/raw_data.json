@@ -1,0 +1,5616 @@
+[
+  {
+    "region_name": "Sri\u00a0Lanka",
+    "gnd_num": null,
+    "total_value": 18615577,
+    "values": {
+      "Primary": 4390536,
+      "Secondary": 7571816,
+      "G.C.E.(O/L)": 3159402,
+      "G.C.E.(A/L)": 2293841,
+      "Degree and above": 499563,
+      "No schooling": 700419
+    },
+    "total_value_from_source": 18615577
+  },
+  {
+    "region_name": "Colombo",
+    "gnd_num": null,
+    "total_value": 2157744,
+    "values": {
+      "Primary": 352475,
+      "Secondary": 745173,
+      "G.C.E.(O/L)": 478323,
+      "G.C.E.(A/L)": 407018,
+      "Degree and above": 122334,
+      "No schooling": 52421
+    },
+    "total_value_from_source": 2157744
+  },
+  {
+    "region_name": "Colombo",
+    "gnd_num": null,
+    "total_value": 295916,
+    "values": {
+      "Primary": 71175,
+      "Secondary": 127855,
+      "G.C.E.(O/L)": 49694,
+      "G.C.E.(A/L)": 28635,
+      "Degree and above": 5174,
+      "No schooling": 13383
+    },
+    "total_value_from_source": 295916
+  },
+  {
+    "region_name": "Sammanthranapura",
+    "gnd_num": null,
+    "total_value": 7026,
+    "values": {
+      "Primary": 2312,
+      "Secondary": 3353,
+      "G.C.E.(O/L)": 530,
+      "G.C.E.(A/L)": 206,
+      "Degree and above": 14,
+      "No schooling": 611
+    },
+    "total_value_from_source": 7026
+  },
+  {
+    "region_name": "Mattakkuliya",
+    "gnd_num": null,
+    "total_value": 25611,
+    "values": {
+      "Primary": 5748,
+      "Secondary": 10204,
+      "G.C.E.(O/L)": 4807,
+      "G.C.E.(A/L)": 3012,
+      "Degree and above": 765,
+      "No schooling": 1075
+    },
+    "total_value_from_source": 25611
+  },
+  {
+    "region_name": "Modara",
+    "gnd_num": null,
+    "total_value": 16210,
+    "values": {
+      "Primary": 3503,
+      "Secondary": 6613,
+      "G.C.E.(O/L)": 3242,
+      "G.C.E.(A/L)": 1983,
+      "Degree and above": 257,
+      "No schooling": 612
+    },
+    "total_value_from_source": 16210
+  },
+  {
+    "region_name": "Madampitiya",
+    "gnd_num": null,
+    "total_value": 11603,
+    "values": {
+      "Primary": 4312,
+      "Secondary": 5247,
+      "G.C.E.(O/L)": 637,
+      "G.C.E.(A/L)": 228,
+      "Degree and above": 23,
+      "No schooling": 1156
+    },
+    "total_value_from_source": 11603
+  },
+  {
+    "region_name": "Mahawatta",
+    "gnd_num": null,
+    "total_value": 8055,
+    "values": {
+      "Primary": 2219,
+      "Secondary": 3412,
+      "G.C.E.(O/L)": 1228,
+      "G.C.E.(A/L)": 486,
+      "Degree and above": 72,
+      "No schooling": 638
+    },
+    "total_value_from_source": 8055
+  },
+  {
+    "region_name": "Aluthmawatha",
+    "gnd_num": null,
+    "total_value": 12521,
+    "values": {
+      "Primary": 2518,
+      "Secondary": 5091,
+      "G.C.E.(O/L)": 2649,
+      "G.C.E.(A/L)": 1596,
+      "Degree and above": 301,
+      "No schooling": 366
+    },
+    "total_value_from_source": 12521
+  },
+  {
+    "region_name": "Lunupokuna",
+    "gnd_num": null,
+    "total_value": 11590,
+    "values": {
+      "Primary": 2270,
+      "Secondary": 4913,
+      "G.C.E.(O/L)": 2323,
+      "G.C.E.(A/L)": 1372,
+      "Degree and above": 322,
+      "No schooling": 390
+    },
+    "total_value_from_source": 11590
+  },
+  {
+    "region_name": "Bloemendhal",
+    "gnd_num": null,
+    "total_value": 12674,
+    "values": {
+      "Primary": 3160,
+      "Secondary": 5653,
+      "G.C.E.(O/L)": 1927,
+      "G.C.E.(A/L)": 1174,
+      "Degree and above": 208,
+      "No schooling": 552
+    },
+    "total_value_from_source": 12674
+  },
+  {
+    "region_name": "Kotahena\u00a0East",
+    "gnd_num": null,
+    "total_value": 6037,
+    "values": {
+      "Primary": 814,
+      "Secondary": 1879,
+      "G.C.E.(O/L)": 1578,
+      "G.C.E.(A/L)": 1317,
+      "Degree and above": 341,
+      "No schooling": 108
+    },
+    "total_value_from_source": 6037
+  },
+  {
+    "region_name": "Kotahena\u00a0West",
+    "gnd_num": null,
+    "total_value": 8782,
+    "values": {
+      "Primary": 1624,
+      "Secondary": 3339,
+      "G.C.E.(O/L)": 1929,
+      "G.C.E.(A/L)": 1341,
+      "Degree and above": 254,
+      "No schooling": 295
+    },
+    "total_value_from_source": 8782
+  },
+  {
+    "region_name": "Kochchikade\u00a0North",
+    "gnd_num": null,
+    "total_value": 8759,
+    "values": {
+      "Primary": 1970,
+      "Secondary": 3851,
+      "G.C.E.(O/L)": 1728,
+      "G.C.E.(A/L)": 776,
+      "Degree and above": 79,
+      "No schooling": 355
+    },
+    "total_value_from_source": 8759
+  },
+  {
+    "region_name": "Jinthupitiya",
+    "gnd_num": null,
+    "total_value": 7573,
+    "values": {
+      "Primary": 1592,
+      "Secondary": 3213,
+      "G.C.E.(O/L)": 1430,
+      "G.C.E.(A/L)": 826,
+      "Degree and above": 197,
+      "No schooling": 315
+    },
+    "total_value_from_source": 7573
+  },
+  {
+    "region_name": "Masangasweediya",
+    "gnd_num": null,
+    "total_value": 7700,
+    "values": {
+      "Primary": 1797,
+      "Secondary": 3372,
+      "G.C.E.(O/L)": 1335,
+      "G.C.E.(A/L)": 729,
+      "Degree and above": 150,
+      "No schooling": 317
+    },
+    "total_value_from_source": 7700
+  },
+  {
+    "region_name": "New\u00a0Bazaar",
+    "gnd_num": null,
+    "total_value": 12118,
+    "values": {
+      "Primary": 3508,
+      "Secondary": 5556,
+      "G.C.E.(O/L)": 1548,
+      "G.C.E.(A/L)": 605,
+      "Degree and above": 110,
+      "No schooling": 791
+    },
+    "total_value_from_source": 12118
+  },
+  {
+    "region_name": "Grandpass\u00a0South",
+    "gnd_num": null,
+    "total_value": 15963,
+    "values": {
+      "Primary": 4217,
+      "Secondary": 7831,
+      "G.C.E.(O/L)": 2155,
+      "G.C.E.(A/L)": 922,
+      "Degree and above": 113,
+      "No schooling": 725
+    },
+    "total_value_from_source": 15963
+  },
+  {
+    "region_name": "Grandpass\u00a0North",
+    "gnd_num": null,
+    "total_value": 8083,
+    "values": {
+      "Primary": 2015,
+      "Secondary": 3639,
+      "G.C.E.(O/L)": 1357,
+      "G.C.E.(A/L)": 616,
+      "Degree and above": 71,
+      "No schooling": 385
+    },
+    "total_value_from_source": 8083
+  },
+  {
+    "region_name": "Nawagampura",
+    "gnd_num": null,
+    "total_value": 6222,
+    "values": {
+      "Primary": 1604,
+      "Secondary": 3031,
+      "G.C.E.(O/L)": 841,
+      "G.C.E.(A/L)": 326,
+      "Degree and above": 36,
+      "No schooling": 384
+    },
+    "total_value_from_source": 6222
+  },
+  {
+    "region_name": "Maligawatta\u00a0East",
+    "gnd_num": null,
+    "total_value": 10412,
+    "values": {
+      "Primary": 2458,
+      "Secondary": 4838,
+      "G.C.E.(O/L)": 1753,
+      "G.C.E.(A/L)": 867,
+      "Degree and above": 147,
+      "No schooling": 349
+    },
+    "total_value_from_source": 10412
+  },
+  {
+    "region_name": "Khettarama",
+    "gnd_num": null,
+    "total_value": 12178,
+    "values": {
+      "Primary": 4219,
+      "Secondary": 5639,
+      "G.C.E.(O/L)": 983,
+      "G.C.E.(A/L)": 398,
+      "Degree and above": 42,
+      "No schooling": 897
+    },
+    "total_value_from_source": 12178
+  },
+  {
+    "region_name": "Aluthkade\u00a0East",
+    "gnd_num": null,
+    "total_value": 9097,
+    "values": {
+      "Primary": 2522,
+      "Secondary": 4149,
+      "G.C.E.(O/L)": 1321,
+      "G.C.E.(A/L)": 637,
+      "Degree and above": 78,
+      "No schooling": 390
+    },
+    "total_value_from_source": 9097
+  },
+  {
+    "region_name": "Aluthkade\u00a0West",
+    "gnd_num": null,
+    "total_value": 6832,
+    "values": {
+      "Primary": 1689,
+      "Secondary": 3110,
+      "G.C.E.(O/L)": 1131,
+      "G.C.E.(A/L)": 534,
+      "Degree and above": 74,
+      "No schooling": 294
+    },
+    "total_value_from_source": 6832
+  },
+  {
+    "region_name": "Kochchikade\u00a0South",
+    "gnd_num": null,
+    "total_value": 7129,
+    "values": {
+      "Primary": 1701,
+      "Secondary": 3000,
+      "G.C.E.(O/L)": 1297,
+      "G.C.E.(A/L)": 730,
+      "Degree and above": 77,
+      "No schooling": 324
+    },
+    "total_value_from_source": 7129
+  },
+  {
+    "region_name": "Pettah",
+    "gnd_num": null,
+    "total_value": 1917,
+    "values": {
+      "Primary": 181,
+      "Secondary": 939,
+      "G.C.E.(O/L)": 525,
+      "G.C.E.(A/L)": 233,
+      "Degree and above": 15,
+      "No schooling": 24
+    },
+    "total_value_from_source": 1917
+  },
+  {
+    "region_name": "Fort",
+    "gnd_num": null,
+    "total_value": 1449,
+    "values": {
+      "Primary": 71,
+      "Secondary": 176,
+      "G.C.E.(O/L)": 504,
+      "G.C.E.(A/L)": 624,
+      "Degree and above": 62,
+      "No schooling": 12
+    },
+    "total_value_from_source": 1449
+  },
+  {
+    "region_name": "Galle\u00a0Face",
+    "gnd_num": null,
+    "total_value": 3474,
+    "values": {
+      "Primary": 845,
+      "Secondary": 1674,
+      "G.C.E.(O/L)": 514,
+      "G.C.E.(A/L)": 259,
+      "Degree and above": 54,
+      "No schooling": 128
+    },
+    "total_value_from_source": 3474
+  },
+  {
+    "region_name": "Slave\u00a0Island",
+    "gnd_num": null,
+    "total_value": 3527,
+    "values": {
+      "Primary": 766,
+      "Secondary": 1648,
+      "G.C.E.(O/L)": 678,
+      "G.C.E.(A/L)": 288,
+      "Degree and above": 37,
+      "No schooling": 110
+    },
+    "total_value_from_source": 3527
+  },
+  {
+    "region_name": "Hunupitiya",
+    "gnd_num": null,
+    "total_value": 6324,
+    "values": {
+      "Primary": 1468,
+      "Secondary": 2646,
+      "G.C.E.(O/L)": 1105,
+      "G.C.E.(A/L)": 748,
+      "Degree and above": 110,
+      "No schooling": 247
+    },
+    "total_value_from_source": 6324
+  },
+  {
+    "region_name": "Suduwella",
+    "gnd_num": null,
+    "total_value": 3624,
+    "values": {
+      "Primary": 723,
+      "Secondary": 1556,
+      "G.C.E.(O/L)": 769,
+      "G.C.E.(A/L)": 388,
+      "Degree and above": 58,
+      "No schooling": 130
+    },
+    "total_value_from_source": 3624
+  },
+  {
+    "region_name": "Keselwatta",
+    "gnd_num": null,
+    "total_value": 6600,
+    "values": {
+      "Primary": 1674,
+      "Secondary": 3063,
+      "G.C.E.(O/L)": 905,
+      "G.C.E.(A/L)": 532,
+      "Degree and above": 89,
+      "No schooling": 337
+    },
+    "total_value_from_source": 6600
+  },
+  {
+    "region_name": "Panchikawatta",
+    "gnd_num": null,
+    "total_value": 7684,
+    "values": {
+      "Primary": 1884,
+      "Secondary": 3966,
+      "G.C.E.(O/L)": 1072,
+      "G.C.E.(A/L)": 442,
+      "Degree and above": 62,
+      "No schooling": 258
+    },
+    "total_value_from_source": 7684
+  },
+  {
+    "region_name": "Maligawatta\u00a0West",
+    "gnd_num": null,
+    "total_value": 8260,
+    "values": {
+      "Primary": 1588,
+      "Secondary": 2843,
+      "G.C.E.(O/L)": 1992,
+      "G.C.E.(A/L)": 1352,
+      "Degree and above": 305,
+      "No schooling": 180
+    },
+    "total_value_from_source": 8260
+  },
+  {
+    "region_name": "Maligakanda",
+    "gnd_num": null,
+    "total_value": 7814,
+    "values": {
+      "Primary": 1607,
+      "Secondary": 3009,
+      "G.C.E.(O/L)": 1651,
+      "G.C.E.(A/L)": 1160,
+      "Degree and above": 184,
+      "No schooling": 203
+    },
+    "total_value_from_source": 7814
+  },
+  {
+    "region_name": "Maradana",
+    "gnd_num": null,
+    "total_value": 4273,
+    "values": {
+      "Primary": 831,
+      "Secondary": 1820,
+      "G.C.E.(O/L)": 892,
+      "G.C.E.(A/L)": 525,
+      "Degree and above": 63,
+      "No schooling": 142
+    },
+    "total_value_from_source": 4273
+  },
+  {
+    "region_name": "Ibbanwala",
+    "gnd_num": null,
+    "total_value": 2522,
+    "values": {
+      "Primary": 233,
+      "Secondary": 429,
+      "G.C.E.(O/L)": 413,
+      "G.C.E.(A/L)": 1063,
+      "Degree and above": 339,
+      "No schooling": 45
+    },
+    "total_value_from_source": 2522
+  },
+  {
+    "region_name": "Wekanda",
+    "gnd_num": null,
+    "total_value": 6273,
+    "values": {
+      "Primary": 1532,
+      "Secondary": 3153,
+      "G.C.E.(O/L)": 945,
+      "G.C.E.(A/L)": 340,
+      "Degree and above": 65,
+      "No schooling": 238
+    },
+    "total_value_from_source": 6273
+  },
+  {
+    "region_name": "Kolonnawa",
+    "gnd_num": null,
+    "total_value": 175925,
+    "values": {
+      "Primary": 32604,
+      "Secondary": 72520,
+      "G.C.E.(O/L)": 35698,
+      "G.C.E.(A/L)": 24509,
+      "Degree and above": 5213,
+      "No schooling": 5381
+    },
+    "total_value_from_source": 175925
+  },
+  {
+    "region_name": "Wadulla",
+    "gnd_num": null,
+    "total_value": 6871,
+    "values": {
+      "Primary": 1969,
+      "Secondary": 3182,
+      "G.C.E.(O/L)": 810,
+      "G.C.E.(A/L)": 284,
+      "Degree and above": 27,
+      "No schooling": 599
+    },
+    "total_value_from_source": 6871
+  },
+  {
+    "region_name": "Sedawatta",
+    "gnd_num": null,
+    "total_value": 6327,
+    "values": {
+      "Primary": 1760,
+      "Secondary": 3148,
+      "G.C.E.(O/L)": 708,
+      "G.C.E.(A/L)": 198,
+      "Degree and above": 19,
+      "No schooling": 494
+    },
+    "total_value_from_source": 6327
+  },
+  {
+    "region_name": "Halmulla",
+    "gnd_num": null,
+    "total_value": 2113,
+    "values": {
+      "Primary": 450,
+      "Secondary": 959,
+      "G.C.E.(O/L)": 369,
+      "G.C.E.(A/L)": 218,
+      "Degree and above": 61,
+      "No schooling": 56
+    },
+    "total_value_from_source": 2113
+  },
+  {
+    "region_name": "Kotuvila",
+    "gnd_num": null,
+    "total_value": 4654,
+    "values": {
+      "Primary": 1014,
+      "Secondary": 2555,
+      "G.C.E.(O/L)": 567,
+      "G.C.E.(A/L)": 334,
+      "Degree and above": 38,
+      "No schooling": 146
+    },
+    "total_value_from_source": 4654
+  },
+  {
+    "region_name": "Veheragoda",
+    "gnd_num": null,
+    "total_value": 1919,
+    "values": {
+      "Primary": 571,
+      "Secondary": 954,
+      "G.C.E.(O/L)": 214,
+      "G.C.E.(A/L)": 71,
+      "Degree and above": 9,
+      "No schooling": 100
+    },
+    "total_value_from_source": 1919
+  },
+  {
+    "region_name": "Orugodawatta",
+    "gnd_num": null,
+    "total_value": 5391,
+    "values": {
+      "Primary": 1509,
+      "Secondary": 2433,
+      "G.C.E.(O/L)": 687,
+      "G.C.E.(A/L)": 225,
+      "Degree and above": 12,
+      "No schooling": 525
+    },
+    "total_value_from_source": 5391
+  },
+  {
+    "region_name": "Meethotamulla",
+    "gnd_num": null,
+    "total_value": 7707,
+    "values": {
+      "Primary": 1705,
+      "Secondary": 3423,
+      "G.C.E.(O/L)": 1373,
+      "G.C.E.(A/L)": 728,
+      "Degree and above": 135,
+      "No schooling": 343
+    },
+    "total_value_from_source": 7707
+  },
+  {
+    "region_name": "Welewatta",
+    "gnd_num": null,
+    "total_value": 4202,
+    "values": {
+      "Primary": 948,
+      "Secondary": 2214,
+      "G.C.E.(O/L)": 582,
+      "G.C.E.(A/L)": 323,
+      "Degree and above": 31,
+      "No schooling": 104
+    },
+    "total_value_from_source": 4202
+  },
+  {
+    "region_name": "Kittampahuwa",
+    "gnd_num": null,
+    "total_value": 5206,
+    "values": {
+      "Primary": 1055,
+      "Secondary": 2490,
+      "G.C.E.(O/L)": 922,
+      "G.C.E.(A/L)": 521,
+      "Degree and above": 86,
+      "No schooling": 132
+    },
+    "total_value_from_source": 5206
+  },
+  {
+    "region_name": "Wennawatta",
+    "gnd_num": null,
+    "total_value": 6861,
+    "values": {
+      "Primary": 1276,
+      "Secondary": 3159,
+      "G.C.E.(O/L)": 1544,
+      "G.C.E.(A/L)": 655,
+      "Degree and above": 99,
+      "No schooling": 128
+    },
+    "total_value_from_source": 6861
+  },
+  {
+    "region_name": "Maha\u00a0Buthgamuwa\u00a0B",
+    "gnd_num": null,
+    "total_value": 3394,
+    "values": {
+      "Primary": 603,
+      "Secondary": 1623,
+      "G.C.E.(O/L)": 639,
+      "G.C.E.(A/L)": 382,
+      "Degree and above": 64,
+      "No schooling": 83
+    },
+    "total_value_from_source": 3394
+  },
+  {
+    "region_name": "Kuda\u00a0Buthgamuwa",
+    "gnd_num": null,
+    "total_value": 4294,
+    "values": {
+      "Primary": 590,
+      "Secondary": 1695,
+      "G.C.E.(O/L)": 932,
+      "G.C.E.(A/L)": 796,
+      "Degree and above": 213,
+      "No schooling": 68
+    },
+    "total_value_from_source": 4294
+  },
+  {
+    "region_name": "Kelanimulla",
+    "gnd_num": null,
+    "total_value": 3725,
+    "values": {
+      "Primary": 646,
+      "Secondary": 1710,
+      "G.C.E.(O/L)": 691,
+      "G.C.E.(A/L)": 517,
+      "Degree and above": 75,
+      "No schooling": 86
+    },
+    "total_value_from_source": 3725
+  },
+  {
+    "region_name": "Ambathale",
+    "gnd_num": null,
+    "total_value": 2567,
+    "values": {
+      "Primary": 413,
+      "Secondary": 1061,
+      "G.C.E.(O/L)": 549,
+      "G.C.E.(A/L)": 406,
+      "Degree and above": 94,
+      "No schooling": 44
+    },
+    "total_value_from_source": 2567
+  },
+  {
+    "region_name": "Mulleriyawa\u00a0North",
+    "gnd_num": null,
+    "total_value": 4100,
+    "values": {
+      "Primary": 644,
+      "Secondary": 1590,
+      "G.C.E.(O/L)": 1032,
+      "G.C.E.(A/L)": 658,
+      "Degree and above": 98,
+      "No schooling": 78
+    },
+    "total_value_from_source": 4100
+  },
+  {
+    "region_name": "Belagama",
+    "gnd_num": null,
+    "total_value": 3039,
+    "values": {
+      "Primary": 431,
+      "Secondary": 992,
+      "G.C.E.(O/L)": 848,
+      "G.C.E.(A/L)": 618,
+      "Degree and above": 109,
+      "No schooling": 41
+    },
+    "total_value_from_source": 3039
+  },
+  {
+    "region_name": "Kotikawatta\u00a0East",
+    "gnd_num": null,
+    "total_value": 3280,
+    "values": {
+      "Primary": 445,
+      "Secondary": 1074,
+      "G.C.E.(O/L)": 774,
+      "G.C.E.(A/L)": 703,
+      "Degree and above": 243,
+      "No schooling": 41
+    },
+    "total_value_from_source": 3280
+  },
+  {
+    "region_name": "Maha\u00a0Buthgamuwa\u00a0A",
+    "gnd_num": null,
+    "total_value": 3087,
+    "values": {
+      "Primary": 448,
+      "Secondary": 1054,
+      "G.C.E.(O/L)": 803,
+      "G.C.E.(A/L)": 640,
+      "Degree and above": 101,
+      "No schooling": 41
+    },
+    "total_value_from_source": 3087
+  },
+  {
+    "region_name": "Maha\u00a0Buthgamuwa\u00a0C",
+    "gnd_num": null,
+    "total_value": 3731,
+    "values": {
+      "Primary": 601,
+      "Secondary": 1324,
+      "G.C.E.(O/L)": 898,
+      "G.C.E.(A/L)": 625,
+      "Degree and above": 217,
+      "No schooling": 66
+    },
+    "total_value_from_source": 3731
+  },
+  {
+    "region_name": "Wellampitiya",
+    "gnd_num": null,
+    "total_value": 2058,
+    "values": {
+      "Primary": 350,
+      "Secondary": 698,
+      "G.C.E.(O/L)": 550,
+      "G.C.E.(A/L)": 356,
+      "Degree and above": 52,
+      "No schooling": 52
+    },
+    "total_value_from_source": 2058
+  },
+  {
+    "region_name": "Kuruniyawatta",
+    "gnd_num": null,
+    "total_value": 3291,
+    "values": {
+      "Primary": 788,
+      "Secondary": 1734,
+      "G.C.E.(O/L)": 455,
+      "G.C.E.(A/L)": 125,
+      "Degree and above": 22,
+      "No schooling": 167
+    },
+    "total_value_from_source": 3291
+  },
+  {
+    "region_name": "Kolonnawa",
+    "gnd_num": null,
+    "total_value": 2173,
+    "values": {
+      "Primary": 313,
+      "Secondary": 786,
+      "G.C.E.(O/L)": 556,
+      "G.C.E.(A/L)": 392,
+      "Degree and above": 95,
+      "No schooling": 31
+    },
+    "total_value_from_source": 2173
+  },
+  {
+    "region_name": "Dahampura",
+    "gnd_num": null,
+    "total_value": 5358,
+    "values": {
+      "Primary": 1210,
+      "Secondary": 2396,
+      "G.C.E.(O/L)": 847,
+      "G.C.E.(A/L)": 549,
+      "Degree and above": 101,
+      "No schooling": 255
+    },
+    "total_value_from_source": 5358
+  },
+  {
+    "region_name": "Singhapura",
+    "gnd_num": null,
+    "total_value": 3794,
+    "values": {
+      "Primary": 873,
+      "Secondary": 1794,
+      "G.C.E.(O/L)": 589,
+      "G.C.E.(A/L)": 298,
+      "Degree and above": 72,
+      "No schooling": 168
+    },
+    "total_value_from_source": 3794
+  },
+  {
+    "region_name": "Megoda\u00a0Kolonnawa",
+    "gnd_num": null,
+    "total_value": 9018,
+    "values": {
+      "Primary": 2019,
+      "Secondary": 4295,
+      "G.C.E.(O/L)": 1533,
+      "G.C.E.(A/L)": 790,
+      "Degree and above": 128,
+      "No schooling": 253
+    },
+    "total_value_from_source": 9018
+  },
+  {
+    "region_name": "Bopetta",
+    "gnd_num": null,
+    "total_value": 2959,
+    "values": {
+      "Primary": 540,
+      "Secondary": 1196,
+      "G.C.E.(O/L)": 669,
+      "G.C.E.(A/L)": 412,
+      "Degree and above": 82,
+      "No schooling": 60
+    },
+    "total_value_from_source": 2959
+  },
+  {
+    "region_name": "Batalandahena",
+    "gnd_num": null,
+    "total_value": 4309,
+    "values": {
+      "Primary": 787,
+      "Secondary": 1767,
+      "G.C.E.(O/L)": 880,
+      "G.C.E.(A/L)": 664,
+      "Degree and above": 121,
+      "No schooling": 90
+    },
+    "total_value_from_source": 4309
+  },
+  {
+    "region_name": "Kotikawatta\u00a0West",
+    "gnd_num": null,
+    "total_value": 2745,
+    "values": {
+      "Primary": 367,
+      "Secondary": 957,
+      "G.C.E.(O/L)": 699,
+      "G.C.E.(A/L)": 602,
+      "Degree and above": 88,
+      "No schooling": 32
+    },
+    "total_value_from_source": 2745
+  },
+  {
+    "region_name": "Mulleriyawa\u00a0South",
+    "gnd_num": null,
+    "total_value": 4603,
+    "values": {
+      "Primary": 641,
+      "Secondary": 1718,
+      "G.C.E.(O/L)": 1087,
+      "G.C.E.(A/L)": 926,
+      "Degree and above": 171,
+      "No schooling": 60
+    },
+    "total_value_from_source": 4603
+  },
+  {
+    "region_name": "Malgama",
+    "gnd_num": null,
+    "total_value": 4724,
+    "values": {
+      "Primary": 683,
+      "Secondary": 1760,
+      "G.C.E.(O/L)": 1128,
+      "G.C.E.(A/L)": 909,
+      "Degree and above": 164,
+      "No schooling": 80
+    },
+    "total_value_from_source": 4724
+  },
+  {
+    "region_name": "Udumulla\u00a0North",
+    "gnd_num": null,
+    "total_value": 2422,
+    "values": {
+      "Primary": 398,
+      "Secondary": 958,
+      "G.C.E.(O/L)": 551,
+      "G.C.E.(A/L)": 388,
+      "Degree and above": 77,
+      "No schooling": 50
+    },
+    "total_value_from_source": 2422
+  },
+  {
+    "region_name": "Maligagodella",
+    "gnd_num": null,
+    "total_value": 1925,
+    "values": {
+      "Primary": 313,
+      "Secondary": 821,
+      "G.C.E.(O/L)": 364,
+      "G.C.E.(A/L)": 337,
+      "Degree and above": 49,
+      "No schooling": 41
+    },
+    "total_value_from_source": 1925
+  },
+  {
+    "region_name": "Rajasinghagama",
+    "gnd_num": null,
+    "total_value": 5978,
+    "values": {
+      "Primary": 959,
+      "Secondary": 2078,
+      "G.C.E.(O/L)": 1341,
+      "G.C.E.(A/L)": 1126,
+      "Degree and above": 233,
+      "No schooling": 241
+    },
+    "total_value_from_source": 5978
+  },
+  {
+    "region_name": "Udumulla\u00a0South",
+    "gnd_num": null,
+    "total_value": 2252,
+    "values": {
+      "Primary": 323,
+      "Secondary": 951,
+      "G.C.E.(O/L)": 526,
+      "G.C.E.(A/L)": 311,
+      "Degree and above": 112,
+      "No schooling": 29
+    },
+    "total_value_from_source": 2252
+  },
+  {
+    "region_name": "Himbutana\u00a0East",
+    "gnd_num": null,
+    "total_value": 3577,
+    "values": {
+      "Primary": 505,
+      "Secondary": 1270,
+      "G.C.E.(O/L)": 885,
+      "G.C.E.(A/L)": 691,
+      "Degree and above": 174,
+      "No schooling": 52
+    },
+    "total_value_from_source": 3577
+  },
+  {
+    "region_name": "Himbutana\u00a0West",
+    "gnd_num": null,
+    "total_value": 3091,
+    "values": {
+      "Primary": 415,
+      "Secondary": 1082,
+      "G.C.E.(O/L)": 654,
+      "G.C.E.(A/L)": 688,
+      "Degree and above": 210,
+      "No schooling": 42
+    },
+    "total_value_from_source": 3091
+  },
+  {
+    "region_name": "Malpura",
+    "gnd_num": null,
+    "total_value": 3812,
+    "values": {
+      "Primary": 602,
+      "Secondary": 1304,
+      "G.C.E.(O/L)": 882,
+      "G.C.E.(A/L)": 705,
+      "Degree and above": 139,
+      "No schooling": 180
+    },
+    "total_value_from_source": 3812
+  },
+  {
+    "region_name": "Gothatuwa\u00a0New\u00a0Town",
+    "gnd_num": null,
+    "total_value": 1811,
+    "values": {
+      "Primary": 212,
+      "Secondary": 500,
+      "G.C.E.(O/L)": 490,
+      "G.C.E.(A/L)": 489,
+      "Degree and above": 106,
+      "No schooling": 14
+    },
+    "total_value_from_source": 1811
+  },
+  {
+    "region_name": "Kajugahawatta",
+    "gnd_num": null,
+    "total_value": 2418,
+    "values": {
+      "Primary": 264,
+      "Secondary": 763,
+      "G.C.E.(O/L)": 666,
+      "G.C.E.(A/L)": 537,
+      "Degree and above": 156,
+      "No schooling": 32
+    },
+    "total_value_from_source": 2418
+  },
+  {
+    "region_name": "Gothatuwa",
+    "gnd_num": null,
+    "total_value": 2377,
+    "values": {
+      "Primary": 329,
+      "Secondary": 961,
+      "G.C.E.(O/L)": 508,
+      "G.C.E.(A/L)": 456,
+      "Degree and above": 96,
+      "No schooling": 27
+    },
+    "total_value_from_source": 2377
+  },
+  {
+    "region_name": "Salamulla",
+    "gnd_num": null,
+    "total_value": 4780,
+    "values": {
+      "Primary": 802,
+      "Secondary": 1571,
+      "G.C.E.(O/L)": 1335,
+      "G.C.E.(A/L)": 802,
+      "Degree and above": 197,
+      "No schooling": 73
+    },
+    "total_value_from_source": 4780
+  },
+  {
+    "region_name": "Wijayapura",
+    "gnd_num": null,
+    "total_value": 2899,
+    "values": {
+      "Primary": 385,
+      "Secondary": 815,
+      "G.C.E.(O/L)": 805,
+      "G.C.E.(A/L)": 713,
+      "Degree and above": 142,
+      "No schooling": 39
+    },
+    "total_value_from_source": 2899
+  },
+  {
+    "region_name": "Gajabapura",
+    "gnd_num": null,
+    "total_value": 2360,
+    "values": {
+      "Primary": 328,
+      "Secondary": 753,
+      "G.C.E.(O/L)": 622,
+      "G.C.E.(A/L)": 466,
+      "Degree and above": 136,
+      "No schooling": 55
+    },
+    "total_value_from_source": 2360
+  },
+  {
+    "region_name": "Madinnagoda",
+    "gnd_num": null,
+    "total_value": 3511,
+    "values": {
+      "Primary": 479,
+      "Secondary": 1236,
+      "G.C.E.(O/L)": 888,
+      "G.C.E.(A/L)": 638,
+      "Degree and above": 236,
+      "No schooling": 34
+    },
+    "total_value_from_source": 3511
+  },
+  {
+    "region_name": "Elhena",
+    "gnd_num": null,
+    "total_value": 2044,
+    "values": {
+      "Primary": 277,
+      "Secondary": 711,
+      "G.C.E.(O/L)": 475,
+      "G.C.E.(A/L)": 423,
+      "Degree and above": 136,
+      "No schooling": 22
+    },
+    "total_value_from_source": 2044
+  },
+  {
+    "region_name": "Dodamgahahena",
+    "gnd_num": null,
+    "total_value": 3168,
+    "values": {
+      "Primary": 364,
+      "Secondary": 1005,
+      "G.C.E.(O/L)": 771,
+      "G.C.E.(A/L)": 814,
+      "Degree and above": 187,
+      "No schooling": 27
+    },
+    "total_value_from_source": 3168
+  },
+  {
+    "region_name": "Kaduwela",
+    "gnd_num": null,
+    "total_value": 234186,
+    "values": {
+      "Primary": 32883,
+      "Secondary": 73561,
+      "G.C.E.(O/L)": 56413,
+      "G.C.E.(A/L)": 51068,
+      "Degree and above": 16286,
+      "No schooling": 3975
+    },
+    "total_value_from_source": 234186
+  },
+  {
+    "region_name": "Welivita",
+    "gnd_num": null,
+    "total_value": 4599,
+    "values": {
+      "Primary": 641,
+      "Secondary": 1564,
+      "G.C.E.(O/L)": 1201,
+      "G.C.E.(A/L)": 915,
+      "Degree and above": 207,
+      "No schooling": 71
+    },
+    "total_value_from_source": 4599
+  },
+  {
+    "region_name": "Raggahawatta",
+    "gnd_num": null,
+    "total_value": 3727,
+    "values": {
+      "Primary": 583,
+      "Secondary": 1477,
+      "G.C.E.(O/L)": 785,
+      "G.C.E.(A/L)": 651,
+      "Degree and above": 173,
+      "No schooling": 58
+    },
+    "total_value_from_source": 3727
+  },
+  {
+    "region_name": "Hewagama",
+    "gnd_num": null,
+    "total_value": 3855,
+    "values": {
+      "Primary": 563,
+      "Secondary": 1034,
+      "G.C.E.(O/L)": 1143,
+      "G.C.E.(A/L)": 895,
+      "Degree and above": 164,
+      "No schooling": 56
+    },
+    "total_value_from_source": 3855
+  },
+  {
+    "region_name": "Kaduwela",
+    "gnd_num": null,
+    "total_value": 4063,
+    "values": {
+      "Primary": 637,
+      "Secondary": 1572,
+      "G.C.E.(O/L)": 863,
+      "G.C.E.(A/L)": 703,
+      "Degree and above": 214,
+      "No schooling": 74
+    },
+    "total_value_from_source": 4063
+  },
+  {
+    "region_name": "Pahala\u00a0Bomiriya",
+    "gnd_num": null,
+    "total_value": 3911,
+    "values": {
+      "Primary": 583,
+      "Secondary": 1451,
+      "G.C.E.(O/L)": 822,
+      "G.C.E.(A/L)": 773,
+      "Degree and above": 172,
+      "No schooling": 110
+    },
+    "total_value_from_source": 3911
+  },
+  {
+    "region_name": "Ihala\u00a0Bomiriya",
+    "gnd_num": null,
+    "total_value": 3917,
+    "values": {
+      "Primary": 586,
+      "Secondary": 1124,
+      "G.C.E.(O/L)": 1082,
+      "G.C.E.(A/L)": 891,
+      "Degree and above": 168,
+      "No schooling": 66
+    },
+    "total_value_from_source": 3917
+  },
+  {
+    "region_name": "Wekewatta",
+    "gnd_num": null,
+    "total_value": 3526,
+    "values": {
+      "Primary": 557,
+      "Secondary": 1299,
+      "G.C.E.(O/L)": 744,
+      "G.C.E.(A/L)": 706,
+      "Degree and above": 135,
+      "No schooling": 85
+    },
+    "total_value_from_source": 3526
+  },
+  {
+    "region_name": "Nawagamuwa",
+    "gnd_num": null,
+    "total_value": 5073,
+    "values": {
+      "Primary": 868,
+      "Secondary": 2213,
+      "G.C.E.(O/L)": 1087,
+      "G.C.E.(A/L)": 690,
+      "Degree and above": 118,
+      "No schooling": 97
+    },
+    "total_value_from_source": 5073
+  },
+  {
+    "region_name": "Pahala\u00a0Bomiriya\u00a0B",
+    "gnd_num": null,
+    "total_value": 4465,
+    "values": {
+      "Primary": 752,
+      "Secondary": 1603,
+      "G.C.E.(O/L)": 1118,
+      "G.C.E.(A/L)": 749,
+      "Degree and above": 121,
+      "No schooling": 122
+    },
+    "total_value_from_source": 4465
+  },
+  {
+    "region_name": "Welihinda",
+    "gnd_num": null,
+    "total_value": 1914,
+    "values": {
+      "Primary": 366,
+      "Secondary": 760,
+      "G.C.E.(O/L)": 411,
+      "G.C.E.(A/L)": 285,
+      "Degree and above": 45,
+      "No schooling": 47
+    },
+    "total_value_from_source": 1914
+  },
+  {
+    "region_name": "Kothalawala",
+    "gnd_num": null,
+    "total_value": 5719,
+    "values": {
+      "Primary": 602,
+      "Secondary": 1492,
+      "G.C.E.(O/L)": 1492,
+      "G.C.E.(A/L)": 1629,
+      "Degree and above": 435,
+      "No schooling": 69
+    },
+    "total_value_from_source": 5719
+  },
+  {
+    "region_name": "Mahadeniya",
+    "gnd_num": null,
+    "total_value": 5019,
+    "values": {
+      "Primary": 759,
+      "Secondary": 1746,
+      "G.C.E.(O/L)": 1038,
+      "G.C.E.(A/L)": 1069,
+      "Degree and above": 324,
+      "No schooling": 83
+    },
+    "total_value_from_source": 5019
+  },
+  {
+    "region_name": "Thalahena\u00a0North",
+    "gnd_num": null,
+    "total_value": 2939,
+    "values": {
+      "Primary": 402,
+      "Secondary": 1179,
+      "G.C.E.(O/L)": 662,
+      "G.C.E.(A/L)": 486,
+      "Degree and above": 144,
+      "No schooling": 66
+    },
+    "total_value_from_source": 2939
+  },
+  {
+    "region_name": "Malabe\u00a0North",
+    "gnd_num": null,
+    "total_value": 7197,
+    "values": {
+      "Primary": 755,
+      "Secondary": 1551,
+      "G.C.E.(O/L)": 1648,
+      "G.C.E.(A/L)": 2427,
+      "Degree and above": 727,
+      "No schooling": 89
+    },
+    "total_value_from_source": 7197
+  },
+  {
+    "region_name": "Thunadahena",
+    "gnd_num": null,
+    "total_value": 4076,
+    "values": {
+      "Primary": 641,
+      "Secondary": 1385,
+      "G.C.E.(O/L)": 988,
+      "G.C.E.(A/L)": 823,
+      "Degree and above": 151,
+      "No schooling": 88
+    },
+    "total_value_from_source": 4076
+  },
+  {
+    "region_name": "Korathota",
+    "gnd_num": null,
+    "total_value": 8470,
+    "values": {
+      "Primary": 1400,
+      "Secondary": 3045,
+      "G.C.E.(O/L)": 2146,
+      "G.C.E.(A/L)": 1440,
+      "Degree and above": 249,
+      "No schooling": 190
+    },
+    "total_value_from_source": 8470
+  },
+  {
+    "region_name": "Nawagamuwa\u00a0South",
+    "gnd_num": null,
+    "total_value": 2643,
+    "values": {
+      "Primary": 412,
+      "Secondary": 1158,
+      "G.C.E.(O/L)": 630,
+      "G.C.E.(A/L)": 347,
+      "Degree and above": 53,
+      "No schooling": 43
+    },
+    "total_value_from_source": 2643
+  },
+  {
+    "region_name": "Batewela",
+    "gnd_num": null,
+    "total_value": 1768,
+    "values": {
+      "Primary": 226,
+      "Secondary": 613,
+      "G.C.E.(O/L)": 444,
+      "G.C.E.(A/L)": 392,
+      "Degree and above": 55,
+      "No schooling": 38
+    },
+    "total_value_from_source": 1768
+  },
+  {
+    "region_name": "Ranala",
+    "gnd_num": null,
+    "total_value": 4484,
+    "values": {
+      "Primary": 686,
+      "Secondary": 1997,
+      "G.C.E.(O/L)": 1024,
+      "G.C.E.(A/L)": 612,
+      "Degree and above": 95,
+      "No schooling": 70
+    },
+    "total_value_from_source": 4484
+  },
+  {
+    "region_name": "Dedigamuwa",
+    "gnd_num": null,
+    "total_value": 1932,
+    "values": {
+      "Primary": 308,
+      "Secondary": 834,
+      "G.C.E.(O/L)": 448,
+      "G.C.E.(A/L)": 284,
+      "Degree and above": 36,
+      "No schooling": 22
+    },
+    "total_value_from_source": 1932
+  },
+  {
+    "region_name": "Embilladeniya",
+    "gnd_num": null,
+    "total_value": 1739,
+    "values": {
+      "Primary": 286,
+      "Secondary": 745,
+      "G.C.E.(O/L)": 296,
+      "G.C.E.(A/L)": 333,
+      "Degree and above": 44,
+      "No schooling": 35
+    },
+    "total_value_from_source": 1739
+  },
+  {
+    "region_name": "Welipillewa",
+    "gnd_num": null,
+    "total_value": 2394,
+    "values": {
+      "Primary": 429,
+      "Secondary": 1015,
+      "G.C.E.(O/L)": 512,
+      "G.C.E.(A/L)": 333,
+      "Degree and above": 46,
+      "No schooling": 59
+    },
+    "total_value_from_source": 2394
+  },
+  {
+    "region_name": "Shanthalokagama",
+    "gnd_num": null,
+    "total_value": 6320,
+    "values": {
+      "Primary": 844,
+      "Secondary": 1848,
+      "G.C.E.(O/L)": 1576,
+      "G.C.E.(A/L)": 1480,
+      "Degree and above": 471,
+      "No schooling": 101
+    },
+    "total_value_from_source": 6320
+  },
+  {
+    "region_name": "Pore",
+    "gnd_num": null,
+    "total_value": 4748,
+    "values": {
+      "Primary": 749,
+      "Secondary": 1613,
+      "G.C.E.(O/L)": 1128,
+      "G.C.E.(A/L)": 911,
+      "Degree and above": 264,
+      "No schooling": 83
+    },
+    "total_value_from_source": 4748
+  },
+  {
+    "region_name": "Malabe\u00a0East",
+    "gnd_num": null,
+    "total_value": 5520,
+    "values": {
+      "Primary": 738,
+      "Secondary": 1585,
+      "G.C.E.(O/L)": 1320,
+      "G.C.E.(A/L)": 1345,
+      "Degree and above": 436,
+      "No schooling": 96
+    },
+    "total_value_from_source": 5520
+  },
+  {
+    "region_name": "Malabe\u00a0West",
+    "gnd_num": null,
+    "total_value": 4783,
+    "values": {
+      "Primary": 624,
+      "Secondary": 1254,
+      "G.C.E.(O/L)": 1282,
+      "G.C.E.(A/L)": 1113,
+      "Degree and above": 440,
+      "No schooling": 70
+    },
+    "total_value_from_source": 4783
+  },
+  {
+    "region_name": "Thalangama\u00a0North\u00a0B",
+    "gnd_num": null,
+    "total_value": 3548,
+    "values": {
+      "Primary": 392,
+      "Secondary": 706,
+      "G.C.E.(O/L)": 819,
+      "G.C.E.(A/L)": 1157,
+      "Degree and above": 416,
+      "No schooling": 58
+    },
+    "total_value_from_source": 3548
+  },
+  {
+    "region_name": "Thalahena\u00a0South",
+    "gnd_num": null,
+    "total_value": 2622,
+    "values": {
+      "Primary": 355,
+      "Secondary": 723,
+      "G.C.E.(O/L)": 626,
+      "G.C.E.(A/L)": 651,
+      "Degree and above": 230,
+      "No schooling": 37
+    },
+    "total_value_from_source": 2622
+  },
+  {
+    "region_name": "Muttettugoda",
+    "gnd_num": null,
+    "total_value": 6272,
+    "values": {
+      "Primary": 879,
+      "Secondary": 1671,
+      "G.C.E.(O/L)": 1450,
+      "G.C.E.(A/L)": 1650,
+      "Degree and above": 533,
+      "No schooling": 89
+    },
+    "total_value_from_source": 6272
+  },
+  {
+    "region_name": "Thalangama\u00a0North\u00a0A",
+    "gnd_num": null,
+    "total_value": 8695,
+    "values": {
+      "Primary": 1063,
+      "Secondary": 2144,
+      "G.C.E.(O/L)": 2351,
+      "G.C.E.(A/L)": 2248,
+      "Degree and above": 794,
+      "No schooling": 95
+    },
+    "total_value_from_source": 8695
+  },
+  {
+    "region_name": "Walpola",
+    "gnd_num": null,
+    "total_value": 7999,
+    "values": {
+      "Primary": 938,
+      "Secondary": 2477,
+      "G.C.E.(O/L)": 2010,
+      "G.C.E.(A/L)": 1900,
+      "Degree and above": 579,
+      "No schooling": 95
+    },
+    "total_value_from_source": 7999
+  },
+  {
+    "region_name": "Kalapaluwawa",
+    "gnd_num": null,
+    "total_value": 4033,
+    "values": {
+      "Primary": 477,
+      "Secondary": 920,
+      "G.C.E.(O/L)": 1047,
+      "G.C.E.(A/L)": 1107,
+      "Degree and above": 426,
+      "No schooling": 56
+    },
+    "total_value_from_source": 4033
+  },
+  {
+    "region_name": "Kotuwegoda",
+    "gnd_num": null,
+    "total_value": 2865,
+    "values": {
+      "Primary": 476,
+      "Secondary": 827,
+      "G.C.E.(O/L)": 576,
+      "G.C.E.(A/L)": 581,
+      "Degree and above": 330,
+      "No schooling": 75
+    },
+    "total_value_from_source": 2865
+  },
+  {
+    "region_name": "Subhoothipura",
+    "gnd_num": null,
+    "total_value": 2452,
+    "values": {
+      "Primary": 263,
+      "Secondary": 584,
+      "G.C.E.(O/L)": 589,
+      "G.C.E.(A/L)": 715,
+      "Degree and above": 265,
+      "No schooling": 36
+    },
+    "total_value_from_source": 2452
+  },
+  {
+    "region_name": "Udumulla",
+    "gnd_num": null,
+    "total_value": 2340,
+    "values": {
+      "Primary": 238,
+      "Secondary": 437,
+      "G.C.E.(O/L)": 564,
+      "G.C.E.(A/L)": 755,
+      "Degree and above": 316,
+      "No schooling": 30
+    },
+    "total_value_from_source": 2340
+  },
+  {
+    "region_name": "Battaramulla\u00a0North",
+    "gnd_num": null,
+    "total_value": 1917,
+    "values": {
+      "Primary": 169,
+      "Secondary": 553,
+      "G.C.E.(O/L)": 508,
+      "G.C.E.(A/L)": 441,
+      "Degree and above": 223,
+      "No schooling": 23
+    },
+    "total_value_from_source": 1917
+  },
+  {
+    "region_name": "Batapotha",
+    "gnd_num": null,
+    "total_value": 7060,
+    "values": {
+      "Primary": 1071,
+      "Secondary": 2407,
+      "G.C.E.(O/L)": 1655,
+      "G.C.E.(A/L)": 1366,
+      "Degree and above": 438,
+      "No schooling": 123
+    },
+    "total_value_from_source": 7060
+  },
+  {
+    "region_name": "Pothuarawa",
+    "gnd_num": null,
+    "total_value": 6844,
+    "values": {
+      "Primary": 882,
+      "Secondary": 1867,
+      "G.C.E.(O/L)": 1671,
+      "G.C.E.(A/L)": 1780,
+      "Degree and above": 562,
+      "No schooling": 82
+    },
+    "total_value_from_source": 6844
+  },
+  {
+    "region_name": "Hokandara\u00a0North",
+    "gnd_num": null,
+    "total_value": 5782,
+    "values": {
+      "Primary": 842,
+      "Secondary": 2228,
+      "G.C.E.(O/L)": 1204,
+      "G.C.E.(A/L)": 1047,
+      "Degree and above": 350,
+      "No schooling": 111
+    },
+    "total_value_from_source": 5782
+  },
+  {
+    "region_name": "Oruwala",
+    "gnd_num": null,
+    "total_value": 4114,
+    "values": {
+      "Primary": 638,
+      "Secondary": 1389,
+      "G.C.E.(O/L)": 1014,
+      "G.C.E.(A/L)": 837,
+      "Degree and above": 198,
+      "No schooling": 38
+    },
+    "total_value_from_source": 4114
+  },
+  {
+    "region_name": "Athurugiriya",
+    "gnd_num": null,
+    "total_value": 5418,
+    "values": {
+      "Primary": 710,
+      "Secondary": 1809,
+      "G.C.E.(O/L)": 1404,
+      "G.C.E.(A/L)": 1102,
+      "Degree and above": 296,
+      "No schooling": 97
+    },
+    "total_value_from_source": 5418
+  },
+  {
+    "region_name": "Thaldiyawala",
+    "gnd_num": null,
+    "total_value": 2803,
+    "values": {
+      "Primary": 399,
+      "Secondary": 751,
+      "G.C.E.(O/L)": 721,
+      "G.C.E.(A/L)": 660,
+      "Degree and above": 221,
+      "No schooling": 51
+    },
+    "total_value_from_source": 2803
+  },
+  {
+    "region_name": "Boralugoda",
+    "gnd_num": null,
+    "total_value": 2906,
+    "values": {
+      "Primary": 477,
+      "Secondary": 1006,
+      "G.C.E.(O/L)": 622,
+      "G.C.E.(A/L)": 606,
+      "Degree and above": 147,
+      "No schooling": 48
+    },
+    "total_value_from_source": 2906
+  },
+  {
+    "region_name": "Hokandara\u00a0East",
+    "gnd_num": null,
+    "total_value": 4696,
+    "values": {
+      "Primary": 762,
+      "Secondary": 1400,
+      "G.C.E.(O/L)": 1122,
+      "G.C.E.(A/L)": 958,
+      "Degree and above": 377,
+      "No schooling": 77
+    },
+    "total_value_from_source": 4696
+  },
+  {
+    "region_name": "Arangala",
+    "gnd_num": null,
+    "total_value": 5133,
+    "values": {
+      "Primary": 691,
+      "Secondary": 1627,
+      "G.C.E.(O/L)": 1398,
+      "G.C.E.(A/L)": 1043,
+      "Degree and above": 286,
+      "No schooling": 88
+    },
+    "total_value_from_source": 5133
+  },
+  {
+    "region_name": "Evarihena",
+    "gnd_num": null,
+    "total_value": 2421,
+    "values": {
+      "Primary": 402,
+      "Secondary": 894,
+      "G.C.E.(O/L)": 526,
+      "G.C.E.(A/L)": 409,
+      "Degree and above": 155,
+      "No schooling": 35
+    },
+    "total_value_from_source": 2421
+  },
+  {
+    "region_name": "Kumaragewatta",
+    "gnd_num": null,
+    "total_value": 4743,
+    "values": {
+      "Primary": 609,
+      "Secondary": 1195,
+      "G.C.E.(O/L)": 1334,
+      "G.C.E.(A/L)": 877,
+      "Degree and above": 647,
+      "No schooling": 81
+    },
+    "total_value_from_source": 4743
+  },
+  {
+    "region_name": "Jayawadanagama",
+    "gnd_num": null,
+    "total_value": 2064,
+    "values": {
+      "Primary": 194,
+      "Secondary": 489,
+      "G.C.E.(O/L)": 661,
+      "G.C.E.(A/L)": 485,
+      "Degree and above": 212,
+      "No schooling": 23
+    },
+    "total_value_from_source": 2064
+  },
+  {
+    "region_name": "Aruppitiya",
+    "gnd_num": null,
+    "total_value": 2184,
+    "values": {
+      "Primary": 334,
+      "Secondary": 809,
+      "G.C.E.(O/L)": 560,
+      "G.C.E.(A/L)": 305,
+      "Degree and above": 133,
+      "No schooling": 43
+    },
+    "total_value_from_source": 2184
+  },
+  {
+    "region_name": "Asiri\u00a0Uyana",
+    "gnd_num": null,
+    "total_value": 2886,
+    "values": {
+      "Primary": 355,
+      "Secondary": 718,
+      "G.C.E.(O/L)": 628,
+      "G.C.E.(A/L)": 737,
+      "Degree and above": 405,
+      "No schooling": 43
+    },
+    "total_value_from_source": 2886
+  },
+  {
+    "region_name": "Battaramulla\u00a0South",
+    "gnd_num": null,
+    "total_value": 1476,
+    "values": {
+      "Primary": 149,
+      "Secondary": 318,
+      "G.C.E.(O/L)": 304,
+      "G.C.E.(A/L)": 411,
+      "Degree and above": 276,
+      "No schooling": 18
+    },
+    "total_value_from_source": 1476
+  },
+  {
+    "region_name": "Rajamalwatta",
+    "gnd_num": null,
+    "total_value": 1926,
+    "values": {
+      "Primary": 203,
+      "Secondary": 397,
+      "G.C.E.(O/L)": 430,
+      "G.C.E.(A/L)": 582,
+      "Degree and above": 296,
+      "No schooling": 18
+    },
+    "total_value_from_source": 1926
+  },
+  {
+    "region_name": "Pahalawela",
+    "gnd_num": null,
+    "total_value": 4215,
+    "values": {
+      "Primary": 445,
+      "Secondary": 835,
+      "G.C.E.(O/L)": 945,
+      "G.C.E.(A/L)": 1210,
+      "Degree and above": 684,
+      "No schooling": 96
+    },
+    "total_value_from_source": 4215
+  },
+  {
+    "region_name": "Wickramasinghapura",
+    "gnd_num": null,
+    "total_value": 2968,
+    "values": {
+      "Primary": 383,
+      "Secondary": 871,
+      "G.C.E.(O/L)": 675,
+      "G.C.E.(A/L)": 661,
+      "Degree and above": 326,
+      "No schooling": 52
+    },
+    "total_value_from_source": 2968
+  },
+  {
+    "region_name": "Wellangiriya",
+    "gnd_num": null,
+    "total_value": 4382,
+    "values": {
+      "Primary": 785,
+      "Secondary": 1836,
+      "G.C.E.(O/L)": 708,
+      "G.C.E.(A/L)": 644,
+      "Degree and above": 276,
+      "No schooling": 133
+    },
+    "total_value_from_source": 4382
+  },
+  {
+    "region_name": "Hokandara\u00a0South",
+    "gnd_num": null,
+    "total_value": 5167,
+    "values": {
+      "Primary": 802,
+      "Secondary": 1468,
+      "G.C.E.(O/L)": 1475,
+      "G.C.E.(A/L)": 1105,
+      "Degree and above": 246,
+      "No schooling": 71
+    },
+    "total_value_from_source": 5167
+  },
+  {
+    "region_name": "Athurugiriya\u00a0South",
+    "gnd_num": null,
+    "total_value": 3454,
+    "values": {
+      "Primary": 503,
+      "Secondary": 1048,
+      "G.C.E.(O/L)": 926,
+      "G.C.E.(A/L)": 756,
+      "Degree and above": 156,
+      "No schooling": 65
+    },
+    "total_value_from_source": 3454
+  },
+  {
+    "region_name": "Homagama",
+    "gnd_num": null,
+    "total_value": 219780,
+    "values": {
+      "Primary": 32089,
+      "Secondary": 72403,
+      "G.C.E.(O/L)": 57524,
+      "G.C.E.(A/L)": 44057,
+      "Degree and above": 10131,
+      "No schooling": 3576
+    },
+    "total_value_from_source": 219780
+  },
+  {
+    "region_name": "Jalthara",
+    "gnd_num": null,
+    "total_value": 6646,
+    "values": {
+      "Primary": 970,
+      "Secondary": 1974,
+      "G.C.E.(O/L)": 1913,
+      "G.C.E.(A/L)": 1389,
+      "Degree and above": 308,
+      "No schooling": 92
+    },
+    "total_value_from_source": 6646
+  },
+  {
+    "region_name": "Henpita",
+    "gnd_num": null,
+    "total_value": 1361,
+    "values": {
+      "Primary": 230,
+      "Secondary": 529,
+      "G.C.E.(O/L)": 320,
+      "G.C.E.(A/L)": 199,
+      "Degree and above": 32,
+      "No schooling": 51
+    },
+    "total_value_from_source": 1361
+  },
+  {
+    "region_name": "Atigala\u00a0West",
+    "gnd_num": null,
+    "total_value": 1380,
+    "values": {
+      "Primary": 200,
+      "Secondary": 390,
+      "G.C.E.(O/L)": 473,
+      "G.C.E.(A/L)": 247,
+      "Degree and above": 32,
+      "No schooling": 38
+    },
+    "total_value_from_source": 1380
+  },
+  {
+    "region_name": "Atigala\u00a0East",
+    "gnd_num": null,
+    "total_value": 1766,
+    "values": {
+      "Primary": 291,
+      "Secondary": 835,
+      "G.C.E.(O/L)": 335,
+      "G.C.E.(A/L)": 238,
+      "Degree and above": 35,
+      "No schooling": 32
+    },
+    "total_value_from_source": 1766
+  },
+  {
+    "region_name": "Batawala",
+    "gnd_num": null,
+    "total_value": 1618,
+    "values": {
+      "Primary": 278,
+      "Secondary": 743,
+      "G.C.E.(O/L)": 303,
+      "G.C.E.(A/L)": 230,
+      "Degree and above": 33,
+      "No schooling": 31
+    },
+    "total_value_from_source": 1618
+  },
+  {
+    "region_name": "Walpita",
+    "gnd_num": null,
+    "total_value": 1508,
+    "values": {
+      "Primary": 253,
+      "Secondary": 496,
+      "G.C.E.(O/L)": 427,
+      "G.C.E.(A/L)": 281,
+      "Degree and above": 29,
+      "No schooling": 22
+    },
+    "total_value_from_source": 1508
+  },
+  {
+    "region_name": "Nawalamulla",
+    "gnd_num": null,
+    "total_value": 2723,
+    "values": {
+      "Primary": 490,
+      "Secondary": 1004,
+      "G.C.E.(O/L)": 718,
+      "G.C.E.(A/L)": 405,
+      "Degree and above": 59,
+      "No schooling": 47
+    },
+    "total_value_from_source": 2723
+  },
+  {
+    "region_name": "Meegasmulla",
+    "gnd_num": null,
+    "total_value": 2797,
+    "values": {
+      "Primary": 437,
+      "Secondary": 894,
+      "G.C.E.(O/L)": 771,
+      "G.C.E.(A/L)": 529,
+      "Degree and above": 94,
+      "No schooling": 72
+    },
+    "total_value_from_source": 2797
+  },
+  {
+    "region_name": "Habarakada\u00a0North",
+    "gnd_num": null,
+    "total_value": 2487,
+    "values": {
+      "Primary": 466,
+      "Secondary": 960,
+      "G.C.E.(O/L)": 537,
+      "G.C.E.(A/L)": 406,
+      "Degree and above": 78,
+      "No schooling": 40
+    },
+    "total_value_from_source": 2487
+  },
+  {
+    "region_name": "Mullegama\u00a0North",
+    "gnd_num": null,
+    "total_value": 1157,
+    "values": {
+      "Primary": 162,
+      "Secondary": 423,
+      "G.C.E.(O/L)": 322,
+      "G.C.E.(A/L)": 201,
+      "Degree and above": 33,
+      "No schooling": 16
+    },
+    "total_value_from_source": 1157
+  },
+  {
+    "region_name": "Mullegama\u00a0South",
+    "gnd_num": null,
+    "total_value": 2881,
+    "values": {
+      "Primary": 454,
+      "Secondary": 1127,
+      "G.C.E.(O/L)": 599,
+      "G.C.E.(A/L)": 551,
+      "Degree and above": 93,
+      "No schooling": 57
+    },
+    "total_value_from_source": 2881
+  },
+  {
+    "region_name": "Habarakada\u00a0South",
+    "gnd_num": null,
+    "total_value": 2225,
+    "values": {
+      "Primary": 308,
+      "Secondary": 685,
+      "G.C.E.(O/L)": 640,
+      "G.C.E.(A/L)": 485,
+      "Degree and above": 82,
+      "No schooling": 25
+    },
+    "total_value_from_source": 2225
+  },
+  {
+    "region_name": "Panagoda\u00a0Town",
+    "gnd_num": null,
+    "total_value": 1650,
+    "values": {
+      "Primary": 249,
+      "Secondary": 589,
+      "G.C.E.(O/L)": 403,
+      "G.C.E.(A/L)": 313,
+      "Degree and above": 82,
+      "No schooling": 14
+    },
+    "total_value_from_source": 1650
+  },
+  {
+    "region_name": "Henawatta",
+    "gnd_num": null,
+    "total_value": 6240,
+    "values": {
+      "Primary": 1042,
+      "Secondary": 2193,
+      "G.C.E.(O/L)": 1470,
+      "G.C.E.(A/L)": 1100,
+      "Degree and above": 289,
+      "No schooling": 146
+    },
+    "total_value_from_source": 6240
+  },
+  {
+    "region_name": "Meegoda\u00a0North",
+    "gnd_num": null,
+    "total_value": 2812,
+    "values": {
+      "Primary": 435,
+      "Secondary": 1207,
+      "G.C.E.(O/L)": 657,
+      "G.C.E.(A/L)": 396,
+      "Degree and above": 69,
+      "No schooling": 48
+    },
+    "total_value_from_source": 2812
+  },
+  {
+    "region_name": "Panaluwa",
+    "gnd_num": null,
+    "total_value": 4341,
+    "values": {
+      "Primary": 794,
+      "Secondary": 1684,
+      "G.C.E.(O/L)": 1027,
+      "G.C.E.(A/L)": 628,
+      "Degree and above": 101,
+      "No schooling": 107
+    },
+    "total_value_from_source": 4341
+  },
+  {
+    "region_name": "Watareka\u00a0North",
+    "gnd_num": null,
+    "total_value": 3827,
+    "values": {
+      "Primary": 600,
+      "Secondary": 1119,
+      "G.C.E.(O/L)": 1057,
+      "G.C.E.(A/L)": 831,
+      "Degree and above": 173,
+      "No schooling": 47
+    },
+    "total_value_from_source": 3827
+  },
+  {
+    "region_name": "Meegoda\u00a0South",
+    "gnd_num": null,
+    "total_value": 1951,
+    "values": {
+      "Primary": 244,
+      "Secondary": 534,
+      "G.C.E.(O/L)": 613,
+      "G.C.E.(A/L)": 429,
+      "Degree and above": 103,
+      "No schooling": 28
+    },
+    "total_value_from_source": 1951
+  },
+  {
+    "region_name": "Godagama\u00a0North",
+    "gnd_num": null,
+    "total_value": 1309,
+    "values": {
+      "Primary": 159,
+      "Secondary": 367,
+      "G.C.E.(O/L)": 355,
+      "G.C.E.(A/L)": 335,
+      "Degree and above": 76,
+      "No schooling": 17
+    },
+    "total_value_from_source": 1309
+  },
+  {
+    "region_name": "Panagoda\u00a0West",
+    "gnd_num": null,
+    "total_value": 2848,
+    "values": {
+      "Primary": 353,
+      "Secondary": 590,
+      "G.C.E.(O/L)": 915,
+      "G.C.E.(A/L)": 769,
+      "Degree and above": 184,
+      "No schooling": 37
+    },
+    "total_value_from_source": 2848
+  },
+  {
+    "region_name": "Panagoda\u00a0East",
+    "gnd_num": null,
+    "total_value": 1325,
+    "values": {
+      "Primary": 121,
+      "Secondary": 551,
+      "G.C.E.(O/L)": 472,
+      "G.C.E.(A/L)": 162,
+      "Degree and above": 10,
+      "No schooling": 9
+    },
+    "total_value_from_source": 1325
+  },
+  {
+    "region_name": "Habarakada\u00a0Watta",
+    "gnd_num": null,
+    "total_value": 2892,
+    "values": {
+      "Primary": 337,
+      "Secondary": 641,
+      "G.C.E.(O/L)": 968,
+      "G.C.E.(A/L)": 771,
+      "Degree and above": 140,
+      "No schooling": 35
+    },
+    "total_value_from_source": 2892
+  },
+  {
+    "region_name": "Homagama\u00a0North",
+    "gnd_num": null,
+    "total_value": 1705,
+    "values": {
+      "Primary": 234,
+      "Secondary": 536,
+      "G.C.E.(O/L)": 461,
+      "G.C.E.(A/L)": 369,
+      "Degree and above": 81,
+      "No schooling": 24
+    },
+    "total_value_from_source": 1705
+  },
+  {
+    "region_name": "Homagama\u00a0West",
+    "gnd_num": null,
+    "total_value": 3020,
+    "values": {
+      "Primary": 436,
+      "Secondary": 934,
+      "G.C.E.(O/L)": 847,
+      "G.C.E.(A/L)": 615,
+      "Degree and above": 131,
+      "No schooling": 57
+    },
+    "total_value_from_source": 3020
+  },
+  {
+    "region_name": "Homagama\u00a0South",
+    "gnd_num": null,
+    "total_value": 2868,
+    "values": {
+      "Primary": 388,
+      "Secondary": 811,
+      "G.C.E.(O/L)": 835,
+      "G.C.E.(A/L)": 598,
+      "Degree and above": 180,
+      "No schooling": 56
+    },
+    "total_value_from_source": 2868
+  },
+  {
+    "region_name": "Galavilawatta\u00a0North",
+    "gnd_num": null,
+    "total_value": 3312,
+    "values": {
+      "Primary": 331,
+      "Secondary": 775,
+      "G.C.E.(O/L)": 842,
+      "G.C.E.(A/L)": 977,
+      "Degree and above": 352,
+      "No schooling": 35
+    },
+    "total_value_from_source": 3312
+  },
+  {
+    "region_name": "Homagama\u00a0Town",
+    "gnd_num": null,
+    "total_value": 2688,
+    "values": {
+      "Primary": 322,
+      "Secondary": 816,
+      "G.C.E.(O/L)": 624,
+      "G.C.E.(A/L)": 707,
+      "Degree and above": 190,
+      "No schooling": 29
+    },
+    "total_value_from_source": 2688
+  },
+  {
+    "region_name": "Homagama\u00a0East",
+    "gnd_num": null,
+    "total_value": 2025,
+    "values": {
+      "Primary": 248,
+      "Secondary": 680,
+      "G.C.E.(O/L)": 584,
+      "G.C.E.(A/L)": 343,
+      "Degree and above": 140,
+      "No schooling": 30
+    },
+    "total_value_from_source": 2025
+  },
+  {
+    "region_name": "Pitipana\u00a0Town",
+    "gnd_num": null,
+    "total_value": 2880,
+    "values": {
+      "Primary": 314,
+      "Secondary": 506,
+      "G.C.E.(O/L)": 831,
+      "G.C.E.(A/L)": 978,
+      "Degree and above": 225,
+      "No schooling": 26
+    },
+    "total_value_from_source": 2880
+  },
+  {
+    "region_name": "Godagama\u00a0South",
+    "gnd_num": null,
+    "total_value": 2938,
+    "values": {
+      "Primary": 383,
+      "Secondary": 814,
+      "G.C.E.(O/L)": 776,
+      "G.C.E.(A/L)": 723,
+      "Degree and above": 204,
+      "No schooling": 38
+    },
+    "total_value_from_source": 2938
+  },
+  {
+    "region_name": "Kurunduwatta",
+    "gnd_num": null,
+    "total_value": 3561,
+    "values": {
+      "Primary": 485,
+      "Secondary": 945,
+      "G.C.E.(O/L)": 1064,
+      "G.C.E.(A/L)": 853,
+      "Degree and above": 146,
+      "No schooling": 68
+    },
+    "total_value_from_source": 3561
+  },
+  {
+    "region_name": "Gehenuwala",
+    "gnd_num": null,
+    "total_value": 1884,
+    "values": {
+      "Primary": 245,
+      "Secondary": 473,
+      "G.C.E.(O/L)": 606,
+      "G.C.E.(A/L)": 433,
+      "Degree and above": 103,
+      "No schooling": 24
+    },
+    "total_value_from_source": 1884
+  },
+  {
+    "region_name": "Watareka\u00a0South",
+    "gnd_num": null,
+    "total_value": 5964,
+    "values": {
+      "Primary": 850,
+      "Secondary": 2166,
+      "G.C.E.(O/L)": 1496,
+      "G.C.E.(A/L)": 1169,
+      "Degree and above": 198,
+      "No schooling": 85
+    },
+    "total_value_from_source": 5964
+  },
+  {
+    "region_name": "Ovitigama",
+    "gnd_num": null,
+    "total_value": 4261,
+    "values": {
+      "Primary": 722,
+      "Secondary": 1883,
+      "G.C.E.(O/L)": 966,
+      "G.C.E.(A/L)": 538,
+      "Degree and above": 91,
+      "No schooling": 61
+    },
+    "total_value_from_source": 4261
+  },
+  {
+    "region_name": "Kandanawatta",
+    "gnd_num": null,
+    "total_value": 2544,
+    "values": {
+      "Primary": 460,
+      "Secondary": 1093,
+      "G.C.E.(O/L)": 525,
+      "G.C.E.(A/L)": 353,
+      "Degree and above": 50,
+      "No schooling": 63
+    },
+    "total_value_from_source": 2544
+  },
+  {
+    "region_name": "Kiriberiyakele",
+    "gnd_num": null,
+    "total_value": 3071,
+    "values": {
+      "Primary": 375,
+      "Secondary": 855,
+      "G.C.E.(O/L)": 880,
+      "G.C.E.(A/L)": 620,
+      "Degree and above": 300,
+      "No schooling": 41
+    },
+    "total_value_from_source": 3071
+  },
+  {
+    "region_name": "Mawathgama",
+    "gnd_num": null,
+    "total_value": 2278,
+    "values": {
+      "Primary": 370,
+      "Secondary": 759,
+      "G.C.E.(O/L)": 631,
+      "G.C.E.(A/L)": 386,
+      "Degree and above": 104,
+      "No schooling": 28
+    },
+    "total_value_from_source": 2278
+  },
+  {
+    "region_name": "Katuwana",
+    "gnd_num": null,
+    "total_value": 3965,
+    "values": {
+      "Primary": 425,
+      "Secondary": 900,
+      "G.C.E.(O/L)": 1125,
+      "G.C.E.(A/L)": 1155,
+      "Degree and above": 315,
+      "No schooling": 45
+    },
+    "total_value_from_source": 3965
+  },
+  {
+    "region_name": "Galavilawatta\u00a0South",
+    "gnd_num": null,
+    "total_value": 3142,
+    "values": {
+      "Primary": 374,
+      "Secondary": 753,
+      "G.C.E.(O/L)": 751,
+      "G.C.E.(A/L)": 932,
+      "Degree and above": 292,
+      "No schooling": 40
+    },
+    "total_value_from_source": 3142
+  },
+  {
+    "region_name": "Niyandagala",
+    "gnd_num": null,
+    "total_value": 3583,
+    "values": {
+      "Primary": 343,
+      "Secondary": 1094,
+      "G.C.E.(O/L)": 1099,
+      "G.C.E.(A/L)": 811,
+      "Degree and above": 188,
+      "No schooling": 48
+    },
+    "total_value_from_source": 3583
+  },
+  {
+    "region_name": "Hiripitiya",
+    "gnd_num": null,
+    "total_value": 4133,
+    "values": {
+      "Primary": 588,
+      "Secondary": 1529,
+      "G.C.E.(O/L)": 965,
+      "G.C.E.(A/L)": 776,
+      "Degree and above": 203,
+      "No schooling": 72
+    },
+    "total_value_from_source": 4133
+  },
+  {
+    "region_name": "Mambulgoda",
+    "gnd_num": null,
+    "total_value": 2761,
+    "values": {
+      "Primary": 371,
+      "Secondary": 809,
+      "G.C.E.(O/L)": 705,
+      "G.C.E.(A/L)": 664,
+      "Degree and above": 166,
+      "No schooling": 46
+    },
+    "total_value_from_source": 2761
+  },
+  {
+    "region_name": "Kithulhena",
+    "gnd_num": null,
+    "total_value": 1482,
+    "values": {
+      "Primary": 167,
+      "Secondary": 418,
+      "G.C.E.(O/L)": 342,
+      "G.C.E.(A/L)": 404,
+      "Degree and above": 141,
+      "No schooling": 10
+    },
+    "total_value_from_source": 1482
+  },
+  {
+    "region_name": "Siddamulla\u00a0North",
+    "gnd_num": null,
+    "total_value": 2274,
+    "values": {
+      "Primary": 259,
+      "Secondary": 531,
+      "G.C.E.(O/L)": 642,
+      "G.C.E.(A/L)": 635,
+      "Degree and above": 178,
+      "No schooling": 29
+    },
+    "total_value_from_source": 2274
+  },
+  {
+    "region_name": "Siddamulla\u00a0South",
+    "gnd_num": null,
+    "total_value": 2276,
+    "values": {
+      "Primary": 252,
+      "Secondary": 524,
+      "G.C.E.(O/L)": 701,
+      "G.C.E.(A/L)": 605,
+      "Degree and above": 167,
+      "No schooling": 27
+    },
+    "total_value_from_source": 2276
+  },
+  {
+    "region_name": "Mattegoda\u00a0West",
+    "gnd_num": null,
+    "total_value": 4598,
+    "values": {
+      "Primary": 528,
+      "Secondary": 1175,
+      "G.C.E.(O/L)": 1268,
+      "G.C.E.(A/L)": 1224,
+      "Degree and above": 352,
+      "No schooling": 51
+    },
+    "total_value_from_source": 4598
+  },
+  {
+    "region_name": "Mattegoda\u00a0Central\u00a0'A'",
+    "gnd_num": null,
+    "total_value": 1790,
+    "values": {
+      "Primary": 161,
+      "Secondary": 467,
+      "G.C.E.(O/L)": 431,
+      "G.C.E.(A/L)": 529,
+      "Degree and above": 183,
+      "No schooling": 19
+    },
+    "total_value_from_source": 1790
+  },
+  {
+    "region_name": "Mattegoda\u00a0East",
+    "gnd_num": null,
+    "total_value": 3354,
+    "values": {
+      "Primary": 466,
+      "Secondary": 1188,
+      "G.C.E.(O/L)": 802,
+      "G.C.E.(A/L)": 624,
+      "Degree and above": 146,
+      "No schooling": 128
+    },
+    "total_value_from_source": 3354
+  },
+  {
+    "region_name": "Brahmanagama",
+    "gnd_num": null,
+    "total_value": 4303,
+    "values": {
+      "Primary": 615,
+      "Secondary": 1769,
+      "G.C.E.(O/L)": 1072,
+      "G.C.E.(A/L)": 654,
+      "Degree and above": 113,
+      "No schooling": 80
+    },
+    "total_value_from_source": 4303
+  },
+  {
+    "region_name": "Deepangoda",
+    "gnd_num": null,
+    "total_value": 2998,
+    "values": {
+      "Primary": 463,
+      "Secondary": 1229,
+      "G.C.E.(O/L)": 643,
+      "G.C.E.(A/L)": 504,
+      "Degree and above": 104,
+      "No schooling": 55
+    },
+    "total_value_from_source": 2998
+  },
+  {
+    "region_name": "Magammana\u00a0West",
+    "gnd_num": null,
+    "total_value": 2298,
+    "values": {
+      "Primary": 345,
+      "Secondary": 980,
+      "G.C.E.(O/L)": 512,
+      "G.C.E.(A/L)": 350,
+      "Degree and above": 67,
+      "No schooling": 44
+    },
+    "total_value_from_source": 2298
+  },
+  {
+    "region_name": "Magammana\u00a0East",
+    "gnd_num": null,
+    "total_value": 3736,
+    "values": {
+      "Primary": 575,
+      "Secondary": 1358,
+      "G.C.E.(O/L)": 934,
+      "G.C.E.(A/L)": 673,
+      "Degree and above": 141,
+      "No schooling": 55
+    },
+    "total_value_from_source": 3736
+  },
+  {
+    "region_name": "Uduwana",
+    "gnd_num": null,
+    "total_value": 2946,
+    "values": {
+      "Primary": 406,
+      "Secondary": 1178,
+      "G.C.E.(O/L)": 744,
+      "G.C.E.(A/L)": 467,
+      "Degree and above": 95,
+      "No schooling": 56
+    },
+    "total_value_from_source": 2946
+  },
+  {
+    "region_name": "Prasannapura",
+    "gnd_num": null,
+    "total_value": 2444,
+    "values": {
+      "Primary": 432,
+      "Secondary": 833,
+      "G.C.E.(O/L)": 651,
+      "G.C.E.(A/L)": 416,
+      "Degree and above": 63,
+      "No schooling": 49
+    },
+    "total_value_from_source": 2444
+  },
+  {
+    "region_name": "Pitipana\u00a0North",
+    "gnd_num": null,
+    "total_value": 3466,
+    "values": {
+      "Primary": 566,
+      "Secondary": 1140,
+      "G.C.E.(O/L)": 918,
+      "G.C.E.(A/L)": 652,
+      "Degree and above": 118,
+      "No schooling": 72
+    },
+    "total_value_from_source": 3466
+  },
+  {
+    "region_name": "Suwapubudugama",
+    "gnd_num": null,
+    "total_value": 1937,
+    "values": {
+      "Primary": 395,
+      "Secondary": 731,
+      "G.C.E.(O/L)": 458,
+      "G.C.E.(A/L)": 265,
+      "Degree and above": 38,
+      "No schooling": 50
+    },
+    "total_value_from_source": 1937
+  },
+  {
+    "region_name": "Pitipana\u00a0South",
+    "gnd_num": null,
+    "total_value": 2620,
+    "values": {
+      "Primary": 431,
+      "Secondary": 897,
+      "G.C.E.(O/L)": 671,
+      "G.C.E.(A/L)": 486,
+      "Degree and above": 91,
+      "No schooling": 44
+    },
+    "total_value_from_source": 2620
+  },
+  {
+    "region_name": "Dolahena",
+    "gnd_num": null,
+    "total_value": 3617,
+    "values": {
+      "Primary": 616,
+      "Secondary": 1255,
+      "G.C.E.(O/L)": 1007,
+      "G.C.E.(A/L)": 614,
+      "Degree and above": 71,
+      "No schooling": 54
+    },
+    "total_value_from_source": 3617
+  },
+  {
+    "region_name": "Diyagama\u00a0East",
+    "gnd_num": null,
+    "total_value": 1406,
+    "values": {
+      "Primary": 231,
+      "Secondary": 435,
+      "G.C.E.(O/L)": 475,
+      "G.C.E.(A/L)": 218,
+      "Degree and above": 34,
+      "No schooling": 13
+    },
+    "total_value_from_source": 1406
+  },
+  {
+    "region_name": "Diyagama\u00a0West",
+    "gnd_num": null,
+    "total_value": 1788,
+    "values": {
+      "Primary": 280,
+      "Secondary": 614,
+      "G.C.E.(O/L)": 475,
+      "G.C.E.(A/L)": 331,
+      "Degree and above": 64,
+      "No schooling": 24
+    },
+    "total_value_from_source": 1788
+  },
+  {
+    "region_name": "Kirigampamunuwa",
+    "gnd_num": null,
+    "total_value": 2953,
+    "values": {
+      "Primary": 512,
+      "Secondary": 1110,
+      "G.C.E.(O/L)": 712,
+      "G.C.E.(A/L)": 468,
+      "Degree and above": 119,
+      "No schooling": 32
+    },
+    "total_value_from_source": 2953
+  },
+  {
+    "region_name": "Mattegoda\u00a0Central\u00a0'B'",
+    "gnd_num": null,
+    "total_value": 2800,
+    "values": {
+      "Primary": 233,
+      "Secondary": 411,
+      "G.C.E.(O/L)": 693,
+      "G.C.E.(A/L)": 1123,
+      "Degree and above": 321,
+      "No schooling": 19
+    },
+    "total_value_from_source": 2800
+  },
+  {
+    "region_name": "Siyambalagoda\u00a0North",
+    "gnd_num": null,
+    "total_value": 3796,
+    "values": {
+      "Primary": 477,
+      "Secondary": 1384,
+      "G.C.E.(O/L)": 1026,
+      "G.C.E.(A/L)": 691,
+      "Degree and above": 173,
+      "No schooling": 45
+    },
+    "total_value_from_source": 3796
+  },
+  {
+    "region_name": "Kudamaduwa",
+    "gnd_num": null,
+    "total_value": 2825,
+    "values": {
+      "Primary": 452,
+      "Secondary": 961,
+      "G.C.E.(O/L)": 657,
+      "G.C.E.(A/L)": 583,
+      "Degree and above": 122,
+      "No schooling": 50
+    },
+    "total_value_from_source": 2825
+  },
+  {
+    "region_name": "Sangharama",
+    "gnd_num": null,
+    "total_value": 1987,
+    "values": {
+      "Primary": 286,
+      "Secondary": 603,
+      "G.C.E.(O/L)": 464,
+      "G.C.E.(A/L)": 464,
+      "Degree and above": 146,
+      "No schooling": 24
+    },
+    "total_value_from_source": 1987
+  },
+  {
+    "region_name": "Siyambalagoda\u00a0South",
+    "gnd_num": null,
+    "total_value": 1723,
+    "values": {
+      "Primary": 219,
+      "Secondary": 527,
+      "G.C.E.(O/L)": 469,
+      "G.C.E.(A/L)": 376,
+      "Degree and above": 112,
+      "No schooling": 20
+    },
+    "total_value_from_source": 1723
+  },
+  {
+    "region_name": "Rilawala",
+    "gnd_num": null,
+    "total_value": 1566,
+    "values": {
+      "Primary": 241,
+      "Secondary": 541,
+      "G.C.E.(O/L)": 422,
+      "G.C.E.(A/L)": 279,
+      "Degree and above": 56,
+      "No schooling": 27
+    },
+    "total_value_from_source": 1566
+  },
+  {
+    "region_name": "Kahathuduwa\u00a0West",
+    "gnd_num": null,
+    "total_value": 2954,
+    "values": {
+      "Primary": 550,
+      "Secondary": 1128,
+      "G.C.E.(O/L)": 705,
+      "G.C.E.(A/L)": 445,
+      "Degree and above": 70,
+      "No schooling": 56
+    },
+    "total_value_from_source": 2954
+  },
+  {
+    "region_name": "Kiriwattuduwa\u00a0South",
+    "gnd_num": null,
+    "total_value": 2612,
+    "values": {
+      "Primary": 486,
+      "Secondary": 1009,
+      "G.C.E.(O/L)": 648,
+      "G.C.E.(A/L)": 353,
+      "Degree and above": 61,
+      "No schooling": 55
+    },
+    "total_value_from_source": 2612
+  },
+  {
+    "region_name": "Kiriwattuduwa\u00a0North",
+    "gnd_num": null,
+    "total_value": 1913,
+    "values": {
+      "Primary": 334,
+      "Secondary": 649,
+      "G.C.E.(O/L)": 532,
+      "G.C.E.(A/L)": 304,
+      "Degree and above": 56,
+      "No schooling": 38
+    },
+    "total_value_from_source": 1913
+  },
+  {
+    "region_name": "Moonamale\u00a0-\u00a0Yakahaluwa",
+    "gnd_num": null,
+    "total_value": 2304,
+    "values": {
+      "Primary": 371,
+      "Secondary": 760,
+      "G.C.E.(O/L)": 658,
+      "G.C.E.(A/L)": 413,
+      "Degree and above": 57,
+      "No schooling": 45
+    },
+    "total_value_from_source": 2304
+  },
+  {
+    "region_name": "Kithulavila",
+    "gnd_num": null,
+    "total_value": 2927,
+    "values": {
+      "Primary": 466,
+      "Secondary": 968,
+      "G.C.E.(O/L)": 816,
+      "G.C.E.(A/L)": 530,
+      "Degree and above": 99,
+      "No schooling": 48
+    },
+    "total_value_from_source": 2927
+  },
+  {
+    "region_name": "Kahathuduwa\u00a0North",
+    "gnd_num": null,
+    "total_value": 2442,
+    "values": {
+      "Primary": 449,
+      "Secondary": 847,
+      "G.C.E.(O/L)": 508,
+      "G.C.E.(A/L)": 417,
+      "Degree and above": 174,
+      "No schooling": 47
+    },
+    "total_value_from_source": 2442
+  },
+  {
+    "region_name": "Kahathuduwa\u00a0East",
+    "gnd_num": null,
+    "total_value": 1959,
+    "values": {
+      "Primary": 312,
+      "Secondary": 750,
+      "G.C.E.(O/L)": 463,
+      "G.C.E.(A/L)": 289,
+      "Degree and above": 101,
+      "No schooling": 44
+    },
+    "total_value_from_source": 1959
+  },
+  {
+    "region_name": "Kahathuduwa\u00a0South",
+    "gnd_num": null,
+    "total_value": 2835,
+    "values": {
+      "Primary": 367,
+      "Secondary": 980,
+      "G.C.E.(O/L)": 770,
+      "G.C.E.(A/L)": 572,
+      "Degree and above": 103,
+      "No schooling": 43
+    },
+    "total_value_from_source": 2835
+  },
+  {
+    "region_name": "Undurugoda",
+    "gnd_num": null,
+    "total_value": 1207,
+    "values": {
+      "Primary": 176,
+      "Secondary": 343,
+      "G.C.E.(O/L)": 364,
+      "G.C.E.(A/L)": 250,
+      "Degree and above": 56,
+      "No schooling": 18
+    },
+    "total_value_from_source": 1207
+  },
+  {
+    "region_name": "Wethara",
+    "gnd_num": null,
+    "total_value": 1856,
+    "values": {
+      "Primary": 228,
+      "Secondary": 426,
+      "G.C.E.(O/L)": 582,
+      "G.C.E.(A/L)": 487,
+      "Degree and above": 113,
+      "No schooling": 20
+    },
+    "total_value_from_source": 1856
+  },
+  {
+    "region_name": "Ambalangoda",
+    "gnd_num": null,
+    "total_value": 1878,
+    "values": {
+      "Primary": 285,
+      "Secondary": 555,
+      "G.C.E.(O/L)": 578,
+      "G.C.E.(A/L)": 366,
+      "Degree and above": 70,
+      "No schooling": 24
+    },
+    "total_value_from_source": 1878
+  },
+  {
+    "region_name": "Heraliyawala",
+    "gnd_num": null,
+    "total_value": 890,
+    "values": {
+      "Primary": 122,
+      "Secondary": 258,
+      "G.C.E.(O/L)": 292,
+      "G.C.E.(A/L)": 166,
+      "Degree and above": 29,
+      "No schooling": 23
+    },
+    "total_value_from_source": 890
+  },
+  {
+    "region_name": "Palagama",
+    "gnd_num": null,
+    "total_value": 2212,
+    "values": {
+      "Primary": 379,
+      "Secondary": 1022,
+      "G.C.E.(O/L)": 434,
+      "G.C.E.(A/L)": 277,
+      "Degree and above": 64,
+      "No schooling": 36
+    },
+    "total_value_from_source": 2212
+  },
+  {
+    "region_name": "Weniwelkola",
+    "gnd_num": null,
+    "total_value": 4481,
+    "values": {
+      "Primary": 819,
+      "Secondary": 1783,
+      "G.C.E.(O/L)": 1077,
+      "G.C.E.(A/L)": 658,
+      "Degree and above": 69,
+      "No schooling": 75
+    },
+    "total_value_from_source": 4481
+  },
+  {
+    "region_name": "Seethawaka",
+    "gnd_num": null,
+    "total_value": 104383,
+    "values": {
+      "Primary": 20148,
+      "Secondary": 43085,
+      "G.C.E.(O/L)": 20959,
+      "G.C.E.(A/L)": 14502,
+      "Degree and above": 2791,
+      "No schooling": 2898
+    },
+    "total_value_from_source": 104383
+  },
+  {
+    "region_name": "Bollathawa",
+    "gnd_num": null,
+    "total_value": 1546,
+    "values": {
+      "Primary": 309,
+      "Secondary": 786,
+      "G.C.E.(O/L)": 246,
+      "G.C.E.(A/L)": 148,
+      "Degree and above": 21,
+      "No schooling": 36
+    },
+    "total_value_from_source": 1546
+  },
+  {
+    "region_name": "Kanampella\u00a0West",
+    "gnd_num": null,
+    "total_value": 1648,
+    "values": {
+      "Primary": 293,
+      "Secondary": 696,
+      "G.C.E.(O/L)": 357,
+      "G.C.E.(A/L)": 237,
+      "Degree and above": 45,
+      "No schooling": 20
+    },
+    "total_value_from_source": 1648
+  },
+  {
+    "region_name": "Kanampella\u00a0East",
+    "gnd_num": null,
+    "total_value": 991,
+    "values": {
+      "Primary": 204,
+      "Secondary": 433,
+      "G.C.E.(O/L)": 179,
+      "G.C.E.(A/L)": 106,
+      "Degree and above": 19,
+      "No schooling": 50
+    },
+    "total_value_from_source": 991
+  },
+  {
+    "region_name": "Manakada",
+    "gnd_num": null,
+    "total_value": 556,
+    "values": {
+      "Primary": 109,
+      "Secondary": 247,
+      "G.C.E.(O/L)": 118,
+      "G.C.E.(A/L)": 66,
+      "Degree and above": 9,
+      "No schooling": 7
+    },
+    "total_value_from_source": 556
+  },
+  {
+    "region_name": "Eswatta\u00a0North",
+    "gnd_num": null,
+    "total_value": 1890,
+    "values": {
+      "Primary": 309,
+      "Secondary": 674,
+      "G.C.E.(O/L)": 479,
+      "G.C.E.(A/L)": 311,
+      "Degree and above": 49,
+      "No schooling": 68
+    },
+    "total_value_from_source": 1890
+  },
+  {
+    "region_name": "Kiriwandala\u00a0North",
+    "gnd_num": null,
+    "total_value": 3022,
+    "values": {
+      "Primary": 748,
+      "Secondary": 1086,
+      "G.C.E.(O/L)": 469,
+      "G.C.E.(A/L)": 409,
+      "Degree and above": 63,
+      "No schooling": 247
+    },
+    "total_value_from_source": 3022
+  },
+  {
+    "region_name": "Kudagama",
+    "gnd_num": null,
+    "total_value": 1553,
+    "values": {
+      "Primary": 213,
+      "Secondary": 824,
+      "G.C.E.(O/L)": 292,
+      "G.C.E.(A/L)": 146,
+      "Degree and above": 36,
+      "No schooling": 42
+    },
+    "total_value_from_source": 1553
+  },
+  {
+    "region_name": "Weralupitiya",
+    "gnd_num": null,
+    "total_value": 752,
+    "values": {
+      "Primary": 114,
+      "Secondary": 475,
+      "G.C.E.(O/L)": 61,
+      "G.C.E.(A/L)": 67,
+      "Degree and above": 9,
+      "No schooling": 26
+    },
+    "total_value_from_source": 752
+  },
+  {
+    "region_name": "Seethagama",
+    "gnd_num": null,
+    "total_value": 2126,
+    "values": {
+      "Primary": 264,
+      "Secondary": 597,
+      "G.C.E.(O/L)": 663,
+      "G.C.E.(A/L)": 485,
+      "Degree and above": 81,
+      "No schooling": 36
+    },
+    "total_value_from_source": 2126
+  },
+  {
+    "region_name": "Avissawella",
+    "gnd_num": null,
+    "total_value": 2172,
+    "values": {
+      "Primary": 321,
+      "Secondary": 878,
+      "G.C.E.(O/L)": 443,
+      "G.C.E.(A/L)": 408,
+      "Degree and above": 42,
+      "No schooling": 80
+    },
+    "total_value_from_source": 2172
+  },
+  {
+    "region_name": "Ukwatta",
+    "gnd_num": null,
+    "total_value": 2465,
+    "values": {
+      "Primary": 348,
+      "Secondary": 708,
+      "G.C.E.(O/L)": 739,
+      "G.C.E.(A/L)": 502,
+      "Degree and above": 92,
+      "No schooling": 76
+    },
+    "total_value_from_source": 2465
+  },
+  {
+    "region_name": "Agra\u00a0Pedesa",
+    "gnd_num": null,
+    "total_value": 1854,
+    "values": {
+      "Primary": 209,
+      "Secondary": 463,
+      "G.C.E.(O/L)": 652,
+      "G.C.E.(A/L)": 436,
+      "Degree and above": 79,
+      "No schooling": 15
+    },
+    "total_value_from_source": 1854
+  },
+  {
+    "region_name": "Eswatta\u00a0South",
+    "gnd_num": null,
+    "total_value": 1501,
+    "values": {
+      "Primary": 255,
+      "Secondary": 606,
+      "G.C.E.(O/L)": 341,
+      "G.C.E.(A/L)": 225,
+      "Degree and above": 35,
+      "No schooling": 39
+    },
+    "total_value_from_source": 1501
+  },
+  {
+    "region_name": "Ihala\u00a0Kosgama\u00a0North",
+    "gnd_num": null,
+    "total_value": 2447,
+    "values": {
+      "Primary": 371,
+      "Secondary": 1081,
+      "G.C.E.(O/L)": 482,
+      "G.C.E.(A/L)": 388,
+      "Degree and above": 69,
+      "No schooling": 56
+    },
+    "total_value_from_source": 2447
+  },
+  {
+    "region_name": "Thawalgoda",
+    "gnd_num": null,
+    "total_value": 1265,
+    "values": {
+      "Primary": 226,
+      "Secondary": 535,
+      "G.C.E.(O/L)": 295,
+      "G.C.E.(A/L)": 163,
+      "Degree and above": 29,
+      "No schooling": 17
+    },
+    "total_value_from_source": 1265
+  },
+  {
+    "region_name": "Muruthagama",
+    "gnd_num": null,
+    "total_value": 983,
+    "values": {
+      "Primary": 150,
+      "Secondary": 495,
+      "G.C.E.(O/L)": 172,
+      "G.C.E.(A/L)": 123,
+      "Degree and above": 25,
+      "No schooling": 18
+    },
+    "total_value_from_source": 983
+  },
+  {
+    "region_name": "Akaravita",
+    "gnd_num": null,
+    "total_value": 1073,
+    "values": {
+      "Primary": 165,
+      "Secondary": 555,
+      "G.C.E.(O/L)": 194,
+      "G.C.E.(A/L)": 121,
+      "Degree and above": 22,
+      "No schooling": 16
+    },
+    "total_value_from_source": 1073
+  },
+  {
+    "region_name": "Kahatapitiya",
+    "gnd_num": null,
+    "total_value": 1063,
+    "values": {
+      "Primary": 221,
+      "Secondary": 512,
+      "G.C.E.(O/L)": 178,
+      "G.C.E.(A/L)": 109,
+      "Degree and above": 17,
+      "No schooling": 26
+    },
+    "total_value_from_source": 1063
+  },
+  {
+    "region_name": "Kalu\u00a0Aggala",
+    "gnd_num": null,
+    "total_value": 1326,
+    "values": {
+      "Primary": 274,
+      "Secondary": 536,
+      "G.C.E.(O/L)": 212,
+      "G.C.E.(A/L)": 204,
+      "Degree and above": 39,
+      "No schooling": 61
+    },
+    "total_value_from_source": 1326
+  },
+  {
+    "region_name": "Salawa",
+    "gnd_num": null,
+    "total_value": 2291,
+    "values": {
+      "Primary": 393,
+      "Secondary": 912,
+      "G.C.E.(O/L)": 526,
+      "G.C.E.(A/L)": 353,
+      "Degree and above": 61,
+      "No schooling": 46
+    },
+    "total_value_from_source": 2291
+  },
+  {
+    "region_name": "Pahala\u00a0Kosgama\u00a0West",
+    "gnd_num": null,
+    "total_value": 1780,
+    "values": {
+      "Primary": 404,
+      "Secondary": 700,
+      "G.C.E.(O/L)": 342,
+      "G.C.E.(A/L)": 244,
+      "Degree and above": 50,
+      "No schooling": 40
+    },
+    "total_value_from_source": 1780
+  },
+  {
+    "region_name": "Pahala\u00a0Kosgama\u00a0East",
+    "gnd_num": null,
+    "total_value": 1687,
+    "values": {
+      "Primary": 271,
+      "Secondary": 701,
+      "G.C.E.(O/L)": 324,
+      "G.C.E.(A/L)": 301,
+      "Degree and above": 53,
+      "No schooling": 37
+    },
+    "total_value_from_source": 1687
+  },
+  {
+    "region_name": "Ihala\u00a0Kosgama\u00a0South",
+    "gnd_num": null,
+    "total_value": 1197,
+    "values": {
+      "Primary": 210,
+      "Secondary": 643,
+      "G.C.E.(O/L)": 77,
+      "G.C.E.(A/L)": 200,
+      "Degree and above": 41,
+      "No schooling": 26
+    },
+    "total_value_from_source": 1197
+  },
+  {
+    "region_name": "Miriswatta",
+    "gnd_num": null,
+    "total_value": 1916,
+    "values": {
+      "Primary": 349,
+      "Secondary": 644,
+      "G.C.E.(O/L)": 494,
+      "G.C.E.(A/L)": 331,
+      "Degree and above": 52,
+      "No schooling": 46
+    },
+    "total_value_from_source": 1916
+  },
+  {
+    "region_name": "Aluth\u00a0Ambalama",
+    "gnd_num": null,
+    "total_value": 1688,
+    "values": {
+      "Primary": 351,
+      "Secondary": 708,
+      "G.C.E.(O/L)": 333,
+      "G.C.E.(A/L)": 223,
+      "Degree and above": 29,
+      "No schooling": 44
+    },
+    "total_value_from_source": 1688
+  },
+  {
+    "region_name": "Kiriwandala\u00a0South",
+    "gnd_num": null,
+    "total_value": 1952,
+    "values": {
+      "Primary": 372,
+      "Secondary": 851,
+      "G.C.E.(O/L)": 325,
+      "G.C.E.(A/L)": 298,
+      "Degree and above": 48,
+      "No schooling": 58
+    },
+    "total_value_from_source": 1952
+  },
+  {
+    "region_name": "Kotahera",
+    "gnd_num": null,
+    "total_value": 1596,
+    "values": {
+      "Primary": 318,
+      "Secondary": 611,
+      "G.C.E.(O/L)": 359,
+      "G.C.E.(A/L)": 213,
+      "Degree and above": 25,
+      "No schooling": 70
+    },
+    "total_value_from_source": 1596
+  },
+  {
+    "region_name": "Seethawaka",
+    "gnd_num": null,
+    "total_value": 1740,
+    "values": {
+      "Primary": 246,
+      "Secondary": 502,
+      "G.C.E.(O/L)": 510,
+      "G.C.E.(A/L)": 363,
+      "Degree and above": 84,
+      "No schooling": 35
+    },
+    "total_value_from_source": 1740
+  },
+  {
+    "region_name": "Aradhana\u00a0Kanda",
+    "gnd_num": null,
+    "total_value": 2740,
+    "values": {
+      "Primary": 415,
+      "Secondary": 815,
+      "G.C.E.(O/L)": 678,
+      "G.C.E.(A/L)": 592,
+      "Degree and above": 180,
+      "No schooling": 60
+    },
+    "total_value_from_source": 2740
+  },
+  {
+    "region_name": "Puwakpitiya\u00a0South",
+    "gnd_num": null,
+    "total_value": 3501,
+    "values": {
+      "Primary": 1032,
+      "Secondary": 1584,
+      "G.C.E.(O/L)": 534,
+      "G.C.E.(A/L)": 209,
+      "Degree and above": 35,
+      "No schooling": 107
+    },
+    "total_value_from_source": 3501
+  },
+  {
+    "region_name": "Puwakpitiya",
+    "gnd_num": null,
+    "total_value": 1204,
+    "values": {
+      "Primary": 241,
+      "Secondary": 327,
+      "G.C.E.(O/L)": 304,
+      "G.C.E.(A/L)": 250,
+      "Degree and above": 47,
+      "No schooling": 35
+    },
+    "total_value_from_source": 1204
+  },
+  {
+    "region_name": "Egodagama",
+    "gnd_num": null,
+    "total_value": 1199,
+    "values": {
+      "Primary": 194,
+      "Secondary": 553,
+      "G.C.E.(O/L)": 189,
+      "G.C.E.(A/L)": 200,
+      "Degree and above": 35,
+      "No schooling": 28
+    },
+    "total_value_from_source": 1199
+  },
+  {
+    "region_name": "Weragolla\u00a0North",
+    "gnd_num": null,
+    "total_value": 1719,
+    "values": {
+      "Primary": 404,
+      "Secondary": 749,
+      "G.C.E.(O/L)": 241,
+      "G.C.E.(A/L)": 214,
+      "Degree and above": 38,
+      "No schooling": 73
+    },
+    "total_value_from_source": 1719
+  },
+  {
+    "region_name": "Hingurala",
+    "gnd_num": null,
+    "total_value": 1918,
+    "values": {
+      "Primary": 423,
+      "Secondary": 984,
+      "G.C.E.(O/L)": 288,
+      "G.C.E.(A/L)": 138,
+      "Degree and above": 37,
+      "No schooling": 48
+    },
+    "total_value_from_source": 1918
+  },
+  {
+    "region_name": "Kadugoda\u00a0North",
+    "gnd_num": null,
+    "total_value": 1327,
+    "values": {
+      "Primary": 219,
+      "Secondary": 562,
+      "G.C.E.(O/L)": 277,
+      "G.C.E.(A/L)": 211,
+      "Degree and above": 41,
+      "No schooling": 17
+    },
+    "total_value_from_source": 1327
+  },
+  {
+    "region_name": "Mawalgama",
+    "gnd_num": null,
+    "total_value": 1879,
+    "values": {
+      "Primary": 285,
+      "Secondary": 746,
+      "G.C.E.(O/L)": 497,
+      "G.C.E.(A/L)": 293,
+      "Degree and above": 27,
+      "No schooling": 31
+    },
+    "total_value_from_source": 1879
+  },
+  {
+    "region_name": "Suduwella",
+    "gnd_num": null,
+    "total_value": 3235,
+    "values": {
+      "Primary": 666,
+      "Secondary": 1393,
+      "G.C.E.(O/L)": 512,
+      "G.C.E.(A/L)": 440,
+      "Degree and above": 146,
+      "No schooling": 78
+    },
+    "total_value_from_source": 3235
+  },
+  {
+    "region_name": "Gira\u00a0Imbula",
+    "gnd_num": null,
+    "total_value": 858,
+    "values": {
+      "Primary": 154,
+      "Secondary": 310,
+      "G.C.E.(O/L)": 202,
+      "G.C.E.(A/L)": 153,
+      "Degree and above": 14,
+      "No schooling": 25
+    },
+    "total_value_from_source": 858
+  },
+  {
+    "region_name": "Walawwatta",
+    "gnd_num": null,
+    "total_value": 1252,
+    "values": {
+      "Primary": 396,
+      "Secondary": 729,
+      "G.C.E.(O/L)": 44,
+      "G.C.E.(A/L)": 21,
+      "Degree and above": 0,
+      "No schooling": 62
+    },
+    "total_value_from_source": 1252
+  },
+  {
+    "region_name": "Pahala\u00a0Hanwella",
+    "gnd_num": null,
+    "total_value": 1385,
+    "values": {
+      "Primary": 227,
+      "Secondary": 544,
+      "G.C.E.(O/L)": 359,
+      "G.C.E.(A/L)": 201,
+      "Degree and above": 26,
+      "No schooling": 28
+    },
+    "total_value_from_source": 1385
+  },
+  {
+    "region_name": "Hanwella\u00a0Town",
+    "gnd_num": null,
+    "total_value": 2771,
+    "values": {
+      "Primary": 398,
+      "Secondary": 1157,
+      "G.C.E.(O/L)": 654,
+      "G.C.E.(A/L)": 425,
+      "Degree and above": 94,
+      "No schooling": 43
+    },
+    "total_value_from_source": 2771
+  },
+  {
+    "region_name": "Ihala\u00a0Hanwella\u00a0North",
+    "gnd_num": null,
+    "total_value": 1398,
+    "values": {
+      "Primary": 239,
+      "Secondary": 560,
+      "G.C.E.(O/L)": 280,
+      "G.C.E.(A/L)": 225,
+      "Degree and above": 72,
+      "No schooling": 22
+    },
+    "total_value_from_source": 1398
+  },
+  {
+    "region_name": "Niripola",
+    "gnd_num": null,
+    "total_value": 1553,
+    "values": {
+      "Primary": 247,
+      "Secondary": 493,
+      "G.C.E.(O/L)": 412,
+      "G.C.E.(A/L)": 282,
+      "Degree and above": 107,
+      "No schooling": 12
+    },
+    "total_value_from_source": 1553
+  },
+  {
+    "region_name": "Brandigampala",
+    "gnd_num": null,
+    "total_value": 1078,
+    "values": {
+      "Primary": 175,
+      "Secondary": 376,
+      "G.C.E.(O/L)": 307,
+      "G.C.E.(A/L)": 170,
+      "Degree and above": 35,
+      "No schooling": 15
+    },
+    "total_value_from_source": 1078
+  },
+  {
+    "region_name": "Kadugoda\u00a0South",
+    "gnd_num": null,
+    "total_value": 1588,
+    "values": {
+      "Primary": 308,
+      "Secondary": 590,
+      "G.C.E.(O/L)": 327,
+      "G.C.E.(A/L)": 226,
+      "Degree and above": 106,
+      "No schooling": 31
+    },
+    "total_value_from_source": 1588
+  },
+  {
+    "region_name": "Weragolla\u00a0South",
+    "gnd_num": null,
+    "total_value": 1197,
+    "values": {
+      "Primary": 375,
+      "Secondary": 527,
+      "G.C.E.(O/L)": 140,
+      "G.C.E.(A/L)": 55,
+      "Degree and above": 11,
+      "No schooling": 89
+    },
+    "total_value_from_source": 1197
+  },
+  {
+    "region_name": "Digana",
+    "gnd_num": null,
+    "total_value": 1336,
+    "values": {
+      "Primary": 364,
+      "Secondary": 569,
+      "G.C.E.(O/L)": 187,
+      "G.C.E.(A/L)": 121,
+      "Degree and above": 42,
+      "No schooling": 53
+    },
+    "total_value_from_source": 1336
+  },
+  {
+    "region_name": "Lahirugama",
+    "gnd_num": null,
+    "total_value": 1941,
+    "values": {
+      "Primary": 639,
+      "Secondary": 938,
+      "G.C.E.(O/L)": 199,
+      "G.C.E.(A/L)": 67,
+      "Degree and above": 15,
+      "No schooling": 83
+    },
+    "total_value_from_source": 1941
+  },
+  {
+    "region_name": "Mambula",
+    "gnd_num": null,
+    "total_value": 1041,
+    "values": {
+      "Primary": 193,
+      "Secondary": 478,
+      "G.C.E.(O/L)": 188,
+      "G.C.E.(A/L)": 137,
+      "Degree and above": 14,
+      "No schooling": 31
+    },
+    "total_value_from_source": 1041
+  },
+  {
+    "region_name": "Welikanna",
+    "gnd_num": null,
+    "total_value": 1374,
+    "values": {
+      "Primary": 231,
+      "Secondary": 501,
+      "G.C.E.(O/L)": 311,
+      "G.C.E.(A/L)": 261,
+      "Degree and above": 46,
+      "No schooling": 24
+    },
+    "total_value_from_source": 1374
+  },
+  {
+    "region_name": "Kahahena",
+    "gnd_num": null,
+    "total_value": 1494,
+    "values": {
+      "Primary": 212,
+      "Secondary": 499,
+      "G.C.E.(O/L)": 419,
+      "G.C.E.(A/L)": 286,
+      "Degree and above": 53,
+      "No schooling": 25
+    },
+    "total_value_from_source": 1494
+  },
+  {
+    "region_name": "Neluwattuduwa",
+    "gnd_num": null,
+    "total_value": 614,
+    "values": {
+      "Primary": 102,
+      "Secondary": 157,
+      "G.C.E.(O/L)": 192,
+      "G.C.E.(A/L)": 124,
+      "Degree and above": 26,
+      "No schooling": 13
+    },
+    "total_value_from_source": 614
+  },
+  {
+    "region_name": "Diddeniya\u00a0North",
+    "gnd_num": null,
+    "total_value": 1569,
+    "values": {
+      "Primary": 313,
+      "Secondary": 724,
+      "G.C.E.(O/L)": 282,
+      "G.C.E.(A/L)": 182,
+      "Degree and above": 23,
+      "No schooling": 45
+    },
+    "total_value_from_source": 1569
+  },
+  {
+    "region_name": "Ihala\u00a0Hanwella\u00a0South",
+    "gnd_num": null,
+    "total_value": 960,
+    "values": {
+      "Primary": 186,
+      "Secondary": 407,
+      "G.C.E.(O/L)": 173,
+      "G.C.E.(A/L)": 150,
+      "Degree and above": 19,
+      "No schooling": 25
+    },
+    "total_value_from_source": 960
+  },
+  {
+    "region_name": "Pahathgama",
+    "gnd_num": null,
+    "total_value": 1705,
+    "values": {
+      "Primary": 293,
+      "Secondary": 728,
+      "G.C.E.(O/L)": 368,
+      "G.C.E.(A/L)": 236,
+      "Degree and above": 59,
+      "No schooling": 21
+    },
+    "total_value_from_source": 1705
+  },
+  {
+    "region_name": "Jayaweeragoda",
+    "gnd_num": null,
+    "total_value": 1573,
+    "values": {
+      "Primary": 311,
+      "Secondary": 644,
+      "G.C.E.(O/L)": 373,
+      "G.C.E.(A/L)": 177,
+      "Degree and above": 35,
+      "No schooling": 33
+    },
+    "total_value_from_source": 1573
+  },
+  {
+    "region_name": "Koodaluvila",
+    "gnd_num": null,
+    "total_value": 2552,
+    "values": {
+      "Primary": 561,
+      "Secondary": 1290,
+      "G.C.E.(O/L)": 359,
+      "G.C.E.(A/L)": 243,
+      "Degree and above": 19,
+      "No schooling": 80
+    },
+    "total_value_from_source": 2552
+  },
+  {
+    "region_name": "Thunnana\u00a0East",
+    "gnd_num": null,
+    "total_value": 784,
+    "values": {
+      "Primary": 200,
+      "Secondary": 441,
+      "G.C.E.(O/L)": 80,
+      "G.C.E.(A/L)": 27,
+      "Degree and above": 7,
+      "No schooling": 29
+    },
+    "total_value_from_source": 784
+  },
+  {
+    "region_name": "Diddeniya\u00a0South",
+    "gnd_num": null,
+    "total_value": 1127,
+    "values": {
+      "Primary": 215,
+      "Secondary": 524,
+      "G.C.E.(O/L)": 206,
+      "G.C.E.(A/L)": 135,
+      "Degree and above": 20,
+      "No schooling": 27
+    },
+    "total_value_from_source": 1127
+  },
+  {
+    "region_name": "Elamalawala",
+    "gnd_num": null,
+    "total_value": 565,
+    "values": {
+      "Primary": 111,
+      "Secondary": 248,
+      "G.C.E.(O/L)": 134,
+      "G.C.E.(A/L)": 55,
+      "Degree and above": 5,
+      "No schooling": 12
+    },
+    "total_value_from_source": 565
+  },
+  {
+    "region_name": "Ilukovita",
+    "gnd_num": null,
+    "total_value": 484,
+    "values": {
+      "Primary": 127,
+      "Secondary": 220,
+      "G.C.E.(O/L)": 83,
+      "G.C.E.(A/L)": 36,
+      "Degree and above": 3,
+      "No schooling": 15
+    },
+    "total_value_from_source": 484
+  },
+  {
+    "region_name": "Koswatta",
+    "gnd_num": null,
+    "total_value": 645,
+    "values": {
+      "Primary": 156,
+      "Secondary": 301,
+      "G.C.E.(O/L)": 108,
+      "G.C.E.(A/L)": 43,
+      "Degree and above": 2,
+      "No schooling": 35
+    },
+    "total_value_from_source": 645
+  },
+  {
+    "region_name": "Pagngnagula",
+    "gnd_num": null,
+    "total_value": 699,
+    "values": {
+      "Primary": 204,
+      "Secondary": 261,
+      "G.C.E.(O/L)": 146,
+      "G.C.E.(A/L)": 54,
+      "Degree and above": 6,
+      "No schooling": 28
+    },
+    "total_value_from_source": 699
+  },
+  {
+    "region_name": "Pelpola",
+    "gnd_num": null,
+    "total_value": 681,
+    "values": {
+      "Primary": 127,
+      "Secondary": 192,
+      "G.C.E.(O/L)": 221,
+      "G.C.E.(A/L)": 108,
+      "Degree and above": 15,
+      "No schooling": 18
+    },
+    "total_value_from_source": 681
+  },
+  {
+    "region_name": "Kudakanda",
+    "gnd_num": null,
+    "total_value": 1173,
+    "values": {
+      "Primary": 295,
+      "Secondary": 599,
+      "G.C.E.(O/L)": 122,
+      "G.C.E.(A/L)": 110,
+      "Degree and above": 21,
+      "No schooling": 26
+    },
+    "total_value_from_source": 1173
+  },
+  {
+    "region_name": "Thunnana\u00a0West",
+    "gnd_num": null,
+    "total_value": 1565,
+    "values": {
+      "Primary": 399,
+      "Secondary": 827,
+      "G.C.E.(O/L)": 152,
+      "G.C.E.(A/L)": 88,
+      "Degree and above": 27,
+      "No schooling": 72
+    },
+    "total_value_from_source": 1565
+  },
+  {
+    "region_name": "Mawathagama\u00a0West",
+    "gnd_num": null,
+    "total_value": 1770,
+    "values": {
+      "Primary": 346,
+      "Secondary": 741,
+      "G.C.E.(O/L)": 372,
+      "G.C.E.(A/L)": 242,
+      "Degree and above": 35,
+      "No schooling": 34
+    },
+    "total_value_from_source": 1770
+  },
+  {
+    "region_name": "Mawathagama\u00a0East",
+    "gnd_num": null,
+    "total_value": 849,
+    "values": {
+      "Primary": 148,
+      "Secondary": 338,
+      "G.C.E.(O/L)": 177,
+      "G.C.E.(A/L)": 135,
+      "Degree and above": 24,
+      "No schooling": 27
+    },
+    "total_value_from_source": 849
+  },
+  {
+    "region_name": "Padukka",
+    "gnd_num": null,
+    "total_value": 60183,
+    "values": {
+      "Primary": 11250,
+      "Secondary": 24000,
+      "G.C.E.(O/L)": 12980,
+      "G.C.E.(A/L)": 8749,
+      "Degree and above": 1913,
+      "No schooling": 1291
+    },
+    "total_value_from_source": 60183
+  },
+  {
+    "region_name": "Pinnawala\u00a0North",
+    "gnd_num": null,
+    "total_value": 780,
+    "values": {
+      "Primary": 128,
+      "Secondary": 317,
+      "G.C.E.(O/L)": 177,
+      "G.C.E.(A/L)": 129,
+      "Degree and above": 14,
+      "No schooling": 15
+    },
+    "total_value_from_source": 780
+  },
+  {
+    "region_name": "Pinnawala\u00a0South",
+    "gnd_num": null,
+    "total_value": 1386,
+    "values": {
+      "Primary": 243,
+      "Secondary": 588,
+      "G.C.E.(O/L)": 306,
+      "G.C.E.(A/L)": 183,
+      "Degree and above": 38,
+      "No schooling": 28
+    },
+    "total_value_from_source": 1386
+  },
+  {
+    "region_name": "Waga\u00a0North",
+    "gnd_num": null,
+    "total_value": 792,
+    "values": {
+      "Primary": 166,
+      "Secondary": 381,
+      "G.C.E.(O/L)": 133,
+      "G.C.E.(A/L)": 78,
+      "Degree and above": 6,
+      "No schooling": 28
+    },
+    "total_value_from_source": 792
+  },
+  {
+    "region_name": "Waga\u00a0East",
+    "gnd_num": null,
+    "total_value": 1638,
+    "values": {
+      "Primary": 401,
+      "Secondary": 788,
+      "G.C.E.(O/L)": 212,
+      "G.C.E.(A/L)": 151,
+      "Degree and above": 32,
+      "No schooling": 54
+    },
+    "total_value_from_source": 1638
+  },
+  {
+    "region_name": "Thummodara",
+    "gnd_num": null,
+    "total_value": 737,
+    "values": {
+      "Primary": 163,
+      "Secondary": 319,
+      "G.C.E.(O/L)": 137,
+      "G.C.E.(A/L)": 66,
+      "Degree and above": 14,
+      "No schooling": 38
+    },
+    "total_value_from_source": 737
+  },
+  {
+    "region_name": "Waga\u00a0South",
+    "gnd_num": null,
+    "total_value": 899,
+    "values": {
+      "Primary": 210,
+      "Secondary": 394,
+      "G.C.E.(O/L)": 175,
+      "G.C.E.(A/L)": 67,
+      "Degree and above": 7,
+      "No schooling": 46
+    },
+    "total_value_from_source": 899
+  },
+  {
+    "region_name": "Siyambalawa",
+    "gnd_num": null,
+    "total_value": 1733,
+    "values": {
+      "Primary": 339,
+      "Secondary": 727,
+      "G.C.E.(O/L)": 323,
+      "G.C.E.(A/L)": 239,
+      "Degree and above": 75,
+      "No schooling": 30
+    },
+    "total_value_from_source": 1733
+  },
+  {
+    "region_name": "Pahala\u00a0Bope",
+    "gnd_num": null,
+    "total_value": 989,
+    "values": {
+      "Primary": 187,
+      "Secondary": 468,
+      "G.C.E.(O/L)": 141,
+      "G.C.E.(A/L)": 144,
+      "Degree and above": 22,
+      "No schooling": 27
+    },
+    "total_value_from_source": 989
+  },
+  {
+    "region_name": "Halpe",
+    "gnd_num": null,
+    "total_value": 674,
+    "values": {
+      "Primary": 214,
+      "Secondary": 239,
+      "G.C.E.(O/L)": 129,
+      "G.C.E.(A/L)": 52,
+      "Degree and above": 14,
+      "No schooling": 26
+    },
+    "total_value_from_source": 674
+  },
+  {
+    "region_name": "Waga\u00a0West",
+    "gnd_num": null,
+    "total_value": 1240,
+    "values": {
+      "Primary": 227,
+      "Secondary": 448,
+      "G.C.E.(O/L)": 301,
+      "G.C.E.(A/L)": 211,
+      "Degree and above": 28,
+      "No schooling": 25
+    },
+    "total_value_from_source": 1240
+  },
+  {
+    "region_name": "Uggalla",
+    "gnd_num": null,
+    "total_value": 1743,
+    "values": {
+      "Primary": 415,
+      "Secondary": 798,
+      "G.C.E.(O/L)": 296,
+      "G.C.E.(A/L)": 178,
+      "Degree and above": 25,
+      "No schooling": 31
+    },
+    "total_value_from_source": 1743
+  },
+  {
+    "region_name": "Wewelpanawa",
+    "gnd_num": null,
+    "total_value": 647,
+    "values": {
+      "Primary": 106,
+      "Secondary": 292,
+      "G.C.E.(O/L)": 108,
+      "G.C.E.(A/L)": 107,
+      "Degree and above": 22,
+      "No schooling": 12
+    },
+    "total_value_from_source": 647
+  },
+  {
+    "region_name": "Pitumpe\u00a0North",
+    "gnd_num": null,
+    "total_value": 1347,
+    "values": {
+      "Primary": 237,
+      "Secondary": 457,
+      "G.C.E.(O/L)": 323,
+      "G.C.E.(A/L)": 273,
+      "Degree and above": 42,
+      "No schooling": 15
+    },
+    "total_value_from_source": 1347
+  },
+  {
+    "region_name": "Pitumpe\u00a0South",
+    "gnd_num": null,
+    "total_value": 1234,
+    "values": {
+      "Primary": 213,
+      "Secondary": 507,
+      "G.C.E.(O/L)": 268,
+      "G.C.E.(A/L)": 178,
+      "Degree and above": 43,
+      "No schooling": 25
+    },
+    "total_value_from_source": 1234
+  },
+  {
+    "region_name": "Galagedara\u00a0East",
+    "gnd_num": null,
+    "total_value": 2539,
+    "values": {
+      "Primary": 485,
+      "Secondary": 1212,
+      "G.C.E.(O/L)": 416,
+      "G.C.E.(A/L)": 273,
+      "Degree and above": 99,
+      "No schooling": 54
+    },
+    "total_value_from_source": 2539
+  },
+  {
+    "region_name": "Galagedara\u00a0North",
+    "gnd_num": null,
+    "total_value": 2201,
+    "values": {
+      "Primary": 355,
+      "Secondary": 569,
+      "G.C.E.(O/L)": 614,
+      "G.C.E.(A/L)": 477,
+      "Degree and above": 157,
+      "No schooling": 29
+    },
+    "total_value_from_source": 2201
+  },
+  {
+    "region_name": "Galagedara\u00a0South",
+    "gnd_num": null,
+    "total_value": 1152,
+    "values": {
+      "Primary": 161,
+      "Secondary": 379,
+      "G.C.E.(O/L)": 299,
+      "G.C.E.(A/L)": 225,
+      "Degree and above": 73,
+      "No schooling": 15
+    },
+    "total_value_from_source": 1152
+  },
+  {
+    "region_name": "Padukka",
+    "gnd_num": null,
+    "total_value": 2737,
+    "values": {
+      "Primary": 350,
+      "Secondary": 686,
+      "G.C.E.(O/L)": 788,
+      "G.C.E.(A/L)": 688,
+      "Degree and above": 184,
+      "No schooling": 41
+    },
+    "total_value_from_source": 2737
+  },
+  {
+    "region_name": "Arukwatta\u00a0North",
+    "gnd_num": null,
+    "total_value": 1386,
+    "values": {
+      "Primary": 231,
+      "Secondary": 415,
+      "G.C.E.(O/L)": 374,
+      "G.C.E.(A/L)": 283,
+      "Degree and above": 51,
+      "No schooling": 32
+    },
+    "total_value_from_source": 1386
+  },
+  {
+    "region_name": "Arukwatta\u00a0South",
+    "gnd_num": null,
+    "total_value": 2017,
+    "values": {
+      "Primary": 318,
+      "Secondary": 786,
+      "G.C.E.(O/L)": 450,
+      "G.C.E.(A/L)": 352,
+      "Degree and above": 87,
+      "No schooling": 24
+    },
+    "total_value_from_source": 2017
+  },
+  {
+    "region_name": "Ganegoda",
+    "gnd_num": null,
+    "total_value": 1051,
+    "values": {
+      "Primary": 191,
+      "Secondary": 419,
+      "G.C.E.(O/L)": 247,
+      "G.C.E.(A/L)": 155,
+      "Degree and above": 12,
+      "No schooling": 27
+    },
+    "total_value_from_source": 1051
+  },
+  {
+    "region_name": "Angampitiya",
+    "gnd_num": null,
+    "total_value": 2008,
+    "values": {
+      "Primary": 333,
+      "Secondary": 960,
+      "G.C.E.(O/L)": 456,
+      "G.C.E.(A/L)": 180,
+      "Degree and above": 44,
+      "No schooling": 35
+    },
+    "total_value_from_source": 2008
+  },
+  {
+    "region_name": "Weragala",
+    "gnd_num": null,
+    "total_value": 1677,
+    "values": {
+      "Primary": 323,
+      "Secondary": 797,
+      "G.C.E.(O/L)": 343,
+      "G.C.E.(A/L)": 134,
+      "Degree and above": 55,
+      "No schooling": 25
+    },
+    "total_value_from_source": 1677
+  },
+  {
+    "region_name": "Angamuwa",
+    "gnd_num": null,
+    "total_value": 1472,
+    "values": {
+      "Primary": 306,
+      "Secondary": 581,
+      "G.C.E.(O/L)": 343,
+      "G.C.E.(A/L)": 187,
+      "Degree and above": 22,
+      "No schooling": 33
+    },
+    "total_value_from_source": 1472
+  },
+  {
+    "region_name": "Udumulla",
+    "gnd_num": null,
+    "total_value": 2169,
+    "values": {
+      "Primary": 345,
+      "Secondary": 931,
+      "G.C.E.(O/L)": 468,
+      "G.C.E.(A/L)": 312,
+      "Degree and above": 76,
+      "No schooling": 37
+    },
+    "total_value_from_source": 2169
+  },
+  {
+    "region_name": "Poregedara",
+    "gnd_num": null,
+    "total_value": 987,
+    "values": {
+      "Primary": 174,
+      "Secondary": 375,
+      "G.C.E.(O/L)": 236,
+      "G.C.E.(A/L)": 146,
+      "Degree and above": 32,
+      "No schooling": 24
+    },
+    "total_value_from_source": 987
+  },
+  {
+    "region_name": "Pahala\u00a0Padukka",
+    "gnd_num": null,
+    "total_value": 1232,
+    "values": {
+      "Primary": 154,
+      "Secondary": 387,
+      "G.C.E.(O/L)": 299,
+      "G.C.E.(A/L)": 299,
+      "Degree and above": 80,
+      "No schooling": 13
+    },
+    "total_value_from_source": 1232
+  },
+  {
+    "region_name": "Liyanwala",
+    "gnd_num": null,
+    "total_value": 1089,
+    "values": {
+      "Primary": 188,
+      "Secondary": 410,
+      "G.C.E.(O/L)": 247,
+      "G.C.E.(A/L)": 197,
+      "Degree and above": 35,
+      "No schooling": 12
+    },
+    "total_value_from_source": 1089
+  },
+  {
+    "region_name": "Kurugala",
+    "gnd_num": null,
+    "total_value": 1360,
+    "values": {
+      "Primary": 245,
+      "Secondary": 562,
+      "G.C.E.(O/L)": 328,
+      "G.C.E.(A/L)": 181,
+      "Degree and above": 17,
+      "No schooling": 27
+    },
+    "total_value_from_source": 1360
+  },
+  {
+    "region_name": "Madulawa\u00a0South",
+    "gnd_num": null,
+    "total_value": 905,
+    "values": {
+      "Primary": 136,
+      "Secondary": 309,
+      "G.C.E.(O/L)": 254,
+      "G.C.E.(A/L)": 172,
+      "Degree and above": 22,
+      "No schooling": 12
+    },
+    "total_value_from_source": 905
+  },
+  {
+    "region_name": "Madulawa\u00a0North",
+    "gnd_num": null,
+    "total_value": 1238,
+    "values": {
+      "Primary": 226,
+      "Secondary": 475,
+      "G.C.E.(O/L)": 333,
+      "G.C.E.(A/L)": 157,
+      "Degree and above": 21,
+      "No schooling": 26
+    },
+    "total_value_from_source": 1238
+  },
+  {
+    "region_name": "Horakandawala",
+    "gnd_num": null,
+    "total_value": 1871,
+    "values": {
+      "Primary": 387,
+      "Secondary": 895,
+      "G.C.E.(O/L)": 352,
+      "G.C.E.(A/L)": 162,
+      "Degree and above": 31,
+      "No schooling": 44
+    },
+    "total_value_from_source": 1871
+  },
+  {
+    "region_name": "Dampe",
+    "gnd_num": null,
+    "total_value": 1386,
+    "values": {
+      "Primary": 265,
+      "Secondary": 537,
+      "G.C.E.(O/L)": 328,
+      "G.C.E.(A/L)": 208,
+      "Degree and above": 30,
+      "No schooling": 18
+    },
+    "total_value_from_source": 1386
+  },
+  {
+    "region_name": "Beruketiya",
+    "gnd_num": null,
+    "total_value": 1731,
+    "values": {
+      "Primary": 303,
+      "Secondary": 493,
+      "G.C.E.(O/L)": 486,
+      "G.C.E.(A/L)": 344,
+      "Degree and above": 74,
+      "No schooling": 31
+    },
+    "total_value_from_source": 1731
+  },
+  {
+    "region_name": "Horagala\u00a0West",
+    "gnd_num": null,
+    "total_value": 1202,
+    "values": {
+      "Primary": 276,
+      "Secondary": 629,
+      "G.C.E.(O/L)": 125,
+      "G.C.E.(A/L)": 118,
+      "Degree and above": 16,
+      "No schooling": 38
+    },
+    "total_value_from_source": 1202
+  },
+  {
+    "region_name": "Horagala\u00a0East",
+    "gnd_num": null,
+    "total_value": 1635,
+    "values": {
+      "Primary": 310,
+      "Secondary": 721,
+      "G.C.E.(O/L)": 295,
+      "G.C.E.(A/L)": 205,
+      "Degree and above": 70,
+      "No schooling": 34
+    },
+    "total_value_from_source": 1635
+  },
+  {
+    "region_name": "Beliattavila",
+    "gnd_num": null,
+    "total_value": 689,
+    "values": {
+      "Primary": 146,
+      "Secondary": 271,
+      "G.C.E.(O/L)": 143,
+      "G.C.E.(A/L)": 94,
+      "Degree and above": 16,
+      "No schooling": 19
+    },
+    "total_value_from_source": 689
+  },
+  {
+    "region_name": "Miriyagalla",
+    "gnd_num": null,
+    "total_value": 1256,
+    "values": {
+      "Primary": 260,
+      "Secondary": 542,
+      "G.C.E.(O/L)": 236,
+      "G.C.E.(A/L)": 162,
+      "Degree and above": 25,
+      "No schooling": 31
+    },
+    "total_value_from_source": 1256
+  },
+  {
+    "region_name": "Malagala",
+    "gnd_num": null,
+    "total_value": 1624,
+    "values": {
+      "Primary": 271,
+      "Secondary": 712,
+      "G.C.E.(O/L)": 380,
+      "G.C.E.(A/L)": 185,
+      "Degree and above": 35,
+      "No schooling": 41
+    },
+    "total_value_from_source": 1624
+  },
+  {
+    "region_name": "Kahawala",
+    "gnd_num": null,
+    "total_value": 868,
+    "values": {
+      "Primary": 160,
+      "Secondary": 320,
+      "G.C.E.(O/L)": 202,
+      "G.C.E.(A/L)": 135,
+      "Degree and above": 25,
+      "No schooling": 26
+    },
+    "total_value_from_source": 868
+  },
+  {
+    "region_name": "Yatawathura",
+    "gnd_num": null,
+    "total_value": 709,
+    "values": {
+      "Primary": 151,
+      "Secondary": 253,
+      "G.C.E.(O/L)": 168,
+      "G.C.E.(A/L)": 93,
+      "Degree and above": 24,
+      "No schooling": 20
+    },
+    "total_value_from_source": 709
+  },
+  {
+    "region_name": "Mahingala",
+    "gnd_num": null,
+    "total_value": 559,
+    "values": {
+      "Primary": 161,
+      "Secondary": 222,
+      "G.C.E.(O/L)": 86,
+      "G.C.E.(A/L)": 60,
+      "Degree and above": 10,
+      "No schooling": 20
+    },
+    "total_value_from_source": 559
+  },
+  {
+    "region_name": "Ihala\u00a0Bope",
+    "gnd_num": null,
+    "total_value": 1295,
+    "values": {
+      "Primary": 233,
+      "Secondary": 505,
+      "G.C.E.(O/L)": 241,
+      "G.C.E.(A/L)": 238,
+      "Degree and above": 62,
+      "No schooling": 16
+    },
+    "total_value_from_source": 1295
+  },
+  {
+    "region_name": "Gurulana",
+    "gnd_num": null,
+    "total_value": 845,
+    "values": {
+      "Primary": 158,
+      "Secondary": 333,
+      "G.C.E.(O/L)": 197,
+      "G.C.E.(A/L)": 102,
+      "Degree and above": 26,
+      "No schooling": 29
+    },
+    "total_value_from_source": 845
+  },
+  {
+    "region_name": "Udagama",
+    "gnd_num": null,
+    "total_value": 710,
+    "values": {
+      "Primary": 177,
+      "Secondary": 290,
+      "G.C.E.(O/L)": 108,
+      "G.C.E.(A/L)": 100,
+      "Degree and above": 14,
+      "No schooling": 21
+    },
+    "total_value_from_source": 710
+  },
+  {
+    "region_name": "Dambora",
+    "gnd_num": null,
+    "total_value": 744,
+    "values": {
+      "Primary": 222,
+      "Secondary": 301,
+      "G.C.E.(O/L)": 109,
+      "G.C.E.(A/L)": 69,
+      "Degree and above": 6,
+      "No schooling": 37
+    },
+    "total_value_from_source": 744
+  },
+  {
+    "region_name": "Maharagama",
+    "gnd_num": null,
+    "total_value": 184284,
+    "values": {
+      "Primary": 22520,
+      "Secondary": 52968,
+      "G.C.E.(O/L)": 43459,
+      "G.C.E.(A/L)": 46269,
+      "Degree and above": 16291,
+      "No schooling": 2777
+    },
+    "total_value_from_source": 184284
+  },
+  {
+    "region_name": "Mirihana\u00a0South",
+    "gnd_num": null,
+    "total_value": 5720,
+    "values": {
+      "Primary": 701,
+      "Secondary": 1915,
+      "G.C.E.(O/L)": 1179,
+      "G.C.E.(A/L)": 1151,
+      "Degree and above": 650,
+      "No schooling": 124
+    },
+    "total_value_from_source": 5720
+  },
+  {
+    "region_name": "Mirihana\u00a0North",
+    "gnd_num": null,
+    "total_value": 5813,
+    "values": {
+      "Primary": 720,
+      "Secondary": 1870,
+      "G.C.E.(O/L)": 1624,
+      "G.C.E.(A/L)": 1159,
+      "Degree and above": 364,
+      "No schooling": 76
+    },
+    "total_value_from_source": 5813
+  },
+  {
+    "region_name": "Madiwela",
+    "gnd_num": null,
+    "total_value": 5849,
+    "values": {
+      "Primary": 774,
+      "Secondary": 1728,
+      "G.C.E.(O/L)": 1384,
+      "G.C.E.(A/L)": 1279,
+      "Degree and above": 551,
+      "No schooling": 133
+    },
+    "total_value_from_source": 5849
+  },
+  {
+    "region_name": "Thalawathugoda\u00a0West",
+    "gnd_num": null,
+    "total_value": 5113,
+    "values": {
+      "Primary": 718,
+      "Secondary": 1547,
+      "G.C.E.(O/L)": 1089,
+      "G.C.E.(A/L)": 1075,
+      "Degree and above": 592,
+      "No schooling": 92
+    },
+    "total_value_from_source": 5113
+  },
+  {
+    "region_name": "Thalawathugoda\u00a0East",
+    "gnd_num": null,
+    "total_value": 5893,
+    "values": {
+      "Primary": 729,
+      "Secondary": 1451,
+      "G.C.E.(O/L)": 1396,
+      "G.C.E.(A/L)": 1495,
+      "Degree and above": 743,
+      "No schooling": 79
+    },
+    "total_value_from_source": 5893
+  },
+  {
+    "region_name": "Kalalgoda",
+    "gnd_num": null,
+    "total_value": 4607,
+    "values": {
+      "Primary": 644,
+      "Secondary": 1322,
+      "G.C.E.(O/L)": 1060,
+      "G.C.E.(A/L)": 1085,
+      "Degree and above": 424,
+      "No schooling": 72
+    },
+    "total_value_from_source": 4607
+  },
+  {
+    "region_name": "Kottawa\u00a0East",
+    "gnd_num": null,
+    "total_value": 5204,
+    "values": {
+      "Primary": 750,
+      "Secondary": 1682,
+      "G.C.E.(O/L)": 1208,
+      "G.C.E.(A/L)": 1087,
+      "Degree and above": 418,
+      "No schooling": 59
+    },
+    "total_value_from_source": 5204
+  },
+  {
+    "region_name": "Rukmale\u00a0West",
+    "gnd_num": null,
+    "total_value": 4132,
+    "values": {
+      "Primary": 503,
+      "Secondary": 1273,
+      "G.C.E.(O/L)": 1069,
+      "G.C.E.(A/L)": 964,
+      "Degree and above": 257,
+      "No schooling": 66
+    },
+    "total_value_from_source": 4132
+  },
+  {
+    "region_name": "Rukmale\u00a0East\u00a0A",
+    "gnd_num": null,
+    "total_value": 1167,
+    "values": {
+      "Primary": 165,
+      "Secondary": 379,
+      "G.C.E.(O/L)": 233,
+      "G.C.E.(A/L)": 290,
+      "Degree and above": 91,
+      "No schooling": 9
+    },
+    "total_value_from_source": 1167
+  },
+  {
+    "region_name": "Rukmale\u00a0East\u00a0B",
+    "gnd_num": null,
+    "total_value": 2546,
+    "values": {
+      "Primary": 309,
+      "Secondary": 715,
+      "G.C.E.(O/L)": 650,
+      "G.C.E.(A/L)": 649,
+      "Degree and above": 173,
+      "No schooling": 50
+    },
+    "total_value_from_source": 2546
+  },
+  {
+    "region_name": "Liyanagoda",
+    "gnd_num": null,
+    "total_value": 4000,
+    "values": {
+      "Primary": 624,
+      "Secondary": 1470,
+      "G.C.E.(O/L)": 923,
+      "G.C.E.(A/L)": 722,
+      "Degree and above": 206,
+      "No schooling": 55
+    },
+    "total_value_from_source": 4000
+  },
+  {
+    "region_name": "Kottawa\u00a0North",
+    "gnd_num": null,
+    "total_value": 2300,
+    "values": {
+      "Primary": 294,
+      "Secondary": 616,
+      "G.C.E.(O/L)": 591,
+      "G.C.E.(A/L)": 585,
+      "Degree and above": 186,
+      "No schooling": 28
+    },
+    "total_value_from_source": 2300
+  },
+  {
+    "region_name": "Depanama",
+    "gnd_num": null,
+    "total_value": 7138,
+    "values": {
+      "Primary": 934,
+      "Secondary": 1890,
+      "G.C.E.(O/L)": 1854,
+      "G.C.E.(A/L)": 1777,
+      "Degree and above": 591,
+      "No schooling": 92
+    },
+    "total_value_from_source": 7138
+  },
+  {
+    "region_name": "Polwatta",
+    "gnd_num": null,
+    "total_value": 3280,
+    "values": {
+      "Primary": 420,
+      "Secondary": 948,
+      "G.C.E.(O/L)": 789,
+      "G.C.E.(A/L)": 780,
+      "Degree and above": 287,
+      "No schooling": 56
+    },
+    "total_value_from_source": 3280
+  },
+  {
+    "region_name": "Pamunuwa",
+    "gnd_num": null,
+    "total_value": 4286,
+    "values": {
+      "Primary": 606,
+      "Secondary": 1329,
+      "G.C.E.(O/L)": 1067,
+      "G.C.E.(A/L)": 936,
+      "Degree and above": 248,
+      "No schooling": 100
+    },
+    "total_value_from_source": 4286
+  },
+  {
+    "region_name": "Thalapathpitiya",
+    "gnd_num": null,
+    "total_value": 6642,
+    "values": {
+      "Primary": 799,
+      "Secondary": 1752,
+      "G.C.E.(O/L)": 1401,
+      "G.C.E.(A/L)": 2062,
+      "Degree and above": 527,
+      "No schooling": 101
+    },
+    "total_value_from_source": 6642
+  },
+  {
+    "region_name": "Pragathipura",
+    "gnd_num": null,
+    "total_value": 5402,
+    "values": {
+      "Primary": 1081,
+      "Secondary": 2627,
+      "G.C.E.(O/L)": 980,
+      "G.C.E.(A/L)": 498,
+      "Degree and above": 78,
+      "No schooling": 138
+    },
+    "total_value_from_source": 5402
+  },
+  {
+    "region_name": "Udahamulla\u00a0East",
+    "gnd_num": null,
+    "total_value": 5898,
+    "values": {
+      "Primary": 800,
+      "Secondary": 2077,
+      "G.C.E.(O/L)": 1310,
+      "G.C.E.(A/L)": 1125,
+      "Degree and above": 460,
+      "No schooling": 126
+    },
+    "total_value_from_source": 5898
+  },
+  {
+    "region_name": "Udahamulla\u00a0West",
+    "gnd_num": null,
+    "total_value": 4452,
+    "values": {
+      "Primary": 555,
+      "Secondary": 1108,
+      "G.C.E.(O/L)": 1062,
+      "G.C.E.(A/L)": 1185,
+      "Degree and above": 492,
+      "No schooling": 50
+    },
+    "total_value_from_source": 4452
+  },
+  {
+    "region_name": "Pathiragoda",
+    "gnd_num": null,
+    "total_value": 6139,
+    "values": {
+      "Primary": 712,
+      "Secondary": 1967,
+      "G.C.E.(O/L)": 1511,
+      "G.C.E.(A/L)": 1360,
+      "Degree and above": 500,
+      "No schooling": 89
+    },
+    "total_value_from_source": 6139
+  },
+  {
+    "region_name": "Maharagama\u00a0East",
+    "gnd_num": null,
+    "total_value": 3463,
+    "values": {
+      "Primary": 382,
+      "Secondary": 1076,
+      "G.C.E.(O/L)": 831,
+      "G.C.E.(A/L)": 845,
+      "Degree and above": 293,
+      "No schooling": 36
+    },
+    "total_value_from_source": 3463
+  },
+  {
+    "region_name": "Maharagama\u00a0West",
+    "gnd_num": null,
+    "total_value": 2327,
+    "values": {
+      "Primary": 293,
+      "Secondary": 611,
+      "G.C.E.(O/L)": 515,
+      "G.C.E.(A/L)": 636,
+      "Degree and above": 244,
+      "No schooling": 28
+    },
+    "total_value_from_source": 2327
+  },
+  {
+    "region_name": "Dambahena",
+    "gnd_num": null,
+    "total_value": 4904,
+    "values": {
+      "Primary": 558,
+      "Secondary": 1089,
+      "G.C.E.(O/L)": 1216,
+      "G.C.E.(A/L)": 1367,
+      "Degree and above": 623,
+      "No schooling": 51
+    },
+    "total_value_from_source": 4904
+  },
+  {
+    "region_name": "Pannipitiya\u00a0North",
+    "gnd_num": null,
+    "total_value": 3803,
+    "values": {
+      "Primary": 432,
+      "Secondary": 1031,
+      "G.C.E.(O/L)": 937,
+      "G.C.E.(A/L)": 994,
+      "Degree and above": 350,
+      "No schooling": 59
+    },
+    "total_value_from_source": 3803
+  },
+  {
+    "region_name": "Kottawa\u00a0West",
+    "gnd_num": null,
+    "total_value": 2592,
+    "values": {
+      "Primary": 321,
+      "Secondary": 718,
+      "G.C.E.(O/L)": 593,
+      "G.C.E.(A/L)": 647,
+      "Degree and above": 272,
+      "No schooling": 41
+    },
+    "total_value_from_source": 2592
+  },
+  {
+    "region_name": "Kottawa\u00a0South",
+    "gnd_num": null,
+    "total_value": 6690,
+    "values": {
+      "Primary": 874,
+      "Secondary": 2292,
+      "G.C.E.(O/L)": 1533,
+      "G.C.E.(A/L)": 1461,
+      "Degree and above": 402,
+      "No schooling": 128
+    },
+    "total_value_from_source": 6690
+  },
+  {
+    "region_name": "Malapalla\u00a0West",
+    "gnd_num": null,
+    "total_value": 2506,
+    "values": {
+      "Primary": 308,
+      "Secondary": 689,
+      "G.C.E.(O/L)": 697,
+      "G.C.E.(A/L)": 608,
+      "Degree and above": 167,
+      "No schooling": 37
+    },
+    "total_value_from_source": 2506
+  },
+  {
+    "region_name": "Malapalla\u00a0East",
+    "gnd_num": null,
+    "total_value": 3396,
+    "values": {
+      "Primary": 438,
+      "Secondary": 958,
+      "G.C.E.(O/L)": 840,
+      "G.C.E.(A/L)": 918,
+      "Degree and above": 199,
+      "No schooling": 43
+    },
+    "total_value_from_source": 3396
+  },
+  {
+    "region_name": "Makumbura\u00a0North",
+    "gnd_num": null,
+    "total_value": 3273,
+    "values": {
+      "Primary": 359,
+      "Secondary": 966,
+      "G.C.E.(O/L)": 799,
+      "G.C.E.(A/L)": 850,
+      "Degree and above": 262,
+      "No schooling": 37
+    },
+    "total_value_from_source": 3273
+  },
+  {
+    "region_name": "Makumbura\u00a0South",
+    "gnd_num": null,
+    "total_value": 1507,
+    "values": {
+      "Primary": 152,
+      "Secondary": 426,
+      "G.C.E.(O/L)": 371,
+      "G.C.E.(A/L)": 424,
+      "Degree and above": 105,
+      "No schooling": 29
+    },
+    "total_value_from_source": 1507
+  },
+  {
+    "region_name": "Kottawa\u00a0Town",
+    "gnd_num": null,
+    "total_value": 5191,
+    "values": {
+      "Primary": 549,
+      "Secondary": 1330,
+      "G.C.E.(O/L)": 1387,
+      "G.C.E.(A/L)": 1237,
+      "Degree and above": 615,
+      "No schooling": 73
+    },
+    "total_value_from_source": 5191
+  },
+  {
+    "region_name": "Pannipitiya\u00a0South",
+    "gnd_num": null,
+    "total_value": 2117,
+    "values": {
+      "Primary": 223,
+      "Secondary": 482,
+      "G.C.E.(O/L)": 488,
+      "G.C.E.(A/L)": 640,
+      "Degree and above": 258,
+      "No schooling": 26
+    },
+    "total_value_from_source": 2117
+  },
+  {
+    "region_name": "Maharagama\u00a0Town",
+    "gnd_num": null,
+    "total_value": 5150,
+    "values": {
+      "Primary": 526,
+      "Secondary": 1043,
+      "G.C.E.(O/L)": 1387,
+      "G.C.E.(A/L)": 1501,
+      "Degree and above": 625,
+      "No schooling": 68
+    },
+    "total_value_from_source": 5150
+  },
+  {
+    "region_name": "Godigamuwa\u00a0South",
+    "gnd_num": null,
+    "total_value": 4864,
+    "values": {
+      "Primary": 559,
+      "Secondary": 1303,
+      "G.C.E.(O/L)": 1225,
+      "G.C.E.(A/L)": 1300,
+      "Degree and above": 407,
+      "No schooling": 70
+    },
+    "total_value_from_source": 4864
+  },
+  {
+    "region_name": "Godigamuwa\u00a0South\u00a0B",
+    "gnd_num": null,
+    "total_value": 6865,
+    "values": {
+      "Primary": 792,
+      "Secondary": 2316,
+      "G.C.E.(O/L)": 1843,
+      "G.C.E.(A/L)": 1422,
+      "Degree and above": 394,
+      "No schooling": 98
+    },
+    "total_value_from_source": 6865
+  },
+  {
+    "region_name": "Godigamuwa\u00a0North",
+    "gnd_num": null,
+    "total_value": 3827,
+    "values": {
+      "Primary": 360,
+      "Secondary": 1114,
+      "G.C.E.(O/L)": 910,
+      "G.C.E.(A/L)": 984,
+      "Degree and above": 413,
+      "No schooling": 46
+    },
+    "total_value_from_source": 3827
+  },
+  {
+    "region_name": "Wattegedara",
+    "gnd_num": null,
+    "total_value": 7315,
+    "values": {
+      "Primary": 793,
+      "Secondary": 1860,
+      "G.C.E.(O/L)": 1783,
+      "G.C.E.(A/L)": 2013,
+      "Degree and above": 780,
+      "No schooling": 86
+    },
+    "total_value_from_source": 7315
+  },
+  {
+    "region_name": "Navinna",
+    "gnd_num": null,
+    "total_value": 4648,
+    "values": {
+      "Primary": 536,
+      "Secondary": 1284,
+      "G.C.E.(O/L)": 1042,
+      "G.C.E.(A/L)": 1213,
+      "Degree and above": 498,
+      "No schooling": 75
+    },
+    "total_value_from_source": 4648
+  },
+  {
+    "region_name": "Wijerama",
+    "gnd_num": null,
+    "total_value": 3535,
+    "values": {
+      "Primary": 284,
+      "Secondary": 477,
+      "G.C.E.(O/L)": 561,
+      "G.C.E.(A/L)": 1740,
+      "Degree and above": 441,
+      "No schooling": 32
+    },
+    "total_value_from_source": 3535
+  },
+  {
+    "region_name": "Gangodavila\u00a0South\u00a0B",
+    "gnd_num": null,
+    "total_value": 7105,
+    "values": {
+      "Primary": 567,
+      "Secondary": 1458,
+      "G.C.E.(O/L)": 1190,
+      "G.C.E.(A/L)": 3205,
+      "Degree and above": 623,
+      "No schooling": 62
+    },
+    "total_value_from_source": 7105
+  },
+  {
+    "region_name": "Jambugasmulla",
+    "gnd_num": null,
+    "total_value": 3625,
+    "values": {
+      "Primary": 376,
+      "Secondary": 779,
+      "G.C.E.(O/L)": 931,
+      "G.C.E.(A/L)": 1000,
+      "Degree and above": 482,
+      "No schooling": 57
+    },
+    "total_value_from_source": 3625
+  },
+  {
+    "region_name": "Sri\u00a0Jayawardanapura\u00a0Kotte",
+    "gnd_num": null,
+    "total_value": 101891,
+    "values": {
+      "Primary": 13175,
+      "Secondary": 27224,
+      "G.C.E.(O/L)": 21744,
+      "G.C.E.(A/L)": 25671,
+      "Degree and above": 11799,
+      "No schooling": 2278
+    },
+    "total_value_from_source": 101891
+  },
+  {
+    "region_name": "Obsekarapura",
+    "gnd_num": null,
+    "total_value": 11030,
+    "values": {
+      "Primary": 2230,
+      "Secondary": 5073,
+      "G.C.E.(O/L)": 1815,
+      "G.C.E.(A/L)": 1174,
+      "Degree and above": 340,
+      "No schooling": 398
+    },
+    "total_value_from_source": 11030
+  },
+  {
+    "region_name": "Welikada\u00a0West",
+    "gnd_num": null,
+    "total_value": 6571,
+    "values": {
+      "Primary": 813,
+      "Secondary": 2268,
+      "G.C.E.(O/L)": 1179,
+      "G.C.E.(A/L)": 1811,
+      "Degree and above": 393,
+      "No schooling": 107
+    },
+    "total_value_from_source": 6571
+  },
+  {
+    "region_name": "Welikada\u00a0East",
+    "gnd_num": null,
+    "total_value": 6336,
+    "values": {
+      "Primary": 810,
+      "Secondary": 1612,
+      "G.C.E.(O/L)": 1468,
+      "G.C.E.(A/L)": 1697,
+      "Degree and above": 652,
+      "No schooling": 97
+    },
+    "total_value_from_source": 6336
+  },
+  {
+    "region_name": "Rajagiriya",
+    "gnd_num": null,
+    "total_value": 3392,
+    "values": {
+      "Primary": 489,
+      "Secondary": 810,
+      "G.C.E.(O/L)": 651,
+      "G.C.E.(A/L)": 766,
+      "Degree and above": 420,
+      "No schooling": 256
+    },
+    "total_value_from_source": 3392
+  },
+  {
+    "region_name": "Welikada\u00a0North",
+    "gnd_num": null,
+    "total_value": 4476,
+    "values": {
+      "Primary": 982,
+      "Secondary": 1983,
+      "G.C.E.(O/L)": 660,
+      "G.C.E.(A/L)": 421,
+      "Degree and above": 246,
+      "No schooling": 184
+    },
+    "total_value_from_source": 4476
+  },
+  {
+    "region_name": "Nawala\u00a0West",
+    "gnd_num": null,
+    "total_value": 3882,
+    "values": {
+      "Primary": 415,
+      "Secondary": 780,
+      "G.C.E.(O/L)": 782,
+      "G.C.E.(A/L)": 1073,
+      "Degree and above": 769,
+      "No schooling": 63
+    },
+    "total_value_from_source": 3882
+  },
+  {
+    "region_name": "Koswatta",
+    "gnd_num": null,
+    "total_value": 5394,
+    "values": {
+      "Primary": 599,
+      "Secondary": 1377,
+      "G.C.E.(O/L)": 1107,
+      "G.C.E.(A/L)": 1408,
+      "Degree and above": 805,
+      "No schooling": 98
+    },
+    "total_value_from_source": 5394
+  },
+  {
+    "region_name": "Ethulkotte\u00a0West",
+    "gnd_num": null,
+    "total_value": 3200,
+    "values": {
+      "Primary": 316,
+      "Secondary": 607,
+      "G.C.E.(O/L)": 821,
+      "G.C.E.(A/L)": 987,
+      "Degree and above": 421,
+      "No schooling": 48
+    },
+    "total_value_from_source": 3200
+  },
+  {
+    "region_name": "Ethulkotte",
+    "gnd_num": null,
+    "total_value": 5600,
+    "values": {
+      "Primary": 692,
+      "Secondary": 1565,
+      "G.C.E.(O/L)": 1206,
+      "G.C.E.(A/L)": 1410,
+      "Degree and above": 600,
+      "No schooling": 127
+    },
+    "total_value_from_source": 5600
+  },
+  {
+    "region_name": "Pitakotte\u00a0East",
+    "gnd_num": null,
+    "total_value": 3750,
+    "values": {
+      "Primary": 418,
+      "Secondary": 884,
+      "G.C.E.(O/L)": 905,
+      "G.C.E.(A/L)": 1041,
+      "Degree and above": 430,
+      "No schooling": 72
+    },
+    "total_value_from_source": 3750
+  },
+  {
+    "region_name": "Pitakotte",
+    "gnd_num": null,
+    "total_value": 3437,
+    "values": {
+      "Primary": 427,
+      "Secondary": 844,
+      "G.C.E.(O/L)": 758,
+      "G.C.E.(A/L)": 948,
+      "Degree and above": 396,
+      "No schooling": 64
+    },
+    "total_value_from_source": 3437
+  },
+  {
+    "region_name": "Pitakotte\u00a0West",
+    "gnd_num": null,
+    "total_value": 5036,
+    "values": {
+      "Primary": 600,
+      "Secondary": 1063,
+      "G.C.E.(O/L)": 1119,
+      "G.C.E.(A/L)": 1493,
+      "Degree and above": 631,
+      "No schooling": 130
+    },
+    "total_value_from_source": 5036
+  },
+  {
+    "region_name": "Nawala\u00a0East",
+    "gnd_num": null,
+    "total_value": 5163,
+    "values": {
+      "Primary": 581,
+      "Secondary": 974,
+      "G.C.E.(O/L)": 1178,
+      "G.C.E.(A/L)": 1481,
+      "Degree and above": 878,
+      "No schooling": 71
+    },
+    "total_value_from_source": 5163
+  },
+  {
+    "region_name": "Nugegoda\u00a0West",
+    "gnd_num": null,
+    "total_value": 5360,
+    "values": {
+      "Primary": 579,
+      "Secondary": 1027,
+      "G.C.E.(O/L)": 1126,
+      "G.C.E.(A/L)": 1648,
+      "Degree and above": 903,
+      "No schooling": 77
+    },
+    "total_value_from_source": 5360
+  },
+  {
+    "region_name": "Pagoda",
+    "gnd_num": null,
+    "total_value": 5210,
+    "values": {
+      "Primary": 608,
+      "Secondary": 1124,
+      "G.C.E.(O/L)": 1223,
+      "G.C.E.(A/L)": 1502,
+      "Degree and above": 682,
+      "No schooling": 71
+    },
+    "total_value_from_source": 5210
+  },
+  {
+    "region_name": "Nugegoda",
+    "gnd_num": null,
+    "total_value": 3226,
+    "values": {
+      "Primary": 277,
+      "Secondary": 617,
+      "G.C.E.(O/L)": 799,
+      "G.C.E.(A/L)": 996,
+      "Degree and above": 492,
+      "No schooling": 45
+    },
+    "total_value_from_source": 3226
+  },
+  {
+    "region_name": "Pagoda\u00a0East",
+    "gnd_num": null,
+    "total_value": 5636,
+    "values": {
+      "Primary": 667,
+      "Secondary": 1295,
+      "G.C.E.(O/L)": 1406,
+      "G.C.E.(A/L)": 1527,
+      "Degree and above": 626,
+      "No schooling": 115
+    },
+    "total_value_from_source": 5636
+  }
+]
