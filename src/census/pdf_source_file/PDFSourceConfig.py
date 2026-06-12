@@ -26,7 +26,6 @@ class PDFSourceConfig:
                 "90-94",
                 "95 & above",
             ],
-            has_gnd_num=True,
             row_tol=2,
         ),
         dict(
@@ -34,14 +33,12 @@ class PDFSourceConfig:
             i_group=2,
             title="Gender",
             fields=["Male", "Female"],
-            has_gnd_num=True,
         ),
         dict(
             group="Population",
             i_group=3,
             title="Economic Activity",
             fields=["Employed", "Unemployed", "Economically not active"],
-            has_gnd_num=True,
         ),
         dict(
             group="Population",
@@ -55,7 +52,6 @@ class PDFSourceConfig:
                 "Degree and above",
                 "No schooling",
             ],
-            has_gnd_num=True,
         ),
         dict(
             group="Housing",
@@ -70,7 +66,6 @@ class PDFSourceConfig:
                 + " Road/River/Canal/Sea/Creek/Forest etc",
                 "Other",
             ],
-            has_gnd_num=True,
         ),
         dict(
             group="Housing",
@@ -84,7 +79,6 @@ class PDFSourceConfig:
                 "Saw dust/Paddy husk/",
                 "Other",
             ],
-            has_gnd_num=False,
         ),
         dict(
             group="Housing",
@@ -98,7 +92,6 @@ class PDFSourceConfig:
                 "Bio Gas",
                 "Other",
             ],
-            has_gnd_num=False,
         ),
         dict(
             group="Housing",
@@ -119,7 +112,6 @@ class PDFSourceConfig:
                 "Bottled water",
                 "Other",
             ],
-            has_gnd_num=False,
         ),
         dict(
             group="Housing",
@@ -133,7 +125,6 @@ class PDFSourceConfig:
                 "Encroached",
                 "Other",
             ],
-            has_gnd_num=False,
         ),
         dict(
             group="Housing",
@@ -147,7 +138,6 @@ class PDFSourceConfig:
                 "Other",
                 "Not using a toilet",
             ],
-            has_gnd_num=False,
         ),
         dict(
             group="Housing",
@@ -162,7 +152,6 @@ class PDFSourceConfig:
                 "Concrete",
                 "Other",
             ],
-            has_gnd_num=False,
         ),
         dict(
             group="Housing",
@@ -178,7 +167,6 @@ class PDFSourceConfig:
                 "Cadjan/Palmyrah/Straw",
                 "Other",
             ],
-            has_gnd_num=False,
         ),
         dict(
             group="Housing",
@@ -194,7 +182,6 @@ class PDFSourceConfig:
                 "Plank/Metal Sheet",
                 "Other",
             ],
-            has_gnd_num=False,
         ),
         dict(
             group="Housing",
@@ -211,7 +198,6 @@ class PDFSourceConfig:
                 "Row/Line room",
                 "Hut/Shanty",
             ],
-            has_gnd_num=False,
         ),
         dict(
             group="Housing",
@@ -223,6 +209,5 @@ class PDFSourceConfig:
                 "Improvised",
                 "Un-classified",
             ],
-            has_gnd_num=False,
         ),
     ]

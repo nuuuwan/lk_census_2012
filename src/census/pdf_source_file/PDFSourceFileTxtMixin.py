@@ -70,6 +70,7 @@ class PDFSourceFileTxtMixin:
                 )
                 for table in tables:
                     dfs.append(table.df)
+
             except Exception as e:
                 log.warning(f"Skipping page {i_page}: {e}")
 
@@ -80,6 +81,7 @@ class PDFSourceFileTxtMixin:
             return
 
         df = pd.concat(dfs, ignore_index=True)
+
         df.to_csv(
             self.txt_path, sep=self.DELIM_TXT, index=False, header=False
         )

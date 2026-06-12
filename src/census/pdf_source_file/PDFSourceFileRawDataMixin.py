@@ -28,7 +28,11 @@ class PDFSourceFileRawDataMixin:
 
         if self.has_gnd_num:
             words = region_name_and_num.split(" ")
-            if len(words[-1]) <= 2 and words[-2].isnumeric():
+            if (
+                len(words) >= 2
+                and len(words[-1]) <= 2
+                and words[-2].isnumeric()
+            ):
                 words = words[:-2] + [words[-2] + "" + words[-1]]
 
             last_word = words[-1]
@@ -45,7 +49,7 @@ class PDFSourceFileRawDataMixin:
             .replace("\u00a0", " ")
         )
         tokens = line.split(self.DELIM_TXT)
-        tokens = [token for token in tokens if token]
+        tokens = [token.strip() for token in tokens]
 
         n_tokens = len(tokens)
         if n_tokens < 1 + len(fields):
@@ -54,8 +58,10 @@ class PDFSourceFileRawDataMixin:
             return None
         i_fields_start = n_tokens - len(fields)
         region_name_and_num = " ".join(tokens[0: i_fields_start - 1]).strip()
+        print(f"{region_name_and_num=}")
 
         region_name, gnd_num = self._extract_gnd_num(region_name_and_num)
+        print(f"{region_name=}, {gnd_num=}")
 
         if not region_name:
             raise ValueError(f"Region name is empty ({region_name_and_num=})")
