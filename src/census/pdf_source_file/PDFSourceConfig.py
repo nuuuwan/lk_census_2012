@@ -139,6 +139,7 @@ class PDFSourceConfig:
                 "Other",
                 "Not using a toilet",
             ],
+            row_tol=2,
         ),
         dict(
             group="Housing",
@@ -162,8 +163,7 @@ class PDFSourceConfig:
                 "Tile",
                 "Asbestos",
                 "Concrete",
-                "Zink",
-                "Aluminium sheet",
+                "Zink Aluminium sheet",
                 "Metal sheet",
                 "Cadjan/Palmyrah/Straw",
                 "Other",
@@ -199,6 +199,7 @@ class PDFSourceConfig:
                 "Row/Line room",
                 "Hut/Shanty",
             ],
+            row_tol=2,
         ),
         dict(
             group="Housing",
