@@ -7,7 +7,7 @@ log = Log("PDFSourceFileDataMixin")
 
 
 class PDFSourceFileRawDataMixin:
-    MAX_LINES_TO_PROCESS = 1_000
+    MAX_LINES_TO_PROCESS = 200
 
     @property
     def raw_data_path(self):
