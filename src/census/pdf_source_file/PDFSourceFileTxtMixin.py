@@ -12,6 +12,7 @@ log = Log("PDFSourceFileTxtMixin")
 
 class PDFSourceFileTxtMixin:
     DELIM_TXT = "|"
+    MAX_PAGES_TO_PROCESS = 5
 
     @property
     def txt_path(self):
@@ -26,7 +27,21 @@ class PDFSourceFileTxtMixin:
         n_pages = len(doc)
 
         dfs = []
-        for i_page in tqdm(range(1, n_pages + 1), desc="Extracting text"):
+        for i_page in tqdm(
+            range(
+                1,
+                min(
+                    n_pages,
+                    (
+                        self.MAX_PAGES_TO_PROCESS
+                        if self.MAX_PAGES_TO_PROCESS
+                        else n_pages
+                    ),
+                )
+                + 1,
+            ),
+            desc="Extracting text",
+        ):
             page = doc[i_page - 1]
             width = page.rect.width
             height = page.rect.height
@@ -49,7 +64,7 @@ class PDFSourceFileTxtMixin:
                     pages=str(i_page),
                     flavor="stream",
                     edge_tol=500,
-                    row_tol=10,
+                    row_tol=self.row_tol,
                     strip_text="\n",
                     table_areas=table_areas,
                 )

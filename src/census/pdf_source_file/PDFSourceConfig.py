@@ -26,7 +26,8 @@ class PDFSourceConfig:
                 "90-94",
                 "95 & above",
             ],
-            has_gnd_num=False,
+            has_gnd_num=True,
+            row_tol=2,
         ),
         dict(
             group="Population",

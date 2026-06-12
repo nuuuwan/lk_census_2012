@@ -11,7 +11,7 @@ log = Log("PDFSourceFileDataExpandMixin")
 
 class PDFSourceFileDataMixin:
     MAX_NO_ENT_LIST = 10
-    MIN_DATA_LIST_SIZE = 14_000
+    MIN_DATA_LIST_SIZE = 100
 
     @classmethod
     def _remap_region_name(cls, region_name):
