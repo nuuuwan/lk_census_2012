@@ -26,7 +26,7 @@ class PDFSourceFileTxtMixin:
         n_pages = len(doc)
 
         dfs = []
-        for i_page in tqdm(range(1, n_pages + 1), desc="Extracting pages"):
+        for i_page in tqdm(range(1, n_pages + 1), desc="Extracting text"):
             page = doc[i_page - 1]
             width = page.rect.width
             height = page.rect.height
@@ -65,7 +65,5 @@ class PDFSourceFileTxtMixin:
             return
 
         df = pd.concat(dfs, ignore_index=True)
-        df.to_csv(
-            self.txt_path, sep=self.DELIM_TXT, index=False, header=False
-        )
+        df.to_csv(self.txt_path, sep=self.DELIM_TXT, index=False, header=False)
         log.info(f"Saved {len(df)} rows to {File(self.txt_path)}.")
