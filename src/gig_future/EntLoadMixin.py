@@ -78,7 +78,9 @@ class EntLoadMixin:
         ent_and_ratio_list = []
         for entity_type, filter_parent_id in filter_ent_type_and_id_list:
             for ent in cls.list_from_type(entity_type):
-                if filter_parent_id and not ent.is_parent_id(filter_parent_id):
+                if filter_parent_id and not ent.is_parent_id(
+                    filter_parent_id
+                ):
                     continue
                 for fuzzy_name in fuzzy_name_list:
                     for ent_name in [ent.name] + ent.other_name_list:
@@ -99,6 +101,7 @@ class EntLoadMixin:
     )
     HACK_CACHE_FILE = JSONFile(HACK_CACHE_PATH)
     HACK_CACHE = {}
+    HACK_CACHE_INNER = {}
 
     @classmethod
     def load_hack_cache(cls):
@@ -138,6 +141,8 @@ class EntLoadMixin:
                 ]
             ).encode("utf-8")
         ).hexdigest()
+        if h in cls.HACK_CACHE_INNER:
+            return cls.HACK_CACHE_INNER[h]
         if h in cls.HACK_CACHE:
             ent_ids = cls.HACK_CACHE[h]
             return [cls.from_id(ent_id) for ent_id in ent_ids]
@@ -148,5 +153,6 @@ class EntLoadMixin:
             limit,
             min_fuzz_ratio,
         )
+        cls.HACK_CACHE_INNER[h] = ents
         cls.HACK_CACHE[h] = [ent.id for ent in ents]
         return ents

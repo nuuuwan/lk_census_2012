@@ -71,10 +71,21 @@ class PDFSourceFileRawDataMixin:
             raise ValueError(f"Region name is empty ({region_name_and_num=})")
 
         n_fields = len(fields)
-        total_value_from_source = ParseUtils.parse_int(tokens[-n_fields - 1])
-        values_only = [
-            ParseUtils.parse_int(token) for token in tokens[-n_fields:]
-        ]
+
+        try:
+            total_value_from_source = ParseUtils.parse_int(
+                tokens[-n_fields - 1]
+            )
+            values_only = [
+                ParseUtils.parse_int(token) for token in tokens[-n_fields:]
+            ]
+        except Exception as e:
+            log.debug(f"{fields=}")
+            log.debug(f"{tokens=}")
+            log.debug("total token=" + tokens[-n_fields])
+            log.debug("values tokens=" + str(tokens[-n_fields:]))
+            raise e
+
         values = dict(zip(fields, values_only))
         total_value = sum(values_only)
 
