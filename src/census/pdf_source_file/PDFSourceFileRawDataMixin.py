@@ -24,7 +24,7 @@ class PDFSourceFileRawDataMixin:
         has_slash = "/" in word
         return has_digit and (n_word <= 5 or (has_slash and n_word <= 7))
 
-    def _extract_line(self, line, fields, i_total):
+    def _extract_line(self, line, fields):
         line = (
             line.replace("\u2010", "-")
             .replace("\xa0", " ")
@@ -38,7 +38,8 @@ class PDFSourceFileRawDataMixin:
             return None
         if not tokens[0]:
             return None
-        region_name_and_num = " ".join(tokens[0:(i_total)]).strip()
+        i_fields_start = n_tokens - len(fields)
+        region_name_and_num = " ".join(tokens[0: i_fields_start - 1]).strip()
 
         gnd_num = None
         if self.has_gnd_num:
@@ -107,7 +108,7 @@ class PDFSourceFileRawDataMixin:
                     has_found_sl = True
                 else:
                     continue
-            d = self._extract_line(line, self.fields, self.i_total)
+            d = self._extract_line(line, self.fields)
             if d:
                 d_list.append(d)
 

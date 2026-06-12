@@ -26,7 +26,6 @@ class PDFSourceConfig:
                 "90-94",
                 "95 & above",
             ],
-            i_total=2,
             has_gnd_num=False,
         ),
         dict(
@@ -34,7 +33,6 @@ class PDFSourceConfig:
             i_group=2,
             title="Gender",
             fields=["Male", "Female"],
-            i_total=2,
             has_gnd_num=False,
         ),
         dict(
@@ -42,7 +40,6 @@ class PDFSourceConfig:
             i_group=3,
             title="Economic Activity",
             fields=["Employed", "Unemployed", "Economically not active"],
-            i_total=2,
             has_gnd_num=False,
         ),
         dict(
@@ -57,7 +54,6 @@ class PDFSourceConfig:
                 "Degree and above",
                 "No schooling",
             ],
-            i_total=1,
             has_gnd_num=False,
         ),
         dict(
@@ -73,7 +69,6 @@ class PDFSourceConfig:
                 + " Road/River/Canal/Sea/Creek/Forest etc",
                 "Other",
             ],
-            i_total=1,
             has_gnd_num=True,
         ),
         dict(
@@ -88,7 +83,6 @@ class PDFSourceConfig:
                 "Saw dust/Paddy husk/",
                 "Other",
             ],
-            i_total=2,
             has_gnd_num=False,
         ),
         dict(
@@ -103,7 +97,6 @@ class PDFSourceConfig:
                 "Bio Gas",
                 "Other",
             ],
-            i_total=2,
             has_gnd_num=False,
         ),
         dict(
@@ -125,7 +118,6 @@ class PDFSourceConfig:
                 "Bottled water",
                 "Other",
             ],
-            i_total=2,
             has_gnd_num=False,
         ),
         dict(
@@ -140,7 +132,6 @@ class PDFSourceConfig:
                 "Encroached",
                 "Other",
             ],
-            i_total=2,
             has_gnd_num=False,
         ),
         dict(
@@ -155,7 +146,6 @@ class PDFSourceConfig:
                 "Other",
                 "Not using a toilet",
             ],
-            i_total=2,
             has_gnd_num=False,
         ),
         dict(
@@ -171,7 +161,6 @@ class PDFSourceConfig:
                 "Concrete",
                 "Other",
             ],
-            i_total=2,
             has_gnd_num=False,
         ),
         dict(
@@ -188,7 +177,6 @@ class PDFSourceConfig:
                 "Cadjan/Palmyrah/Straw",
                 "Other",
             ],
-            i_total=2,
             has_gnd_num=False,
         ),
         dict(
@@ -205,7 +193,6 @@ class PDFSourceConfig:
                 "Plank/Metal Sheet",
                 "Other",
             ],
-            i_total=2,
             has_gnd_num=False,
         ),
         dict(
@@ -223,7 +210,6 @@ class PDFSourceConfig:
                 "Row/Line room",
                 "Hut/Shanty",
             ],
-            i_total=2,
             has_gnd_num=False,
         ),
         dict(
@@ -236,7 +222,6 @@ class PDFSourceConfig:
                 "Improvised",
                 "Un-classified",
             ],
-            i_total=2,
             has_gnd_num=False,
         ),
     ]

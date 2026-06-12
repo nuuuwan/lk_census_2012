@@ -7,7 +7,6 @@ class PDFSourceFileBase:
     i_group: int
     title: str
     fields: list[str]
-    i_total: int
     has_gnd_num: bool
 
     @property
