@@ -11,6 +11,7 @@ from census.pdf_source_file.PDFSourceFileDataMixin import \
     PDFSourceFileDataMixin
 from census.pdf_source_file.PDFSourceFileDownloadMixin import \
     PDFSourceFileDownloadMixin
+from census.pdf_source_file.PDFSourceFileLoader import PDFSourceFileLoader
 from census.pdf_source_file.PDFSourceFileMetadataMixin import \
     PDFSourceFileMetadataMixin
 from census.pdf_source_file.PDFSourceFileRawDataMixin import \
