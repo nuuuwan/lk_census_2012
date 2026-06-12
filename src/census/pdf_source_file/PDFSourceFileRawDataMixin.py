@@ -57,7 +57,7 @@ class PDFSourceFileRawDataMixin:
         if not tokens[0]:
             return None
         i_fields_start = n_tokens - len(fields)
-        region_name_and_num = " ".join(tokens[0 : i_fields_start - 1]).strip()
+        region_name_and_num = " ".join(tokens[0: i_fields_start - 1]).strip()
 
         region_name, gnd_num = self._extract_gnd_num(region_name_and_num)
 

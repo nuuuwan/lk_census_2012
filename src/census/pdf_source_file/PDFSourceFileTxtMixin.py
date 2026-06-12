@@ -14,9 +14,33 @@ class PDFSourceFileTxtMixin:
     DELIM_TXT = "|"
     MAX_PAGES_TO_PROCESS = 5
 
+    # Unicode dash/minus variants -> ASCII "-"
+    DASH_MAP = {
+        "\u2010": "-",  # hyphen
+        "\u2011": "-",  # non-breaking hyphen
+        "\u2012": "-",  # figure dash
+        "\u2013": "-",  # en dash
+        "\u2014": "-",  # em dash
+        "\u2212": "-",  # minus sign
+    }
+    DASHES = {"\u2010", "\u2011", "\u2012", "\u2013", "\u2014", "\u2212", "-"}
+
     @property
     def txt_path(self):
         return os.path.join(self.dir_data, "data.txt")
+
+    DROP_DASH_COL = 3  # spurious column where Camelot drops the leading dash
+
+    @classmethod
+    def _fix_dropped_dashes(cls, df):
+        def is_blank(v):
+            return str(v).strip() in ("", "\xa0")
+
+        j = cls.DROP_DASH_COL
+        for i in range(len(df)):
+            if j < df.shape[1] and is_blank(df.iat[i, j]):
+                df.iat[i, j] = "-"
+        return df
 
     def build_txt(self):
         if os.path.exists(self.txt_path):
@@ -81,6 +105,13 @@ class PDFSourceFileTxtMixin:
             return
 
         df = pd.concat(dfs, ignore_index=True)
+
+        # Repair dashes Camelot dropped to blank between two dashes
+        # (run BEFORE normalization so flank-detection sees original glyphs too)
+        df = self._fix_dropped_dashes(df)
+
+        # Normalize all Unicode dash variants to ASCII "-"
+        df = df.replace(self.DASH_MAP, regex=True)
 
         df.to_csv(
             self.txt_path, sep=self.DELIM_TXT, index=False, header=False
