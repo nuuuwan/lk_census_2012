@@ -7,7 +7,7 @@ log = Log("PDFSourceFileDataMixin")
 
 
 class PDFSourceFileRawDataMixin:
-    MAX_LINES_TO_PROCESS = None
+    MAX_LINES_TO_PROCESS = 1_000
 
     @property
     def raw_data_path(self):
@@ -50,15 +50,18 @@ class PDFSourceFileRawDataMixin:
         )
         tokens = line.split(self.DELIM_TXT)
         tokens = [t.strip() for t in tokens if t.strip()]
+        if len(tokens) > 1 + 1 + 1 + len(fields):
+            tokens = tokens[-1:]
 
         n_tokens = len(tokens)
-        if n_tokens < 1 + len(fields):
+        if n_tokens < 2 + len(fields):
             return None
         if not tokens[0]:
             return None
-        i_fields_start = n_tokens - len(fields)
-        region_name_and_num = " ".join(tokens[0: i_fields_start - 1]).strip()
 
+        i_fields_start = n_tokens - len(fields)
+
+        region_name_and_num = " ".join(tokens[0: i_fields_start - 1]).strip()
         region_name, gnd_num = self._extract_gnd_num(region_name_and_num)
 
         if not region_name:
@@ -78,8 +81,8 @@ class PDFSourceFileRawDataMixin:
         if total_value != total_value_from_source:
             log.debug(f"{fields=}")
             log.debug(f"{tokens=}")
-            log.debug(tokens[-n_fields])
-            log.debug(tokens[-n_fields:])
+            log.debug("total token=" + tokens[-n_fields])
+            log.debug("values tokens=" + str(tokens[-n_fields:]))
             raise ValueError(
                 f"Total value mismatch for {region_name_and_num}: "
                 f"{total_value_from_source} (from source)"
