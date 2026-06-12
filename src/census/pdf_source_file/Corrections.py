@@ -81,4 +81,5 @@ class Corrections:
         "Ellainagar": "Eravur Town",
         "Kalmunai Tamil Division (Sub D": "Kalmunai North",
         "Kalmunai Tamil Division": "Kalmunai North",
+        "Kalmunai Tamil Division (Sub Division)": "Kalmunai North",
     }

@@ -12,7 +12,7 @@ log = Log("PDFSourceFileTxtMixin")
 
 class PDFSourceFileTxtMixin:
     DELIM_TXT = "|"
-    MAX_PAGES_TO_PROCESS = 5
+    MAX_PAGES_TO_PROCESS = None
 
     # Unicode dash/minus variants -> ASCII "-"
     DASH_MAP = {

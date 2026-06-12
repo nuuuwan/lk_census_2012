@@ -22,7 +22,7 @@ class PDFSourceFileRawDataMixin:
         n_word = len(word)
         has_digit = any(c.isdigit() for c in word)
         has_slash = "/" in word
-        return has_digit and (n_word <= 5 or (has_slash and n_word <= 7))
+        return has_digit and (n_word <= 5 or (has_slash and n_word <= 8))
 
     def _extract_gnd_num(self, region_name_and_num):
 
