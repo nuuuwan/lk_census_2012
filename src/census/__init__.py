@@ -6,7 +6,6 @@ from census.pdf_source_file import (Corrections, ParseUtils, PDFSourceConfig,
                                     PDFSourceFileBuilderMixin,
                                     PDFSourceFileDataMixin,
                                     PDFSourceFileDownloadMixin,
-                                    PDFSourceFileLoader,
                                     PDFSourceFileMetadataMixin,
                                     PDFSourceFileRawDataMixin,
                                     PDFSourceFileValidateMixin)

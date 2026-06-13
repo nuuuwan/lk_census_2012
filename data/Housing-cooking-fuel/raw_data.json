@@ -1050,6 +1050,20 @@
     "total_value_from_source": 877
   },
   {
+    "region_name": "Malpura",
+    "gnd_num": "505A",
+    "total_value": 803,
+    "values": {
+      "Firewood": 259,
+      "Kerosene": 50,
+      "Gas": 478,
+      "Electricity": 6,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 10
+    },
+    "total_value_from_source": 803
+  },
+  {
     "region_name": "Gothatuwa New Town",
     "gnd_num": "505B",
     "total_value": 515,
@@ -1608,6 +1622,20 @@
       "Other": 16
     },
     "total_value_from_source": 2410
+  },
+  {
+    "region_name": "Walpola",
+    "gnd_num": "491A",
+    "total_value": 2203,
+    "values": {
+      "Firewood": 458,
+      "Kerosene": 62,
+      "Gas": 1671,
+      "Electricity": 3,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 9
+    },
+    "total_value_from_source": 2203
   },
   {
     "region_name": "Kalapaluwawa",
@@ -2170,6 +2198,20 @@
     "total_value_from_source": 456
   },
   {
+    "region_name": "Henawatta",
+    "gnd_num": "482C",
+    "total_value": 1739,
+    "values": {
+      "Firewood": 955,
+      "Kerosene": 26,
+      "Gas": 746,
+      "Electricity": 2,
+      "Saw dust/Paddy husk/": 4,
+      "Other": 6
+    },
+    "total_value_from_source": 1739
+  },
+  {
     "region_name": "Meegoda North",
     "gnd_num": "447",
     "total_value": 756,
@@ -2728,6 +2770,20 @@
       "Other": 7
     },
     "total_value_from_source": 705
+  },
+  {
+    "region_name": "Pitipana North",
+    "gnd_num": "484",
+    "total_value": 974,
+    "values": {
+      "Firewood": 570,
+      "Kerosene": 12,
+      "Gas": 374,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 2,
+      "Other": 15
+    },
+    "total_value_from_source": 974
   },
   {
     "region_name": "Suwapubudugama",
@@ -3290,6 +3346,20 @@
     "total_value_from_source": 431
   },
   {
+    "region_name": "Ihala Kosgama North",
+    "gnd_num": "428",
+    "total_value": 678,
+    "values": {
+      "Firewood": 519,
+      "Kerosene": 3,
+      "Gas": 153,
+      "Electricity": 2,
+      "Saw dust/Paddy husk/": 1,
+      "Other": 0
+    },
+    "total_value_from_source": 678
+  },
+  {
     "region_name": "Thawalgoda",
     "gnd_num": "426",
     "total_value": 385,
@@ -3848,6 +3918,20 @@
       "Other": 1
     },
     "total_value_from_source": 280
+  },
+  {
+    "region_name": "Pahathgama",
+    "gnd_num": "443A",
+    "total_value": 442,
+    "values": {
+      "Firewood": 313,
+      "Kerosene": 4,
+      "Gas": 123,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 2
+    },
+    "total_value_from_source": 442
   },
   {
     "region_name": "Jayaweeragoda",
@@ -4410,6 +4494,20 @@
     "total_value_from_source": 277
   },
   {
+    "region_name": "Pahala Padukka",
+    "gnd_num": "461C",
+    "total_value": 334,
+    "values": {
+      "Firewood": 192,
+      "Kerosene": 4,
+      "Gas": 136,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 334
+  },
+  {
     "region_name": "Liyanwala",
     "gnd_num": "462",
     "total_value": 301,
@@ -4968,6 +5066,20 @@
       "Other": 15
     },
     "total_value_from_source": 1703
+  },
+  {
+    "region_name": "Maharagama East",
+    "gnd_num": "527B",
+    "total_value": 971,
+    "values": {
+      "Firewood": 135,
+      "Kerosene": 44,
+      "Gas": 780,
+      "Electricity": 2,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 10
+    },
+    "total_value_from_source": 971
   },
   {
     "region_name": "Maharagama West",
@@ -5530,6 +5642,20 @@
     "total_value_from_source": 1921
   },
   {
+    "region_name": "Gangodavila East",
+    "gnd_num": "526C",
+    "total_value": 857,
+    "values": {
+      "Firewood": 74,
+      "Kerosene": 18,
+      "Gas": 750,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 15
+    },
+    "total_value_from_source": 857
+  },
+  {
     "region_name": "Thimbirigasyaya",
     "gnd_num": "",
     "total_value": 54176,
@@ -6088,6 +6214,20 @@
       "Other": 4
     },
     "total_value_from_source": 1667
+  },
+  {
+    "region_name": "Watarappala",
+    "gnd_num": "544",
+    "total_value": 1591,
+    "values": {
+      "Firewood": 100,
+      "Kerosene": 122,
+      "Gas": 1350,
+      "Electricity": 6,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 13
+    },
+    "total_value_from_source": 1591
   },
   {
     "region_name": "Wathumulla",
@@ -6650,6 +6790,20 @@
     "total_value_from_source": 927
   },
   {
+    "region_name": "Villorawatta West",
+    "gnd_num": "560/61A",
+    "total_value": 1163,
+    "values": {
+      "Firewood": 913,
+      "Kerosene": 26,
+      "Gas": 219,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 4
+    },
+    "total_value_from_source": 1163
+  },
+  {
     "region_name": "Indibedda East",
     "gnd_num": "559A",
     "total_value": 887,
@@ -7210,6 +7364,20 @@
     "total_value_from_source": 1234
   },
   {
+    "region_name": "Pelenwatta West",
+    "gnd_num": "582A",
+    "total_value": 1445,
+    "values": {
+      "Firewood": 476,
+      "Kerosene": 36,
+      "Gas": 907,
+      "Electricity": 3,
+      "Saw dust/Paddy husk/": 2,
+      "Other": 21
+    },
+    "total_value_from_source": 1445
+  },
+  {
     "region_name": "Paligedara",
     "gnd_num": "583A",
     "total_value": 798,
@@ -7766,6 +7934,20 @@
       "Electricity": 0,
       "Saw dust/Paddy husk/": 2,
       "Other": 0
+    },
+    "total_value_from_source": 400
+  },
+  {
+    "region_name": "Batuwandara South",
+    "gnd_num": "596A",
+    "total_value": 400,
+    "values": {
+      "Firewood": 224,
+      "Kerosene": 9,
+      "Gas": 157,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 10
     },
     "total_value_from_source": 400
   },
@@ -8330,6 +8512,20 @@
     "total_value_from_source": 752
   },
   {
+    "region_name": "Pitipana South - West",
+    "gnd_num": "162B",
+    "total_value": 877,
+    "values": {
+      "Firewood": 469,
+      "Kerosene": 144,
+      "Gas": 258,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 6
+    },
+    "total_value_from_source": 877
+  },
+  {
     "region_name": "Thalahena",
     "gnd_num": "163",
     "total_value": 999,
@@ -8888,6 +9084,20 @@
       "Other": 67
     },
     "total_value_from_source": 2241
+  },
+  {
+    "region_name": "Walpola",
+    "gnd_num": "155A",
+    "total_value": 525,
+    "values": {
+      "Firewood": 508,
+      "Kerosene": 1,
+      "Gas": 16,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 525
   },
   {
     "region_name": "Andiambalama East",
@@ -9450,6 +9660,20 @@
     "total_value_from_source": 448
   },
   {
+    "region_name": "Alawathupitiya",
+    "gnd_num": "198",
+    "total_value": 338,
+    "values": {
+      "Firewood": 257,
+      "Kerosene": 4,
+      "Gas": 76,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 338
+  },
+  {
     "region_name": "Udammita South",
     "gnd_num": "197A",
     "total_value": 393,
@@ -10008,6 +10232,20 @@
       "Other": 0
     },
     "total_value_from_source": 230
+  },
+  {
+    "region_name": "Wekada",
+    "gnd_num": "80B",
+    "total_value": 241,
+    "values": {
+      "Firewood": 236,
+      "Kerosene": 0,
+      "Gas": 4,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 241
   },
   {
     "region_name": "Kalumada",
@@ -10570,6 +10808,20 @@
     "total_value_from_source": 312
   },
   {
+    "region_name": "Kaluaggala",
+    "gnd_num": "44A",
+    "total_value": 231,
+    "values": {
+      "Firewood": 224,
+      "Kerosene": 0,
+      "Gas": 7,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 231
+  },
+  {
     "region_name": "Kuleegedara",
     "gnd_num": "45",
     "total_value": 267,
@@ -11128,6 +11380,20 @@
       "Other": 0
     },
     "total_value_from_source": 857
+  },
+  {
+    "region_name": "Hapuwalana North",
+    "gnd_num": "87A",
+    "total_value": 199,
+    "values": {
+      "Firewood": 185,
+      "Kerosene": 0,
+      "Gas": 14,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 199
   },
   {
     "region_name": "Assennawatta West",
@@ -11690,6 +11956,20 @@
     "total_value_from_source": 163
   },
   {
+    "region_name": "Halugama Ihala",
+    "gnd_num": "16F",
+    "total_value": 224,
+    "values": {
+      "Firewood": 215,
+      "Kerosene": 0,
+      "Gas": 7,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 2
+    },
+    "total_value_from_source": 224
+  },
+  {
     "region_name": "Kindiwala",
     "gnd_num": "16B",
     "total_value": 149,
@@ -12248,6 +12528,20 @@
       "Other": 0
     },
     "total_value_from_source": 292
+  },
+  {
+    "region_name": "Raddalgoda",
+    "gnd_num": "28B",
+    "total_value": 240,
+    "values": {
+      "Firewood": 217,
+      "Kerosene": 0,
+      "Gas": 19,
+      "Electricity": 2,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 2
+    },
+    "total_value_from_source": 240
   },
   {
     "region_name": "Ihala Bokalagama",
@@ -12810,6 +13104,20 @@
     "total_value_from_source": 396
   },
   {
+    "region_name": "Galgamuwa East",
+    "gnd_num": "338",
+    "total_value": 270,
+    "values": {
+      "Firewood": 230,
+      "Kerosene": 1,
+      "Gas": 38,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 270
+  },
+  {
     "region_name": "Kumbaloluwa",
     "gnd_num": "340",
     "total_value": 134,
@@ -13368,6 +13676,20 @@
       "Other": 0
     },
     "total_value_from_source": 312
+  },
+  {
+    "region_name": "Mabodala West",
+    "gnd_num": "98/3",
+    "total_value": 446,
+    "values": {
+      "Firewood": 414,
+      "Kerosene": 0,
+      "Gas": 32,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 446
   },
   {
     "region_name": "Mabodala North",
@@ -13930,6 +14252,20 @@
     "total_value_from_source": 458
   },
   {
+    "region_name": "Balabowa West",
+    "gnd_num": "127/1",
+    "total_value": 519,
+    "values": {
+      "Firewood": 478,
+      "Kerosene": 2,
+      "Gas": 39,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 519
+  },
+  {
     "region_name": "Pethiyagoda North",
     "gnd_num": "108",
     "total_value": 257,
@@ -14488,6 +14824,20 @@
       "Other": 3
     },
     "total_value_from_source": 401
+  },
+  {
+    "region_name": "Kehelbaddara West",
+    "gnd_num": "140/1",
+    "total_value": 413,
+    "values": {
+      "Firewood": 350,
+      "Kerosene": 1,
+      "Gas": 58,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 1,
+      "Other": 3
+    },
+    "total_value_from_source": 413
   },
   {
     "region_name": "Kehelbaddara East",
@@ -15050,6 +15400,20 @@
     "total_value_from_source": 814
   },
   {
+    "region_name": "Mangulpokuna",
+    "gnd_num": "182A",
+    "total_value": 1090,
+    "values": {
+      "Firewood": 417,
+      "Kerosene": 47,
+      "Gas": 607,
+      "Electricity": 4,
+      "Saw dust/Paddy husk/": 2,
+      "Other": 13
+    },
+    "total_value_from_source": 1090
+  },
+  {
     "region_name": "Elehiwatta",
     "gnd_num": "182B",
     "total_value": 1080,
@@ -15608,6 +15972,20 @@
       "Other": 4
     },
     "total_value_from_source": 508
+  },
+  {
+    "region_name": "Gallawatta",
+    "gnd_num": "205A",
+    "total_value": 1570,
+    "values": {
+      "Firewood": 761,
+      "Kerosene": 114,
+      "Gas": 609,
+      "Electricity": 4,
+      "Saw dust/Paddy husk/": 3,
+      "Other": 79
+    },
+    "total_value_from_source": 1570
   },
   {
     "region_name": "Ekala",
@@ -16170,6 +16548,20 @@
     "total_value_from_source": 682
   },
   {
+    "region_name": "Nagoda",
+    "gnd_num": "183",
+    "total_value": 1009,
+    "values": {
+      "Firewood": 329,
+      "Kerosene": 40,
+      "Gas": 629,
+      "Electricity": 2,
+      "Saw dust/Paddy husk/": 1,
+      "Other": 8
+    },
+    "total_value_from_source": 1009
+  },
+  {
     "region_name": "Jayasamarugama",
     "gnd_num": "184A",
     "total_value": 1718,
@@ -16728,6 +17120,20 @@
       "Other": 4
     },
     "total_value_from_source": 470
+  },
+  {
+    "region_name": "Medagama III",
+    "gnd_num": "223B",
+    "total_value": 321,
+    "values": {
+      "Firewood": 51,
+      "Kerosene": 6,
+      "Gas": 261,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 3
+    },
+    "total_value_from_source": 321
   },
   {
     "region_name": "Medagama I",
@@ -17290,6 +17696,20 @@
     "total_value_from_source": 578
   },
   {
+    "region_name": "Galahitiyawa South",
+    "gnd_num": "215A",
+    "total_value": 864,
+    "values": {
+      "Firewood": 597,
+      "Kerosene": 6,
+      "Gas": 257,
+      "Electricity": 2,
+      "Saw dust/Paddy husk/": 1,
+      "Other": 1
+    },
+    "total_value_from_source": 864
+  },
+  {
     "region_name": "Kossinna East",
     "gnd_num": "237",
     "total_value": 570,
@@ -17848,6 +18268,20 @@
       "Other": 2
     },
     "total_value_from_source": 208
+  },
+  {
+    "region_name": "Thalgasmote East",
+    "gnd_num": "328/D",
+    "total_value": 218,
+    "values": {
+      "Firewood": 160,
+      "Kerosene": 1,
+      "Gas": 52,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 5
+    },
+    "total_value_from_source": 218
   },
   {
     "region_name": "Udammita",
@@ -18410,6 +18844,20 @@
     "total_value_from_source": 417
   },
   {
+    "region_name": "Orchardwatta North",
+    "gnd_num": "348/D",
+    "total_value": 252,
+    "values": {
+      "Firewood": 186,
+      "Kerosene": 32,
+      "Gas": 34,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 252
+  },
+  {
     "region_name": "Malwatta",
     "gnd_num": "348/E",
     "total_value": 584,
@@ -18968,6 +19416,20 @@
       "Other": 0
     },
     "total_value_from_source": 224
+  },
+  {
+    "region_name": "Haggalla East",
+    "gnd_num": "354/A",
+    "total_value": 147,
+    "values": {
+      "Firewood": 126,
+      "Kerosene": 0,
+      "Gas": 21,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 147
   },
   {
     "region_name": "Diyakade",
@@ -19530,6 +19992,20 @@
     "total_value_from_source": 382
   },
   {
+    "region_name": "Mattagoda",
+    "gnd_num": "311",
+    "total_value": 308,
+    "values": {
+      "Firewood": 264,
+      "Kerosene": 1,
+      "Gas": 43,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 308
+  },
+  {
     "region_name": "Weerangula",
     "gnd_num": "310",
     "total_value": 307,
@@ -20088,6 +20564,20 @@
       "Other": 1
     },
     "total_value_from_source": 507
+  },
+  {
+    "region_name": "Kithulakanda",
+    "gnd_num": "390C",
+    "total_value": 293,
+    "values": {
+      "Firewood": 267,
+      "Kerosene": 5,
+      "Gas": 21,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 293
   },
   {
     "region_name": "Radawana South",
@@ -20650,6 +21140,20 @@
     "total_value_from_source": 237
   },
   {
+    "region_name": "Ganihigama South",
+    "gnd_num": "380D",
+    "total_value": 162,
+    "values": {
+      "Firewood": 156,
+      "Kerosene": 1,
+      "Gas": 3,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 2
+    },
+    "total_value_from_source": 162
+  },
+  {
     "region_name": "Dangalla North",
     "gnd_num": "380C",
     "total_value": 220,
@@ -21208,6 +21712,20 @@
       "Other": 1
     },
     "total_value_from_source": 452
+  },
+  {
+    "region_name": "Kalukondayawa East",
+    "gnd_num": "402",
+    "total_value": 200,
+    "values": {
+      "Firewood": 179,
+      "Kerosene": 0,
+      "Gas": 21,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 200
   },
   {
     "region_name": "Galwalagoda",
@@ -21770,6 +22288,20 @@
     "total_value_from_source": 450
   },
   {
+    "region_name": "Kandumulla",
+    "gnd_num": "307",
+    "total_value": 212,
+    "values": {
+      "Firewood": 201,
+      "Kerosene": 0,
+      "Gas": 11,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 212
+  },
+  {
     "region_name": "Pasgammana",
     "gnd_num": "298",
     "total_value": 427,
@@ -22328,6 +22860,20 @@
       "Other": 3
     },
     "total_value_from_source": 1380
+  },
+  {
+    "region_name": "Kendaliyeddapaluwa North",
+    "gnd_num": "246C",
+    "total_value": 908,
+    "values": {
+      "Firewood": 630,
+      "Kerosene": 11,
+      "Gas": 258,
+      "Electricity": 2,
+      "Saw dust/Paddy husk/": 1,
+      "Other": 6
+    },
+    "total_value_from_source": 908
   },
   {
     "region_name": "Dangahawela",
@@ -22890,6 +23436,20 @@
     "total_value_from_source": 439
   },
   {
+    "region_name": "Akbar Town",
+    "gnd_num": "255A",
+    "total_value": 740,
+    "values": {
+      "Firewood": 104,
+      "Kerosene": 134,
+      "Gas": 501,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 740
+  },
+  {
     "region_name": "Kelaniya",
     "gnd_num": "",
     "total_value": 34087,
@@ -23448,6 +24008,20 @@
       "Other": 22
     },
     "total_value_from_source": 702
+  },
+  {
+    "region_name": "Ihala Biyanvila North",
+    "gnd_num": "269",
+    "total_value": 869,
+    "values": {
+      "Firewood": 278,
+      "Kerosene": 25,
+      "Gas": 555,
+      "Electricity": 3,
+      "Saw dust/Paddy husk/": 1,
+      "Other": 7
+    },
+    "total_value_from_source": 869
   },
   {
     "region_name": "Ihala Biyanvila Central",
@@ -24010,6 +24584,20 @@
     "total_value_from_source": 997
   },
   {
+    "region_name": "Pattivila South",
+    "gnd_num": "279A",
+    "total_value": 691,
+    "values": {
+      "Firewood": 429,
+      "Kerosene": 41,
+      "Gas": 207,
+      "Electricity": 2,
+      "Saw dust/Paddy husk/": 2,
+      "Other": 10
+    },
+    "total_value_from_source": 691
+  },
+  {
     "region_name": "Biyagama South",
     "gnd_num": "280/C",
     "total_value": 930,
@@ -24568,6 +25156,20 @@
       "Other": 3
     },
     "total_value_from_source": 1205
+  },
+  {
+    "region_name": "Kiriberiya",
+    "gnd_num": "684B",
+    "total_value": 944,
+    "values": {
+      "Firewood": 603,
+      "Kerosene": 21,
+      "Gas": 311,
+      "Electricity": 2,
+      "Saw dust/Paddy husk/": 3,
+      "Other": 4
+    },
+    "total_value_from_source": 944
   },
   {
     "region_name": "Malamulla",
@@ -25130,6 +25732,20 @@
     "total_value_from_source": 27263
   },
   {
+    "region_name": "Kidelpitiya West",
+    "gnd_num": "669",
+    "total_value": 565,
+    "values": {
+      "Firewood": 397,
+      "Kerosene": 4,
+      "Gas": 158,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 1,
+      "Other": 5
+    },
+    "total_value_from_source": 565
+  },
+  {
     "region_name": "Kidelpitiya East",
     "gnd_num": "669A",
     "total_value": 466,
@@ -25688,6 +26304,20 @@
       "Other": 1
     },
     "total_value_from_source": 317
+  },
+  {
+    "region_name": "Mahabellana",
+    "gnd_num": "695",
+    "total_value": 524,
+    "values": {
+      "Firewood": 291,
+      "Kerosene": 14,
+      "Gas": 212,
+      "Electricity": 6,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 524
   },
   {
     "region_name": "Imbulliha",
@@ -26250,6 +26880,20 @@
     "total_value_from_source": 568
   },
   {
+    "region_name": "Gorokgoda",
+    "gnd_num": "630A",
+    "total_value": 142,
+    "values": {
+      "Firewood": 131,
+      "Kerosene": 1,
+      "Gas": 9,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 142
+  },
+  {
     "region_name": "Dambara",
     "gnd_num": "630",
     "total_value": 452,
@@ -26808,6 +27452,20 @@
       "Other": 2
     },
     "total_value_from_source": 372
+  },
+  {
+    "region_name": "Arakavila",
+    "gnd_num": "625",
+    "total_value": 566,
+    "values": {
+      "Firewood": 508,
+      "Kerosene": 4,
+      "Gas": 51,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 3
+    },
+    "total_value_from_source": 566
   },
   {
     "region_name": "Kandanapitiya",
@@ -27370,6 +28028,20 @@
     "total_value_from_source": 172
   },
   {
+    "region_name": "Bulathsinhala North",
+    "gnd_num": "821",
+    "total_value": 296,
+    "values": {
+      "Firewood": 259,
+      "Kerosene": 0,
+      "Gas": 37,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 296
+  },
+  {
     "region_name": "Egaloya",
     "gnd_num": "821D",
     "total_value": 565,
@@ -27928,6 +28600,20 @@
       "Other": 0
     },
     "total_value_from_source": 193
+  },
+  {
+    "region_name": "Mahagama South",
+    "gnd_num": "819A",
+    "total_value": 244,
+    "values": {
+      "Firewood": 239,
+      "Kerosene": 1,
+      "Gas": 4,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 244
   },
   {
     "region_name": "Muduna",
@@ -28490,6 +29176,20 @@
     "total_value_from_source": 323
   },
   {
+    "region_name": "Welikala",
+    "gnd_num": "654",
+    "total_value": 734,
+    "values": {
+      "Firewood": 575,
+      "Kerosene": 4,
+      "Gas": 152,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 2
+    },
+    "total_value_from_source": 734
+  },
+  {
     "region_name": "Thibbotugoda",
     "gnd_num": "654A",
     "total_value": 269,
@@ -29048,6 +29748,20 @@
       "Other": 0
     },
     "total_value_from_source": 130
+  },
+  {
+    "region_name": "Kalutara",
+    "gnd_num": "",
+    "total_value": 38653,
+    "values": {
+      "Firewood": 26560,
+      "Kerosene": 517,
+      "Gas": 11273,
+      "Electricity": 119,
+      "Saw dust/Paddy husk/": 51,
+      "Other": 133
+    },
+    "total_value_from_source": 38653
   },
   {
     "region_name": "Mestiya",
@@ -29610,6 +30324,20 @@
     "total_value_from_source": 372
   },
   {
+    "region_name": "Vilegoda North",
+    "gnd_num": "718C",
+    "total_value": 527,
+    "values": {
+      "Firewood": 271,
+      "Kerosene": 4,
+      "Gas": 243,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 1,
+      "Other": 7
+    },
+    "total_value_from_source": 527
+  },
+  {
     "region_name": "Malwatta",
     "gnd_num": "718D",
     "total_value": 226,
@@ -30168,6 +30896,20 @@
       "Other": 1
     },
     "total_value_from_source": 803
+  },
+  {
+    "region_name": "Weniwelketiya",
+    "gnd_num": "729I",
+    "total_value": 617,
+    "values": {
+      "Firewood": 479,
+      "Kerosene": 4,
+      "Gas": 129,
+      "Electricity": 2,
+      "Saw dust/Paddy husk/": 3,
+      "Other": 0
+    },
+    "total_value_from_source": 617
   },
   {
     "region_name": "Gallassa",
@@ -30730,6 +31472,20 @@
     "total_value_from_source": 358
   },
   {
+    "region_name": "Kadurugasmulla",
+    "gnd_num": "745A",
+    "total_value": 485,
+    "values": {
+      "Firewood": 433,
+      "Kerosene": 4,
+      "Gas": 48,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 485
+  },
+  {
     "region_name": "Bandanagoda",
     "gnd_num": "750A",
     "total_value": 348,
@@ -31288,6 +32044,20 @@
       "Other": 0
     },
     "total_value_from_source": 414
+  },
+  {
+    "region_name": "Dharga Town",
+    "gnd_num": "766",
+    "total_value": 567,
+    "values": {
+      "Firewood": 400,
+      "Kerosene": 28,
+      "Gas": 136,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 1,
+      "Other": 2
+    },
+    "total_value_from_source": 567
   },
   {
     "region_name": "Kaluwamodara East",
@@ -31850,6 +32620,20 @@
     "total_value_from_source": 629
   },
   {
+    "region_name": "Dodangoda West - North West",
+    "gnd_num": "800F",
+    "total_value": 736,
+    "values": {
+      "Firewood": 474,
+      "Kerosene": 4,
+      "Gas": 254,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 1,
+      "Other": 2
+    },
+    "total_value_from_source": 736
+  },
+  {
     "region_name": "Dodangoda West",
     "gnd_num": "800",
     "total_value": 818,
@@ -32408,6 +33192,20 @@
       "Other": 0
     },
     "total_value_from_source": 558
+  },
+  {
+    "region_name": "Sandasirigama",
+    "gnd_num": "795B",
+    "total_value": 423,
+    "values": {
+      "Firewood": 388,
+      "Kerosene": 1,
+      "Gas": 33,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 1,
+      "Other": 0
+    },
+    "total_value_from_source": 423
   },
   {
     "region_name": "Badugama New Colony",
@@ -32970,6 +33768,20 @@
     "total_value_from_source": 411
   },
   {
+    "region_name": "Beragama",
+    "gnd_num": "829C",
+    "total_value": 213,
+    "values": {
+      "Firewood": 203,
+      "Kerosene": 2,
+      "Gas": 8,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 213
+  },
+  {
     "region_name": "Agalawatta",
     "gnd_num": "829",
     "total_value": 229,
@@ -33528,6 +34340,20 @@
       "Other": 2
     },
     "total_value_from_source": 381
+  },
+  {
+    "region_name": "Viharagama",
+    "gnd_num": "834C",
+    "total_value": 251,
+    "values": {
+      "Firewood": 213,
+      "Kerosene": 1,
+      "Gas": 37,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 251
   },
   {
     "region_name": "Kapugama",
@@ -34090,6 +34916,20 @@
     "total_value_from_source": 170
   },
   {
+    "region_name": "Uthumgama",
+    "gnd_num": "790A",
+    "total_value": 226,
+    "values": {
+      "Firewood": 214,
+      "Kerosene": 3,
+      "Gas": 9,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 226
+  },
+  {
     "region_name": "Kuda Mathugama",
     "gnd_num": "781",
     "total_value": 190,
@@ -34648,6 +35488,20 @@
       "Other": 0
     },
     "total_value_from_source": 133
+  },
+  {
+    "region_name": "Gulanawatta",
+    "gnd_num": "843H",
+    "total_value": 325,
+    "values": {
+      "Firewood": 323,
+      "Kerosene": 0,
+      "Gas": 2,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 325
   },
   {
     "region_name": "Kankotawatta",
@@ -35210,6 +36064,20 @@
     "total_value_from_source": 176
   },
   {
+    "region_name": "Kinigama West",
+    "gnd_num": "317",
+    "total_value": 158,
+    "values": {
+      "Firewood": 156,
+      "Kerosene": 0,
+      "Gas": 2,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 158
+  },
+  {
     "region_name": "Kinigama East",
     "gnd_num": "316",
     "total_value": 143,
@@ -35768,6 +36636,20 @@
       "Other": 0
     },
     "total_value_from_source": 183
+  },
+  {
+    "region_name": "Ankumbura South",
+    "gnd_num": "532",
+    "total_value": 259,
+    "values": {
+      "Firewood": 243,
+      "Kerosene": 1,
+      "Gas": 15,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 259
   },
   {
     "region_name": "Ankumbura North",
@@ -36330,6 +37212,20 @@
     "total_value_from_source": 240
   },
   {
+    "region_name": "Marathugoda South",
+    "gnd_num": "509",
+    "total_value": 196,
+    "values": {
+      "Firewood": 192,
+      "Kerosene": 0,
+      "Gas": 4,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 196
+  },
+  {
     "region_name": "Ambaruppa",
     "gnd_num": "496",
     "total_value": 159,
@@ -36888,6 +37784,20 @@
       "Other": 0
     },
     "total_value_from_source": 559
+  },
+  {
+    "region_name": "Palleweliketiya",
+    "gnd_num": "562",
+    "total_value": 357,
+    "values": {
+      "Firewood": 176,
+      "Kerosene": 7,
+      "Gas": 174,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 357
   },
   {
     "region_name": "Dodangolla",
@@ -37450,6 +38360,20 @@
     "total_value_from_source": 325
   },
   {
+    "region_name": "Girakaduwa",
+    "gnd_num": "631",
+    "total_value": 293,
+    "values": {
+      "Firewood": 224,
+      "Kerosene": 3,
+      "Gas": 66,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 293
+  },
+  {
     "region_name": "Ambathenna",
     "gnd_num": "629",
     "total_value": 413,
@@ -38008,6 +38932,20 @@
       "Other": 1
     },
     "total_value_from_source": 608
+  },
+  {
+    "region_name": "Udadumbara",
+    "gnd_num": "",
+    "total_value": 6382,
+    "values": {
+      "Firewood": 6231,
+      "Kerosene": 15,
+      "Gas": 130,
+      "Electricity": 5,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 6382
   },
   {
     "region_name": "Meemure",
@@ -38570,6 +39508,20 @@
     "total_value_from_source": 45
   },
   {
+    "region_name": "Rambukwella East",
+    "gnd_num": "850",
+    "total_value": 77,
+    "values": {
+      "Firewood": 77,
+      "Kerosene": 0,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 77
+  },
+  {
     "region_name": "Rambukwella West",
     "gnd_num": "849",
     "total_value": 54,
@@ -39128,6 +40080,20 @@
       "Other": 0
     },
     "total_value_from_source": 196
+  },
+  {
+    "region_name": "Dambepitiya",
+    "gnd_num": "915",
+    "total_value": 372,
+    "values": {
+      "Firewood": 368,
+      "Kerosene": 1,
+      "Gas": 1,
+      "Electricity": 2,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 372
   },
   {
     "region_name": "Welgahawadiya",
@@ -39690,6 +40656,20 @@
     "total_value_from_source": 79
   },
   {
+    "region_name": "Werapitiya",
+    "gnd_num": "747",
+    "total_value": 136,
+    "values": {
+      "Firewood": 135,
+      "Kerosene": 0,
+      "Gas": 1,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 136
+  },
+  {
     "region_name": "Werathenna",
     "gnd_num": "748",
     "total_value": 81,
@@ -40248,6 +41228,20 @@
       "Other": 0
     },
     "total_value_from_source": 371
+  },
+  {
+    "region_name": "Ranmulla",
+    "gnd_num": "772",
+    "total_value": 257,
+    "values": {
+      "Firewood": 255,
+      "Kerosene": 0,
+      "Gas": 2,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 257
   },
   {
     "region_name": "Maharawela",
@@ -40810,6 +41804,20 @@
     "total_value_from_source": 104
   },
   {
+    "region_name": "Welapahala",
+    "gnd_num": "822",
+    "total_value": 79,
+    "values": {
+      "Firewood": 78,
+      "Kerosene": 0,
+      "Gas": 1,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 79
+  },
+  {
     "region_name": "Meda Gammedda",
     "gnd_num": "823",
     "total_value": 86,
@@ -41368,6 +42376,20 @@
       "Other": 0
     },
     "total_value_from_source": 304
+  },
+  {
+    "region_name": "Lewellagama",
+    "gnd_num": "655",
+    "total_value": 422,
+    "values": {
+      "Firewood": 352,
+      "Kerosene": 4,
+      "Gas": 66,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 422
   },
   {
     "region_name": "Degaldoruwa",
@@ -41930,6 +42952,20 @@
     "total_value_from_source": 601
   },
   {
+    "region_name": "Ambakotayawatta",
+    "gnd_num": "695",
+    "total_value": 1078,
+    "values": {
+      "Firewood": 963,
+      "Kerosene": 13,
+      "Gas": 100,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 1,
+      "Other": 1
+    },
+    "total_value_from_source": 1078
+  },
+  {
     "region_name": "Kandy Four Gravets & Gangawata Korale",
     "gnd_num": "",
     "total_value": 37230,
@@ -42488,6 +43524,20 @@
       "Other": 4
     },
     "total_value_from_source": 307
+  },
+  {
+    "region_name": "Uda Bowala",
+    "gnd_num": "244",
+    "total_value": 987,
+    "values": {
+      "Firewood": 563,
+      "Kerosene": 18,
+      "Gas": 399,
+      "Electricity": 4,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 3
+    },
+    "total_value_from_source": 987
   },
   {
     "region_name": "Bowala",
@@ -43050,6 +44100,20 @@
     "total_value_from_source": 385
   },
   {
+    "region_name": "Ulladupitiya East",
+    "gnd_num": "465",
+    "total_value": 172,
+    "values": {
+      "Firewood": 154,
+      "Kerosene": 0,
+      "Gas": 18,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 172
+  },
+  {
     "region_name": "Ulladupitiya West",
     "gnd_num": "466",
     "total_value": 208,
@@ -43608,6 +44672,20 @@
       "Other": 0
     },
     "total_value_from_source": 315
+  },
+  {
+    "region_name": "Yatiwawala",
+    "gnd_num": "415",
+    "total_value": 420,
+    "values": {
+      "Firewood": 219,
+      "Kerosene": 5,
+      "Gas": 191,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 2,
+      "Other": 3
+    },
+    "total_value_from_source": 420
   },
   {
     "region_name": "Katugasthota",
@@ -44170,6 +45248,20 @@
     "total_value_from_source": 93
   },
   {
+    "region_name": "Godathale",
+    "gnd_num": "333",
+    "total_value": 164,
+    "values": {
+      "Firewood": 164,
+      "Kerosene": 0,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 164
+  },
+  {
     "region_name": "Kalotuwawa",
     "gnd_num": "334",
     "total_value": 191,
@@ -44728,6 +45820,20 @@
       "Other": 0
     },
     "total_value_from_source": 168
+  },
+  {
+    "region_name": "Kolugala Pahalagama",
+    "gnd_num": "355",
+    "total_value": 154,
+    "values": {
+      "Firewood": 154,
+      "Kerosene": 0,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 154
   },
   {
     "region_name": "Kithuldora",
@@ -45290,6 +46396,20 @@
     "total_value_from_source": 128
   },
   {
+    "region_name": "Gondeniya",
+    "gnd_num": "188",
+    "total_value": 163,
+    "values": {
+      "Firewood": 160,
+      "Kerosene": 0,
+      "Gas": 3,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 163
+  },
+  {
     "region_name": "Madiligama",
     "gnd_num": "195",
     "total_value": 139,
@@ -45848,6 +46968,20 @@
       "Other": 0
     },
     "total_value_from_source": 255
+  },
+  {
+    "region_name": "Bulumulla",
+    "gnd_num": "125",
+    "total_value": 334,
+    "values": {
+      "Firewood": 168,
+      "Kerosene": 0,
+      "Gas": 166,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 334
   },
   {
     "region_name": "Pilapitiya",
@@ -46410,6 +47544,20 @@
     "total_value_from_source": 175
   },
   {
+    "region_name": "Mampitiya",
+    "gnd_num": "7",
+    "total_value": 304,
+    "values": {
+      "Firewood": 274,
+      "Kerosene": 0,
+      "Gas": 30,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 304
+  },
+  {
     "region_name": "Rajagiriya",
     "gnd_num": "8",
     "total_value": 198,
@@ -46968,6 +48116,20 @@
       "Other": 1
     },
     "total_value_from_source": 438
+  },
+  {
+    "region_name": "Aravuwawala",
+    "gnd_num": "75",
+    "total_value": 285,
+    "values": {
+      "Firewood": 262,
+      "Kerosene": 0,
+      "Gas": 23,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 285
   },
   {
     "region_name": "Rangama",
@@ -47530,6 +48692,20 @@
     "total_value_from_source": 173
   },
   {
+    "region_name": "Ganhatha",
+    "gnd_num": "93",
+    "total_value": 194,
+    "values": {
+      "Firewood": 175,
+      "Kerosene": 0,
+      "Gas": 19,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 194
+  },
+  {
     "region_name": "Daskara",
     "gnd_num": "61",
     "total_value": 163,
@@ -48088,6 +49264,20 @@
       "Other": 0
     },
     "total_value_from_source": 286
+  },
+  {
+    "region_name": "Kahawatta",
+    "gnd_num": "1144",
+    "total_value": 314,
+    "values": {
+      "Firewood": 306,
+      "Kerosene": 0,
+      "Gas": 7,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 314
   },
   {
     "region_name": "Gothatuwela",
@@ -48650,6 +49840,20 @@
     "total_value_from_source": 311
   },
   {
+    "region_name": "Ratemulla",
+    "gnd_num": "951",
+    "total_value": 474,
+    "values": {
+      "Firewood": 453,
+      "Kerosene": 2,
+      "Gas": 18,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 474
+  },
+  {
     "region_name": "Pooliyadda",
     "gnd_num": "964",
     "total_value": 107,
@@ -49208,6 +50412,20 @@
       "Other": 0
     },
     "total_value_from_source": 171
+  },
+  {
+    "region_name": "Ududeniya",
+    "gnd_num": "1023",
+    "total_value": 122,
+    "values": {
+      "Firewood": 119,
+      "Kerosene": 0,
+      "Gas": 2,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 122
   },
   {
     "region_name": "Bopitiya",
@@ -49770,6 +50988,20 @@
     "total_value_from_source": 233
   },
   {
+    "region_name": "Bowala",
+    "gnd_num": "1131",
+    "total_value": 226,
+    "values": {
+      "Firewood": 210,
+      "Kerosene": 0,
+      "Gas": 15,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 226
+  },
+  {
     "region_name": "Rathmalkaduwa",
     "gnd_num": "1126",
     "total_value": 307,
@@ -50328,6 +51560,20 @@
       "Other": 1
     },
     "total_value_from_source": 557
+  },
+  {
+    "region_name": "Weliganga",
+    "gnd_num": "1188",
+    "total_value": 324,
+    "values": {
+      "Firewood": 308,
+      "Kerosene": 0,
+      "Gas": 16,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 324
   },
   {
     "region_name": "Kalugalhinna",
@@ -50890,6 +52136,20 @@
     "total_value_from_source": 357
   },
   {
+    "region_name": "Pahala Rambukpitiya",
+    "gnd_num": "1090",
+    "total_value": 346,
+    "values": {
+      "Firewood": 281,
+      "Kerosene": 4,
+      "Gas": 60,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 346
+  },
+  {
     "region_name": "Uda Rambukpitiya",
     "gnd_num": "1089",
     "total_value": 409,
@@ -51448,6 +52708,20 @@
       "Other": 0
     },
     "total_value_from_source": 282
+  },
+  {
+    "region_name": "Ralalerotawewa",
+    "gnd_num": "E436C",
+    "total_value": 237,
+    "values": {
+      "Firewood": 235,
+      "Kerosene": 0,
+      "Gas": 2,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 237
   },
   {
     "region_name": "Moragolla",
@@ -52010,6 +53284,20 @@
     "total_value_from_source": 307
   },
   {
+    "region_name": "Wegodapola",
+    "gnd_num": "E430B",
+    "total_value": 236,
+    "values": {
+      "Firewood": 230,
+      "Kerosene": 0,
+      "Gas": 6,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 236
+  },
+  {
     "region_name": "Kendangamuwa",
     "gnd_num": "E430C",
     "total_value": 283,
@@ -52568,6 +53856,20 @@
       "Other": 0
     },
     "total_value_from_source": 589
+  },
+  {
+    "region_name": "Yapagama",
+    "gnd_num": "E445G",
+    "total_value": 471,
+    "values": {
+      "Firewood": 403,
+      "Kerosene": 2,
+      "Gas": 64,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 2
+    },
+    "total_value_from_source": 471
   },
   {
     "region_name": "Rathmalgaha Ela",
@@ -53130,6 +54432,20 @@
     "total_value_from_source": 83
   },
   {
+    "region_name": "Penalaboda",
+    "gnd_num": "E413D",
+    "total_value": 212,
+    "values": {
+      "Firewood": 209,
+      "Kerosene": 0,
+      "Gas": 3,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 212
+  },
+  {
     "region_name": "Naula",
     "gnd_num": "E413B",
     "total_value": 544,
@@ -53688,6 +55004,20 @@
       "Other": 0
     },
     "total_value_from_source": 214
+  },
+  {
+    "region_name": "Thalakiriyawa",
+    "gnd_num": "E423B",
+    "total_value": 281,
+    "values": {
+      "Firewood": 277,
+      "Kerosene": 0,
+      "Gas": 3,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 281
   },
   {
     "region_name": "Kirioruwa",
@@ -54250,6 +55580,20 @@
     "total_value_from_source": 168
   },
   {
+    "region_name": "Selagama East",
+    "gnd_num": "E332D",
+    "total_value": 181,
+    "values": {
+      "Firewood": 181,
+      "Kerosene": 0,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 181
+  },
+  {
     "region_name": "Thembilideniya",
     "gnd_num": "E331B",
     "total_value": 128,
@@ -54808,6 +56152,20 @@
       "Other": 0
     },
     "total_value_from_source": 160
+  },
+  {
+    "region_name": "Madadeniya",
+    "gnd_num": "E336A",
+    "total_value": 136,
+    "values": {
+      "Firewood": 134,
+      "Kerosene": 0,
+      "Gas": 2,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 136
   },
   {
     "region_name": "Mathalapitiya",
@@ -55370,6 +56728,20 @@
     "total_value_from_source": 252
   },
   {
+    "region_name": "Aluvihare",
+    "gnd_num": "E327",
+    "total_value": 1095,
+    "values": {
+      "Firewood": 637,
+      "Kerosene": 10,
+      "Gas": 447,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 1095
+  },
+  {
     "region_name": "Dikkiriya",
     "gnd_num": "E327B",
     "total_value": 209,
@@ -55928,6 +57300,20 @@
       "Other": 0
     },
     "total_value_from_source": 170
+  },
+  {
+    "region_name": "Hunukete",
+    "gnd_num": "E384B",
+    "total_value": 358,
+    "values": {
+      "Firewood": 355,
+      "Kerosene": 0,
+      "Gas": 2,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 358
   },
   {
     "region_name": "Metihakka",
@@ -56490,6 +57876,20 @@
     "total_value_from_source": 130
   },
   {
+    "region_name": "Narangamuwa",
+    "gnd_num": "E391",
+    "total_value": 94,
+    "values": {
+      "Firewood": 94,
+      "Kerosene": 0,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 94
+  },
+  {
     "region_name": "Lakegala",
     "gnd_num": "E391A",
     "total_value": 70,
@@ -57048,6 +58448,20 @@
       "Other": 0
     },
     "total_value_from_source": 188
+  },
+  {
+    "region_name": "Sulugune",
+    "gnd_num": "E392C",
+    "total_value": 53,
+    "values": {
+      "Firewood": 53,
+      "Kerosene": 0,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 53
   },
   {
     "region_name": "Rattota",
@@ -57610,6 +59024,20 @@
     "total_value_from_source": 256
   },
   {
+    "region_name": "Ulpothapitiya",
+    "gnd_num": "E370",
+    "total_value": 412,
+    "values": {
+      "Firewood": 378,
+      "Kerosene": 1,
+      "Gas": 30,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 3
+    },
+    "total_value_from_source": 412
+  },
+  {
     "region_name": "Bandarapola",
     "gnd_num": "E366",
     "total_value": 285,
@@ -58168,6 +59596,20 @@
       "Other": 0
     },
     "total_value_from_source": 166
+  },
+  {
+    "region_name": "Eriyagolla",
+    "gnd_num": "E365D",
+    "total_value": 134,
+    "values": {
+      "Firewood": 129,
+      "Kerosene": 0,
+      "Gas": 4,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 134
   },
   {
     "region_name": "Katudeniya",
@@ -58730,6 +60172,20 @@
     "total_value_from_source": 289
   },
   {
+    "region_name": "Pujagoda",
+    "gnd_num": "E362G",
+    "total_value": 184,
+    "values": {
+      "Firewood": 183,
+      "Kerosene": 0,
+      "Gas": 0,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 184
+  },
+  {
     "region_name": "Pahala Wehigala",
     "gnd_num": "E362C",
     "total_value": 169,
@@ -59288,6 +60744,20 @@
       "Other": 0
     },
     "total_value_from_source": 101
+  },
+  {
+    "region_name": "Halgolla",
+    "gnd_num": "461C",
+    "total_value": 315,
+    "values": {
+      "Firewood": 303,
+      "Kerosene": 0,
+      "Gas": 11,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 315
   },
   {
     "region_name": "Harangala South",
@@ -59850,6 +61320,20 @@
     "total_value_from_source": 86
   },
   {
+    "region_name": "Pundaluoya North",
+    "gnd_num": "468E",
+    "total_value": 332,
+    "values": {
+      "Firewood": 321,
+      "Kerosene": 5,
+      "Gas": 4,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 1,
+      "Other": 0
+    },
+    "total_value_from_source": 332
+  },
+  {
     "region_name": "Labukele",
     "gnd_num": "474I",
     "total_value": 738,
@@ -60408,6 +61892,20 @@
       "Other": 0
     },
     "total_value_from_source": 146
+  },
+  {
+    "region_name": "Udawatta East",
+    "gnd_num": "489A",
+    "total_value": 219,
+    "values": {
+      "Firewood": 215,
+      "Kerosene": 0,
+      "Gas": 4,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 219
   },
   {
     "region_name": "Hilpenkandura",
@@ -60970,6 +62468,20 @@
     "total_value_from_source": 122
   },
   {
+    "region_name": "Poramadulla",
+    "gnd_num": "498A",
+    "total_value": 419,
+    "values": {
+      "Firewood": 370,
+      "Kerosene": 1,
+      "Gas": 47,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 419
+  },
+  {
     "region_name": "Labuhena",
     "gnd_num": "498F",
     "total_value": 239,
@@ -61528,6 +63040,20 @@
       "Other": 0
     },
     "total_value_from_source": 223
+  },
+  {
+    "region_name": "Welapahala",
+    "gnd_num": "481D",
+    "total_value": 187,
+    "values": {
+      "Firewood": 185,
+      "Kerosene": 1,
+      "Gas": 1,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 187
   },
   {
     "region_name": "Uda Padiyapelella",
@@ -62090,6 +63616,20 @@
     "total_value_from_source": 92
   },
   {
+    "region_name": "Galketiwela",
+    "gnd_num": "519C",
+    "total_value": 124,
+    "values": {
+      "Firewood": 122,
+      "Kerosene": 0,
+      "Gas": 1,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 124
+  },
+  {
     "region_name": "Ellakumbura",
     "gnd_num": "519F",
     "total_value": 192,
@@ -62648,6 +64188,20 @@
       "Other": 0
     },
     "total_value_from_source": 107
+  },
+  {
+    "region_name": "Thibbatugoda",
+    "gnd_num": "517",
+    "total_value": 93,
+    "values": {
+      "Firewood": 88,
+      "Kerosene": 0,
+      "Gas": 5,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 93
   },
   {
     "region_name": "Egodakanda",
@@ -63210,6 +64764,20 @@
     "total_value_from_source": 57
   },
   {
+    "region_name": "Pallewela",
+    "gnd_num": "528A",
+    "total_value": 123,
+    "values": {
+      "Firewood": 123,
+      "Kerosene": 0,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 123
+  },
+  {
     "region_name": "Palugama",
     "gnd_num": "528B",
     "total_value": 176,
@@ -63768,6 +65336,20 @@
       "Other": 0
     },
     "total_value_from_source": 772
+  },
+  {
+    "region_name": "Bangalahatha",
+    "gnd_num": "476C",
+    "total_value": 816,
+    "values": {
+      "Firewood": 725,
+      "Kerosene": 20,
+      "Gas": 69,
+      "Electricity": 2,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 816
   },
   {
     "region_name": "Toppass",
@@ -64330,6 +65912,20 @@
     "total_value_from_source": 289
   },
   {
+    "region_name": "Magasthota",
+    "gnd_num": "535A",
+    "total_value": 377,
+    "values": {
+      "Firewood": 122,
+      "Kerosene": 21,
+      "Gas": 230,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 1,
+      "Other": 2
+    },
+    "total_value_from_source": 377
+  },
+  {
     "region_name": "Ruwaneliya",
     "gnd_num": "476D",
     "total_value": 733,
@@ -64888,6 +66484,20 @@
       "Other": 1
     },
     "total_value_from_source": 230
+  },
+  {
+    "region_name": "Kehelwarawa",
+    "gnd_num": "316G",
+    "total_value": 275,
+    "values": {
+      "Firewood": 273,
+      "Kerosene": 0,
+      "Gas": 2,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 275
   },
   {
     "region_name": "Homagama",
@@ -65450,6 +67060,20 @@
     "total_value_from_source": 1207
   },
   {
+    "region_name": "Brownswick",
+    "gnd_num": "320M",
+    "total_value": 1423,
+    "values": {
+      "Firewood": 1338,
+      "Kerosene": 16,
+      "Gas": 59,
+      "Electricity": 5,
+      "Saw dust/Paddy husk/": 5,
+      "Other": 0
+    },
+    "total_value_from_source": 1423
+  },
+  {
     "region_name": "Gawarawila",
     "gnd_num": "320C",
     "total_value": 1258,
@@ -66008,6 +67632,20 @@
       "Other": 0
     },
     "total_value_from_source": 267
+  },
+  {
+    "region_name": "Etawalawatta West",
+    "gnd_num": "9B",
+    "total_value": 155,
+    "values": {
+      "Firewood": 137,
+      "Kerosene": 0,
+      "Gas": 17,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 1,
+      "Other": 0
+    },
+    "total_value_from_source": 155
   },
   {
     "region_name": "Etawalawatta East",
@@ -66570,6 +68208,20 @@
     "total_value_from_source": 372
   },
   {
+    "region_name": "Bogahapitiya",
+    "gnd_num": "24C",
+    "total_value": 338,
+    "values": {
+      "Firewood": 294,
+      "Kerosene": 0,
+      "Gas": 43,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 338
+  },
+  {
     "region_name": "Galvehera",
     "gnd_num": "24",
     "total_value": 291,
@@ -67128,6 +68780,20 @@
       "Other": 0
     },
     "total_value_from_source": 208
+  },
+  {
+    "region_name": "Uragasmanhandiya South",
+    "gnd_num": "39",
+    "total_value": 481,
+    "values": {
+      "Firewood": 407,
+      "Kerosene": 4,
+      "Gas": 64,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 6
+    },
+    "total_value_from_source": 481
   },
   {
     "region_name": "Yatagala",
@@ -67690,6 +69356,20 @@
     "total_value_from_source": 263
   },
   {
+    "region_name": "Indipalegoda",
+    "gnd_num": "30B",
+    "total_value": 467,
+    "values": {
+      "Firewood": 415,
+      "Kerosene": 3,
+      "Gas": 48,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 1,
+      "Other": 0
+    },
+    "total_value_from_source": 467
+  },
+  {
     "region_name": "Dikhena",
     "gnd_num": "31C",
     "total_value": 337,
@@ -68248,6 +69928,20 @@
       "Other": 0
     },
     "total_value_from_source": 502
+  },
+  {
+    "region_name": "Kahadoowa",
+    "gnd_num": "94D",
+    "total_value": 259,
+    "values": {
+      "Firewood": 243,
+      "Kerosene": 0,
+      "Gas": 16,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 259
   },
   {
     "region_name": "Thibbotuwawa",
@@ -68810,6 +70504,20 @@
     "total_value_from_source": 8902
   },
   {
+    "region_name": "Ela Ihala",
+    "gnd_num": "230B",
+    "total_value": 465,
+    "values": {
+      "Firewood": 456,
+      "Kerosene": 1,
+      "Gas": 7,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 465
+  },
+  {
     "region_name": "Ela Ihala North",
     "gnd_num": "230E",
     "total_value": 210,
@@ -69368,6 +71076,20 @@
       "Other": 0
     },
     "total_value_from_source": 150
+  },
+  {
+    "region_name": "Thambalagama",
+    "gnd_num": "234D",
+    "total_value": 60,
+    "values": {
+      "Firewood": 60,
+      "Kerosene": 0,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 60
   },
   {
     "region_name": "Ehelapitiya",
@@ -69930,6 +71652,20 @@
     "total_value_from_source": 148
   },
   {
+    "region_name": "Parana Thanayamgoda",
+    "gnd_num": "213",
+    "total_value": 159,
+    "values": {
+      "Firewood": 153,
+      "Kerosene": 2,
+      "Gas": 4,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 159
+  },
+  {
     "region_name": "Parana Thanayamgoda Central",
     "gnd_num": "213B",
     "total_value": 308,
@@ -70488,6 +72224,20 @@
       "Other": 0
     },
     "total_value_from_source": 233
+  },
+  {
+    "region_name": "Urala South",
+    "gnd_num": "222A",
+    "total_value": 296,
+    "values": {
+      "Firewood": 282,
+      "Kerosene": 0,
+      "Gas": 14,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 296
   },
   {
     "region_name": "Urala East",
@@ -71050,6 +72800,20 @@
     "total_value_from_source": 381
   },
   {
+    "region_name": "Kohombanadeniya",
+    "gnd_num": "208C",
+    "total_value": 395,
+    "values": {
+      "Firewood": 357,
+      "Kerosene": 1,
+      "Gas": 37,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 395
+  },
+  {
     "region_name": "Kasideniya",
     "gnd_num": "208A",
     "total_value": 275,
@@ -71608,6 +73372,20 @@
       "Other": 0
     },
     "total_value_from_source": 400
+  },
+  {
+    "region_name": "Divithura",
+    "gnd_num": "193",
+    "total_value": 413,
+    "values": {
+      "Firewood": 398,
+      "Kerosene": 0,
+      "Gas": 14,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 413
   },
   {
     "region_name": "Ampegama",
@@ -72170,6 +73948,20 @@
     "total_value_from_source": 362
   },
   {
+    "region_name": "Lewdoowa",
+    "gnd_num": "74A",
+    "total_value": 333,
+    "values": {
+      "Firewood": 297,
+      "Kerosene": 1,
+      "Gas": 33,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 2
+    },
+    "total_value_from_source": 333
+  },
+  {
     "region_name": "Udakerewa",
     "gnd_num": "73B",
     "total_value": 337,
@@ -72728,6 +74520,20 @@
       "Other": 3
     },
     "total_value_from_source": 253
+  },
+  {
+    "region_name": "Dimbuldoowa",
+    "gnd_num": "77B",
+    "total_value": 242,
+    "values": {
+      "Firewood": 223,
+      "Kerosene": 0,
+      "Gas": 18,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 1,
+      "Other": 0
+    },
+    "total_value_from_source": 242
   },
   {
     "region_name": "Andurangoda",
@@ -73290,6 +75096,20 @@
     "total_value_from_source": 297
   },
   {
+    "region_name": "Katukoliha",
+    "gnd_num": "55",
+    "total_value": 313,
+    "values": {
+      "Firewood": 244,
+      "Kerosene": 3,
+      "Gas": 62,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 1,
+      "Other": 3
+    },
+    "total_value_from_source": 313
+  },
+  {
     "region_name": "Thiranagama",
     "gnd_num": "54",
     "total_value": 193,
@@ -73848,6 +75668,20 @@
       "Other": 4
     },
     "total_value_from_source": 360
+  },
+  {
+    "region_name": "Pitiwella South",
+    "gnd_num": "42A",
+    "total_value": 140,
+    "values": {
+      "Firewood": 115,
+      "Kerosene": 1,
+      "Gas": 24,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 140
   },
   {
     "region_name": "Pitiwella North",
@@ -74410,6 +76244,20 @@
     "total_value_from_source": 705
   },
   {
+    "region_name": "Makuluwa",
+    "gnd_num": "99C",
+    "total_value": 975,
+    "values": {
+      "Firewood": 599,
+      "Kerosene": 34,
+      "Gas": 326,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 15,
+      "Other": 1
+    },
+    "total_value_from_source": 975
+  },
+  {
     "region_name": "Pettigalawatta",
     "gnd_num": "99B",
     "total_value": 315,
@@ -74968,6 +76816,20 @@
       "Other": 1
     },
     "total_value_from_source": 218
+  },
+  {
+    "region_name": "Bokaramullagoda",
+    "gnd_num": "127C",
+    "total_value": 196,
+    "values": {
+      "Firewood": 128,
+      "Kerosene": 1,
+      "Gas": 67,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 196
   },
   {
     "region_name": "Thunhiripana",
@@ -75530,6 +77392,20 @@
     "total_value_from_source": 296
   },
   {
+    "region_name": "Pinnadoowa Colony",
+    "gnd_num": "110C",
+    "total_value": 300,
+    "values": {
+      "Firewood": 246,
+      "Kerosene": 0,
+      "Gas": 54,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 300
+  },
+  {
     "region_name": "Weliketiya",
     "gnd_num": "110B",
     "total_value": 250,
@@ -76088,6 +77964,20 @@
       "Other": 17
     },
     "total_value_from_source": 12195
+  },
+  {
+    "region_name": "Nawala",
+    "gnd_num": "177B",
+    "total_value": 301,
+    "values": {
+      "Firewood": 295,
+      "Kerosene": 1,
+      "Gas": 4,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 301
   },
   {
     "region_name": "Thellambura North",
@@ -76650,6 +78540,20 @@
     "total_value_from_source": 187
   },
   {
+    "region_name": "Welendawa",
+    "gnd_num": "181B",
+    "total_value": 323,
+    "values": {
+      "Firewood": 315,
+      "Kerosene": 0,
+      "Gas": 8,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 323
+  },
+  {
     "region_name": "Pahala Walpola",
     "gnd_num": "181A",
     "total_value": 282,
@@ -77208,6 +79112,20 @@
       "Other": 2
     },
     "total_value_from_source": 310
+  },
+  {
+    "region_name": "Ellalagoda",
+    "gnd_num": "170A",
+    "total_value": 215,
+    "values": {
+      "Firewood": 204,
+      "Kerosene": 2,
+      "Gas": 8,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 215
   },
   {
     "region_name": "Andugoda",
@@ -77770,6 +79688,20 @@
     "total_value_from_source": 192
   },
   {
+    "region_name": "Atadahewathugoda",
+    "gnd_num": "162A",
+    "total_value": 243,
+    "values": {
+      "Firewood": 218,
+      "Kerosene": 1,
+      "Gas": 23,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 243
+  },
+  {
     "region_name": "Kathaluwa East",
     "gnd_num": "164",
     "total_value": 354,
@@ -78328,6 +80260,20 @@
       "Other": 0
     },
     "total_value_from_source": 407
+  },
+  {
+    "region_name": "Kodikaragoda East",
+    "gnd_num": "262H",
+    "total_value": 374,
+    "values": {
+      "Firewood": 363,
+      "Kerosene": 1,
+      "Gas": 10,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 374
   },
   {
     "region_name": "Weliwa",
@@ -78890,6 +80836,20 @@
     "total_value_from_source": 613
   },
   {
+    "region_name": "Deniyaya West",
+    "gnd_num": "243A",
+    "total_value": 413,
+    "values": {
+      "Firewood": 365,
+      "Kerosene": 3,
+      "Gas": 40,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 1,
+      "Other": 4
+    },
+    "total_value_from_source": 413
+  },
+  {
     "region_name": "Deniyaya",
     "gnd_num": "243",
     "total_value": 548,
@@ -79448,6 +81408,20 @@
       "Other": 0
     },
     "total_value_from_source": 316
+  },
+  {
+    "region_name": "Ginnaliya East",
+    "gnd_num": "246",
+    "total_value": 278,
+    "values": {
+      "Firewood": 272,
+      "Kerosene": 0,
+      "Gas": 6,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 278
   },
   {
     "region_name": "Mekiliyathenna",
@@ -80010,6 +81984,20 @@
     "total_value_from_source": 349
   },
   {
+    "region_name": "Beragama West",
+    "gnd_num": "303A",
+    "total_value": 363,
+    "values": {
+      "Firewood": 361,
+      "Kerosene": 0,
+      "Gas": 2,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 363
+  },
+  {
     "region_name": "Beragama South",
     "gnd_num": "303C",
     "total_value": 298,
@@ -80568,6 +82556,20 @@
       "Other": 0
     },
     "total_value_from_source": 338
+  },
+  {
+    "region_name": "Hawpe",
+    "gnd_num": "306C",
+    "total_value": 328,
+    "values": {
+      "Firewood": 309,
+      "Kerosene": 0,
+      "Gas": 18,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 328
   },
   {
     "region_name": "Thalahagama West",
@@ -81130,6 +83132,20 @@
     "total_value_from_source": 303
   },
   {
+    "region_name": "Minipogoda",
+    "gnd_num": "362A",
+    "total_value": 208,
+    "values": {
+      "Firewood": 208,
+      "Kerosene": 0,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 208
+  },
+  {
     "region_name": "Peddapitiya South",
     "gnd_num": "363C",
     "total_value": 245,
@@ -81688,6 +83704,20 @@
       "Other": 0
     },
     "total_value_from_source": 498
+  },
+  {
+    "region_name": "Hallala",
+    "gnd_num": "375",
+    "total_value": 285,
+    "values": {
+      "Firewood": 251,
+      "Kerosene": 1,
+      "Gas": 33,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 285
   },
   {
     "region_name": "Bathalahena",
@@ -82250,6 +84280,20 @@
     "total_value_from_source": 131
   },
   {
+    "region_name": "Akurugoda North",
+    "gnd_num": "400C",
+    "total_value": 374,
+    "values": {
+      "Firewood": 362,
+      "Kerosene": 1,
+      "Gas": 11,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 374
+  },
+  {
     "region_name": "Akurugoda East",
     "gnd_num": "400",
     "total_value": 409,
@@ -82808,6 +84852,20 @@
       "Other": 1
     },
     "total_value_from_source": 458
+  },
+  {
+    "region_name": "Ihala Vitiyala North",
+    "gnd_num": "348A",
+    "total_value": 252,
+    "values": {
+      "Firewood": 239,
+      "Kerosene": 0,
+      "Gas": 12,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 252
   },
   {
     "region_name": "Karagoda Uyangoda 1 Atha East",
@@ -83370,6 +85428,20 @@
     "total_value_from_source": 346
   },
   {
+    "region_name": "Gammedapitiya",
+    "gnd_num": "286C",
+    "total_value": 222,
+    "values": {
+      "Firewood": 201,
+      "Kerosene": 0,
+      "Gas": 20,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 222
+  },
+  {
     "region_name": "Udupeellegoda East",
     "gnd_num": "294",
     "total_value": 287,
@@ -83928,6 +86000,20 @@
       "Other": 0
     },
     "total_value_from_source": 256
+  },
+  {
+    "region_name": "Medauyangoda",
+    "gnd_num": "334A",
+    "total_value": 351,
+    "values": {
+      "Firewood": 324,
+      "Kerosene": 3,
+      "Gas": 21,
+      "Electricity": 2,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 351
   },
   {
     "region_name": "Akkara Panaha",
@@ -84490,6 +86576,20 @@
     "total_value_from_source": 417
   },
   {
+    "region_name": "Wekada",
+    "gnd_num": "381B",
+    "total_value": 867,
+    "values": {
+      "Firewood": 754,
+      "Kerosene": 7,
+      "Gas": 102,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 3
+    },
+    "total_value_from_source": 867
+  },
+  {
     "region_name": "Denuwala",
     "gnd_num": "381C",
     "total_value": 317,
@@ -85048,6 +87148,20 @@
       "Other": 2
     },
     "total_value_from_source": 169
+  },
+  {
+    "region_name": "Thal Aramba South",
+    "gnd_num": "407",
+    "total_value": 284,
+    "values": {
+      "Firewood": 230,
+      "Kerosene": 0,
+      "Gas": 50,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 4
+    },
+    "total_value_from_source": 284
   },
   {
     "region_name": "Matara Four Gravets",
@@ -85610,6 +87724,20 @@
     "total_value_from_source": 474
   },
   {
+    "region_name": "Kadeweediya West",
+    "gnd_num": "417F",
+    "total_value": 412,
+    "values": {
+      "Firewood": 144,
+      "Kerosene": 11,
+      "Gas": 256,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 1,
+      "Other": 0
+    },
+    "total_value_from_source": 412
+  },
+  {
     "region_name": "Welegoda East",
     "gnd_num": "414",
     "total_value": 863,
@@ -86168,6 +88296,20 @@
       "Other": 1
     },
     "total_value_from_source": 192
+  },
+  {
+    "region_name": "Thalalla North",
+    "gnd_num": "439",
+    "total_value": 300,
+    "values": {
+      "Firewood": 242,
+      "Kerosene": 2,
+      "Gas": 56,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 300
   },
   {
     "region_name": "Thalalla East",
@@ -86730,6 +88872,20 @@
     "total_value_from_source": 216
   },
   {
+    "region_name": "Bambarenda North",
+    "gnd_num": "450B",
+    "total_value": 393,
+    "values": {
+      "Firewood": 352,
+      "Kerosene": 2,
+      "Gas": 39,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 393
+  },
+  {
     "region_name": "Pohosathugoda",
     "gnd_num": "441B",
     "total_value": 162,
@@ -87288,6 +89444,20 @@
       "Other": 0
     },
     "total_value_from_source": 401
+  },
+  {
+    "region_name": "Ranmuduwewa",
+    "gnd_num": "99",
+    "total_value": 301,
+    "values": {
+      "Firewood": 297,
+      "Kerosene": 3,
+      "Gas": 1,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 301
   },
   {
     "region_name": "Weliwewa",
@@ -87850,6 +90020,20 @@
     "total_value_from_source": 324
   },
   {
+    "region_name": "Karambawewa",
+    "gnd_num": "69",
+    "total_value": 245,
+    "values": {
+      "Firewood": 242,
+      "Kerosene": 0,
+      "Gas": 3,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 245
+  },
+  {
     "region_name": "Rambukwewa",
     "gnd_num": "79",
     "total_value": 385,
@@ -88408,6 +90592,20 @@
       "Other": 1
     },
     "total_value_from_source": 301
+  },
+  {
+    "region_name": "Thissapura",
+    "gnd_num": "28",
+    "total_value": 563,
+    "values": {
+      "Firewood": 540,
+      "Kerosene": 0,
+      "Gas": 16,
+      "Electricity": 6,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 563
   },
   {
     "region_name": "Uduvila",
@@ -88970,6 +91168,20 @@
     "total_value_from_source": 435
   },
   {
+    "region_name": "Mirijjavila",
+    "gnd_num": "123",
+    "total_value": 513,
+    "values": {
+      "Firewood": 460,
+      "Kerosene": 1,
+      "Gas": 45,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 7
+    },
+    "total_value_from_source": 513
+  },
+  {
     "region_name": "Hambantota West",
     "gnd_num": "94",
     "total_value": 1789,
@@ -89528,6 +91740,20 @@
       "Other": 0
     },
     "total_value_from_source": 241
+  },
+  {
+    "region_name": "Palugaha Godella",
+    "gnd_num": "147",
+    "total_value": 302,
+    "values": {
+      "Firewood": 291,
+      "Kerosene": 0,
+      "Gas": 10,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 302
   },
   {
     "region_name": "Rotawala",
@@ -90090,6 +92316,20 @@
     "total_value_from_source": 297
   },
   {
+    "region_name": "Abesekaragama",
+    "gnd_num": "228",
+    "total_value": 116,
+    "values": {
+      "Firewood": 116,
+      "Kerosene": 0,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 116
+  },
+  {
     "region_name": "Kalawelwala",
     "gnd_num": "230",
     "total_value": 155,
@@ -90648,6 +92888,20 @@
       "Other": 1
     },
     "total_value_from_source": 158
+  },
+  {
+    "region_name": "Kaluwagahayaya",
+    "gnd_num": "427",
+    "total_value": 173,
+    "values": {
+      "Firewood": 173,
+      "Kerosene": 0,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 173
   },
   {
     "region_name": "Ihala Gonadeniya",
@@ -91210,6 +93464,20 @@
     "total_value_from_source": 264
   },
   {
+    "region_name": "Mandaduwa",
+    "gnd_num": "389",
+    "total_value": 188,
+    "values": {
+      "Firewood": 160,
+      "Kerosene": 1,
+      "Gas": 26,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 188
+  },
+  {
     "region_name": "Agrahera",
     "gnd_num": "390",
     "total_value": 224,
@@ -91768,6 +94036,20 @@
       "Other": 0
     },
     "total_value_from_source": 117
+  },
+  {
+    "region_name": "Siyarapitiya",
+    "gnd_num": "518",
+    "total_value": 141,
+    "values": {
+      "Firewood": 136,
+      "Kerosene": 0,
+      "Gas": 3,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 2
+    },
+    "total_value_from_source": 141
   },
   {
     "region_name": "Kehelwatta",
@@ -92330,6 +94612,20 @@
     "total_value_from_source": 192
   },
   {
+    "region_name": "Galwadiya",
+    "gnd_num": "432",
+    "total_value": 222,
+    "values": {
+      "Firewood": 222,
+      "Kerosene": 0,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 222
+  },
+  {
     "region_name": "Uda Julampitiya",
     "gnd_num": "430",
     "total_value": 273,
@@ -92888,6 +95184,20 @@
       "Other": 0
     },
     "total_value_from_source": 181
+  },
+  {
+    "region_name": "Daluwakgoda",
+    "gnd_num": "465",
+    "total_value": 213,
+    "values": {
+      "Firewood": 211,
+      "Kerosene": 0,
+      "Gas": 2,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 213
   },
   {
     "region_name": "Okewela",
@@ -93450,6 +95760,20 @@
     "total_value_from_source": 118
   },
   {
+    "region_name": "Dammulla East",
+    "gnd_num": "319",
+    "total_value": 219,
+    "values": {
+      "Firewood": 189,
+      "Kerosene": 1,
+      "Gas": 28,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 219
+  },
+  {
     "region_name": "Dammulla West",
     "gnd_num": "318",
     "total_value": 97,
@@ -94008,6 +96332,20 @@
       "Other": 0
     },
     "total_value_from_source": 104
+  },
+  {
+    "region_name": "Getamanna South",
+    "gnd_num": "336",
+    "total_value": 189,
+    "values": {
+      "Firewood": 175,
+      "Kerosene": 1,
+      "Gas": 12,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 189
   },
   {
     "region_name": "Nayakawatta",
@@ -94570,6 +96908,20 @@
     "total_value_from_source": 163
   },
   {
+    "region_name": "Palathuduwa",
+    "gnd_num": "267",
+    "total_value": 177,
+    "values": {
+      "Firewood": 168,
+      "Kerosene": 0,
+      "Gas": 8,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 177
+  },
+  {
     "region_name": "Marakolliya",
     "gnd_num": "259",
     "total_value": 309,
@@ -95128,6 +97480,20 @@
       "Other": 1
     },
     "total_value_from_source": 271
+  },
+  {
+    "region_name": "Mahawela",
+    "gnd_num": "283",
+    "total_value": 128,
+    "values": {
+      "Firewood": 115,
+      "Kerosene": 0,
+      "Gas": 13,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 128
   },
   {
     "region_name": "Ihalagoda",
@@ -95690,6 +98056,20 @@
     "total_value_from_source": 409
   },
   {
+    "region_name": "Arali West",
+    "gnd_num": "J/160",
+    "total_value": 266,
+    "values": {
+      "Firewood": 261,
+      "Kerosene": 5,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 266
+  },
+  {
     "region_name": "Arali Centre",
     "gnd_num": "J/161",
     "total_value": 456,
@@ -96248,6 +98628,20 @@
       "Other": 0
     },
     "total_value_from_source": 608
+  },
+  {
+    "region_name": "Piranpattai",
+    "gnd_num": "J/147",
+    "total_value": 417,
+    "values": {
+      "Firewood": 409,
+      "Kerosene": 3,
+      "Gas": 5,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 417
   },
   {
     "region_name": "Sillalai North",
@@ -96810,6 +99204,20 @@
     "total_value_from_source": 12609
   },
   {
+    "region_name": "Uduvil South West",
+    "gnd_num": "J/182",
+    "total_value": 350,
+    "values": {
+      "Firewood": 328,
+      "Kerosene": 9,
+      "Gas": 12,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 1,
+      "Other": 0
+    },
+    "total_value_from_source": 350
+  },
+  {
     "region_name": "Uduvil South East",
     "gnd_num": "J/183",
     "total_value": 497,
@@ -97368,6 +99776,20 @@
       "Other": 0
     },
     "total_value_from_source": 596
+  },
+  {
+    "region_name": "Urelu",
+    "gnd_num": "J/267",
+    "total_value": 700,
+    "values": {
+      "Firewood": 687,
+      "Kerosene": 4,
+      "Gas": 5,
+      "Electricity": 4,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 700
   },
   {
     "region_name": "Neervely South",
@@ -97930,6 +100352,20 @@
     "total_value_from_source": 217
   },
   {
+    "region_name": "Karaveddy Centre",
+    "gnd_num": "J/367",
+    "total_value": 348,
+    "values": {
+      "Firewood": 321,
+      "Kerosene": 6,
+      "Gas": 21,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 348
+  },
+  {
     "region_name": "Karaveddy East",
     "gnd_num": "J/368",
     "total_value": 315,
@@ -98488,6 +100924,20 @@
       "Other": 0
     },
     "total_value_from_source": 117
+  },
+  {
+    "region_name": "Valvettithurai North East",
+    "gnd_num": "J/390",
+    "total_value": 152,
+    "values": {
+      "Firewood": 137,
+      "Kerosene": 3,
+      "Gas": 12,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 152
   },
   {
     "region_name": "Valvettithurai South West",
@@ -99050,6 +101500,20 @@
     "total_value_from_source": 112
   },
   {
+    "region_name": "Chavakachcheri Town",
+    "gnd_num": "J/300",
+    "total_value": 242,
+    "values": {
+      "Firewood": 222,
+      "Kerosene": 3,
+      "Gas": 16,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 1,
+      "Other": 0
+    },
+    "total_value_from_source": 242
+  },
+  {
     "region_name": "Kovilkudyiruppu",
     "gnd_num": "J/301",
     "total_value": 549,
@@ -99608,6 +102072,20 @@
       "Other": 0
     },
     "total_value_from_source": 90
+  },
+  {
+    "region_name": "Iddaikurichchi",
+    "gnd_num": "J/341",
+    "total_value": 286,
+    "values": {
+      "Firewood": 282,
+      "Kerosene": 3,
+      "Gas": 1,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 286
   },
   {
     "region_name": "Karampaikurichchi",
@@ -100170,6 +102648,20 @@
     "total_value_from_source": 456
   },
   {
+    "region_name": "Kokuvil East",
+    "gnd_num": "J/122",
+    "total_value": 514,
+    "values": {
+      "Firewood": 348,
+      "Kerosene": 36,
+      "Gas": 126,
+      "Electricity": 3,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 514
+  },
+  {
     "region_name": "Kokuvil South East",
     "gnd_num": "J/123",
     "total_value": 353,
@@ -100728,6 +103220,20 @@
       "Other": 0
     },
     "total_value_from_source": 398
+  },
+  {
+    "region_name": "Mankumban",
+    "gnd_num": "J/11",
+    "total_value": 136,
+    "values": {
+      "Firewood": 136,
+      "Kerosene": 0,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 136
   },
   {
     "region_name": "Velanai North",
@@ -101290,6 +103796,20 @@
     "total_value_from_source": 81
   },
   {
+    "region_name": "Thullukudiyiruppu",
+    "gnd_num": "MN/54",
+    "total_value": 282,
+    "values": {
+      "Firewood": 279,
+      "Kerosene": 2,
+      "Gas": 0,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 282
+  },
+  {
     "region_name": "Pesalai South",
     "gnd_num": "MN/56",
     "total_value": 550,
@@ -101848,6 +104368,20 @@
       "Other": 0
     },
     "total_value_from_source": 215
+  },
+  {
+    "region_name": "Uyirtharayankulam",
+    "gnd_num": "MN/95",
+    "total_value": 67,
+    "values": {
+      "Firewood": 66,
+      "Kerosene": 1,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 67
   },
   {
     "region_name": "Parappankandal",
@@ -102410,6 +104944,20 @@
     "total_value_from_source": 216
   },
   {
+    "region_name": "Keerisuddan",
+    "gnd_num": "41",
+    "total_value": 31,
+    "values": {
+      "Firewood": 31,
+      "Kerosene": 0,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 31
+  },
+  {
     "region_name": "Parasankulam",
     "gnd_num": "44",
     "total_value": 120,
@@ -102968,6 +105516,20 @@
       "Other": 0
     },
     "total_value_from_source": 126
+  },
+  {
+    "region_name": "Valkaipattankandal",
+    "gnd_num": "MN/109",
+    "total_value": 435,
+    "values": {
+      "Firewood": 415,
+      "Kerosene": 15,
+      "Gas": 4,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 435
   },
   {
     "region_name": "Pontheevukandal",
@@ -103530,6 +106092,20 @@
     "total_value_from_source": 148
   },
   {
+    "region_name": "Paranthan",
+    "gnd_num": "223",
+    "total_value": 192,
+    "values": {
+      "Firewood": 177,
+      "Kerosene": 15,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 192
+  },
+  {
     "region_name": "Anandar Pulliyankulam",
     "gnd_num": "223A",
     "total_value": 58,
@@ -104088,6 +106664,20 @@
       "Other": 0
     },
     "total_value_from_source": 25
+  },
+  {
+    "region_name": "Nochchimoddai",
+    "gnd_num": "215",
+    "total_value": 320,
+    "values": {
+      "Firewood": 294,
+      "Kerosene": 7,
+      "Gas": 19,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 320
   },
   {
     "region_name": "Paranaddakal",
@@ -104650,6 +107240,20 @@
     "total_value_from_source": 264
   },
   {
+    "region_name": "Unit 5. & 6 Pavatkulam",
+    "gnd_num": "208C",
+    "total_value": 226,
+    "values": {
+      "Firewood": 219,
+      "Kerosene": 2,
+      "Gas": 4,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 226
+  },
+  {
     "region_name": "Unit 4. Pavatkulam",
     "gnd_num": "208D",
     "total_value": 170,
@@ -105208,6 +107812,20 @@
       "Other": 0
     },
     "total_value_from_source": 125
+  },
+  {
+    "region_name": "Palinagar",
+    "gnd_num": "MU/006",
+    "total_value": 278,
+    "values": {
+      "Firewood": 270,
+      "Kerosene": 6,
+      "Gas": 1,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 278
   },
   {
     "region_name": "Pandiyankulam",
@@ -105770,6 +108388,20 @@
     "total_value_from_source": 277
   },
   {
+    "region_name": "Pandaravanni",
+    "gnd_num": "MU/58",
+    "total_value": 113,
+    "values": {
+      "Firewood": 112,
+      "Kerosene": 1,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 113
+  },
+  {
     "region_name": "Panikkankulam",
     "gnd_num": "MU/74",
     "total_value": 104,
@@ -106328,6 +108960,20 @@
       "Other": 0
     },
     "total_value_from_source": 165
+  },
+  {
+    "region_name": "Mulliyawalai Centre",
+    "gnd_num": "MU/106",
+    "total_value": 107,
+    "values": {
+      "Firewood": 107,
+      "Kerosene": 0,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 107
   },
   {
     "region_name": "Mulliyawalai East",
@@ -106890,6 +109536,20 @@
     "total_value_from_source": 300
   },
   {
+    "region_name": "Tharmakerny",
+    "gnd_num": "KN/83",
+    "total_value": 171,
+    "values": {
+      "Firewood": 171,
+      "Kerosene": 0,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 171
+  },
+  {
     "region_name": "Kandavalai",
     "gnd_num": "",
     "total_value": 6006,
@@ -107448,6 +110108,20 @@
       "Other": 0
     },
     "total_value_from_source": 340
+  },
+  {
+    "region_name": "Ramanathapuram",
+    "gnd_num": "KN/41",
+    "total_value": 498,
+    "values": {
+      "Firewood": 472,
+      "Kerosene": 26,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 498
   },
   {
     "region_name": "Rathinapuram",
@@ -108010,6 +110684,20 @@
     "total_value_from_source": 620
   },
   {
+    "region_name": "Ammanthanaaveli",
+    "gnd_num": "213D",
+    "total_value": 502,
+    "values": {
+      "Firewood": 499,
+      "Kerosene": 3,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 502
+  },
+  {
     "region_name": "Puchchakkerni",
     "gnd_num": "213C",
     "total_value": 366,
@@ -108568,6 +111256,20 @@
       "Other": 0
     },
     "total_value_from_source": 1056
+  },
+  {
+    "region_name": "Kannagipuram",
+    "gnd_num": "205D",
+    "total_value": 588,
+    "values": {
+      "Firewood": 484,
+      "Kerosene": 6,
+      "Gas": 98,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 588
   },
   {
     "region_name": "Kumburumulai",
@@ -109130,6 +111832,20 @@
     "total_value_from_source": 64
   },
   {
+    "region_name": "Koduwamadu",
+    "gnd_num": "195A",
+    "total_value": 312,
+    "values": {
+      "Firewood": 309,
+      "Kerosene": 3,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 312
+  },
+  {
     "region_name": "Kommathurai West",
     "gnd_num": "196A",
     "total_value": 222,
@@ -109688,6 +112404,20 @@
       "Other": 0
     },
     "total_value_from_source": 248
+  },
+  {
+    "region_name": "Navalady",
+    "gnd_num": "172",
+    "total_value": 105,
+    "values": {
+      "Firewood": 92,
+      "Kerosene": 3,
+      "Gas": 10,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 105
   },
   {
     "region_name": "Amirthakali",
@@ -110250,6 +112980,20 @@
     "total_value_from_source": 281
   },
   {
+    "region_name": "Nochchimunai",
+    "gnd_num": "171A",
+    "total_value": 940,
+    "values": {
+      "Firewood": 561,
+      "Kerosene": 64,
+      "Gas": 305,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 9,
+      "Other": 0
+    },
+    "total_value_from_source": 940
+  },
+  {
     "region_name": "Navatkudah",
     "gnd_num": "168B",
     "total_value": 330,
@@ -110808,6 +113552,20 @@
       "Other": 0
     },
     "total_value_from_source": 267
+  },
+  {
+    "region_name": "Kattankudy Division 4 West",
+    "gnd_num": "164C",
+    "total_value": 345,
+    "values": {
+      "Firewood": 34,
+      "Kerosene": 30,
+      "Gas": 278,
+      "Electricity": 2,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 345
   },
   {
     "region_name": "Kattankudy Division 4",
@@ -111370,6 +114128,20 @@
     "total_value_from_source": 179
   },
   {
+    "region_name": "Muthalaikkudah West",
+    "gnd_num": "131A",
+    "total_value": 284,
+    "values": {
+      "Firewood": 273,
+      "Kerosene": 7,
+      "Gas": 1,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 2,
+      "Other": 0
+    },
+    "total_value_from_source": 284
+  },
+  {
     "region_name": "Muthalaikkudah",
     "gnd_num": "131",
     "total_value": 185,
@@ -111928,6 +114700,20 @@
       "Other": 0
     },
     "total_value_from_source": 144
+  },
+  {
+    "region_name": "Vellaveli",
+    "gnd_num": "99",
+    "total_value": 261,
+    "values": {
+      "Firewood": 248,
+      "Kerosene": 9,
+      "Gas": 4,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 261
   },
   {
     "region_name": "Punnakkulam",
@@ -112490,6 +115276,20 @@
     "total_value_from_source": 415
   },
   {
+    "region_name": "Kaluwanchikudy North",
+    "gnd_num": "116",
+    "total_value": 272,
+    "values": {
+      "Firewood": 243,
+      "Kerosene": 1,
+      "Gas": 28,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 272
+  },
+  {
     "region_name": "Paddiruppu",
     "gnd_num": "116C",
     "total_value": 220,
@@ -113048,6 +115848,20 @@
       "Other": 0
     },
     "total_value_from_source": 1250
+  },
+  {
+    "region_name": "Ihalagama",
+    "gnd_num": "142D",
+    "total_value": 757,
+    "values": {
+      "Firewood": 748,
+      "Kerosene": 0,
+      "Gas": 8,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 757
   },
   {
     "region_name": "Nawa Medagama",
@@ -113610,6 +116424,20 @@
     "total_value_from_source": 486
   },
   {
+    "region_name": "Aranthalawa",
+    "gnd_num": "136A",
+    "total_value": 353,
+    "values": {
+      "Firewood": 349,
+      "Kerosene": 2,
+      "Gas": 2,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 353
+  },
+  {
     "region_name": "Uhana",
     "gnd_num": "",
     "total_value": 14983,
@@ -114168,6 +116996,20 @@
       "Other": 0
     },
     "total_value_from_source": 611
+  },
+  {
+    "region_name": "Uhana Thissapura West",
+    "gnd_num": "W/88/1",
+    "total_value": 418,
+    "values": {
+      "Firewood": 400,
+      "Kerosene": 2,
+      "Gas": 16,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 418
   },
   {
     "region_name": "Uhana Thissapura East",
@@ -114730,6 +117572,20 @@
     "total_value_from_source": 252
   },
   {
+    "region_name": "Central Camp 02",
+    "gnd_num": "SP/93/B",
+    "total_value": 196,
+    "values": {
+      "Firewood": 192,
+      "Kerosene": 3,
+      "Gas": 1,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 196
+  },
+  {
     "region_name": "Central Camp 03",
     "gnd_num": "SP/93C",
     "total_value": 235,
@@ -115288,6 +118144,20 @@
       "Other": 0
     },
     "total_value_from_source": 322
+  },
+  {
+    "region_name": "Veeramunai 03",
+    "gnd_num": "92I",
+    "total_value": 140,
+    "values": {
+      "Firewood": 138,
+      "Kerosene": 0,
+      "Gas": 2,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 140
   },
   {
     "region_name": "Veeramunai 02",
@@ -115850,6 +118720,20 @@
     "total_value_from_source": 445
   },
   {
+    "region_name": "Pandiruppu 02B",
+    "gnd_num": "KP/66A/3",
+    "total_value": 173,
+    "values": {
+      "Firewood": 70,
+      "Kerosene": 26,
+      "Gas": 73,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 4,
+      "Other": 0
+    },
+    "total_value_from_source": 173
+  },
+  {
     "region_name": "Pandiruppu 02C",
     "gnd_num": "KP/66A/4",
     "total_value": 278,
@@ -116408,6 +119292,20 @@
       "Other": 0
     },
     "total_value_from_source": 268
+  },
+  {
+    "region_name": "Kalmunaikudi 08",
+    "gnd_num": "KP/56D",
+    "total_value": 248,
+    "values": {
+      "Firewood": 44,
+      "Kerosene": 29,
+      "Gas": 175,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 248
   },
   {
     "region_name": "Kalmunaikudi 09",
@@ -116970,6 +119868,20 @@
     "total_value_from_source": 220
   },
   {
+    "region_name": "Karaitheevu 09",
+    "gnd_num": "42C",
+    "total_value": 62,
+    "values": {
+      "Firewood": 60,
+      "Kerosene": 1,
+      "Gas": 1,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 62
+  },
+  {
     "region_name": "Karaitheevu 11",
     "gnd_num": "42D",
     "total_value": 293,
@@ -117528,6 +120440,20 @@
       "Other": 0
     },
     "total_value_from_source": 454
+  },
+  {
+    "region_name": "Palamuna 03",
+    "gnd_num": "AD/34B",
+    "total_value": 290,
+    "values": {
+      "Firewood": 230,
+      "Kerosene": 9,
+      "Gas": 49,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 2,
+      "Other": 0
+    },
+    "total_value_from_source": 290
   },
   {
     "region_name": "Palamuna 04",
@@ -118090,6 +121016,20 @@
     "total_value_from_source": 340
   },
   {
+    "region_name": "Akkaraipattu 04",
+    "gnd_num": "AP/18",
+    "total_value": 298,
+    "values": {
+      "Firewood": 165,
+      "Kerosene": 0,
+      "Gas": 97,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 36,
+      "Other": 0
+    },
+    "total_value_from_source": 298
+  },
+  {
     "region_name": "Akkaraipattu 16",
     "gnd_num": "AP/17A",
     "total_value": 192,
@@ -118648,6 +121588,20 @@
       "Other": 0
     },
     "total_value_from_source": 405
+  },
+  {
+    "region_name": "Panankadu",
+    "gnd_num": "AP/13",
+    "total_value": 389,
+    "values": {
+      "Firewood": 315,
+      "Kerosene": 4,
+      "Gas": 56,
+      "Electricity": 3,
+      "Saw dust/Paddy husk/": 11,
+      "Other": 0
+    },
+    "total_value_from_source": 389
   },
   {
     "region_name": "Sinna Panankadu",
@@ -119210,6 +122164,20 @@
     "total_value_from_source": 195
   },
   {
+    "region_name": "Thambiluvil 1 West",
+    "gnd_num": "TK/12",
+    "total_value": 420,
+    "values": {
+      "Firewood": 358,
+      "Kerosene": 12,
+      "Gas": 50,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 420
+  },
+  {
     "region_name": "Thambiluvil 1 East",
     "gnd_num": "TK/12C",
     "total_value": 477,
@@ -119768,6 +122736,20 @@
       "Other": 0
     },
     "total_value_from_source": 317
+  },
+  {
+    "region_name": "Hidayapuram 1",
+    "gnd_num": "P/20",
+    "total_value": 408,
+    "values": {
+      "Firewood": 398,
+      "Kerosene": 0,
+      "Gas": 9,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 408
   },
   {
     "region_name": "Kanagarkiramam",
@@ -120330,6 +123312,20 @@
     "total_value_from_source": 129
   },
   {
+    "region_name": "Kallampattai",
+    "gnd_num": "237D",
+    "total_value": 29,
+    "values": {
+      "Firewood": 29,
+      "Kerosene": 0,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 29
+  },
+  {
     "region_name": "Kuchchaveli",
     "gnd_num": "239",
     "total_value": 173,
@@ -120888,6 +123884,20 @@
       "Other": 0
     },
     "total_value_from_source": 85
+  },
+  {
+    "region_name": "Eluppaikulam",
+    "gnd_num": "242B",
+    "total_value": 351,
+    "values": {
+      "Firewood": 328,
+      "Kerosene": 7,
+      "Gas": 14,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 2
+    },
+    "total_value_from_source": 351
   },
   {
     "region_name": "Sampalthivu",
@@ -121450,6 +124460,20 @@
     "total_value_from_source": 555
   },
   {
+    "region_name": "Palampoddaru",
+    "gnd_num": "228",
+    "total_value": 208,
+    "values": {
+      "Firewood": 205,
+      "Kerosene": 1,
+      "Gas": 2,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 208
+  },
+  {
     "region_name": "Puthukudiyirippu",
     "gnd_num": "228J",
     "total_value": 299,
@@ -122008,6 +125032,20 @@
       "Other": 0
     },
     "total_value_from_source": 159
+  },
+  {
+    "region_name": "Maharoof Gramam",
+    "gnd_num": "226L",
+    "total_value": 670,
+    "values": {
+      "Firewood": 647,
+      "Kerosene": 3,
+      "Gas": 16,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 3
+    },
+    "total_value_from_source": 670
   },
   {
     "region_name": "Maharuf Nagar",
@@ -122570,6 +125608,20 @@
     "total_value_from_source": 409
   },
   {
+    "region_name": "Anaichenai",
+    "gnd_num": "223B",
+    "total_value": 418,
+    "values": {
+      "Firewood": 390,
+      "Kerosene": 3,
+      "Gas": 24,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 418
+  },
+  {
     "region_name": "Neithal Nagar",
     "gnd_num": "223D",
     "total_value": 680,
@@ -123128,6 +126180,20 @@
       "Other": 0
     },
     "total_value_from_source": 223
+  },
+  {
+    "region_name": "Somapura",
+    "gnd_num": "217A",
+    "total_value": 252,
+    "values": {
+      "Firewood": 241,
+      "Kerosene": 0,
+      "Gas": 11,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 252
   },
   {
     "region_name": "Verugal Eachchalampattu",
@@ -123690,6 +126756,20 @@
     "total_value_from_source": 266
   },
   {
+    "region_name": "Gampola",
+    "gnd_num": "33",
+    "total_value": 126,
+    "values": {
+      "Firewood": 126,
+      "Kerosene": 0,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 126
+  },
+  {
     "region_name": "Aliyawetunawewa",
     "gnd_num": "32",
     "total_value": 280,
@@ -124248,6 +127328,20 @@
       "Other": 0
     },
     "total_value_from_source": 178
+  },
+  {
+    "region_name": "Siyambalewa",
+    "gnd_num": "78",
+    "total_value": 197,
+    "values": {
+      "Firewood": 196,
+      "Kerosene": 0,
+      "Gas": 1,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 197
   },
   {
     "region_name": "Walaswewa",
@@ -124810,6 +127904,20 @@
     "total_value_from_source": 207
   },
   {
+    "region_name": "Wedinigama",
+    "gnd_num": "106",
+    "total_value": 176,
+    "values": {
+      "Firewood": 176,
+      "Kerosene": 0,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 176
+  },
+  {
     "region_name": "Pothanegama",
     "gnd_num": "109",
     "total_value": 200,
@@ -125368,6 +128476,20 @@
       "Other": 0
     },
     "total_value_from_source": 213
+  },
+  {
+    "region_name": "Mediyawa",
+    "gnd_num": "154",
+    "total_value": 281,
+    "values": {
+      "Firewood": 281,
+      "Kerosene": 0,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 281
   },
   {
     "region_name": "Dethawa",
@@ -125930,6 +129052,20 @@
     "total_value_from_source": 147
   },
   {
+    "region_name": "Nagala",
+    "gnd_num": "239",
+    "total_value": 334,
+    "values": {
+      "Firewood": 329,
+      "Kerosene": 0,
+      "Gas": 4,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 334
+  },
+  {
     "region_name": "Ithewa",
     "gnd_num": "243",
     "total_value": 189,
@@ -126488,6 +129624,20 @@
       "Other": 0
     },
     "total_value_from_source": 263
+  },
+  {
+    "region_name": "Hulogedara",
+    "gnd_num": "321",
+    "total_value": 260,
+    "values": {
+      "Firewood": 259,
+      "Kerosene": 1,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 260
   },
   {
     "region_name": "Bogollagama",
@@ -127050,6 +130200,20 @@
     "total_value_from_source": 194
   },
   {
+    "region_name": "Yaddigama",
+    "gnd_num": "136",
+    "total_value": 234,
+    "values": {
+      "Firewood": 231,
+      "Kerosene": 0,
+      "Gas": 3,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 234
+  },
+  {
     "region_name": "Bamunugama",
     "gnd_num": "137",
     "total_value": 225,
@@ -127608,6 +130772,20 @@
       "Other": 0
     },
     "total_value_from_source": 226
+  },
+  {
+    "region_name": "Pahala Balalla",
+    "gnd_num": "200",
+    "total_value": 245,
+    "values": {
+      "Firewood": 231,
+      "Kerosene": 1,
+      "Gas": 11,
+      "Electricity": 2,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 245
   },
   {
     "region_name": "Thisnampalagama",
@@ -128170,6 +131348,20 @@
     "total_value_from_source": 162
   },
   {
+    "region_name": "Kiribamunegama",
+    "gnd_num": "348",
+    "total_value": 257,
+    "values": {
+      "Firewood": 255,
+      "Kerosene": 1,
+      "Gas": 1,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 257
+  },
+  {
     "region_name": "Madagalla",
     "gnd_num": "347",
     "total_value": 216,
@@ -128728,6 +131920,20 @@
       "Other": 0
     },
     "total_value_from_source": 375
+  },
+  {
+    "region_name": "Morotta",
+    "gnd_num": "403",
+    "total_value": 227,
+    "values": {
+      "Firewood": 227,
+      "Kerosene": 0,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 227
   },
   {
     "region_name": "Keralankadawala",
@@ -129290,6 +132496,20 @@
     "total_value_from_source": 349
   },
   {
+    "region_name": "Thihawa",
+    "gnd_num": "435",
+    "total_value": 331,
+    "values": {
+      "Firewood": 330,
+      "Kerosene": 1,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 331
+  },
+  {
     "region_name": "Ganegoda",
     "gnd_num": "436",
     "total_value": 332,
@@ -129848,6 +133068,20 @@
       "Other": 0
     },
     "total_value_from_source": 334
+  },
+  {
+    "region_name": "Thalgodapitiya",
+    "gnd_num": "511",
+    "total_value": 498,
+    "values": {
+      "Firewood": 442,
+      "Kerosene": 0,
+      "Gas": 56,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 498
   },
   {
     "region_name": "Ibbagamuwa",
@@ -130410,6 +133644,20 @@
     "total_value_from_source": 189
   },
   {
+    "region_name": "Neriyawa",
+    "gnd_num": "444",
+    "total_value": 358,
+    "values": {
+      "Firewood": 350,
+      "Kerosene": 1,
+      "Gas": 7,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 358
+  },
+  {
     "region_name": "Arankele",
     "gnd_num": "440",
     "total_value": 179,
@@ -130968,6 +134216,20 @@
       "Other": 0
     },
     "total_value_from_source": 245
+  },
+  {
+    "region_name": "Werella",
+    "gnd_num": "1281",
+    "total_value": 450,
+    "values": {
+      "Firewood": 428,
+      "Kerosene": 0,
+      "Gas": 22,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 450
   },
   {
     "region_name": "Naramana",
@@ -131530,6 +134792,20 @@
     "total_value_from_source": 360
   },
   {
+    "region_name": "Vithikuliya",
+    "gnd_num": "1303",
+    "total_value": 399,
+    "values": {
+      "Firewood": 378,
+      "Kerosene": 1,
+      "Gas": 20,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 399
+  },
+  {
     "region_name": "Beddegama",
     "gnd_num": "1290",
     "total_value": 295,
@@ -132088,6 +135364,20 @@
       "Other": 0
     },
     "total_value_from_source": 312
+  },
+  {
+    "region_name": "Koshenagara",
+    "gnd_num": "1454",
+    "total_value": 371,
+    "values": {
+      "Firewood": 361,
+      "Kerosene": 0,
+      "Gas": 6,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 3
+    },
+    "total_value_from_source": 371
   },
   {
     "region_name": "Ihala Galwewa",
@@ -132650,6 +135940,20 @@
     "total_value_from_source": 149
   },
   {
+    "region_name": "Panduwasnuwara West",
+    "gnd_num": "",
+    "total_value": 17332,
+    "values": {
+      "Firewood": 16773,
+      "Kerosene": 26,
+      "Gas": 513,
+      "Electricity": 5,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 15
+    },
+    "total_value_from_source": 17332
+  },
+  {
     "region_name": "Kahatavila",
     "gnd_num": "1326",
     "total_value": 296,
@@ -133208,6 +136512,20 @@
       "Other": 0
     },
     "total_value_from_source": 238
+  },
+  {
+    "region_name": "Kurundu Kumbura",
+    "gnd_num": "1338",
+    "total_value": 453,
+    "values": {
+      "Firewood": 420,
+      "Kerosene": 4,
+      "Gas": 25,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 3
+    },
+    "total_value_from_source": 453
   },
   {
     "region_name": "Bogolla",
@@ -133770,6 +137088,20 @@
     "total_value_from_source": 218
   },
   {
+    "region_name": "Thissawa",
+    "gnd_num": "1378",
+    "total_value": 292,
+    "values": {
+      "Firewood": 291,
+      "Kerosene": 0,
+      "Gas": 1,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 292
+  },
+  {
     "region_name": "Nelibewa",
     "gnd_num": "1384",
     "total_value": 138,
@@ -134328,6 +137660,20 @@
       "Other": 0
     },
     "total_value_from_source": 111
+  },
+  {
+    "region_name": "Panagamuwa",
+    "gnd_num": "1222",
+    "total_value": 232,
+    "values": {
+      "Firewood": 231,
+      "Kerosene": 0,
+      "Gas": 1,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 232
   },
   {
     "region_name": "Panadare",
@@ -134890,6 +138236,20 @@
     "total_value_from_source": 315
   },
   {
+    "region_name": "Pellandeniya",
+    "gnd_num": "787",
+    "total_value": 408,
+    "values": {
+      "Firewood": 325,
+      "Kerosene": 1,
+      "Gas": 82,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 408
+  },
+  {
     "region_name": "Hettigedara",
     "gnd_num": "788",
     "total_value": 634,
@@ -135448,6 +138808,20 @@
       "Other": 1
     },
     "total_value_from_source": 495
+  },
+  {
+    "region_name": "Kurunegala Town - West",
+    "gnd_num": "837",
+    "total_value": 859,
+    "values": {
+      "Firewood": 340,
+      "Kerosene": 7,
+      "Gas": 508,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 3
+    },
+    "total_value_from_source": 859
   },
   {
     "region_name": "Iluppugedara",
@@ -136010,6 +139384,20 @@
     "total_value_from_source": 237
   },
   {
+    "region_name": "Yaggapitiya",
+    "gnd_num": "727",
+    "total_value": 137,
+    "values": {
+      "Firewood": 27,
+      "Kerosene": 1,
+      "Gas": 109,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 137
+  },
+  {
     "region_name": "Mehiella North",
     "gnd_num": "713",
     "total_value": 460,
@@ -136568,6 +139956,20 @@
       "Other": 0
     },
     "total_value_from_source": 244
+  },
+  {
+    "region_name": "Arampola Watta North",
+    "gnd_num": "692",
+    "total_value": 243,
+    "values": {
+      "Firewood": 241,
+      "Kerosene": 0,
+      "Gas": 1,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 243
   },
   {
     "region_name": "Arampola Watta South",
@@ -137130,6 +140532,20 @@
     "total_value_from_source": 365
   },
   {
+    "region_name": "Meddegamgoda",
+    "gnd_num": "674",
+    "total_value": 160,
+    "values": {
+      "Firewood": 158,
+      "Kerosene": 0,
+      "Gas": 2,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 160
+  },
+  {
     "region_name": "Mee/ Udagama",
     "gnd_num": "669",
     "total_value": 393,
@@ -137688,6 +141104,20 @@
       "Other": 0
     },
     "total_value_from_source": 194
+  },
+  {
+    "region_name": "Kandupalatha",
+    "gnd_num": "543",
+    "total_value": 146,
+    "values": {
+      "Firewood": 146,
+      "Kerosene": 0,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 146
   },
   {
     "region_name": "Diniminiyathenna",
@@ -138250,6 +141680,20 @@
     "total_value_from_source": 130
   },
   {
+    "region_name": "Delvita",
+    "gnd_num": "569",
+    "total_value": 251,
+    "values": {
+      "Firewood": 248,
+      "Kerosene": 0,
+      "Gas": 2,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 251
+  },
+  {
     "region_name": "Goraka Ela",
     "gnd_num": "566",
     "total_value": 135,
@@ -138808,6 +142252,20 @@
       "Other": 0
     },
     "total_value_from_source": 172
+  },
+  {
+    "region_name": "Balagala",
+    "gnd_num": "630",
+    "total_value": 158,
+    "values": {
+      "Firewood": 151,
+      "Kerosene": 0,
+      "Gas": 7,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 158
   },
   {
     "region_name": "Pussella",
@@ -139370,6 +142828,20 @@
     "total_value_from_source": 269
   },
   {
+    "region_name": "Ambahera",
+    "gnd_num": "852",
+    "total_value": 312,
+    "values": {
+      "Firewood": 304,
+      "Kerosene": 0,
+      "Gas": 8,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 312
+  },
+  {
     "region_name": "Galabadagama",
     "gnd_num": "850",
     "total_value": 208,
@@ -139928,6 +143400,20 @@
       "Other": 0
     },
     "total_value_from_source": 340
+  },
+  {
+    "region_name": "Kosgolla",
+    "gnd_num": "1137",
+    "total_value": 415,
+    "values": {
+      "Firewood": 396,
+      "Kerosene": 1,
+      "Gas": 18,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 415
   },
   {
     "region_name": "Mahagama",
@@ -140490,6 +143976,20 @@
     "total_value_from_source": 218
   },
   {
+    "region_name": "Thummodara",
+    "gnd_num": "1163",
+    "total_value": 426,
+    "values": {
+      "Firewood": 347,
+      "Kerosene": 0,
+      "Gas": 79,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 426
+  },
+  {
     "region_name": "Ihala Piduma",
     "gnd_num": "1165",
     "total_value": 183,
@@ -141048,6 +144548,20 @@
       "Other": 2
     },
     "total_value_from_source": 174
+  },
+  {
+    "region_name": "Wewagama",
+    "gnd_num": "1096",
+    "total_value": 265,
+    "values": {
+      "Firewood": 260,
+      "Kerosene": 0,
+      "Gas": 5,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 265
   },
   {
     "region_name": "Degammeda",
@@ -141610,6 +145124,20 @@
     "total_value_from_source": 362
   },
   {
+    "region_name": "Kootharippuwa",
+    "gnd_num": "1517",
+    "total_value": 242,
+    "values": {
+      "Firewood": 237,
+      "Kerosene": 0,
+      "Gas": 5,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 242
+  },
+  {
     "region_name": "Dunakadeniya South",
     "gnd_num": "1515",
     "total_value": 439,
@@ -142168,6 +145696,20 @@
       "Other": 0
     },
     "total_value_from_source": 261
+  },
+  {
+    "region_name": "Werahera",
+    "gnd_num": "1529",
+    "total_value": 423,
+    "values": {
+      "Firewood": 418,
+      "Kerosene": 1,
+      "Gas": 4,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 423
   },
   {
     "region_name": "Bowatta",
@@ -142730,6 +146272,20 @@
     "total_value_from_source": 619
   },
   {
+    "region_name": "Badabedda",
+    "gnd_num": "1550",
+    "total_value": 555,
+    "values": {
+      "Firewood": 485,
+      "Kerosene": 5,
+      "Gas": 65,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 555
+  },
+  {
     "region_name": "Kohombapola",
     "gnd_num": "1585",
     "total_value": 294,
@@ -143288,6 +146844,20 @@
       "Other": 0
     },
     "total_value_from_source": 209
+  },
+  {
+    "region_name": "Nakalagamuwa",
+    "gnd_num": "1059",
+    "total_value": 161,
+    "values": {
+      "Firewood": 157,
+      "Kerosene": 0,
+      "Gas": 3,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 161
   },
   {
     "region_name": "Godakooruwa",
@@ -143850,6 +147420,20 @@
     "total_value_from_source": 251
   },
   {
+    "region_name": "Galgamuwa South",
+    "gnd_num": "991",
+    "total_value": 206,
+    "values": {
+      "Firewood": 206,
+      "Kerosene": 0,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 206
+  },
+  {
     "region_name": "Pangolla",
     "gnd_num": "993",
     "total_value": 209,
@@ -144408,6 +147992,20 @@
       "Other": 0
     },
     "total_value_from_source": 221
+  },
+  {
+    "region_name": "Miriheliya",
+    "gnd_num": "1002",
+    "total_value": 321,
+    "values": {
+      "Firewood": 318,
+      "Kerosene": 0,
+      "Gas": 3,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 321
   },
   {
     "region_name": "Pallemorugama",
@@ -144970,6 +148568,20 @@
     "total_value_from_source": 256
   },
   {
+    "region_name": "Gallenamulla",
+    "gnd_num": "951",
+    "total_value": 202,
+    "values": {
+      "Firewood": 197,
+      "Kerosene": 0,
+      "Gas": 5,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 202
+  },
+  {
     "region_name": "Udapola",
     "gnd_num": "950",
     "total_value": 167,
@@ -145528,6 +149140,20 @@
       "Other": 2
     },
     "total_value_from_source": 238
+  },
+  {
+    "region_name": "Tenpana",
+    "gnd_num": "932",
+    "total_value": 277,
+    "values": {
+      "Firewood": 276,
+      "Kerosene": 0,
+      "Gas": 1,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 277
   },
   {
     "region_name": "Kuleepitiya North",
@@ -146090,6 +149716,20 @@
     "total_value_from_source": 721
   },
   {
+    "region_name": "Nawakkaduwa",
+    "gnd_num": "605",
+    "total_value": 485,
+    "values": {
+      "Firewood": 418,
+      "Kerosene": 0,
+      "Gas": 66,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 485
+  },
+  {
     "region_name": "Nirmalapura",
     "gnd_num": "605B",
     "total_value": 539,
@@ -146648,6 +150288,20 @@
       "Other": 0
     },
     "total_value_from_source": 163
+  },
+  {
+    "region_name": "Murukkuwatawana",
+    "gnd_num": "640",
+    "total_value": 194,
+    "values": {
+      "Firewood": 191,
+      "Kerosene": 0,
+      "Gas": 3,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 194
   },
   {
     "region_name": "Thabbowa South",
@@ -147210,6 +150864,20 @@
     "total_value_from_source": 813
   },
   {
+    "region_name": "Parana Jumma Palli",
+    "gnd_num": "617D",
+    "total_value": 362,
+    "values": {
+      "Firewood": 110,
+      "Kerosene": 18,
+      "Gas": 233,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 362
+  },
+  {
     "region_name": "Puttalam North",
     "gnd_num": "617",
     "total_value": 421,
@@ -147768,6 +151436,20 @@
       "Other": 1
     },
     "total_value_from_source": 414
+  },
+  {
+    "region_name": "Tharakudivilluwa",
+    "gnd_num": "593B",
+    "total_value": 598,
+    "values": {
+      "Firewood": 593,
+      "Kerosene": 0,
+      "Gas": 5,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 598
   },
   {
     "region_name": "Angunavila",
@@ -148330,6 +152012,20 @@
     "total_value_from_source": 342
   },
   {
+    "region_name": "Labugala",
+    "gnd_num": "651A",
+    "total_value": 236,
+    "values": {
+      "Firewood": 235,
+      "Kerosene": 0,
+      "Gas": 1,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 236
+  },
+  {
     "region_name": "Karambewa",
     "gnd_num": "653",
     "total_value": 122,
@@ -148888,6 +152584,20 @@
       "Other": 0
     },
     "total_value_from_source": 218
+  },
+  {
+    "region_name": "Thammana",
+    "gnd_num": "665A",
+    "total_value": 337,
+    "values": {
+      "Firewood": 336,
+      "Kerosene": 0,
+      "Gas": 1,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 337
   },
   {
     "region_name": "Arachchikattuwa",
@@ -149450,6 +153160,20 @@
     "total_value_from_source": 199
   },
   {
+    "region_name": "Parappanmulla",
+    "gnd_num": "569A",
+    "total_value": 225,
+    "values": {
+      "Firewood": 216,
+      "Kerosene": 0,
+      "Gas": 9,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 225
+  },
+  {
     "region_name": "Weerapandiyana",
     "gnd_num": "570A",
     "total_value": 209,
@@ -150008,6 +153732,20 @@
       "Other": 0
     },
     "total_value_from_source": 195
+  },
+  {
+    "region_name": "Olidaluwa",
+    "gnd_num": "563",
+    "total_value": 208,
+    "values": {
+      "Firewood": 155,
+      "Kerosene": 1,
+      "Gas": 49,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 3
+    },
+    "total_value_from_source": 208
   },
   {
     "region_name": "Ambakandavila",
@@ -150570,6 +154308,20 @@
     "total_value_from_source": 282
   },
   {
+    "region_name": "Uraliyagara",
+    "gnd_num": "533",
+    "total_value": 796,
+    "values": {
+      "Firewood": 608,
+      "Kerosene": 1,
+      "Gas": 186,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 796
+  },
+  {
     "region_name": "Mellawagara",
     "gnd_num": "533A",
     "total_value": 461,
@@ -151128,6 +154880,20 @@
       "Other": 2
     },
     "total_value_from_source": 168
+  },
+  {
+    "region_name": "Panangoda",
+    "gnd_num": "521A",
+    "total_value": 525,
+    "values": {
+      "Firewood": 517,
+      "Kerosene": 0,
+      "Gas": 5,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 2
+    },
+    "total_value_from_source": 525
   },
   {
     "region_name": "Sagaragama",
@@ -151690,6 +155456,20 @@
     "total_value_from_source": 186
   },
   {
+    "region_name": "Kachchirawa",
+    "gnd_num": "500A",
+    "total_value": 131,
+    "values": {
+      "Firewood": 126,
+      "Kerosene": 0,
+      "Gas": 5,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 131
+  },
+  {
     "region_name": "Paluwelgala South",
     "gnd_num": "501A",
     "total_value": 140,
@@ -152248,6 +156028,20 @@
       "Other": 4
     },
     "total_value_from_source": 492
+  },
+  {
+    "region_name": "Wennappuwa West",
+    "gnd_num": "491C",
+    "total_value": 415,
+    "values": {
+      "Firewood": 264,
+      "Kerosene": 5,
+      "Gas": 138,
+      "Electricity": 3,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 5
+    },
+    "total_value_from_source": 415
   },
   {
     "region_name": "Meda Wennappuwa",
@@ -152810,6 +156604,20 @@
     "total_value_from_source": 257
   },
   {
+    "region_name": "Thulawala",
+    "gnd_num": "465",
+    "total_value": 290,
+    "values": {
+      "Firewood": 279,
+      "Kerosene": 0,
+      "Gas": 11,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 290
+  },
+  {
     "region_name": "Hundirapola",
     "gnd_num": "464A",
     "total_value": 215,
@@ -153368,6 +157176,20 @@
       "Other": 4
     },
     "total_value_from_source": 162
+  },
+  {
+    "region_name": "Etiyawala South",
+    "gnd_num": "471A",
+    "total_value": 518,
+    "values": {
+      "Firewood": 477,
+      "Kerosene": 2,
+      "Gas": 38,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 518
   },
   {
     "region_name": "Jankurawela",
@@ -153930,6 +157752,20 @@
     "total_value_from_source": 245
   },
   {
+    "region_name": "Aiyathigewewa",
+    "gnd_num": "24",
+    "total_value": 342,
+    "values": {
+      "Firewood": 337,
+      "Kerosene": 0,
+      "Gas": 5,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 342
+  },
+  {
     "region_name": "Bandaraulpatha",
     "gnd_num": "31",
     "total_value": 140,
@@ -154488,6 +158324,20 @@
       "Other": 0
     },
     "total_value_from_source": 254
+  },
+  {
+    "region_name": "Helambagaswewa",
+    "gnd_num": "70",
+    "total_value": 255,
+    "values": {
+      "Firewood": 251,
+      "Kerosene": 0,
+      "Gas": 4,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 255
   },
   {
     "region_name": "Sangilikanadarawa",
@@ -155050,6 +158900,20 @@
     "total_value_from_source": 364
   },
   {
+    "region_name": "Katukeliyawa",
+    "gnd_num": "302",
+    "total_value": 388,
+    "values": {
+      "Firewood": 361,
+      "Kerosene": 1,
+      "Gas": 22,
+      "Electricity": 2,
+      "Saw dust/Paddy husk/": 1,
+      "Other": 1
+    },
+    "total_value_from_source": 388
+  },
+  {
     "region_name": "Pusiyankulama",
     "gnd_num": "290",
     "total_value": 441,
@@ -155608,6 +159472,20 @@
       "Other": 0
     },
     "total_value_from_source": 211
+  },
+  {
+    "region_name": "Kedewa",
+    "gnd_num": "97",
+    "total_value": 177,
+    "values": {
+      "Firewood": 171,
+      "Kerosene": 0,
+      "Gas": 6,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 177
   },
   {
     "region_name": "Kallanchiya",
@@ -156170,6 +160048,20 @@
     "total_value_from_source": 183
   },
   {
+    "region_name": "Samadhigama",
+    "gnd_num": "204",
+    "total_value": 194,
+    "values": {
+      "Firewood": 193,
+      "Kerosene": 0,
+      "Gas": 1,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 194
+  },
+  {
     "region_name": "Mekichchawa",
     "gnd_num": "203",
     "total_value": 367,
@@ -156728,6 +160620,20 @@
       "Other": 3
     },
     "total_value_from_source": 459
+  },
+  {
+    "region_name": "Medawachchi Handiya",
+    "gnd_num": "130",
+    "total_value": 195,
+    "values": {
+      "Firewood": 185,
+      "Kerosene": 0,
+      "Gas": 10,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 195
   },
   {
     "region_name": "Mukkarawewa",
@@ -157290,6 +161196,20 @@
     "total_value_from_source": 287
   },
   {
+    "region_name": "Thammennagama",
+    "gnd_num": "160",
+    "total_value": 113,
+    "values": {
+      "Firewood": 111,
+      "Kerosene": 0,
+      "Gas": 2,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 113
+  },
+  {
     "region_name": "Sivalakulama",
     "gnd_num": "182",
     "total_value": 253,
@@ -157848,6 +161768,20 @@
       "Other": 0
     },
     "total_value_from_source": 178
+  },
+  {
+    "region_name": "Kahapathvilagama",
+    "gnd_num": "576",
+    "total_value": 176,
+    "values": {
+      "Firewood": 170,
+      "Kerosene": 0,
+      "Gas": 5,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 176
   },
   {
     "region_name": "Ihalagama",
@@ -158410,6 +162344,20 @@
     "total_value_from_source": 441
   },
   {
+    "region_name": "Maha Nelubewa",
+    "gnd_num": "266",
+    "total_value": 358,
+    "values": {
+      "Firewood": 330,
+      "Kerosene": 1,
+      "Gas": 26,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 358
+  },
+  {
     "region_name": "Divulwewa",
     "gnd_num": "264",
     "total_value": 303,
@@ -158968,6 +162916,20 @@
       "Other": 0
     },
     "total_value_from_source": 395
+  },
+  {
+    "region_name": "Pahamunegama",
+    "gnd_num": "342",
+    "total_value": 436,
+    "values": {
+      "Firewood": 423,
+      "Kerosene": 0,
+      "Gas": 13,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 436
   },
   {
     "region_name": "Navakkulama",
@@ -159530,6 +163492,20 @@
     "total_value_from_source": 479
   },
   {
+    "region_name": "Jayasirigama",
+    "gnd_num": "423",
+    "total_value": 246,
+    "values": {
+      "Firewood": 239,
+      "Kerosene": 0,
+      "Gas": 7,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 246
+  },
+  {
     "region_name": "Lunuwewa",
     "gnd_num": "422",
     "total_value": 330,
@@ -160088,6 +164064,20 @@
       "Other": 3
     },
     "total_value_from_source": 397
+  },
+  {
+    "region_name": "Kiriamunukole",
+    "gnd_num": "375",
+    "total_value": 442,
+    "values": {
+      "Firewood": 412,
+      "Kerosene": 0,
+      "Gas": 29,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 442
   },
   {
     "region_name": "Kadigawa",
@@ -160650,6 +164640,20 @@
     "total_value_from_source": 196
   },
   {
+    "region_name": "Walagambahuwa",
+    "gnd_num": "562",
+    "total_value": 146,
+    "values": {
+      "Firewood": 145,
+      "Kerosene": 0,
+      "Gas": 1,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 146
+  },
+  {
     "region_name": "Mahakanumulla",
     "gnd_num": "540",
     "total_value": 118,
@@ -161208,6 +165212,20 @@
       "Other": 0
     },
     "total_value_from_source": 164
+  },
+  {
+    "region_name": "Pothanegama",
+    "gnd_num": "634",
+    "total_value": 483,
+    "values": {
+      "Firewood": 468,
+      "Kerosene": 0,
+      "Gas": 15,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 483
   },
   {
     "region_name": "Kuda Kekirawa",
@@ -161770,6 +165788,20 @@
     "total_value_from_source": 202
   },
   {
+    "region_name": "Habarana",
+    "gnd_num": "589",
+    "total_value": 885,
+    "values": {
+      "Firewood": 743,
+      "Kerosene": 12,
+      "Gas": 116,
+      "Electricity": 6,
+      "Saw dust/Paddy husk/": 1,
+      "Other": 7
+    },
+    "total_value_from_source": 885
+  },
+  {
     "region_name": "Demuththewa",
     "gnd_num": "594",
     "total_value": 127,
@@ -162328,6 +166360,20 @@
       "Other": 0
     },
     "total_value_from_source": 340
+  },
+  {
+    "region_name": "Obadayagama",
+    "gnd_num": "486",
+    "total_value": 385,
+    "values": {
+      "Firewood": 376,
+      "Kerosene": 0,
+      "Gas": 9,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 385
   },
   {
     "region_name": "Otunupelandigama",
@@ -162890,6 +166936,20 @@
     "total_value_from_source": 219
   },
   {
+    "region_name": "Kirindiwatta",
+    "gnd_num": "677",
+    "total_value": 239,
+    "values": {
+      "Firewood": 237,
+      "Kerosene": 0,
+      "Gas": 2,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 239
+  },
+  {
     "region_name": "Aluth Galkiriyagama",
     "gnd_num": "680",
     "total_value": 327,
@@ -163448,6 +167508,20 @@
       "Other": 3
     },
     "total_value_from_source": 612
+  },
+  {
+    "region_name": "Mahasengama",
+    "gnd_num": "30",
+    "total_value": 257,
+    "values": {
+      "Firewood": 253,
+      "Kerosene": 0,
+      "Gas": 4,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 257
   },
   {
     "region_name": "Bathgampattuwa",
@@ -164010,6 +168084,20 @@
     "total_value_from_source": 376
   },
   {
+    "region_name": "Ekamuthugama",
+    "gnd_num": "104",
+    "total_value": 324,
+    "values": {
+      "Firewood": 324,
+      "Kerosene": 0,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 324
+  },
+  {
     "region_name": "Meegaswewa",
     "gnd_num": "121",
     "total_value": 470,
@@ -164568,6 +168656,20 @@
       "Other": 0
     },
     "total_value_from_source": 402
+  },
+  {
+    "region_name": "Mahasenpura",
+    "gnd_num": "117",
+    "total_value": 357,
+    "values": {
+      "Firewood": 341,
+      "Kerosene": 0,
+      "Gas": 16,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 357
   },
   {
     "region_name": "Yudhaganawa",
@@ -165130,6 +169232,20 @@
     "total_value_from_source": 148
   },
   {
+    "region_name": "Malvila",
+    "gnd_num": "270",
+    "total_value": 124,
+    "values": {
+      "Firewood": 124,
+      "Kerosene": 0,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 124
+  },
+  {
     "region_name": "Senapura",
     "gnd_num": "266",
     "total_value": 356,
@@ -165688,6 +169804,20 @@
       "Other": 0
     },
     "total_value_from_source": 290
+  },
+  {
+    "region_name": "Gomathiyaya",
+    "gnd_num": "255",
+    "total_value": 213,
+    "values": {
+      "Firewood": 211,
+      "Kerosene": 0,
+      "Gas": 2,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 213
   },
   {
     "region_name": "Arunapura",
@@ -166250,6 +170380,20 @@
     "total_value_from_source": 250
   },
   {
+    "region_name": "Laksha Uyana",
+    "gnd_num": "198",
+    "total_value": 506,
+    "values": {
+      "Firewood": 486,
+      "Kerosene": 1,
+      "Gas": 18,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 506
+  },
+  {
     "region_name": "Sevagama",
     "gnd_num": "200",
     "total_value": 424,
@@ -166808,6 +170952,20 @@
       "Other": 3
     },
     "total_value_from_source": 520
+  },
+  {
+    "region_name": "Udawela",
+    "gnd_num": "168",
+    "total_value": 513,
+    "values": {
+      "Firewood": 323,
+      "Kerosene": 3,
+      "Gas": 180,
+      "Electricity": 2,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 5
+    },
+    "total_value_from_source": 513
   },
   {
     "region_name": "Ganangolla",
@@ -167370,6 +171528,20 @@
     "total_value_from_source": 20558
   },
   {
+    "region_name": "Rotalawela",
+    "gnd_num": "1M",
+    "total_value": 496,
+    "values": {
+      "Firewood": 495,
+      "Kerosene": 0,
+      "Gas": 1,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 496
+  },
+  {
     "region_name": "Divulapelessa",
     "gnd_num": "1C",
     "total_value": 591,
@@ -167928,6 +172100,20 @@
       "Other": 0
     },
     "total_value_from_source": 377
+  },
+  {
+    "region_name": "Kandubedda",
+    "gnd_num": "09D",
+    "total_value": 233,
+    "values": {
+      "Firewood": 232,
+      "Kerosene": 1,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 233
   },
   {
     "region_name": "Aralupitiya",
@@ -168490,6 +172676,20 @@
     "total_value_from_source": 372
   },
   {
+    "region_name": "Karandagahamada",
+    "gnd_num": "22B",
+    "total_value": 302,
+    "values": {
+      "Firewood": 301,
+      "Kerosene": 1,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 302
+  },
+  {
     "region_name": "Polgaha Arawa",
     "gnd_num": "22E",
     "total_value": 197,
@@ -169048,6 +173248,20 @@
       "Other": 0
     },
     "total_value_from_source": 238
+  },
+  {
+    "region_name": "Galauda",
+    "gnd_num": "35",
+    "total_value": 314,
+    "values": {
+      "Firewood": 297,
+      "Kerosene": 2,
+      "Gas": 14,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 314
   },
   {
     "region_name": "Bokanoruwa",
@@ -169610,6 +173824,20 @@
     "total_value_from_source": 565
   },
   {
+    "region_name": "Paramahankada",
+    "gnd_num": "89I",
+    "total_value": 268,
+    "values": {
+      "Firewood": 266,
+      "Kerosene": 0,
+      "Gas": 2,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 268
+  },
+  {
     "region_name": "Nikebedda",
     "gnd_num": "89H",
     "total_value": 508,
@@ -170168,6 +174396,20 @@
       "Other": 1
     },
     "total_value_from_source": 352
+  },
+  {
+    "region_name": "Janathapura South",
+    "gnd_num": "95B",
+    "total_value": 119,
+    "values": {
+      "Firewood": 119,
+      "Kerosene": 0,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 119
   },
   {
     "region_name": "Janathapura",
@@ -170730,6 +174972,20 @@
     "total_value_from_source": 488
   },
   {
+    "region_name": "Vineethagama",
+    "gnd_num": "80C",
+    "total_value": 265,
+    "values": {
+      "Firewood": 254,
+      "Kerosene": 0,
+      "Gas": 11,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 265
+  },
+  {
     "region_name": "Wewessa",
     "gnd_num": "80J",
     "total_value": 518,
@@ -171288,6 +175544,20 @@
       "Other": 0
     },
     "total_value_from_source": 558
+  },
+  {
+    "region_name": "Bulathwatta",
+    "gnd_num": "86A",
+    "total_value": 259,
+    "values": {
+      "Firewood": 252,
+      "Kerosene": 1,
+      "Gas": 6,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 259
   },
   {
     "region_name": "Springvalley Estate",
@@ -171850,6 +176120,20 @@
     "total_value_from_source": 213
   },
   {
+    "region_name": "Panagoda",
+    "gnd_num": "40A",
+    "total_value": 191,
+    "values": {
+      "Firewood": 190,
+      "Kerosene": 1,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 191
+  },
+  {
     "region_name": "Pitiyakumbura",
     "gnd_num": "39C",
     "total_value": 357,
@@ -172408,6 +176692,20 @@
       "Other": 1
     },
     "total_value_from_source": 261
+  },
+  {
+    "region_name": "Rathamba",
+    "gnd_num": "47C",
+    "total_value": 423,
+    "values": {
+      "Firewood": 406,
+      "Kerosene": 0,
+      "Gas": 16,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 1,
+      "Other": 0
+    },
+    "total_value_from_source": 423
   },
   {
     "region_name": "Kumarapattiya",
@@ -172970,6 +177268,20 @@
     "total_value_from_source": 261
   },
   {
+    "region_name": "Ambewela",
+    "gnd_num": "50A",
+    "total_value": 540,
+    "values": {
+      "Firewood": 535,
+      "Kerosene": 0,
+      "Gas": 4,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 540
+  },
+  {
     "region_name": "Himbiliyagolla",
     "gnd_num": "50G",
     "total_value": 176,
@@ -173528,6 +177840,20 @@
       "Other": 1
     },
     "total_value_from_source": 648
+  },
+  {
+    "region_name": "Diganathenna",
+    "gnd_num": "67H",
+    "total_value": 660,
+    "values": {
+      "Firewood": 538,
+      "Kerosene": 6,
+      "Gas": 112,
+      "Electricity": 4,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 660
   },
   {
     "region_name": "Ambegoda",
@@ -174090,6 +178416,20 @@
     "total_value_from_source": 291
   },
   {
+    "region_name": "Nawela East",
+    "gnd_num": "72A",
+    "total_value": 279,
+    "values": {
+      "Firewood": 273,
+      "Kerosene": 0,
+      "Gas": 6,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 279
+  },
+  {
     "region_name": "Nawela West",
     "gnd_num": "72F",
     "total_value": 253,
@@ -174648,6 +178988,20 @@
       "Other": 0
     },
     "total_value_from_source": 612
+  },
+  {
+    "region_name": "Horadorowwa",
+    "gnd_num": "63E",
+    "total_value": 269,
+    "values": {
+      "Firewood": 263,
+      "Kerosene": 0,
+      "Gas": 5,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 269
   },
   {
     "region_name": "Magiripura",
@@ -175210,6 +179564,20 @@
     "total_value_from_source": 183
   },
   {
+    "region_name": "Kosgama",
+    "gnd_num": "158A",
+    "total_value": 186,
+    "values": {
+      "Firewood": 184,
+      "Kerosene": 0,
+      "Gas": 2,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 186
+  },
+  {
     "region_name": "Ranwanguhawa",
     "gnd_num": "156A",
     "total_value": 109,
@@ -175768,6 +180136,20 @@
       "Other": 1
     },
     "total_value_from_source": 226
+  },
+  {
+    "region_name": "Kanulwela",
+    "gnd_num": "99A",
+    "total_value": 533,
+    "values": {
+      "Firewood": 513,
+      "Kerosene": 2,
+      "Gas": 17,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 533
   },
   {
     "region_name": "Ethanawatta",
@@ -176330,6 +180712,20 @@
     "total_value_from_source": 200
   },
   {
+    "region_name": "Gonathalawa",
+    "gnd_num": "117B",
+    "total_value": 253,
+    "values": {
+      "Firewood": 252,
+      "Kerosene": 0,
+      "Gas": 1,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 253
+  },
+  {
     "region_name": "Dambagalla",
     "gnd_num": "117",
     "total_value": 360,
@@ -176888,6 +181284,20 @@
       "Other": 0
     },
     "total_value_from_source": 265
+  },
+  {
+    "region_name": "Keenagoda",
+    "gnd_num": "111D",
+    "total_value": 182,
+    "values": {
+      "Firewood": 180,
+      "Kerosene": 0,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 2
+    },
+    "total_value_from_source": 182
   },
   {
     "region_name": "Siyambalanduwa",
@@ -177450,6 +181860,20 @@
     "total_value_from_source": 242
   },
   {
+    "region_name": "Perakumpura",
+    "gnd_num": "124D",
+    "total_value": 271,
+    "values": {
+      "Firewood": 267,
+      "Kerosene": 0,
+      "Gas": 4,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 271
+  },
+  {
     "region_name": "Siripura",
     "gnd_num": "124G",
     "total_value": 344,
@@ -178008,6 +182432,20 @@
       "Other": 0
     },
     "total_value_from_source": 131
+  },
+  {
+    "region_name": "Thalawagama",
+    "gnd_num": "134B",
+    "total_value": 297,
+    "values": {
+      "Firewood": 296,
+      "Kerosene": 0,
+      "Gas": 1,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 297
   },
   {
     "region_name": "Mailagasthenna",
@@ -178570,6 +183008,20 @@
     "total_value_from_source": 422
   },
   {
+    "region_name": "Sudupanawela",
+    "gnd_num": "152C",
+    "total_value": 686,
+    "values": {
+      "Firewood": 667,
+      "Kerosene": 0,
+      "Gas": 19,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 686
+  },
+  {
     "region_name": "Kotikambokka",
     "gnd_num": "152",
     "total_value": 480,
@@ -179128,6 +183580,20 @@
       "Other": 0
     },
     "total_value_from_source": 416
+  },
+  {
+    "region_name": "Pahalagama",
+    "gnd_num": "145/1",
+    "total_value": 498,
+    "values": {
+      "Firewood": 498,
+      "Kerosene": 0,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 498
   },
   {
     "region_name": "Konketiya",
@@ -179690,6 +184156,20 @@
     "total_value_from_source": 249
   },
   {
+    "region_name": "Punchiwewa",
+    "gnd_num": "149G/2",
+    "total_value": 209,
+    "values": {
+      "Firewood": 207,
+      "Kerosene": 1,
+      "Gas": 0,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 209
+  },
+  {
     "region_name": "Kiri Ibbanwewa",
     "gnd_num": "149E/2",
     "total_value": 797,
@@ -180248,6 +184728,20 @@
       "Other": 1
     },
     "total_value_from_source": 263
+  },
+  {
+    "region_name": "Viyalagoda",
+    "gnd_num": "140A",
+    "total_value": 323,
+    "values": {
+      "Firewood": 298,
+      "Kerosene": 1,
+      "Gas": 23,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 323
   },
   {
     "region_name": "Kendangamuwa Pahalagama",
@@ -180810,6 +185304,20 @@
     "total_value_from_source": 597
   },
   {
+    "region_name": "Wathuyaya",
+    "gnd_num": "159",
+    "total_value": 416,
+    "values": {
+      "Firewood": 339,
+      "Kerosene": 2,
+      "Gas": 74,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 416
+  },
+  {
     "region_name": "Udakada",
     "gnd_num": "159A",
     "total_value": 203,
@@ -181368,6 +185876,20 @@
       "Other": 0
     },
     "total_value_from_source": 590
+  },
+  {
+    "region_name": "Bambarabotuwa",
+    "gnd_num": "164A",
+    "total_value": 686,
+    "values": {
+      "Firewood": 650,
+      "Kerosene": 3,
+      "Gas": 28,
+      "Electricity": 4,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 686
   },
   {
     "region_name": "Alupola",
@@ -181930,6 +186452,20 @@
     "total_value_from_source": 583
   },
   {
+    "region_name": "Batugedara",
+    "gnd_num": "181",
+    "total_value": 486,
+    "values": {
+      "Firewood": 308,
+      "Kerosene": 3,
+      "Gas": 174,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 486
+  },
+  {
     "region_name": "Angammana",
     "gnd_num": "181C",
     "total_value": 539,
@@ -182488,6 +187024,20 @@
       "Other": 0
     },
     "total_value_from_source": 237
+  },
+  {
+    "region_name": "Aluthnuwara",
+    "gnd_num": "273",
+    "total_value": 504,
+    "values": {
+      "Firewood": 472,
+      "Kerosene": 1,
+      "Gas": 31,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 504
   },
   {
     "region_name": "Thotapalla",
@@ -183050,6 +187600,20 @@
     "total_value_from_source": 1077
   },
   {
+    "region_name": "Balangoda Town",
+    "gnd_num": "256A",
+    "total_value": 494,
+    "values": {
+      "Firewood": 159,
+      "Kerosene": 8,
+      "Gas": 325,
+      "Electricity": 2,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 494
+  },
+  {
     "region_name": "Balangoda",
     "gnd_num": "256",
     "total_value": 972,
@@ -183608,6 +188172,20 @@
       "Other": 0
     },
     "total_value_from_source": 340
+  },
+  {
+    "region_name": "Wallaketiya",
+    "gnd_num": "246C",
+    "total_value": 312,
+    "values": {
+      "Firewood": 312,
+      "Kerosene": 0,
+      "Gas": 0,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 312
   },
   {
     "region_name": "Akarella",
@@ -184170,6 +188748,20 @@
     "total_value_from_source": 1384
   },
   {
+    "region_name": "Borala",
+    "gnd_num": "168D",
+    "total_value": 851,
+    "values": {
+      "Firewood": 821,
+      "Kerosene": 0,
+      "Gas": 27,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 3
+    },
+    "total_value_from_source": 851
+  },
+  {
     "region_name": "Morathota",
     "gnd_num": "169",
     "total_value": 653,
@@ -184728,6 +189320,20 @@
       "Other": 0
     },
     "total_value_from_source": 527
+  },
+  {
+    "region_name": "Udugala North",
+    "gnd_num": "193D",
+    "total_value": 302,
+    "values": {
+      "Firewood": 296,
+      "Kerosene": 0,
+      "Gas": 6,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 302
   },
   {
     "region_name": "Kolambewa",
@@ -185290,6 +189896,20 @@
     "total_value_from_source": 15430
   },
   {
+    "region_name": "Pathakada",
+    "gnd_num": "174E",
+    "total_value": 563,
+    "values": {
+      "Firewood": 534,
+      "Kerosene": 0,
+      "Gas": 26,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 3
+    },
+    "total_value_from_source": 563
+  },
+  {
     "region_name": "Noragalla",
     "gnd_num": "175",
     "total_value": 886,
@@ -185848,6 +190468,20 @@
       "Other": 1
     },
     "total_value_from_source": 802
+  },
+  {
+    "region_name": "Madalagama",
+    "gnd_num": "227",
+    "total_value": 295,
+    "values": {
+      "Firewood": 292,
+      "Kerosene": 0,
+      "Gas": 3,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 295
   },
   {
     "region_name": "Miyanavita West",
@@ -186410,6 +191044,20 @@
     "total_value_from_source": 762
   },
   {
+    "region_name": "Yahalawela",
+    "gnd_num": "237B",
+    "total_value": 653,
+    "values": {
+      "Firewood": 652,
+      "Kerosene": 0,
+      "Gas": 0,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 653
+  },
+  {
     "region_name": "Bibilegama West",
     "gnd_num": "223C",
     "total_value": 578,
@@ -186968,6 +191616,20 @@
       "Other": 43
     },
     "total_value_from_source": 36263
+  },
+  {
+    "region_name": "Pallebedda",
+    "gnd_num": "224",
+    "total_value": 610,
+    "values": {
+      "Firewood": 539,
+      "Kerosene": 2,
+      "Gas": 66,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 3
+    },
+    "total_value_from_source": 610
   },
   {
     "region_name": "Thittawelpotha",
@@ -187530,6 +192192,20 @@
     "total_value_from_source": 12590
   },
   {
+    "region_name": "Buluthota",
+    "gnd_num": "202",
+    "total_value": 625,
+    "values": {
+      "Firewood": 578,
+      "Kerosene": 1,
+      "Gas": 43,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 2
+    },
+    "total_value_from_source": 625
+  },
+  {
     "region_name": "Ranhotikanda",
     "gnd_num": "202A",
     "total_value": 573,
@@ -188088,6 +192764,20 @@
       "Other": 0
     },
     "total_value_from_source": 234
+  },
+  {
+    "region_name": "Nattambura",
+    "gnd_num": "3",
+    "total_value": 196,
+    "values": {
+      "Firewood": 189,
+      "Kerosene": 0,
+      "Gas": 7,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 196
   },
   {
     "region_name": "Kudagama North",
@@ -188650,6 +193340,20 @@
     "total_value_from_source": 139
   },
   {
+    "region_name": "Pinnawala",
+    "gnd_num": "10",
+    "total_value": 321,
+    "values": {
+      "Firewood": 292,
+      "Kerosene": 2,
+      "Gas": 27,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 321
+  },
+  {
     "region_name": "Daluggala",
     "gnd_num": "08J",
     "total_value": 120,
@@ -189208,6 +193912,20 @@
       "Other": 0
     },
     "total_value_from_source": 261
+  },
+  {
+    "region_name": "Keppetipola",
+    "gnd_num": "23B",
+    "total_value": 522,
+    "values": {
+      "Firewood": 492,
+      "Kerosene": 0,
+      "Gas": 30,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 522
   },
   {
     "region_name": "Ihala Kotte",
@@ -189770,6 +194488,20 @@
     "total_value_from_source": 230
   },
   {
+    "region_name": "Kahawandala",
+    "gnd_num": "26",
+    "total_value": 252,
+    "values": {
+      "Firewood": 241,
+      "Kerosene": 1,
+      "Gas": 9,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 252
+  },
+  {
     "region_name": "Mahanthegama",
     "gnd_num": "26C",
     "total_value": 295,
@@ -190328,6 +195060,20 @@
       "Other": 0
     },
     "total_value_from_source": 283
+  },
+  {
+    "region_name": "Devanagala",
+    "gnd_num": "33B",
+    "total_value": 288,
+    "values": {
+      "Firewood": 266,
+      "Kerosene": 0,
+      "Gas": 19,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 1,
+      "Other": 1
+    },
+    "total_value_from_source": 288
   },
   {
     "region_name": "Kariyagama",
@@ -190890,6 +195636,20 @@
     "total_value_from_source": 169
   },
   {
+    "region_name": "Podape",
+    "gnd_num": "43D",
+    "total_value": 276,
+    "values": {
+      "Firewood": 268,
+      "Kerosene": 1,
+      "Gas": 6,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 1,
+      "Other": 0
+    },
+    "total_value_from_source": 276
+  },
+  {
     "region_name": "Deiyanwala",
     "gnd_num": "41E",
     "total_value": 273,
@@ -191448,6 +196208,20 @@
       "Other": 0
     },
     "total_value_from_source": 309
+  },
+  {
+    "region_name": "Bulugahadeniya",
+    "gnd_num": "55A",
+    "total_value": 436,
+    "values": {
+      "Firewood": 424,
+      "Kerosene": 0,
+      "Gas": 9,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 3
+    },
+    "total_value_from_source": 436
   },
   {
     "region_name": "Thalewala",
@@ -192010,6 +196784,20 @@
     "total_value_from_source": 543
   },
   {
+    "region_name": "Edurapotha East",
+    "gnd_num": "74B",
+    "total_value": 411,
+    "values": {
+      "Firewood": 363,
+      "Kerosene": 2,
+      "Gas": 44,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 1
+    },
+    "total_value_from_source": 411
+  },
+  {
     "region_name": "Nawagamuwa",
     "gnd_num": "72A",
     "total_value": 383,
@@ -192568,6 +197356,20 @@
       "Other": 41
     },
     "total_value_from_source": 29497
+  },
+  {
+    "region_name": "Waddeniya",
+    "gnd_num": "77",
+    "total_value": 440,
+    "values": {
+      "Firewood": 433,
+      "Kerosene": 0,
+      "Gas": 7,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 440
   },
   {
     "region_name": "Kalugala",
@@ -193130,6 +197932,20 @@
     "total_value_from_source": 177
   },
   {
+    "region_name": "Niwatuwa",
+    "gnd_num": "94B",
+    "total_value": 360,
+    "values": {
+      "Firewood": 357,
+      "Kerosene": 0,
+      "Gas": 3,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 360
+  },
+  {
     "region_name": "Kukulpane",
     "gnd_num": "92",
     "total_value": 536,
@@ -193688,6 +198504,20 @@
       "Other": 1
     },
     "total_value_from_source": 254
+  },
+  {
+    "region_name": "Kadigamuwa",
+    "gnd_num": "99D",
+    "total_value": 463,
+    "values": {
+      "Firewood": 457,
+      "Kerosene": 1,
+      "Gas": 5,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 463
   },
   {
     "region_name": "Mahakanda",
@@ -194250,6 +199080,20 @@
     "total_value_from_source": 370
   },
   {
+    "region_name": "Alawathura",
+    "gnd_num": "61A",
+    "total_value": 650,
+    "values": {
+      "Firewood": 605,
+      "Kerosene": 0,
+      "Gas": 34,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 11
+    },
+    "total_value_from_source": 650
+  },
+  {
     "region_name": "Ambuwakka",
     "gnd_num": "62C",
     "total_value": 330,
@@ -194810,6 +199654,20 @@
     "total_value_from_source": 405
   },
   {
+    "region_name": "Kirikohuthenna",
+    "gnd_num": "134I",
+    "total_value": 358,
+    "values": {
+      "Firewood": 357,
+      "Kerosene": 0,
+      "Gas": 1,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "total_value_from_source": 358
+  },
+  {
     "region_name": "Neluwathukanda",
     "gnd_num": "133B",
     "total_value": 323,
@@ -195368,6 +200226,20 @@
       "Other": 0
     },
     "total_value_from_source": 405
+  },
+  {
+    "region_name": "Madola",
+    "gnd_num": "125",
+    "total_value": 830,
+    "values": {
+      "Firewood": 517,
+      "Kerosene": 8,
+      "Gas": 298,
+      "Electricity": 1,
+      "Saw dust/Paddy husk/": 2,
+      "Other": 4
+    },
+    "total_value_from_source": 830
   },
   {
     "region_name": "Welangalla",
