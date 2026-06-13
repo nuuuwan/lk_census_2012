@@ -238,6 +238,10 @@ class PDFSourceFileRawDataMixin:
                     if k in values:
                         values[k] = v
                     else:
+                        log.debug(f"doc_id={self.doc_id}")
+                        log.debug(f"{region_name=}")
+                        log.debug(f"{values=}")
+
                         raise ValueError(
                             f"Invalid correction key: {k} not in {
                                 values.keys()}"

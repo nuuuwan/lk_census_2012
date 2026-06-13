@@ -95,5 +95,10 @@ class Corrections:
             "Track 16": {
                 "Not using a toilet": 15,
             },
-        }
+        },
+        "Housing-Structure": {
+            "Track 16": {
+                "Hut/Shanty": 3,
+            },
+        },
     }
