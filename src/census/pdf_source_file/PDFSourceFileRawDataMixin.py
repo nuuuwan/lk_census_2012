@@ -301,10 +301,12 @@ class PDFSourceFileRawDataMixin:
         for table in tables:
             dfs.append(self._normalize_columns(table.df))
 
-        if i_page in [10, 11, 12]:
-            camelot.plot(tables[0], kind="grid").savefig(
-                f"debug_{self.doc_id}_{i_page}.png", dpi=300
+        if i_page in [1]:
+            os.makedirs("debug", exist_ok=True)
+            image_path = os.path.join(
+                "debug", f"camelot_{self.doc_id}_{i_page}.png"
             )
+            camelot.plot(tables[0], kind="grid").savefig(image_path, dpi=300)
         return dfs
 
     def _compute_table_areas(self, page_layouts):
