@@ -203,8 +203,16 @@ class PDFSourceFileRawDataMixin:
         return df[mask].reset_index(drop=True)
 
     def remap_raw_data(self, d):
-        if not d["region_name"]:
+        if "region_name" not in d:
             return None
+        region_name = d["region_name"]
+        if not region_name:
+            return None
+        region_name = re.sub(r"[^\x00-\x7F]+", " ", region_name)
+        region_name = region_name.strip()
+        if "Population" in region_name or "District" in region_name:
+            return None
+
         values = {
             field: ParseUtils.parse_int(d[field]) for field in self.fields
         }
@@ -219,7 +227,7 @@ class PDFSourceFileRawDataMixin:
             )
 
         return dict(
-            region_name=d["region_name"],
+            region_name=region_name,
             gnd_num=d.get("gnd_num"),
             total_value=total_value,
             values=values,
