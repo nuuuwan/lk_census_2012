@@ -1,19 +1,16 @@
 from utils import Log
 
-from gig_future import Ent
-
 log = Log("PDFSourceFileBuilderMixin")
 
 
 class PDFSourceFileBuilderMixin:
     def build(self):
-
         self.download()
         self.to_metadata()
         self.build_raw_data()
-        self.build_data()
-        self.validate()
-        self.read_data_list()
+        # self.build_data()
+        # self.validate()
+        # self.read_data_list()
 
     @classmethod
     def build_all(cls):
@@ -24,4 +21,3 @@ class PDFSourceFileBuilderMixin:
             log.info(f"{i_file}/{n_files}) {file.doc_id}...")
             log.info("-" * 20)
             file.build()
-            Ent.store_hack_cache()

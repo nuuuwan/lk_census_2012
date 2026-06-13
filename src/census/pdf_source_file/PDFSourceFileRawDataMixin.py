@@ -20,6 +20,8 @@ class PDFSourceFileRawDataMixin:
     MAX_PAGES_TO_PROCESS = None
     MAX_PAGES_FOR_LAYOUT_ANALYSIS = 3
 
+    TABLE_AREA_PADDING = 10
+
     DASH_MAP = {
         "\u2010": "-",
         "\u2011": "-",
@@ -299,7 +301,7 @@ class PDFSourceFileRawDataMixin:
         for table in tables:
             dfs.append(self._normalize_columns(table.df))
 
-        if i_page == 1:
+        if i_page in [10, 11, 12]:
             camelot.plot(tables[0], kind="grid").savefig(
                 f"debug_{self.doc_id}_{i_page}.png", dpi=300
             )
@@ -307,10 +309,18 @@ class PDFSourceFileRawDataMixin:
 
     def _compute_table_areas(self, page_layouts):
         page_layout = page_layouts[0]
+
         y0 = min(e.y0 for e in page_layout if isinstance(e, LTTextContainer))
-        y1 = max(e.y1 for e in page_layout if isinstance(e, LTTextContainer))
         x0 = min(e.x0 for e in page_layout if isinstance(e, LTTextContainer))
+
+        y1 = max(e.y1 for e in page_layout if isinstance(e, LTTextContainer))
         x1 = max(e.x1 for e in page_layout if isinstance(e, LTTextContainer))
+
+        y0 -= self.TABLE_AREA_PADDING
+        x0 -= self.TABLE_AREA_PADDING
+        y1 += self.TABLE_AREA_PADDING
+        x1 += self.TABLE_AREA_PADDING
+
         return [f"{x0},{y0},{x1},{y1}"]
 
     def build_raw_data(self):

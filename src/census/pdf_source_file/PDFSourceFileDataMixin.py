@@ -83,6 +83,7 @@ class PDFSourceFileDataMixin:
         return filter_ent_type_and_id_list
 
     @classmethod
+    @cache
     def get_ent_info(cls, previous_ent_type, previous_ent_id, region_name):
         filter_ent_type_and_id_list = cls.get_filter_ent_type_and_id_list(
             previous_ent_type,
