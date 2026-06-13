@@ -25,7 +25,7 @@ class PDFSourceFileDataMixin:
 
     # flake8: noqa: C901
     @classmethod
-    def get_filter_ent_type_and_id_list(
+    def get_filter_ent_type_and_id_list_inner(
         cls,
         previous_ent_type,
         previous_ent_id,
@@ -52,12 +52,16 @@ class PDFSourceFileDataMixin:
         raise ValueError(f"Unexpected previous_ent_type: {previous_ent_type}")
 
     @classmethod
-    def _expand_data(
-        cls, previous_ent_type, previous_ent_id, data, no_ent_list
+    def get_filter_ent_type_and_id_list(
+        cls,
+        previous_ent_type,
+        previous_ent_id,
     ):
-        filter_ent_type_and_id_list = cls.get_filter_ent_type_and_id_list(
-            previous_ent_type,
-            previous_ent_id,
+        filter_ent_type_and_id_list = (
+            cls.get_filter_ent_type_and_id_list_inner(
+                previous_ent_type,
+                previous_ent_id,
+            )
         )
 
         # Correct for Pre-2019 DSD Data
@@ -74,6 +78,15 @@ class PDFSourceFileDataMixin:
         if "LK-6145" in id_list:
             filter_ent_type_and_id_list.append((EntType.GND, "LK-6148"))
 
+        return filter_ent_type_and_id_list
+
+    @classmethod
+    def get_ent(cls, previous_ent_type, previous_ent_id, data):
+        filter_ent_type_and_id_list = cls.get_filter_ent_type_and_id_list(
+            previous_ent_type,
+            previous_ent_id,
+        )
+
         region_name = data["region_name"]
         alt_region_name = cls._remap_region_name(region_name)
 
@@ -83,8 +96,22 @@ class PDFSourceFileDataMixin:
             limit=1,
             min_fuzz_ratio=80,
         )
-
         if len(ents) == 0:
+            return None, None
+
+        ent = ents[0]
+        return ent.id, ent.name
+
+    @classmethod
+    def _expand_data(
+        cls, previous_ent_type, previous_ent_id, data, no_ent_list
+    ):
+        ent_id, ent_name = cls.get_ent(
+            previous_ent_type, previous_ent_id, data
+        )
+
+        if ent_id is None:
+            region_name = data["region_name"]
             log.error(f'No match: "{region_name}" ({previous_ent_id=})')
             no_ent_list.append((region_name, previous_ent_id))
             if len(no_ent_list) > cls.MAX_NO_ENT_LIST:
@@ -101,16 +128,15 @@ class PDFSourceFileDataMixin:
 
             return None
 
-        ent = ents[0]
         new_data = dict(
-            region_id=ent.id,
-            region_name=ent.name,
+            region_id=ent_id,
+            region_name=ent_name,
             total_value=data["total_value"],
             values=data["values"],
             total_value_from_source=data["total_value_from_source"],
         )
-        previous_ent_type = EntType.from_id(ent.id)
-        previous_ent_id = ent.id
+        previous_ent_type = EntType.from_id(ent_id)
+        previous_ent_id = ent_id
 
         return new_data, previous_ent_type, previous_ent_id, data, no_ent_list
 

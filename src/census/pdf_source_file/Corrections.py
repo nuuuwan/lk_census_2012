@@ -75,6 +75,7 @@ class Corrections:
         # after LK-4104
         "Vedducoddai South West (North)": "Vedducoddai South West (North)",
         #
+        "Kommathurai EastKommathurai Eas196": "Kommathurai East",
     }
 
     DSD_RENAME_MAP = {

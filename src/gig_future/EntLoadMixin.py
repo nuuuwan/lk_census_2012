@@ -1,12 +1,9 @@
-import hashlib
-import os
-import tempfile
 from functools import cache
 
 from rapidfuzz import fuzz
 
 from gig_future.EntType import EntType
-from utils_future import JSONFile, Log, String
+from utils_future import Log, String
 
 log = Log("EntLoadMixin")
 
@@ -67,7 +64,7 @@ class EntLoadMixin:
 
     # flake8: noqa: C901
     @classmethod
-    def list_from_name_fuzzy_hot(
+    def list_from_name_fuzzy(
         cls,
         fuzzy_name_list: list[str],
         filter_ent_type_and_id_list: list[tuple[EntType, str]],
@@ -95,64 +92,3 @@ class EntLoadMixin:
             for item in sorted(ent_and_ratio_list, key=lambda x: -x[1])
             if item[1] >= min_fuzz_ratio
         ][:limit]
-
-    HACK_CACHE_PATH = os.path.join(
-        tempfile.gettempdir(), "lk_census_2012", "gig", "ent_load_cache.json"
-    )
-    HACK_CACHE_FILE = JSONFile(HACK_CACHE_PATH)
-    HACK_CACHE = {}
-    HACK_CACHE_INNER = {}
-
-    @classmethod
-    def load_hack_cache(cls):
-        if os.path.exists(cls.HACK_CACHE_PATH):
-            cls.HACK_CACHE = cls.HACK_CACHE_FILE.read()
-            log.debug(
-                f"Read {len(cls.HACK_CACHE)}"
-                + f" entries from {cls.HACK_CACHE_FILE}."
-            )
-        else:
-            cls.HACK_CACHE = {}
-
-    @classmethod
-    def store_hack_cache(cls):
-        os.makedirs(os.path.dirname(cls.HACK_CACHE_PATH), exist_ok=True)
-        cls.HACK_CACHE_FILE.write(cls.HACK_CACHE)
-        log.info(
-            f"Wrote {len(cls.HACK_CACHE)}"
-            + f" entries to {cls.HACK_CACHE_FILE}."
-        )
-
-    @classmethod
-    def list_from_name_fuzzy(
-        cls,
-        fuzzy_name_list: list[str],
-        filter_ent_type_and_id_list: list[tuple[EntType, str]],
-        limit: int,
-        min_fuzz_ratio: int,
-    ) -> list:
-        h = hashlib.md5(
-            str(
-                [
-                    fuzzy_name_list,
-                    filter_ent_type_and_id_list,
-                    limit,
-                    min_fuzz_ratio,
-                ]
-            ).encode("utf-8")
-        ).hexdigest()
-        if h in cls.HACK_CACHE_INNER:
-            return cls.HACK_CACHE_INNER[h]
-        if h in cls.HACK_CACHE:
-            ent_ids = cls.HACK_CACHE[h]
-            return [cls.from_id(ent_id) for ent_id in ent_ids]
-
-        ents = cls.list_from_name_fuzzy_hot(
-            fuzzy_name_list,
-            filter_ent_type_and_id_list,
-            limit,
-            min_fuzz_ratio,
-        )
-        cls.HACK_CACHE_INNER[h] = ents
-        cls.HACK_CACHE[h] = [ent.id for ent in ents]
-        return ents
