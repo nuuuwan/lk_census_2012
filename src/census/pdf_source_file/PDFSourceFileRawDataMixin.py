@@ -285,7 +285,7 @@ class PDFSourceFileRawDataMixin:
                 pages=str(i_page),
                 flavor="stream",
                 edge_tol=500,
-                row_tol=self.row_tol,
+                row_tol=2,
                 strip_text="\n",
                 columns=[columns],
                 table_areas=table_areas,

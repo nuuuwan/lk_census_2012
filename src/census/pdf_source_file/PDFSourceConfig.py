@@ -26,7 +26,6 @@ class PDFSourceConfig:
                 "90-94",
                 "95 & above",
             ],
-            row_tol=2,
         ),
         dict(
             group="Population",
@@ -113,7 +112,6 @@ class PDFSourceConfig:
                 "Bottled water",
                 "Other",
             ],
-            row_tol=2,
         ),
         dict(
             group="Housing",
@@ -140,7 +138,6 @@ class PDFSourceConfig:
                 "Other",
                 "Not using a toilet",
             ],
-            row_tol=2,
         ),
         dict(
             group="Housing",
@@ -200,7 +197,6 @@ class PDFSourceConfig:
                 "Row/Line room",
                 "Hut/Shanty",
             ],
-            row_tol=2,
         ),
         dict(
             group="Housing",
