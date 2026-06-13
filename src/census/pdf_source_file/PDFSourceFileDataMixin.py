@@ -52,6 +52,69 @@ class PDFSourceFileDataMixin:
         raise ValueError(f"Unexpected previous_ent_type: {previous_ent_type}")
 
     @classmethod
+    def _expand_data(
+        cls, previous_ent_type, previous_ent_id, data, no_ent_list
+    ):
+        filter_ent_type_and_id_list = cls.get_filter_ent_type_and_id_list(
+            previous_ent_type,
+            previous_ent_id,
+        )
+
+        # Correct for Pre-2019 DSD Data
+        id_list = [ent_id for ent_type, ent_id in filter_ent_type_and_id_list]
+        for item in Corrections.DSD_UPDATE_MAP:
+            current_ids = item["current_ids"]
+            if set(id_list) & set(current_ids):
+                for current_id in current_ids:
+                    filter_ent_type_and_id_list.append(
+                        (EntType.GND, current_id)
+                    )
+        if "LK-6148" in id_list:
+            filter_ent_type_and_id_list.append((EntType.GND, "LK-6145"))
+        if "LK-6145" in id_list:
+            filter_ent_type_and_id_list.append((EntType.GND, "LK-6148"))
+
+        region_name = data["region_name"]
+        alt_region_name = cls._remap_region_name(region_name)
+
+        ents = Ent.list_from_name_fuzzy(
+            [region_name, alt_region_name],
+            filter_ent_type_and_id_list=filter_ent_type_and_id_list,
+            limit=1,
+            min_fuzz_ratio=80,
+        )
+
+        if len(ents) == 0:
+            log.error(f'No match: "{region_name}" ({previous_ent_id=})')
+            no_ent_list.append((region_name, previous_ent_id))
+            if len(no_ent_list) > cls.MAX_NO_ENT_LIST:
+                print("\t{")
+                print("\t\t#")
+                for region_name, previous_ent_id in no_ent_list:
+                    print(
+                        f'\t\t"{region_name}":"{region_name}",'
+                        + f"  # after {previous_ent_id}"
+                    )
+                print("\t\t#")
+                print("\t}")
+                raise ValueError("Too many entries with no matching ent.")
+
+            return None
+
+        ent = ents[0]
+        new_data = dict(
+            region_id=ent.id,
+            region_name=ent.name,
+            total_value=data["total_value"],
+            values=data["values"],
+            total_value_from_source=data["total_value_from_source"],
+        )
+        previous_ent_type = EntType.from_id(ent.id)
+        previous_ent_id = ent.id
+
+        return new_data, previous_ent_type, previous_ent_id, data, no_ent_list
+
+    @classmethod
     def _expand_data_list(cls, data_list):
         n_data_list = len(data_list)
         log.info(f"Expanding data {n_data_list} rows")
@@ -60,66 +123,20 @@ class PDFSourceFileDataMixin:
         new_data_list = []
         no_ent_list = []
         for data in tqdm(data_list, desc="Expanding data"):
-
-            filter_ent_type_and_id_list = cls.get_filter_ent_type_and_id_list(
+            (
+                new_data,
                 previous_ent_type,
                 previous_ent_id,
+                data,
+                no_ent_list,
+            ) = cls._expand_data(
+                previous_ent_type,
+                previous_ent_id,
+                data,
+                no_ent_list,
             )
-
-            # Correct for Pre-2019 DSD Data
-            id_list = [
-                ent_id for ent_type, ent_id in filter_ent_type_and_id_list
-            ]
-            for item in Corrections.DSD_UPDATE_MAP:
-                current_ids = item["current_ids"]
-                if set(id_list) & set(current_ids):
-                    for current_id in current_ids:
-                        filter_ent_type_and_id_list.append(
-                            (EntType.GND, current_id)
-                        )
-            if "LK-6148" in id_list:
-                filter_ent_type_and_id_list.append((EntType.GND, "LK-6145"))
-            if "LK-6145" in id_list:
-                filter_ent_type_and_id_list.append((EntType.GND, "LK-6148"))
-
-            region_name = data["region_name"]
-            alt_region_name = cls._remap_region_name(region_name)
-
-            ents = Ent.list_from_name_fuzzy(
-                [region_name, alt_region_name],
-                filter_ent_type_and_id_list=filter_ent_type_and_id_list,
-                limit=1,
-                min_fuzz_ratio=80,
-            )
-
-            if len(ents) == 0:
-                log.error(f'No match: "{region_name}" ({previous_ent_id=})')
-                no_ent_list.append((region_name, previous_ent_id))
-                if len(no_ent_list) > cls.MAX_NO_ENT_LIST:
-                    print("\t{")
-                    print("\t\t#")
-                    for region_name, previous_ent_id in no_ent_list:
-                        print(
-                            f'\t\t"{region_name}":"{region_name}",'
-                            + f"  # after {previous_ent_id}"
-                        )
-                    print("\t\t#")
-                    print("\t}")
-                    raise ValueError("Too many entries with no matching ent.")
-
-                continue
-
-            ent = ents[0]
-            new_data = dict(
-                region_id=ent.id,
-                region_name=ent.name,
-                total_value=data["total_value"],
-                values=data["values"],
-                total_value_from_source=data["total_value_from_source"],
-            )
-            previous_ent_type = EntType.from_id(ent.id)
-            previous_ent_id = ent.id
-            new_data_list.append(new_data)
+            if new_data is not None:
+                new_data_list.append(new_data)
 
         if no_ent_list:
             log.error(f"🛑 {len(no_ent_list)} entries had no matching ent.")

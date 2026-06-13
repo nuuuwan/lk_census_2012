@@ -8,12 +8,12 @@ log = Log("PDFSourceFileBuilderMixin")
 class PDFSourceFileBuilderMixin:
     def build(self):
 
-        # self.download()
-        # self.to_metadata()
+        self.download()
+        self.to_metadata()
         self.build_raw_data()
-        # self.build_data()
-        # self.validate()
-        # self.read_data_list()
+        self.build_data()
+        self.validate()
+        self.read_data_list()
 
     @classmethod
     def build_all(cls):
