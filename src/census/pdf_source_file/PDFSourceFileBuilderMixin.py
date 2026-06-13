@@ -11,9 +11,9 @@ class PDFSourceFileBuilderMixin:
         # self.download()
         # self.to_metadata()
         self.build_raw_data()
-        self.build_data()
+        # self.build_data()
         # self.validate()
-        self.read_data_list()
+        # self.read_data_list()
 
     @classmethod
     def build_all(cls):

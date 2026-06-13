@@ -83,3 +83,17 @@ class Corrections:
         "Kalmunai Tamil Division": "Kalmunai North",
         "Kalmunai Tamil Division (Sub Division)": "Kalmunai North",
     }
+
+    KNOWN_MISSING_DATA = {
+        "Housing-Toilet": {
+            "Pavakkulam South Bank": {
+                "Not using a toilet": 40,
+            },
+            "Track 13": {
+                "Not using a toilet": 16,
+            },
+            "Track 16": {
+                "Not using a toilet": 15,
+            },
+        }
+    }

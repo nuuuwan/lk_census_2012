@@ -9,6 +9,7 @@ from pdfminer.pdfdocument import PDFDocument
 from pdfminer.pdfparser import PDFParser
 from tqdm import tqdm
 
+from census.pdf_source_file.Corrections import Corrections
 from census.pdf_source_file.ParseUtils import ParseUtils
 from utils_future import File, JSONFile, Log
 
@@ -16,7 +17,7 @@ log = Log("PDFSourceFileRawDataMixin")
 
 
 class PDFSourceFileRawDataMixin:
-    MAX_PAGES_TO_PROCESS = 3
+    MAX_PAGES_TO_PROCESS = None
     MAX_PAGES_FOR_LAYOUT_ANALYSIS = 3
 
     DASH_MAP = {
@@ -229,11 +230,33 @@ class PDFSourceFileRawDataMixin:
         if total_value_from_source == 0:
             return None
 
+        if self.doc_id in Corrections.KNOWN_MISSING_DATA:
+            if region_name in Corrections.KNOWN_MISSING_DATA[self.doc_id]:
+                for k, v in Corrections.KNOWN_MISSING_DATA[self.doc_id][
+                    region_name
+                ].items():
+                    if k in values:
+                        values[k] = v
+                    else:
+                        raise ValueError(
+                            f"Invalid correction key: {k} not in {
+                                values.keys()}"
+                        )
+
         total_value = sum(values.values())
+
         if total_value != total_value_from_source:
-            log.debug(f"{d=}")
+            log.debug(f"doc_id={self.doc_id}")
+            log.debug(f"{region_name=}")
+            log.debug(f"{total_value=}")
+            log.debug(f"{total_value_from_source=}")
+            diff = total_value_from_source - total_value
+            log.debug(f"{diff=}")
+
+            log.debug(f"{values=}")
+
             raise ValueError(
-                f"Totals mismatch for {d['region_name']}:"
+                f"Totals mismatch for {region_name}:"
                 + f" {total_value} != {total_value_from_source}"
             )
 
@@ -306,7 +329,14 @@ class PDFSourceFileRawDataMixin:
 
         doc = PDFDocument(PDFParser(open(self.local_path, "rb")))
         n_pages = doc.catalog["Pages"].resolve()["Count"]
-        last_page = min(n_pages, self.MAX_PAGES_TO_PROCESS)
+        last_page = min(
+            n_pages,
+            (
+                self.MAX_PAGES_TO_PROCESS
+                if self.MAX_PAGES_TO_PROCESS
+                else n_pages
+            ),
+        )
 
         table_areas = self._compute_table_areas(
             page_layouts_for_analysis,
