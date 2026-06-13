@@ -1,0 +1,904 @@
+[
+  {
+    "validation": "ent_coverage",
+    "ent_type_name": "dsd",
+    "missing_ent_ids": [
+      "LK-2307",
+      "LK-3137",
+      "LK-2310",
+      "LK-9119",
+      "LK-3128",
+      "LK-3135",
+      "LK-2314",
+      "LK-2302",
+      "LK-2313"
+    ]
+  },
+  {
+    "validation": "ent_coverage",
+    "ent_type_name": "gnd",
+    "missing_ent_ids": [
+      "LK-5224005",
+      "LK-5327010",
+      "LK-5104013",
+      "LK-3127175",
+      "LK-8215055",
+      "LK-3127220",
+      "LK-5221095",
+      "LK-1306275",
+      "LK-9118205",
+      "LK-4112175",
+      "LK-5124009",
+      "LK-7127130",
+      "LK-4130005",
+      "LK-1209415",
+      "LK-5112210",
+      "LK-6124215",
+      "LK-5333005",
+      "LK-6218135",
+      "LK-8124160",
+      "LK-4506005",
+      "LK-5327005",
+      "LK-2203155",
+      "LK-4112110",
+      "LK-5333010",
+      "LK-5112215",
+      "LK-5124030",
+      "LK-5112235",
+      "LK-4130155",
+      "LK-5133019",
+      "LK-4124090",
+      "LK-5215110",
+      "LK-9119060",
+      "LK-5333030",
+      "LK-5112230",
+      "LK-4112205",
+      "LK-5221100",
+      "LK-5109022",
+      "LK-4112150",
+      "LK-3127165",
+      "LK-5112200",
+      "LK-5109065",
+      "LK-5327185",
+      "LK-4409020",
+      "LK-5136230",
+      "LK-2309380",
+      "LK-5224050",
+      "LK-1339265",
+      "LK-4112190",
+      "LK-6124225",
+      "LK-4133055",
+      "LK-7210065",
+      "LK-5333035",
+      "LK-5115015",
+      "LK-4112200",
+      "LK-5127018",
+      "LK-5112014",
+      "LK-4512020",
+      "LK-4112225",
+      "LK-9118195",
+      "LK-9118200",
+      "LK-5112016",
+      "LK-5104055",
+      "LK-5104005",
+      "LK-1227590",
+      "LK-5112006",
+      "LK-2203295",
+      "LK-5112115",
+      "LK-9118190",
+      "LK-5109012",
+      "LK-6233095",
+      "LK-5221050",
+      "LK-5333015",
+      "LK-4503015",
+      "LK-2203160",
+      "LK-4112220",
+      "LK-5109021",
+      "LK-4503090",
+      "LK-7133080",
+      "LK-4415015",
+      "LK-5104004",
+      "LK-4112215",
+      "LK-5315010",
+      "LK-5104003",
+      "LK-4112185",
+      "LK-5110025",
+      "LK-5136235",
+      "LK-4124030",
+      "LK-4133065",
+      "LK-5212205",
+      "LK-9118185",
+      "LK-5124065",
+      "LK-9118175",
+      "LK-5110020",
+      "LK-4409035",
+      "LK-4112145",
+      "LK-5224065",
+      "LK-9118165",
+      "LK-5333020",
+      "LK-4409005",
+      "LK-4415155",
+      "LK-4112195",
+      "LK-5333025",
+      "LK-5124017",
+      "LK-9118180",
+      "LK-5133060",
+      "LK-4503045",
+      "LK-4112180",
+      "LK-5124070",
+      "LK-9118170",
+      "LK-5130011",
+      "LK-4112155",
+      "LK-5224055",
+      "LK-4112210",
+      "LK-4112120",
+      "LK-5224060",
+      "LK-4409040",
+      "LK-5112120",
+      "LK-1339260",
+      "LK-6124210",
+      "LK-4409050",
+      "LK-5327020"
+    ]
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-53",
+    "parent_values": {
+      "Collected by Local Authorities": 30563,
+      "Burnt by Occupants": 51803,
+      "Buried by Occupants": 12146,
+      "Composting by Occupants": 1568,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 828,
+      "Other": 43
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 30522,
+      "Burnt by Occupants": 50678,
+      "Buried by Occupants": 10756,
+      "Composting by Occupants": 1565,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 828,
+      "Other": 43
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-82",
+    "parent_values": {
+      "Collected by Local Authorities": 4112,
+      "Burnt by Occupants": 75626,
+      "Buried by Occupants": 28958,
+      "Composting by Occupants": 11026,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 180,
+      "Other": 235
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 3146,
+      "Burnt by Occupants": 68640,
+      "Buried by Occupants": 25510,
+      "Composting by Occupants": 10302,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 142,
+      "Other": 232
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1209",
+    "parent_values": {
+      "Collected by Local Authorities": 1257,
+      "Burnt by Occupants": 25267,
+      "Buried by Occupants": 10133,
+      "Composting by Occupants": 2150,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 11,
+      "Other": 23
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 1238,
+      "Burnt by Occupants": 24798,
+      "Buried by Occupants": 10067,
+      "Composting by Occupants": 2131,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 11,
+      "Other": 22
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1227",
+    "parent_values": {
+      "Collected by Local Authorities": 6364,
+      "Burnt by Occupants": 25213,
+      "Buried by Occupants": 11065,
+      "Composting by Occupants": 2462,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 64,
+      "Other": 45
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 6301,
+      "Burnt by Occupants": 24867,
+      "Buried by Occupants": 10942,
+      "Composting by Occupants": 2425,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 63,
+      "Other": 45
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1306",
+    "parent_values": {
+      "Collected by Local Authorities": 6073,
+      "Burnt by Occupants": 14103,
+      "Buried by Occupants": 5718,
+      "Composting by Occupants": 1310,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 24,
+      "Other": 35
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 5880,
+      "Burnt by Occupants": 14077,
+      "Buried by Occupants": 5715,
+      "Composting by Occupants": 1310,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 24,
+      "Other": 35
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1339",
+    "parent_values": {
+      "Collected by Local Authorities": 340,
+      "Burnt by Occupants": 8128,
+      "Buried by Occupants": 5613,
+      "Composting by Occupants": 539,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 21,
+      "Other": 18
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 329,
+      "Burnt by Occupants": 7825,
+      "Buried by Occupants": 5416,
+      "Composting by Occupants": 520,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 18,
+      "Other": 18
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2203",
+    "parent_values": {
+      "Collected by Local Authorities": 555,
+      "Burnt by Occupants": 14029,
+      "Buried by Occupants": 3240,
+      "Composting by Occupants": 1321,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 12,
+      "Other": 12
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 554,
+      "Burnt by Occupants": 13463,
+      "Buried by Occupants": 3019,
+      "Composting by Occupants": 1237,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 12,
+      "Other": 12
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2303",
+    "parent_values": {
+      "Collected by Local Authorities": 1279,
+      "Burnt by Occupants": 10768,
+      "Buried by Occupants": 7805,
+      "Composting by Occupants": 3313,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 2539,
+      "Other": 183
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 801,
+      "Burnt by Occupants": 6568,
+      "Buried by Occupants": 4121,
+      "Composting by Occupants": 1789,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 2187,
+      "Other": 127
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2306",
+    "parent_values": {
+      "Collected by Local Authorities": 459,
+      "Burnt by Occupants": 7264,
+      "Buried by Occupants": 9820,
+      "Composting by Occupants": 5704,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 890,
+      "Other": 113
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 399,
+      "Burnt by Occupants": 5467,
+      "Buried by Occupants": 5393,
+      "Composting by Occupants": 3446,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 395,
+      "Other": 102
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2309",
+    "parent_values": {
+      "Collected by Local Authorities": 940,
+      "Burnt by Occupants": 8336,
+      "Buried by Occupants": 6686,
+      "Composting by Occupants": 8650,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 3360,
+      "Other": 120
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 801,
+      "Burnt by Occupants": 4864,
+      "Buried by Occupants": 3221,
+      "Composting by Occupants": 4450,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 2390,
+      "Other": 73
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2312",
+    "parent_values": {
+      "Collected by Local Authorities": 11482,
+      "Burnt by Occupants": 12428,
+      "Buried by Occupants": 7450,
+      "Composting by Occupants": 7456,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 7374,
+      "Other": 5952
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 7930,
+      "Burnt by Occupants": 2582,
+      "Buried by Occupants": 2284,
+      "Composting by Occupants": 4595,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 1819,
+      "Other": 2736
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2315",
+    "parent_values": {
+      "Collected by Local Authorities": 6161,
+      "Burnt by Occupants": 19973,
+      "Buried by Occupants": 12566,
+      "Composting by Occupants": 4449,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 7096,
+      "Other": 566
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 472,
+      "Burnt by Occupants": 3970,
+      "Buried by Occupants": 4792,
+      "Composting by Occupants": 2258,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 326,
+      "Other": 5
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3127",
+    "parent_values": {
+      "Collected by Local Authorities": 277,
+      "Burnt by Occupants": 11525,
+      "Buried by Occupants": 5326,
+      "Composting by Occupants": 2495,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 40,
+      "Other": 9
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 168,
+      "Burnt by Occupants": 6843,
+      "Buried by Occupants": 2873,
+      "Composting by Occupants": 1725,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 28,
+      "Other": 7
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3136",
+    "parent_values": {
+      "Collected by Local Authorities": 4485,
+      "Burnt by Occupants": 12989,
+      "Buried by Occupants": 5378,
+      "Composting by Occupants": 2238,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 387,
+      "Other": 67
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 2599,
+      "Burnt by Occupants": 2503,
+      "Buried by Occupants": 1463,
+      "Composting by Occupants": 501,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 78,
+      "Other": 11
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4130",
+    "parent_values": {
+      "Collected by Local Authorities": 458,
+      "Burnt by Occupants": 4904,
+      "Buried by Occupants": 5378,
+      "Composting by Occupants": 5352,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 98,
+      "Other": 8
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 456,
+      "Burnt by Occupants": 4742,
+      "Buried by Occupants": 5168,
+      "Composting by Occupants": 5241,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 98,
+      "Other": 8
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4133",
+    "parent_values": {
+      "Collected by Local Authorities": 4610,
+      "Burnt by Occupants": 8409,
+      "Buried by Occupants": 2939,
+      "Composting by Occupants": 437,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 71,
+      "Other": 10
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 4161,
+      "Burnt by Occupants": 7957,
+      "Buried by Occupants": 2842,
+      "Composting by Occupants": 435,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 66,
+      "Other": 10
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4415",
+    "parent_values": {
+      "Collected by Local Authorities": 143,
+      "Burnt by Occupants": 6109,
+      "Buried by Occupants": 1446,
+      "Composting by Occupants": 28,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 75,
+      "Other": 6
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 143,
+      "Burnt by Occupants": 6076,
+      "Buried by Occupants": 1446,
+      "Composting by Occupants": 28,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 75,
+      "Other": 6
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5110",
+    "parent_values": {
+      "Collected by Local Authorities": 238,
+      "Burnt by Occupants": 3152,
+      "Buried by Occupants": 3050,
+      "Composting by Occupants": 97,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 213,
+      "Other": 10
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 238,
+      "Burnt by Occupants": 3143,
+      "Buried by Occupants": 2997,
+      "Composting by Occupants": 97,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 149,
+      "Other": 10
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5112",
+    "parent_values": {
+      "Collected by Local Authorities": 3860,
+      "Burnt by Occupants": 6408,
+      "Buried by Occupants": 8432,
+      "Composting by Occupants": 116,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 215,
+      "Other": 4
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 2997,
+      "Burnt by Occupants": 5748,
+      "Buried by Occupants": 7685,
+      "Composting by Occupants": 113,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 213,
+      "Other": 4
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5115",
+    "parent_values": {
+      "Collected by Local Authorities": 5400,
+      "Burnt by Occupants": 252,
+      "Buried by Occupants": 319,
+      "Composting by Occupants": 1,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 4,
+      "Other": 0
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 4545,
+      "Burnt by Occupants": 129,
+      "Buried by Occupants": 151,
+      "Composting by Occupants": 0,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 4,
+      "Other": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5124",
+    "parent_values": {
+      "Collected by Local Authorities": 10656,
+      "Burnt by Occupants": 162,
+      "Buried by Occupants": 84,
+      "Composting by Occupants": 1,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 4,
+      "Other": 0
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 8972,
+      "Burnt by Occupants": 144,
+      "Buried by Occupants": 74,
+      "Composting by Occupants": 1,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 4,
+      "Other": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5133",
+    "parent_values": {
+      "Collected by Local Authorities": 192,
+      "Burnt by Occupants": 5073,
+      "Buried by Occupants": 4020,
+      "Composting by Occupants": 199,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 40,
+      "Other": 4
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 191,
+      "Burnt by Occupants": 5056,
+      "Buried by Occupants": 3849,
+      "Composting by Occupants": 198,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 40,
+      "Other": 4
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5212",
+    "parent_values": {
+      "Collected by Local Authorities": 487,
+      "Burnt by Occupants": 8913,
+      "Buried by Occupants": 3436,
+      "Composting by Occupants": 2118,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 2,
+      "Other": 27
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 471,
+      "Burnt by Occupants": 8588,
+      "Buried by Occupants": 3392,
+      "Composting by Occupants": 2085,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 2,
+      "Other": 27
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5215",
+    "parent_values": {
+      "Collected by Local Authorities": 3866,
+      "Burnt by Occupants": 5528,
+      "Buried by Occupants": 870,
+      "Composting by Occupants": 724,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 4,
+      "Other": 4
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 3865,
+      "Burnt by Occupants": 5210,
+      "Buried by Occupants": 858,
+      "Composting by Occupants": 701,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 4,
+      "Other": 4
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5221",
+    "parent_values": {
+      "Collected by Local Authorities": 5236,
+      "Burnt by Occupants": 1685,
+      "Buried by Occupants": 708,
+      "Composting by Occupants": 34,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 4,
+      "Other": 2
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 4560,
+      "Burnt by Occupants": 1460,
+      "Buried by Occupants": 592,
+      "Composting by Occupants": 33,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 4,
+      "Other": 2
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5224",
+    "parent_values": {
+      "Collected by Local Authorities": 10148,
+      "Burnt by Occupants": 347,
+      "Buried by Occupants": 85,
+      "Composting by Occupants": 3,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 75,
+      "Other": 0
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 8946,
+      "Burnt by Occupants": 174,
+      "Buried by Occupants": 29,
+      "Composting by Occupants": 2,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 75,
+      "Other": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5327",
+    "parent_values": {
+      "Collected by Local Authorities": 6690,
+      "Burnt by Occupants": 5988,
+      "Buried by Occupants": 1970,
+      "Composting by Occupants": 52,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 83,
+      "Other": 2
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 6690,
+      "Burnt by Occupants": 5747,
+      "Buried by Occupants": 1959,
+      "Composting by Occupants": 48,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 83,
+      "Other": 2
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5333",
+    "parent_values": {
+      "Collected by Local Authorities": 0,
+      "Burnt by Occupants": 204,
+      "Buried by Occupants": 185,
+      "Composting by Occupants": 0,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 0,
+      "Other": 0
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 22,
+      "Burnt by Occupants": 680,
+      "Buried by Occupants": 302,
+      "Composting by Occupants": 0,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 0,
+      "Other": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6124",
+    "parent_values": {
+      "Collected by Local Authorities": 442,
+      "Burnt by Occupants": 9936,
+      "Buried by Occupants": 4885,
+      "Composting by Occupants": 871,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 5,
+      "Other": 9
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 439,
+      "Burnt by Occupants": 9619,
+      "Buried by Occupants": 4651,
+      "Composting by Occupants": 843,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 2,
+      "Other": 9
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6145",
+    "parent_values": {
+      "Collected by Local Authorities": 329,
+      "Burnt by Occupants": 8683,
+      "Buried by Occupants": 7329,
+      "Composting by Occupants": 964,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 8,
+      "Other": 19
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 335,
+      "Burnt by Occupants": 9115,
+      "Buried by Occupants": 7501,
+      "Composting by Occupants": 1025,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 8,
+      "Other": 20
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6148",
+    "parent_values": {
+      "Collected by Local Authorities": 77,
+      "Burnt by Occupants": 4164,
+      "Buried by Occupants": 4485,
+      "Composting by Occupants": 551,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 0,
+      "Other": 1
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 71,
+      "Burnt by Occupants": 3732,
+      "Buried by Occupants": 4313,
+      "Composting by Occupants": 490,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 0,
+      "Other": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6218",
+    "parent_values": {
+      "Collected by Local Authorities": 782,
+      "Burnt by Occupants": 10231,
+      "Buried by Occupants": 3981,
+      "Composting by Occupants": 326,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 378,
+      "Other": 7
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 651,
+      "Burnt by Occupants": 10192,
+      "Buried by Occupants": 3975,
+      "Composting by Occupants": 325,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 284,
+      "Other": 7
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6233",
+    "parent_values": {
+      "Collected by Local Authorities": 5664,
+      "Burnt by Occupants": 7716,
+      "Buried by Occupants": 2351,
+      "Composting by Occupants": 599,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 229,
+      "Other": 49
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 5259,
+      "Burnt by Occupants": 7689,
+      "Buried by Occupants": 2346,
+      "Composting by Occupants": 599,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 224,
+      "Other": 49
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-7127",
+    "parent_values": {
+      "Collected by Local Authorities": 290,
+      "Burnt by Occupants": 8318,
+      "Buried by Occupants": 2867,
+      "Composting by Occupants": 1195,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 6,
+      "Other": 3
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 286,
+      "Burnt by Occupants": 8009,
+      "Buried by Occupants": 2857,
+      "Composting by Occupants": 1172,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 6,
+      "Other": 3
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-7133",
+    "parent_values": {
+      "Collected by Local Authorities": 6673,
+      "Burnt by Occupants": 8300,
+      "Buried by Occupants": 1795,
+      "Composting by Occupants": 901,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 5,
+      "Other": 15
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 6041,
+      "Burnt by Occupants": 8156,
+      "Buried by Occupants": 1771,
+      "Composting by Occupants": 874,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 5,
+      "Other": 15
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-8124",
+    "parent_values": {
+      "Collected by Local Authorities": 1345,
+      "Burnt by Occupants": 9910,
+      "Buried by Occupants": 7639,
+      "Composting by Occupants": 4062,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 848,
+      "Other": 253
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 1317,
+      "Burnt by Occupants": 9599,
+      "Buried by Occupants": 7500,
+      "Composting by Occupants": 3895,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 846,
+      "Other": 253
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-8215",
+    "parent_values": {
+      "Collected by Local Authorities": 238,
+      "Burnt by Occupants": 229,
+      "Buried by Occupants": 90,
+      "Composting by Occupants": 22,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 0,
+      "Other": 0
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 966,
+      "Burnt by Occupants": 6986,
+      "Buried by Occupants": 3448,
+      "Composting by Occupants": 724,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 38,
+      "Other": 3
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-9118",
+    "parent_values": {
+      "Collected by Local Authorities": 2968,
+      "Burnt by Occupants": 7992,
+      "Buried by Occupants": 7558,
+      "Composting by Occupants": 2969,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 168,
+      "Other": 94
+    },
+    "sum_child_values": {
+      "Collected by Local Authorities": 1448,
+      "Burnt by Occupants": 4685,
+      "Buried by Occupants": 4926,
+      "Composting by Occupants": 1804,
+      "Dispose by Occupants into Road/River/Canal/Sea/Creek/Forest etc": 150,
+      "Other": 28
+    }
+  }
+]

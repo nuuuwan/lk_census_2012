@@ -1,0 +1,1098 @@
+[
+  {
+    "validation": "ent_coverage",
+    "ent_type_name": "dsd",
+    "missing_ent_ids": [
+      "LK-2307",
+      "LK-3137",
+      "LK-2310",
+      "LK-9119",
+      "LK-3128",
+      "LK-3135",
+      "LK-2314",
+      "LK-2302",
+      "LK-2313"
+    ]
+  },
+  {
+    "validation": "ent_coverage",
+    "ent_type_name": "gnd",
+    "missing_ent_ids": [
+      "LK-5224005",
+      "LK-5327010",
+      "LK-5104013",
+      "LK-3127175",
+      "LK-8215055",
+      "LK-3127220",
+      "LK-5221095",
+      "LK-1306275",
+      "LK-9118205",
+      "LK-4112175",
+      "LK-3124020",
+      "LK-5124009",
+      "LK-7127130",
+      "LK-4130005",
+      "LK-1209415",
+      "LK-5112210",
+      "LK-6124215",
+      "LK-5333005",
+      "LK-6218135",
+      "LK-1212370",
+      "LK-4506005",
+      "LK-8124160",
+      "LK-5327005",
+      "LK-2203155",
+      "LK-4112110",
+      "LK-5333010",
+      "LK-5112215",
+      "LK-5124030",
+      "LK-5112235",
+      "LK-4130155",
+      "LK-5133019",
+      "LK-4124090",
+      "LK-5215110",
+      "LK-9119060",
+      "LK-5333030",
+      "LK-5112230",
+      "LK-4112205",
+      "LK-5221100",
+      "LK-5109022",
+      "LK-4112150",
+      "LK-3127165",
+      "LK-5112200",
+      "LK-5109065",
+      "LK-5327185",
+      "LK-4409020",
+      "LK-5136230",
+      "LK-2309380",
+      "LK-5224050",
+      "LK-1339265",
+      "LK-4112190",
+      "LK-6124225",
+      "LK-4133055",
+      "LK-7210065",
+      "LK-5333035",
+      "LK-5218090",
+      "LK-5115015",
+      "LK-4112200",
+      "LK-5127018",
+      "LK-5112014",
+      "LK-4512020",
+      "LK-4112225",
+      "LK-9118195",
+      "LK-9118200",
+      "LK-5112016",
+      "LK-5104055",
+      "LK-5104005",
+      "LK-1227590",
+      "LK-5218025",
+      "LK-5112006",
+      "LK-2203295",
+      "LK-5112115",
+      "LK-9118190",
+      "LK-5109012",
+      "LK-6233095",
+      "LK-5221050",
+      "LK-5333015",
+      "LK-7118190",
+      "LK-4503015",
+      "LK-2203160",
+      "LK-4112220",
+      "LK-5109021",
+      "LK-4503090",
+      "LK-7133080",
+      "LK-4415015",
+      "LK-5104004",
+      "LK-4112215",
+      "LK-5315010",
+      "LK-5104003",
+      "LK-4112185",
+      "LK-5110025",
+      "LK-5136235",
+      "LK-4124030",
+      "LK-4133065",
+      "LK-5212205",
+      "LK-9118185",
+      "LK-5124065",
+      "LK-9118175",
+      "LK-5110020",
+      "LK-4409035",
+      "LK-4112145",
+      "LK-5224065",
+      "LK-9118165",
+      "LK-5333020",
+      "LK-4409005",
+      "LK-4415155",
+      "LK-4112195",
+      "LK-5333025",
+      "LK-5124017",
+      "LK-9118180",
+      "LK-5133060",
+      "LK-4503045",
+      "LK-4112180",
+      "LK-5124070",
+      "LK-5218030",
+      "LK-3248160",
+      "LK-3124035",
+      "LK-9118170",
+      "LK-5130011",
+      "LK-4112155",
+      "LK-5224055",
+      "LK-4112210",
+      "LK-4112120",
+      "LK-5224060",
+      "LK-4409040",
+      "LK-5112120",
+      "LK-1339260",
+      "LK-6124210",
+      "LK-4409050",
+      "LK-5327020"
+    ]
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-53",
+    "parent_values": {
+      "Cement": 84460,
+      "Tile/Granite/Terrazo": 2940,
+      "Mud": 4158,
+      "Wood": 59,
+      "Sand": 1647,
+      "Concrete": 2288,
+      "Other": 127
+    },
+    "sum_child_values": {
+      "Cement": 82219,
+      "Tile/Granite/Terrazo": 2938,
+      "Mud": 4134,
+      "Wood": 56,
+      "Sand": 1499,
+      "Concrete": 2162,
+      "Other": 125
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-82",
+    "parent_values": {
+      "Cement": 74957,
+      "Tile/Granite/Terrazo": 4575,
+      "Mud": 29446,
+      "Wood": 188,
+      "Sand": 161,
+      "Concrete": 9879,
+      "Other": 297
+    },
+    "sum_child_values": {
+      "Cement": 67502,
+      "Tile/Granite/Terrazo": 3885,
+      "Mud": 26480,
+      "Wood": 165,
+      "Sand": 141,
+      "Concrete": 8961,
+      "Other": 268
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1209",
+    "parent_values": {
+      "Cement": 29667,
+      "Tile/Granite/Terrazo": 4375,
+      "Mud": 803,
+      "Wood": 8,
+      "Sand": 85,
+      "Concrete": 3639,
+      "Other": 150
+    },
+    "sum_child_values": {
+      "Cement": 29215,
+      "Tile/Granite/Terrazo": 4303,
+      "Mud": 799,
+      "Wood": 8,
+      "Sand": 85,
+      "Concrete": 3597,
+      "Other": 149
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1212",
+    "parent_values": {
+      "Cement": 31654,
+      "Tile/Granite/Terrazo": 5144,
+      "Mud": 1642,
+      "Wood": 8,
+      "Sand": 69,
+      "Concrete": 4228,
+      "Other": 207
+    },
+    "sum_child_values": {
+      "Cement": 31483,
+      "Tile/Granite/Terrazo": 5103,
+      "Mud": 1635,
+      "Wood": 8,
+      "Sand": 69,
+      "Concrete": 4206,
+      "Other": 203
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1227",
+    "parent_values": {
+      "Cement": 31251,
+      "Tile/Granite/Terrazo": 8643,
+      "Mud": 834,
+      "Wood": 9,
+      "Sand": 45,
+      "Concrete": 4024,
+      "Other": 118
+    },
+    "sum_child_values": {
+      "Cement": 30946,
+      "Tile/Granite/Terrazo": 8474,
+      "Mud": 828,
+      "Wood": 9,
+      "Sand": 45,
+      "Concrete": 3939,
+      "Other": 118
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1306",
+    "parent_values": {
+      "Cement": 18256,
+      "Tile/Granite/Terrazo": 5938,
+      "Mud": 200,
+      "Wood": 4,
+      "Sand": 22,
+      "Concrete": 2489,
+      "Other": 39
+    },
+    "sum_child_values": {
+      "Cement": 18066,
+      "Tile/Granite/Terrazo": 5930,
+      "Mud": 200,
+      "Wood": 4,
+      "Sand": 22,
+      "Concrete": 2473,
+      "Other": 39
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1339",
+    "parent_values": {
+      "Cement": 11696,
+      "Tile/Granite/Terrazo": 1069,
+      "Mud": 745,
+      "Wood": 6,
+      "Sand": 7,
+      "Concrete": 1028,
+      "Other": 11
+    },
+    "sum_child_values": {
+      "Cement": 11266,
+      "Tile/Granite/Terrazo": 1035,
+      "Mud": 715,
+      "Wood": 6,
+      "Sand": 7,
+      "Concrete": 991,
+      "Other": 10
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2203",
+    "parent_values": {
+      "Cement": 12139,
+      "Tile/Granite/Terrazo": 987,
+      "Mud": 2565,
+      "Wood": 20,
+      "Sand": 71,
+      "Concrete": 3016,
+      "Other": 255
+    },
+    "sum_child_values": {
+      "Cement": 11626,
+      "Tile/Granite/Terrazo": 940,
+      "Mud": 2426,
+      "Wood": 18,
+      "Sand": 68,
+      "Concrete": 2873,
+      "Other": 232
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2303",
+    "parent_values": {
+      "Cement": 19718,
+      "Tile/Granite/Terrazo": 834,
+      "Mud": 3867,
+      "Wood": 50,
+      "Sand": 78,
+      "Concrete": 727,
+      "Other": 208
+    },
+    "sum_child_values": {
+      "Cement": 12091,
+      "Tile/Granite/Terrazo": 361,
+      "Mud": 2400,
+      "Wood": 33,
+      "Sand": 22,
+      "Concrete": 318,
+      "Other": 106
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2306",
+    "parent_values": {
+      "Cement": 17034,
+      "Tile/Granite/Terrazo": 722,
+      "Mud": 5041,
+      "Wood": 41,
+      "Sand": 34,
+      "Concrete": 853,
+      "Other": 147
+    },
+    "sum_child_values": {
+      "Cement": 11071,
+      "Tile/Granite/Terrazo": 540,
+      "Mud": 2619,
+      "Wood": 18,
+      "Sand": 29,
+      "Concrete": 601,
+      "Other": 123
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2309",
+    "parent_values": {
+      "Cement": 20029,
+      "Tile/Granite/Terrazo": 400,
+      "Mud": 6385,
+      "Wood": 32,
+      "Sand": 86,
+      "Concrete": 270,
+      "Other": 402
+    },
+    "sum_child_values": {
+      "Cement": 11937,
+      "Tile/Granite/Terrazo": 274,
+      "Mud": 2886,
+      "Wood": 25,
+      "Sand": 81,
+      "Concrete": 182,
+      "Other": 158
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2312",
+    "parent_values": {
+      "Cement": 43877,
+      "Tile/Granite/Terrazo": 1110,
+      "Mud": 5053,
+      "Wood": 98,
+      "Sand": 157,
+      "Concrete": 489,
+      "Other": 454
+    },
+    "sum_child_values": {
+      "Cement": 18013,
+      "Tile/Granite/Terrazo": 667,
+      "Mud": 2453,
+      "Wood": 74,
+      "Sand": 64,
+      "Concrete": 236,
+      "Other": 57
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2315",
+    "parent_values": {
+      "Cement": 44871,
+      "Tile/Granite/Terrazo": 1462,
+      "Mud": 3148,
+      "Wood": 77,
+      "Sand": 163,
+      "Concrete": 326,
+      "Other": 197
+    },
+    "sum_child_values": {
+      "Cement": 10023,
+      "Tile/Granite/Terrazo": 648,
+      "Mud": 791,
+      "Wood": 9,
+      "Sand": 11,
+      "Concrete": 209,
+      "Other": 20
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3124",
+    "parent_values": {
+      "Cement": 10857,
+      "Tile/Granite/Terrazo": 1536,
+      "Mud": 979,
+      "Wood": 11,
+      "Sand": 7,
+      "Concrete": 997,
+      "Other": 6
+    },
+    "sum_child_values": {
+      "Cement": 10602,
+      "Tile/Granite/Terrazo": 1503,
+      "Mud": 958,
+      "Wood": 11,
+      "Sand": 7,
+      "Concrete": 969,
+      "Other": 6
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3127",
+    "parent_values": {
+      "Cement": 14150,
+      "Tile/Granite/Terrazo": 2412,
+      "Mud": 1530,
+      "Wood": 4,
+      "Sand": 14,
+      "Concrete": 1460,
+      "Other": 20
+    },
+    "sum_child_values": {
+      "Cement": 8287,
+      "Tile/Granite/Terrazo": 1592,
+      "Mud": 784,
+      "Wood": 2,
+      "Sand": 6,
+      "Concrete": 926,
+      "Other": 13
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3136",
+    "parent_values": {
+      "Cement": 19306,
+      "Tile/Granite/Terrazo": 4083,
+      "Mud": 408,
+      "Wood": 8,
+      "Sand": 30,
+      "Concrete": 1434,
+      "Other": 13
+    },
+    "sum_child_values": {
+      "Cement": 5160,
+      "Tile/Granite/Terrazo": 1425,
+      "Mud": 75,
+      "Wood": 3,
+      "Sand": 5,
+      "Concrete": 376,
+      "Other": 4
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3248",
+    "parent_values": {
+      "Cement": 9609,
+      "Tile/Granite/Terrazo": 1590,
+      "Mud": 648,
+      "Wood": 4,
+      "Sand": 4,
+      "Concrete": 1453,
+      "Other": 22
+    },
+    "sum_child_values": {
+      "Cement": 9395,
+      "Tile/Granite/Terrazo": 1558,
+      "Mud": 642,
+      "Wood": 4,
+      "Sand": 3,
+      "Concrete": 1439,
+      "Other": 22
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4130",
+    "parent_values": {
+      "Cement": 13121,
+      "Tile/Granite/Terrazo": 325,
+      "Mud": 1818,
+      "Wood": 10,
+      "Sand": 658,
+      "Concrete": 74,
+      "Other": 10
+    },
+    "sum_child_values": {
+      "Cement": 12683,
+      "Tile/Granite/Terrazo": 315,
+      "Mud": 1793,
+      "Wood": 9,
+      "Sand": 652,
+      "Concrete": 72,
+      "Other": 10
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4133",
+    "parent_values": {
+      "Cement": 13961,
+      "Tile/Granite/Terrazo": 1313,
+      "Mud": 595,
+      "Wood": 1,
+      "Sand": 116,
+      "Concrete": 38,
+      "Other": 43
+    },
+    "sum_child_values": {
+      "Cement": 13061,
+      "Tile/Granite/Terrazo": 1271,
+      "Mud": 577,
+      "Wood": 1,
+      "Sand": 116,
+      "Concrete": 38,
+      "Other": 42
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4415",
+    "parent_values": {
+      "Cement": 6169,
+      "Tile/Granite/Terrazo": 35,
+      "Mud": 760,
+      "Wood": 4,
+      "Sand": 623,
+      "Concrete": 58,
+      "Other": 28
+    },
+    "sum_child_values": {
+      "Cement": 6165,
+      "Tile/Granite/Terrazo": 35,
+      "Mud": 760,
+      "Wood": 4,
+      "Sand": 595,
+      "Concrete": 58,
+      "Other": 27
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5110",
+    "parent_values": {
+      "Cement": 4882,
+      "Tile/Granite/Terrazo": 35,
+      "Mud": 473,
+      "Wood": 6,
+      "Sand": 1321,
+      "Concrete": 10,
+      "Other": 6
+    },
+    "sum_child_values": {
+      "Cement": 4874,
+      "Tile/Granite/Terrazo": 35,
+      "Mud": 394,
+      "Wood": 6,
+      "Sand": 1284,
+      "Concrete": 10,
+      "Other": 6
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5112",
+    "parent_values": {
+      "Cement": 15942,
+      "Tile/Granite/Terrazo": 111,
+      "Mud": 704,
+      "Wood": 9,
+      "Sand": 1979,
+      "Concrete": 176,
+      "Other": 8
+    },
+    "sum_child_values": {
+      "Cement": 13861,
+      "Tile/Granite/Terrazo": 109,
+      "Mud": 696,
+      "Wood": 9,
+      "Sand": 1820,
+      "Concrete": 162,
+      "Other": 7
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5115",
+    "parent_values": {
+      "Cement": 5494,
+      "Tile/Granite/Terrazo": 150,
+      "Mud": 31,
+      "Wood": 1,
+      "Sand": 160,
+      "Concrete": 100,
+      "Other": 5
+    },
+    "sum_child_values": {
+      "Cement": 4456,
+      "Tile/Granite/Terrazo": 131,
+      "Mud": 30,
+      "Wood": 1,
+      "Sand": 118,
+      "Concrete": 74,
+      "Other": 1
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5124",
+    "parent_values": {
+      "Cement": 9926,
+      "Tile/Granite/Terrazo": 542,
+      "Mud": 5,
+      "Wood": 2,
+      "Sand": 217,
+      "Concrete": 144,
+      "Other": 3
+    },
+    "sum_child_values": {
+      "Cement": 6977,
+      "Tile/Granite/Terrazo": 480,
+      "Mud": 4,
+      "Wood": 2,
+      "Sand": 130,
+      "Concrete": 94,
+      "Other": 2
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5133",
+    "parent_values": {
+      "Cement": 7889,
+      "Tile/Granite/Terrazo": 27,
+      "Mud": 872,
+      "Wood": 9,
+      "Sand": 575,
+      "Concrete": 25,
+      "Other": 33
+    },
+    "sum_child_values": {
+      "Cement": 7756,
+      "Tile/Granite/Terrazo": 27,
+      "Mud": 829,
+      "Wood": 9,
+      "Sand": 561,
+      "Concrete": 25,
+      "Other": 33
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5212",
+    "parent_values": {
+      "Cement": 11359,
+      "Tile/Granite/Terrazo": 507,
+      "Mud": 1809,
+      "Wood": 13,
+      "Sand": 32,
+      "Concrete": 1206,
+      "Other": 13
+    },
+    "sum_child_values": {
+      "Cement": 11049,
+      "Tile/Granite/Terrazo": 488,
+      "Mud": 1746,
+      "Wood": 13,
+      "Sand": 32,
+      "Concrete": 1182,
+      "Other": 13
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5215",
+    "parent_values": {
+      "Cement": 7696,
+      "Tile/Granite/Terrazo": 1016,
+      "Mud": 957,
+      "Wood": 4,
+      "Sand": 18,
+      "Concrete": 1166,
+      "Other": 83
+    },
+    "sum_child_values": {
+      "Cement": 7455,
+      "Tile/Granite/Terrazo": 1006,
+      "Mud": 878,
+      "Wood": 4,
+      "Sand": 18,
+      "Concrete": 1142,
+      "Other": 83
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5218",
+    "parent_values": {
+      "Cement": 13884,
+      "Tile/Granite/Terrazo": 259,
+      "Mud": 355,
+      "Wood": 3,
+      "Sand": 208,
+      "Concrete": 66,
+      "Other": 55
+    },
+    "sum_child_values": {
+      "Cement": 13458,
+      "Tile/Granite/Terrazo": 249,
+      "Mud": 354,
+      "Wood": 3,
+      "Sand": 208,
+      "Concrete": 66,
+      "Other": 55
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5221",
+    "parent_values": {
+      "Cement": 6920,
+      "Tile/Granite/Terrazo": 257,
+      "Mud": 21,
+      "Wood": 1,
+      "Sand": 91,
+      "Concrete": 273,
+      "Other": 44
+    },
+    "sum_child_values": {
+      "Cement": 6007,
+      "Tile/Granite/Terrazo": 210,
+      "Mud": 17,
+      "Wood": 1,
+      "Sand": 80,
+      "Concrete": 253,
+      "Other": 40
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5224",
+    "parent_values": {
+      "Cement": 9432,
+      "Tile/Granite/Terrazo": 522,
+      "Mud": 14,
+      "Wood": 3,
+      "Sand": 83,
+      "Concrete": 274,
+      "Other": 14
+    },
+    "sum_child_values": {
+      "Cement": 8089,
+      "Tile/Granite/Terrazo": 496,
+      "Mud": 6,
+      "Wood": 1,
+      "Sand": 58,
+      "Concrete": 266,
+      "Other": 11
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5327",
+    "parent_values": {
+      "Cement": 12870,
+      "Tile/Granite/Terrazo": 65,
+      "Mud": 980,
+      "Wood": 12,
+      "Sand": 592,
+      "Concrete": 180,
+      "Other": 3
+    },
+    "sum_child_values": {
+      "Cement": 12642,
+      "Tile/Granite/Terrazo": 64,
+      "Mud": 958,
+      "Wood": 12,
+      "Sand": 592,
+      "Concrete": 176,
+      "Other": 3
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5333",
+    "parent_values": {
+      "Cement": 339,
+      "Tile/Granite/Terrazo": 3,
+      "Mud": 9,
+      "Wood": 0,
+      "Sand": 34,
+      "Concrete": 2,
+      "Other": 0
+    },
+    "sum_child_values": {
+      "Cement": 846,
+      "Tile/Granite/Terrazo": 0,
+      "Mud": 5,
+      "Wood": 3,
+      "Sand": 45,
+      "Concrete": 99,
+      "Other": 2
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6124",
+    "parent_values": {
+      "Cement": 11384,
+      "Tile/Granite/Terrazo": 834,
+      "Mud": 2221,
+      "Wood": 9,
+      "Sand": 27,
+      "Concrete": 1465,
+      "Other": 59
+    },
+    "sum_child_values": {
+      "Cement": 10948,
+      "Tile/Granite/Terrazo": 815,
+      "Mud": 2144,
+      "Wood": 9,
+      "Sand": 27,
+      "Concrete": 1418,
+      "Other": 58
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6145",
+    "parent_values": {
+      "Cement": 13181,
+      "Tile/Granite/Terrazo": 1031,
+      "Mud": 812,
+      "Wood": 2,
+      "Sand": 47,
+      "Concrete": 2163,
+      "Other": 19
+    },
+    "sum_child_values": {
+      "Cement": 13702,
+      "Tile/Granite/Terrazo": 1065,
+      "Mud": 846,
+      "Wood": 3,
+      "Sand": 49,
+      "Concrete": 2232,
+      "Other": 26
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6148",
+    "parent_values": {
+      "Cement": 7289,
+      "Tile/Granite/Terrazo": 385,
+      "Mud": 624,
+      "Wood": 2,
+      "Sand": 28,
+      "Concrete": 882,
+      "Other": 24
+    },
+    "sum_child_values": {
+      "Cement": 6768,
+      "Tile/Granite/Terrazo": 351,
+      "Mud": 590,
+      "Wood": 1,
+      "Sand": 26,
+      "Concrete": 813,
+      "Other": 17
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6218",
+    "parent_values": {
+      "Cement": 13117,
+      "Tile/Granite/Terrazo": 505,
+      "Mud": 352,
+      "Wood": 40,
+      "Sand": 211,
+      "Concrete": 1151,
+      "Other": 14
+    },
+    "sum_child_values": {
+      "Cement": 12902,
+      "Tile/Granite/Terrazo": 487,
+      "Mud": 342,
+      "Wood": 40,
+      "Sand": 208,
+      "Concrete": 1134,
+      "Other": 13
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6233",
+    "parent_values": {
+      "Cement": 11973,
+      "Tile/Granite/Terrazo": 2081,
+      "Mud": 361,
+      "Wood": 12,
+      "Sand": 170,
+      "Concrete": 1853,
+      "Other": 38
+    },
+    "sum_child_values": {
+      "Cement": 11612,
+      "Tile/Granite/Terrazo": 2041,
+      "Mud": 359,
+      "Wood": 12,
+      "Sand": 170,
+      "Concrete": 1815,
+      "Other": 38
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-7118",
+    "parent_values": {
+      "Cement": 5940,
+      "Tile/Granite/Terrazo": 303,
+      "Mud": 1683,
+      "Wood": 11,
+      "Sand": 15,
+      "Concrete": 1774,
+      "Other": 38
+    },
+    "sum_child_values": {
+      "Cement": 5815,
+      "Tile/Granite/Terrazo": 293,
+      "Mud": 1623,
+      "Wood": 11,
+      "Sand": 15,
+      "Concrete": 1718,
+      "Other": 38
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-7127",
+    "parent_values": {
+      "Cement": 8186,
+      "Tile/Granite/Terrazo": 428,
+      "Mud": 1760,
+      "Wood": 14,
+      "Sand": 9,
+      "Concrete": 2161,
+      "Other": 32
+    },
+    "sum_child_values": {
+      "Cement": 7926,
+      "Tile/Granite/Terrazo": 416,
+      "Mud": 1738,
+      "Wood": 14,
+      "Sand": 9,
+      "Concrete": 2116,
+      "Other": 32
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-7133",
+    "parent_values": {
+      "Cement": 11498,
+      "Tile/Granite/Terrazo": 3369,
+      "Mud": 645,
+      "Wood": 6,
+      "Sand": 13,
+      "Concrete": 1984,
+      "Other": 19
+    },
+    "sum_child_values": {
+      "Cement": 10920,
+      "Tile/Granite/Terrazo": 3232,
+      "Mud": 638,
+      "Wood": 6,
+      "Sand": 13,
+      "Concrete": 1897,
+      "Other": 19
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-8124",
+    "parent_values": {
+      "Cement": 18478,
+      "Tile/Granite/Terrazo": 1056,
+      "Mud": 2995,
+      "Wood": 23,
+      "Sand": 64,
+      "Concrete": 605,
+      "Other": 309
+    },
+    "sum_child_values": {
+      "Cement": 17997,
+      "Tile/Granite/Terrazo": 963,
+      "Mud": 2965,
+      "Wood": 23,
+      "Sand": 64,
+      "Concrete": 569,
+      "Other": 309
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-8215",
+    "parent_values": {
+      "Cement": 384,
+      "Tile/Granite/Terrazo": 108,
+      "Mud": 51,
+      "Wood": 0,
+      "Sand": 0,
+      "Concrete": 23,
+      "Other": 10
+    },
+    "sum_child_values": {
+      "Cement": 7455,
+      "Tile/Granite/Terrazo": 690,
+      "Mud": 2966,
+      "Wood": 23,
+      "Sand": 20,
+      "Concrete": 918,
+      "Other": 29
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-9118",
+    "parent_values": {
+      "Cement": 15836,
+      "Tile/Granite/Terrazo": 1588,
+      "Mud": 2943,
+      "Wood": 24,
+      "Sand": 27,
+      "Concrete": 1131,
+      "Other": 52
+    },
+    "sum_child_values": {
+      "Cement": 9629,
+      "Tile/Granite/Terrazo": 771,
+      "Mud": 1858,
+      "Wood": 15,
+      "Sand": 22,
+      "Concrete": 617,
+      "Other": 23
+    }
+  }
+]

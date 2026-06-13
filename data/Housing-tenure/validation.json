@@ -1,0 +1,904 @@
+[
+  {
+    "validation": "ent_coverage",
+    "ent_type_name": "dsd",
+    "missing_ent_ids": [
+      "LK-2307",
+      "LK-3137",
+      "LK-2310",
+      "LK-9119",
+      "LK-3128",
+      "LK-3135",
+      "LK-2314",
+      "LK-2302",
+      "LK-2313"
+    ]
+  },
+  {
+    "validation": "ent_coverage",
+    "ent_type_name": "gnd",
+    "missing_ent_ids": [
+      "LK-5224005",
+      "LK-5327010",
+      "LK-5104013",
+      "LK-3127175",
+      "LK-8215055",
+      "LK-3127220",
+      "LK-5221095",
+      "LK-1306275",
+      "LK-9118205",
+      "LK-4112175",
+      "LK-5124009",
+      "LK-7127130",
+      "LK-4130005",
+      "LK-1209415",
+      "LK-5112210",
+      "LK-6124215",
+      "LK-5333005",
+      "LK-6218135",
+      "LK-8124160",
+      "LK-4506005",
+      "LK-5327005",
+      "LK-2203155",
+      "LK-4112110",
+      "LK-5333010",
+      "LK-5112215",
+      "LK-5124030",
+      "LK-5112235",
+      "LK-4130155",
+      "LK-5133019",
+      "LK-4124090",
+      "LK-5215110",
+      "LK-9119060",
+      "LK-5333030",
+      "LK-5112230",
+      "LK-4112205",
+      "LK-5221100",
+      "LK-5109022",
+      "LK-4112150",
+      "LK-3127165",
+      "LK-5112200",
+      "LK-5109065",
+      "LK-5327185",
+      "LK-4409020",
+      "LK-5136230",
+      "LK-2309380",
+      "LK-5224050",
+      "LK-1339265",
+      "LK-4112190",
+      "LK-6124225",
+      "LK-4133055",
+      "LK-7210065",
+      "LK-5333035",
+      "LK-5115015",
+      "LK-4112200",
+      "LK-5127018",
+      "LK-5112014",
+      "LK-4512020",
+      "LK-4112225",
+      "LK-9118195",
+      "LK-9118200",
+      "LK-5112016",
+      "LK-5104055",
+      "LK-5104005",
+      "LK-1227590",
+      "LK-5112006",
+      "LK-2203295",
+      "LK-5112115",
+      "LK-9118190",
+      "LK-5109012",
+      "LK-6233095",
+      "LK-5221050",
+      "LK-5333015",
+      "LK-4503015",
+      "LK-2203160",
+      "LK-4112220",
+      "LK-5109021",
+      "LK-4503090",
+      "LK-7133080",
+      "LK-4415015",
+      "LK-5104004",
+      "LK-4112215",
+      "LK-5315010",
+      "LK-5104003",
+      "LK-4112185",
+      "LK-5110025",
+      "LK-5136235",
+      "LK-4124030",
+      "LK-4133065",
+      "LK-5212205",
+      "LK-9118185",
+      "LK-5124065",
+      "LK-9118175",
+      "LK-5110020",
+      "LK-4409035",
+      "LK-4112145",
+      "LK-5224065",
+      "LK-9118165",
+      "LK-5333020",
+      "LK-4409005",
+      "LK-4415155",
+      "LK-4112195",
+      "LK-5333025",
+      "LK-5124017",
+      "LK-9118180",
+      "LK-5133060",
+      "LK-4503045",
+      "LK-4112180",
+      "LK-5124070",
+      "LK-9118170",
+      "LK-5130011",
+      "LK-4112155",
+      "LK-5224055",
+      "LK-4112210",
+      "LK-4112120",
+      "LK-5224060",
+      "LK-4409040",
+      "LK-5112120",
+      "LK-1339260",
+      "LK-6124210",
+      "LK-4409050",
+      "LK-5327020"
+    ]
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-53",
+    "parent_values": {
+      "Owned by a household member": 81590,
+      "Rent/Lease- Government owned": 3068,
+      "Rent/Lease- Privately owned": 4844,
+      "Rent free occupied": 4781,
+      "Encroached": 1933,
+      "Other": 735
+    },
+    "sum_child_values": {
+      "Owned by a household member": 79103,
+      "Rent/Lease- Government owned": 3056,
+      "Rent/Lease- Privately owned": 4835,
+      "Rent free occupied": 4738,
+      "Encroached": 1933,
+      "Other": 727
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-82",
+    "parent_values": {
+      "Owned by a household member": 108184,
+      "Rent/Lease- Government owned": 2359,
+      "Rent/Lease- Privately owned": 2688,
+      "Rent free occupied": 2674,
+      "Encroached": 3332,
+      "Other": 900
+    },
+    "sum_child_values": {
+      "Owned by a household member": 97796,
+      "Rent/Lease- Government owned": 1753,
+      "Rent/Lease- Privately owned": 2205,
+      "Rent free occupied": 2317,
+      "Encroached": 3068,
+      "Other": 833
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1209",
+    "parent_values": {
+      "Owned by a household member": 34649,
+      "Rent/Lease- Government owned": 412,
+      "Rent/Lease- Privately owned": 1625,
+      "Rent free occupied": 1313,
+      "Encroached": 223,
+      "Other": 619
+    },
+    "sum_child_values": {
+      "Owned by a household member": 34151,
+      "Rent/Lease- Government owned": 408,
+      "Rent/Lease- Privately owned": 1596,
+      "Rent free occupied": 1284,
+      "Encroached": 223,
+      "Other": 605
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1227",
+    "parent_values": {
+      "Owned by a household member": 40621,
+      "Rent/Lease- Government owned": 605,
+      "Rent/Lease- Privately owned": 2623,
+      "Rent free occupied": 675,
+      "Encroached": 165,
+      "Other": 524
+    },
+    "sum_child_values": {
+      "Owned by a household member": 40096,
+      "Rent/Lease- Government owned": 602,
+      "Rent/Lease- Privately owned": 2592,
+      "Rent free occupied": 666,
+      "Encroached": 165,
+      "Other": 522
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1306",
+    "parent_values": {
+      "Owned by a household member": 23630,
+      "Rent/Lease- Government owned": 280,
+      "Rent/Lease- Privately owned": 2032,
+      "Rent free occupied": 947,
+      "Encroached": 94,
+      "Other": 280
+    },
+    "sum_child_values": {
+      "Owned by a household member": 23414,
+      "Rent/Lease- Government owned": 280,
+      "Rent/Lease- Privately owned": 2026,
+      "Rent free occupied": 947,
+      "Encroached": 94,
+      "Other": 280
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1339",
+    "parent_values": {
+      "Owned by a household member": 12177,
+      "Rent/Lease- Government owned": 75,
+      "Rent/Lease- Privately owned": 301,
+      "Rent free occupied": 1756,
+      "Encroached": 202,
+      "Other": 148
+    },
+    "sum_child_values": {
+      "Owned by a household member": 11698,
+      "Rent/Lease- Government owned": 58,
+      "Rent/Lease- Privately owned": 298,
+      "Rent free occupied": 1724,
+      "Encroached": 201,
+      "Other": 147
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2203",
+    "parent_values": {
+      "Owned by a household member": 17853,
+      "Rent/Lease- Government owned": 231,
+      "Rent/Lease- Privately owned": 481,
+      "Rent free occupied": 360,
+      "Encroached": 72,
+      "Other": 172
+    },
+    "sum_child_values": {
+      "Owned by a household member": 17066,
+      "Rent/Lease- Government owned": 227,
+      "Rent/Lease- Privately owned": 430,
+      "Rent free occupied": 352,
+      "Encroached": 72,
+      "Other": 150
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2303",
+    "parent_values": {
+      "Owned by a household member": 16502,
+      "Rent/Lease- Government owned": 1297,
+      "Rent/Lease- Privately owned": 2679,
+      "Rent free occupied": 4992,
+      "Encroached": 248,
+      "Other": 169
+    },
+    "sum_child_values": {
+      "Owned by a household member": 8268,
+      "Rent/Lease- Government owned": 1129,
+      "Rent/Lease- Privately owned": 2237,
+      "Rent free occupied": 3701,
+      "Encroached": 164,
+      "Other": 94
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2306",
+    "parent_values": {
+      "Owned by a household member": 18092,
+      "Rent/Lease- Government owned": 633,
+      "Rent/Lease- Privately owned": 525,
+      "Rent free occupied": 3887,
+      "Encroached": 903,
+      "Other": 210
+    },
+    "sum_child_values": {
+      "Owned by a household member": 11255,
+      "Rent/Lease- Government owned": 539,
+      "Rent/Lease- Privately owned": 279,
+      "Rent free occupied": 2345,
+      "Encroached": 613,
+      "Other": 171
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2309",
+    "parent_values": {
+      "Owned by a household member": 17536,
+      "Rent/Lease- Government owned": 375,
+      "Rent/Lease- Privately owned": 783,
+      "Rent free occupied": 8589,
+      "Encroached": 507,
+      "Other": 302
+    },
+    "sum_child_values": {
+      "Owned by a household member": 9274,
+      "Rent/Lease- Government owned": 202,
+      "Rent/Lease- Privately owned": 400,
+      "Rent free occupied": 5414,
+      "Encroached": 319,
+      "Other": 190
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2312",
+    "parent_values": {
+      "Owned by a household member": 19343,
+      "Rent/Lease- Government owned": 1986,
+      "Rent/Lease- Privately owned": 2992,
+      "Rent free occupied": 26029,
+      "Encroached": 510,
+      "Other": 1282
+    },
+    "sum_child_values": {
+      "Owned by a household member": 12145,
+      "Rent/Lease- Government owned": 1302,
+      "Rent/Lease- Privately owned": 1584,
+      "Rent free occupied": 6267,
+      "Encroached": 414,
+      "Other": 234
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2315",
+    "parent_values": {
+      "Owned by a household member": 18036,
+      "Rent/Lease- Government owned": 1335,
+      "Rent/Lease- Privately owned": 3348,
+      "Rent free occupied": 26715,
+      "Encroached": 938,
+      "Other": 439
+    },
+    "sum_child_values": {
+      "Owned by a household member": 8796,
+      "Rent/Lease- Government owned": 284,
+      "Rent/Lease- Privately owned": 485,
+      "Rent free occupied": 1884,
+      "Encroached": 247,
+      "Other": 127
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3127",
+    "parent_values": {
+      "Owned by a household member": 17147,
+      "Rent/Lease- Government owned": 229,
+      "Rent/Lease- Privately owned": 486,
+      "Rent free occupied": 747,
+      "Encroached": 804,
+      "Other": 259
+    },
+    "sum_child_values": {
+      "Owned by a household member": 10150,
+      "Rent/Lease- Government owned": 94,
+      "Rent/Lease- Privately owned": 316,
+      "Rent free occupied": 418,
+      "Encroached": 528,
+      "Other": 138
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3136",
+    "parent_values": {
+      "Owned by a household member": 22772,
+      "Rent/Lease- Government owned": 342,
+      "Rent/Lease- Privately owned": 974,
+      "Rent free occupied": 590,
+      "Encroached": 230,
+      "Other": 636
+    },
+    "sum_child_values": {
+      "Owned by a household member": 6378,
+      "Rent/Lease- Government owned": 48,
+      "Rent/Lease- Privately owned": 249,
+      "Rent free occupied": 264,
+      "Encroached": 8,
+      "Other": 208
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4130",
+    "parent_values": {
+      "Owned by a household member": 12828,
+      "Rent/Lease- Government owned": 261,
+      "Rent/Lease- Privately owned": 864,
+      "Rent free occupied": 2089,
+      "Encroached": 108,
+      "Other": 48
+    },
+    "sum_child_values": {
+      "Owned by a household member": 12454,
+      "Rent/Lease- Government owned": 249,
+      "Rent/Lease- Privately owned": 824,
+      "Rent free occupied": 2030,
+      "Encroached": 108,
+      "Other": 48
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4133",
+    "parent_values": {
+      "Owned by a household member": 10235,
+      "Rent/Lease- Government owned": 701,
+      "Rent/Lease- Privately owned": 3656,
+      "Rent free occupied": 1750,
+      "Encroached": 87,
+      "Other": 47
+    },
+    "sum_child_values": {
+      "Owned by a household member": 9673,
+      "Rent/Lease- Government owned": 668,
+      "Rent/Lease- Privately owned": 3372,
+      "Rent free occupied": 1624,
+      "Encroached": 87,
+      "Other": 47
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4415",
+    "parent_values": {
+      "Owned by a household member": 6624,
+      "Rent/Lease- Government owned": 140,
+      "Rent/Lease- Privately owned": 289,
+      "Rent free occupied": 664,
+      "Encroached": 53,
+      "Other": 37
+    },
+    "sum_child_values": {
+      "Owned by a household member": 6591,
+      "Rent/Lease- Government owned": 140,
+      "Rent/Lease- Privately owned": 289,
+      "Rent free occupied": 664,
+      "Encroached": 53,
+      "Other": 37
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5110",
+    "parent_values": {
+      "Owned by a household member": 6385,
+      "Rent/Lease- Government owned": 28,
+      "Rent/Lease- Privately owned": 61,
+      "Rent free occupied": 231,
+      "Encroached": 20,
+      "Other": 35
+    },
+    "sum_child_values": {
+      "Owned by a household member": 6259,
+      "Rent/Lease- Government owned": 28,
+      "Rent/Lease- Privately owned": 61,
+      "Rent free occupied": 231,
+      "Encroached": 20,
+      "Other": 35
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5112",
+    "parent_values": {
+      "Owned by a household member": 17731,
+      "Rent/Lease- Government owned": 166,
+      "Rent/Lease- Privately owned": 359,
+      "Rent free occupied": 701,
+      "Encroached": 40,
+      "Other": 38
+    },
+    "sum_child_values": {
+      "Owned by a household member": 15590,
+      "Rent/Lease- Government owned": 148,
+      "Rent/Lease- Privately owned": 319,
+      "Rent free occupied": 631,
+      "Encroached": 40,
+      "Other": 32
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5115",
+    "parent_values": {
+      "Owned by a household member": 5390,
+      "Rent/Lease- Government owned": 44,
+      "Rent/Lease- Privately owned": 232,
+      "Rent free occupied": 276,
+      "Encroached": 0,
+      "Other": 34
+    },
+    "sum_child_values": {
+      "Owned by a household member": 4427,
+      "Rent/Lease- Government owned": 33,
+      "Rent/Lease- Privately owned": 158,
+      "Rent free occupied": 180,
+      "Encroached": 0,
+      "Other": 31
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5124",
+    "parent_values": {
+      "Owned by a household member": 9907,
+      "Rent/Lease- Government owned": 109,
+      "Rent/Lease- Privately owned": 307,
+      "Rent free occupied": 556,
+      "Encroached": 2,
+      "Other": 26
+    },
+    "sum_child_values": {
+      "Owned by a household member": 8336,
+      "Rent/Lease- Government owned": 95,
+      "Rent/Lease- Privately owned": 276,
+      "Rent free occupied": 460,
+      "Encroached": 2,
+      "Other": 26
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5133",
+    "parent_values": {
+      "Owned by a household member": 9062,
+      "Rent/Lease- Government owned": 46,
+      "Rent/Lease- Privately owned": 28,
+      "Rent free occupied": 375,
+      "Encroached": 4,
+      "Other": 13
+    },
+    "sum_child_values": {
+      "Owned by a household member": 8874,
+      "Rent/Lease- Government owned": 46,
+      "Rent/Lease- Privately owned": 28,
+      "Rent free occupied": 374,
+      "Encroached": 3,
+      "Other": 13
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5212",
+    "parent_values": {
+      "Owned by a household member": 13932,
+      "Rent/Lease- Government owned": 271,
+      "Rent/Lease- Privately owned": 250,
+      "Rent free occupied": 144,
+      "Encroached": 198,
+      "Other": 188
+    },
+    "sum_child_values": {
+      "Owned by a household member": 13530,
+      "Rent/Lease- Government owned": 268,
+      "Rent/Lease- Privately owned": 247,
+      "Rent free occupied": 143,
+      "Encroached": 192,
+      "Other": 185
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5215",
+    "parent_values": {
+      "Owned by a household member": 9634,
+      "Rent/Lease- Government owned": 555,
+      "Rent/Lease- Privately owned": 457,
+      "Rent free occupied": 207,
+      "Encroached": 90,
+      "Other": 53
+    },
+    "sum_child_values": {
+      "Owned by a household member": 9281,
+      "Rent/Lease- Government owned": 555,
+      "Rent/Lease- Privately owned": 456,
+      "Rent free occupied": 207,
+      "Encroached": 90,
+      "Other": 53
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5221",
+    "parent_values": {
+      "Owned by a household member": 6608,
+      "Rent/Lease- Government owned": 169,
+      "Rent/Lease- Privately owned": 559,
+      "Rent free occupied": 318,
+      "Encroached": 2,
+      "Other": 13
+    },
+    "sum_child_values": {
+      "Owned by a household member": 5721,
+      "Rent/Lease- Government owned": 158,
+      "Rent/Lease- Privately owned": 503,
+      "Rent free occupied": 254,
+      "Encroached": 2,
+      "Other": 13
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5224",
+    "parent_values": {
+      "Owned by a household member": 9875,
+      "Rent/Lease- Government owned": 107,
+      "Rent/Lease- Privately owned": 206,
+      "Rent free occupied": 388,
+      "Encroached": 62,
+      "Other": 20
+    },
+    "sum_child_values": {
+      "Owned by a household member": 8487,
+      "Rent/Lease- Government owned": 103,
+      "Rent/Lease- Privately owned": 194,
+      "Rent free occupied": 360,
+      "Encroached": 62,
+      "Other": 20
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5327",
+    "parent_values": {
+      "Owned by a household member": 12700,
+      "Rent/Lease- Government owned": 132,
+      "Rent/Lease- Privately owned": 557,
+      "Rent free occupied": 1346,
+      "Encroached": 7,
+      "Other": 43
+    },
+    "sum_child_values": {
+      "Owned by a household member": 12468,
+      "Rent/Lease- Government owned": 131,
+      "Rent/Lease- Privately owned": 551,
+      "Rent free occupied": 1329,
+      "Encroached": 7,
+      "Other": 43
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5333",
+    "parent_values": {
+      "Owned by a household member": 372,
+      "Rent/Lease- Government owned": 5,
+      "Rent/Lease- Privately owned": 6,
+      "Rent free occupied": 6,
+      "Encroached": 0,
+      "Other": 0
+    },
+    "sum_child_values": {
+      "Owned by a household member": 987,
+      "Rent/Lease- Government owned": 3,
+      "Rent/Lease- Privately owned": 2,
+      "Rent free occupied": 12,
+      "Encroached": 0,
+      "Other": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6124",
+    "parent_values": {
+      "Owned by a household member": 14413,
+      "Rent/Lease- Government owned": 265,
+      "Rent/Lease- Privately owned": 384,
+      "Rent free occupied": 757,
+      "Encroached": 237,
+      "Other": 92
+    },
+    "sum_child_values": {
+      "Owned by a household member": 13873,
+      "Rent/Lease- Government owned": 263,
+      "Rent/Lease- Privately owned": 380,
+      "Rent free occupied": 755,
+      "Encroached": 207,
+      "Other": 85
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6145",
+    "parent_values": {
+      "Owned by a household member": 15267,
+      "Rent/Lease- Government owned": 86,
+      "Rent/Lease- Privately owned": 314,
+      "Rent free occupied": 1381,
+      "Encroached": 67,
+      "Other": 217
+    },
+    "sum_child_values": {
+      "Owned by a household member": 15921,
+      "Rent/Lease- Government owned": 88,
+      "Rent/Lease- Privately owned": 327,
+      "Rent free occupied": 1381,
+      "Encroached": 67,
+      "Other": 220
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6148",
+    "parent_values": {
+      "Owned by a household member": 8526,
+      "Rent/Lease- Government owned": 33,
+      "Rent/Lease- Privately owned": 140,
+      "Rent free occupied": 520,
+      "Encroached": 11,
+      "Other": 48
+    },
+    "sum_child_values": {
+      "Owned by a household member": 7872,
+      "Rent/Lease- Government owned": 31,
+      "Rent/Lease- Privately owned": 127,
+      "Rent free occupied": 520,
+      "Encroached": 11,
+      "Other": 45
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6218",
+    "parent_values": {
+      "Owned by a household member": 13918,
+      "Rent/Lease- Government owned": 208,
+      "Rent/Lease- Privately owned": 444,
+      "Rent free occupied": 681,
+      "Encroached": 215,
+      "Other": 239
+    },
+    "sum_child_values": {
+      "Owned by a household member": 13663,
+      "Rent/Lease- Government owned": 207,
+      "Rent/Lease- Privately owned": 439,
+      "Rent free occupied": 671,
+      "Encroached": 215,
+      "Other": 239
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6233",
+    "parent_values": {
+      "Owned by a household member": 13610,
+      "Rent/Lease- Government owned": 293,
+      "Rent/Lease- Privately owned": 969,
+      "Rent free occupied": 847,
+      "Encroached": 697,
+      "Other": 192
+    },
+    "sum_child_values": {
+      "Owned by a household member": 13238,
+      "Rent/Lease- Government owned": 277,
+      "Rent/Lease- Privately owned": 926,
+      "Rent free occupied": 841,
+      "Encroached": 697,
+      "Other": 187
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-7127",
+    "parent_values": {
+      "Owned by a household member": 11772,
+      "Rent/Lease- Government owned": 87,
+      "Rent/Lease- Privately owned": 119,
+      "Rent free occupied": 332,
+      "Encroached": 233,
+      "Other": 136
+    },
+    "sum_child_values": {
+      "Owned by a household member": 11446,
+      "Rent/Lease- Government owned": 83,
+      "Rent/Lease- Privately owned": 116,
+      "Rent free occupied": 331,
+      "Encroached": 231,
+      "Other": 126
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-7133",
+    "parent_values": {
+      "Owned by a household member": 14522,
+      "Rent/Lease- Government owned": 1010,
+      "Rent/Lease- Privately owned": 1323,
+      "Rent free occupied": 377,
+      "Encroached": 348,
+      "Other": 109
+    },
+    "sum_child_values": {
+      "Owned by a household member": 13869,
+      "Rent/Lease- Government owned": 937,
+      "Rent/Lease- Privately owned": 1242,
+      "Rent free occupied": 363,
+      "Encroached": 344,
+      "Other": 107
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-8124",
+    "parent_values": {
+      "Owned by a household member": 15361,
+      "Rent/Lease- Government owned": 327,
+      "Rent/Lease- Privately owned": 860,
+      "Rent free occupied": 6276,
+      "Encroached": 1068,
+      "Other": 165
+    },
+    "sum_child_values": {
+      "Owned by a household member": 14822,
+      "Rent/Lease- Government owned": 322,
+      "Rent/Lease- Privately owned": 828,
+      "Rent free occupied": 6212,
+      "Encroached": 1068,
+      "Other": 158
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-8215",
+    "parent_values": {
+      "Owned by a household member": 454,
+      "Rent/Lease- Government owned": 41,
+      "Rent/Lease- Privately owned": 57,
+      "Rent free occupied": 14,
+      "Encroached": 7,
+      "Other": 6
+    },
+    "sum_child_values": {
+      "Owned by a household member": 10388,
+      "Rent/Lease- Government owned": 606,
+      "Rent/Lease- Privately owned": 483,
+      "Rent free occupied": 357,
+      "Encroached": 264,
+      "Other": 67
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-9118",
+    "parent_values": {
+      "Owned by a household member": 17924,
+      "Rent/Lease- Government owned": 417,
+      "Rent/Lease- Privately owned": 1270,
+      "Rent free occupied": 1431,
+      "Encroached": 551,
+      "Other": 156
+    },
+    "sum_child_values": {
+      "Owned by a household member": 10709,
+      "Rent/Lease- Government owned": 172,
+      "Rent/Lease- Privately owned": 672,
+      "Rent free occupied": 1229,
+      "Encroached": 161,
+      "Other": 98
+    }
+  }
+]

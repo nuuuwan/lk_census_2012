@@ -1,0 +1,822 @@
+[
+  {
+    "validation": "ent_coverage",
+    "ent_type_name": "dsd",
+    "missing_ent_ids": [
+      "LK-2307",
+      "LK-3137",
+      "LK-2310",
+      "LK-9119",
+      "LK-3128",
+      "LK-3135",
+      "LK-2314",
+      "LK-2302",
+      "LK-2313"
+    ]
+  },
+  {
+    "validation": "ent_coverage",
+    "ent_type_name": "gnd",
+    "missing_ent_ids": [
+      "LK-5224005",
+      "LK-5327010",
+      "LK-5104013",
+      "LK-3127175",
+      "LK-8215055",
+      "LK-3127220",
+      "LK-5221095",
+      "LK-1306275",
+      "LK-9118205",
+      "LK-4112175",
+      "LK-3124020",
+      "LK-5124009",
+      "LK-7127130",
+      "LK-4130005",
+      "LK-1209415",
+      "LK-5112210",
+      "LK-6124215",
+      "LK-5333005",
+      "LK-6218135",
+      "LK-8124160",
+      "LK-4506005",
+      "LK-5327005",
+      "LK-2203155",
+      "LK-4112110",
+      "LK-5333010",
+      "LK-5112215",
+      "LK-5124030",
+      "LK-5112235",
+      "LK-4130155",
+      "LK-5133019",
+      "LK-4124090",
+      "LK-5215110",
+      "LK-9119060",
+      "LK-5333030",
+      "LK-5112230",
+      "LK-4112205",
+      "LK-5221100",
+      "LK-5109022",
+      "LK-4112150",
+      "LK-3127165",
+      "LK-5112200",
+      "LK-5109065",
+      "LK-5327185",
+      "LK-4409020",
+      "LK-5136230",
+      "LK-2309380",
+      "LK-5224050",
+      "LK-1339265",
+      "LK-4112190",
+      "LK-6124225",
+      "LK-4133055",
+      "LK-7210065",
+      "LK-5333035",
+      "LK-5218090",
+      "LK-5115015",
+      "LK-4112200",
+      "LK-5127018",
+      "LK-5112014",
+      "LK-4512020",
+      "LK-4112225",
+      "LK-9118195",
+      "LK-9118200",
+      "LK-5112016",
+      "LK-5104055",
+      "LK-5104005",
+      "LK-1227590",
+      "LK-5218025",
+      "LK-5112006",
+      "LK-2203295",
+      "LK-5112115",
+      "LK-9118190",
+      "LK-5109012",
+      "LK-6233095",
+      "LK-5221050",
+      "LK-5333015",
+      "LK-7118190",
+      "LK-4503015",
+      "LK-2203160",
+      "LK-4112220",
+      "LK-5109021",
+      "LK-4503090",
+      "LK-7133080",
+      "LK-4415015",
+      "LK-5104004",
+      "LK-4112215",
+      "LK-5315010",
+      "LK-5104003",
+      "LK-4112185",
+      "LK-5110025",
+      "LK-5136235",
+      "LK-4124030",
+      "LK-4133065",
+      "LK-5212205",
+      "LK-9118185",
+      "LK-5124065",
+      "LK-9118175",
+      "LK-5110020",
+      "LK-4409035",
+      "LK-4112145",
+      "LK-5224065",
+      "LK-9118165",
+      "LK-5333020",
+      "LK-4409005",
+      "LK-4415155",
+      "LK-4112195",
+      "LK-5333025",
+      "LK-5124017",
+      "LK-9118180",
+      "LK-5133060",
+      "LK-4503045",
+      "LK-4112180",
+      "LK-5124070",
+      "LK-5218030",
+      "LK-3248160",
+      "LK-9118170",
+      "LK-5130011",
+      "LK-4112155",
+      "LK-5224055",
+      "LK-4112210",
+      "LK-4112120",
+      "LK-5224060",
+      "LK-4409040",
+      "LK-5112120",
+      "LK-1339260",
+      "LK-6124210",
+      "LK-4409050",
+      "LK-5327020"
+    ]
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-53",
+    "parent_values": {
+      "Permanent": 78823,
+      "Semi-permanent": 14898,
+      "Improvised": 1956,
+      "Un-classified": 2
+    },
+    "sum_child_values": {
+      "Permanent": 77022,
+      "Semi-permanent": 14215,
+      "Improvised": 1894,
+      "Un-classified": 2
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-82",
+    "parent_values": {
+      "Permanent": 83368,
+      "Semi-permanent": 35880,
+      "Improvised": 241,
+      "Un-classified": 14
+    },
+    "sum_child_values": {
+      "Permanent": 75284,
+      "Semi-permanent": 31879,
+      "Improvised": 225,
+      "Un-classified": 14
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1209",
+    "parent_values": {
+      "Permanent": 34363,
+      "Semi-permanent": 4066,
+      "Improvised": 298,
+      "Un-classified": 0
+    },
+    "sum_child_values": {
+      "Permanent": 33828,
+      "Semi-permanent": 4031,
+      "Improvised": 297,
+      "Un-classified": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1227",
+    "parent_values": {
+      "Permanent": 39713,
+      "Semi-permanent": 5083,
+      "Improvised": 128,
+      "Un-classified": 0
+    },
+    "sum_child_values": {
+      "Permanent": 39166,
+      "Semi-permanent": 5065,
+      "Improvised": 128,
+      "Un-classified": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1306",
+    "parent_values": {
+      "Permanent": 25482,
+      "Semi-permanent": 1404,
+      "Improvised": 62,
+      "Un-classified": 0
+    },
+    "sum_child_values": {
+      "Permanent": 25269,
+      "Semi-permanent": 1403,
+      "Improvised": 62,
+      "Un-classified": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1339",
+    "parent_values": {
+      "Permanent": 12401,
+      "Semi-permanent": 2141,
+      "Improvised": 20,
+      "Un-classified": 0
+    },
+    "sum_child_values": {
+      "Permanent": 12037,
+      "Semi-permanent": 1975,
+      "Improvised": 18,
+      "Un-classified": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2203",
+    "parent_values": {
+      "Permanent": 14988,
+      "Semi-permanent": 3994,
+      "Improvised": 71,
+      "Un-classified": 0
+    },
+    "sum_child_values": {
+      "Permanent": 14373,
+      "Semi-permanent": 3745,
+      "Improvised": 65,
+      "Un-classified": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2303",
+    "parent_values": {
+      "Permanent": 9570,
+      "Semi-permanent": 15703,
+      "Improvised": 205,
+      "Un-classified": 4
+    },
+    "sum_child_values": {
+      "Permanent": 3972,
+      "Semi-permanent": 11225,
+      "Improvised": 130,
+      "Un-classified": 4
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2306",
+    "parent_values": {
+      "Permanent": 15552,
+      "Semi-permanent": 8265,
+      "Improvised": 55,
+      "Un-classified": 0
+    },
+    "sum_child_values": {
+      "Permanent": 10434,
+      "Semi-permanent": 4541,
+      "Improvised": 26,
+      "Un-classified": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2309",
+    "parent_values": {
+      "Permanent": 11388,
+      "Semi-permanent": 16052,
+      "Improvised": 133,
+      "Un-classified": 31
+    },
+    "sum_child_values": {
+      "Permanent": 6296,
+      "Semi-permanent": 9149,
+      "Improvised": 89,
+      "Un-classified": 9
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2312",
+    "parent_values": {
+      "Permanent": 12989,
+      "Semi-permanent": 37285,
+      "Improvised": 921,
+      "Un-classified": 43
+    },
+    "sum_child_values": {
+      "Permanent": 6328,
+      "Semi-permanent": 14376,
+      "Improvised": 860,
+      "Un-classified": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2315",
+    "parent_values": {
+      "Permanent": 19056,
+      "Semi-permanent": 31015,
+      "Improvised": 157,
+      "Un-classified": 16
+    },
+    "sum_child_values": {
+      "Permanent": 7385,
+      "Semi-permanent": 4254,
+      "Improvised": 72,
+      "Un-classified": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3124",
+    "parent_values": {
+      "Permanent": 11893,
+      "Semi-permanent": 2465,
+      "Improvised": 35,
+      "Un-classified": 0
+    },
+    "sum_child_values": {
+      "Permanent": 11682,
+      "Semi-permanent": 2442,
+      "Improvised": 34,
+      "Un-classified": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3127",
+    "parent_values": {
+      "Permanent": 16715,
+      "Semi-permanent": 2788,
+      "Improvised": 87,
+      "Un-classified": 0
+    },
+    "sum_child_values": {
+      "Permanent": 10009,
+      "Semi-permanent": 1540,
+      "Improvised": 61,
+      "Un-classified": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3136",
+    "parent_values": {
+      "Permanent": 23141,
+      "Semi-permanent": 2078,
+      "Improvised": 62,
+      "Un-classified": 1
+    },
+    "sum_child_values": {
+      "Permanent": 6416,
+      "Semi-permanent": 617,
+      "Improvised": 15,
+      "Un-classified": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3248",
+    "parent_values": {
+      "Permanent": 12129,
+      "Semi-permanent": 1154,
+      "Improvised": 47,
+      "Un-classified": 0
+    },
+    "sum_child_values": {
+      "Permanent": 11886,
+      "Semi-permanent": 1130,
+      "Improvised": 47,
+      "Un-classified": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4130",
+    "parent_values": {
+      "Permanent": 12395,
+      "Semi-permanent": 2866,
+      "Improvised": 750,
+      "Un-classified": 5
+    },
+    "sum_child_values": {
+      "Permanent": 11969,
+      "Semi-permanent": 2818,
+      "Improvised": 742,
+      "Un-classified": 5
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4133",
+    "parent_values": {
+      "Permanent": 14515,
+      "Semi-permanent": 1380,
+      "Improvised": 142,
+      "Un-classified": 30
+    },
+    "sum_child_values": {
+      "Permanent": 13609,
+      "Semi-permanent": 1328,
+      "Improvised": 140,
+      "Un-classified": 29
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4415",
+    "parent_values": {
+      "Permanent": 3375,
+      "Semi-permanent": 3567,
+      "Improvised": 734,
+      "Un-classified": 1
+    },
+    "sum_child_values": {
+      "Permanent": 3375,
+      "Semi-permanent": 3548,
+      "Improvised": 721,
+      "Un-classified": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5110",
+    "parent_values": {
+      "Permanent": 3519,
+      "Semi-permanent": 1964,
+      "Improvised": 1250,
+      "Un-classified": 0
+    },
+    "sum_child_values": {
+      "Permanent": 3519,
+      "Semi-permanent": 1946,
+      "Improvised": 1144,
+      "Un-classified": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5112",
+    "parent_values": {
+      "Permanent": 13066,
+      "Semi-permanent": 3990,
+      "Improvised": 1873,
+      "Un-classified": 0
+    },
+    "sum_child_values": {
+      "Permanent": 11163,
+      "Semi-permanent": 3772,
+      "Improvised": 1729,
+      "Un-classified": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5115",
+    "parent_values": {
+      "Permanent": 5374,
+      "Semi-permanent": 433,
+      "Improvised": 134,
+      "Un-classified": 0
+    },
+    "sum_child_values": {
+      "Permanent": 4386,
+      "Semi-permanent": 321,
+      "Improvised": 104,
+      "Un-classified": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5124",
+    "parent_values": {
+      "Permanent": 9980,
+      "Semi-permanent": 779,
+      "Improvised": 80,
+      "Un-classified": 0
+    },
+    "sum_child_values": {
+      "Permanent": 7201,
+      "Semi-permanent": 433,
+      "Improvised": 55,
+      "Un-classified": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5133",
+    "parent_values": {
+      "Permanent": 6344,
+      "Semi-permanent": 2882,
+      "Improvised": 172,
+      "Un-classified": 32
+    },
+    "sum_child_values": {
+      "Permanent": 6234,
+      "Semi-permanent": 2807,
+      "Improvised": 167,
+      "Un-classified": 32
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5212",
+    "parent_values": {
+      "Permanent": 11183,
+      "Semi-permanent": 3728,
+      "Improvised": 28,
+      "Un-classified": 0
+    },
+    "sum_child_values": {
+      "Permanent": 10884,
+      "Semi-permanent": 3612,
+      "Improvised": 27,
+      "Un-classified": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5215",
+    "parent_values": {
+      "Permanent": 8521,
+      "Semi-permanent": 2390,
+      "Improvised": 29,
+      "Un-classified": 0
+    },
+    "sum_child_values": {
+      "Permanent": 8299,
+      "Semi-permanent": 2259,
+      "Improvised": 28,
+      "Un-classified": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5218",
+    "parent_values": {
+      "Permanent": 13399,
+      "Semi-permanent": 1249,
+      "Improvised": 134,
+      "Un-classified": 48
+    },
+    "sum_child_values": {
+      "Permanent": 12971,
+      "Semi-permanent": 1240,
+      "Improvised": 134,
+      "Un-classified": 48
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5221",
+    "parent_values": {
+      "Permanent": 6979,
+      "Semi-permanent": 547,
+      "Improvised": 40,
+      "Un-classified": 41
+    },
+    "sum_child_values": {
+      "Permanent": 6065,
+      "Semi-permanent": 472,
+      "Improvised": 34,
+      "Un-classified": 37
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5224",
+    "parent_values": {
+      "Permanent": 9878,
+      "Semi-permanent": 411,
+      "Improvised": 39,
+      "Un-classified": 14
+    },
+    "sum_child_values": {
+      "Permanent": 8556,
+      "Semi-permanent": 331,
+      "Improvised": 29,
+      "Un-classified": 11
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5327",
+    "parent_values": {
+      "Permanent": 10427,
+      "Semi-permanent": 3236,
+      "Improvised": 1039,
+      "Un-classified": 0
+    },
+    "sum_child_values": {
+      "Permanent": 10280,
+      "Semi-permanent": 3133,
+      "Improvised": 1034,
+      "Un-classified": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5333",
+    "parent_values": {
+      "Permanent": 263,
+      "Semi-permanent": 115,
+      "Improvised": 9,
+      "Un-classified": 0
+    },
+    "sum_child_values": {
+      "Permanent": 758,
+      "Semi-permanent": 215,
+      "Improvised": 27,
+      "Un-classified": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6124",
+    "parent_values": {
+      "Permanent": 13061,
+      "Semi-permanent": 2864,
+      "Improvised": 34,
+      "Un-classified": 40
+    },
+    "sum_child_values": {
+      "Permanent": 12581,
+      "Semi-permanent": 2765,
+      "Improvised": 34,
+      "Un-classified": 39
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6145",
+    "parent_values": {
+      "Permanent": 15461,
+      "Semi-permanent": 1643,
+      "Improvised": 151,
+      "Un-classified": 0
+    },
+    "sum_child_values": {
+      "Permanent": 16017,
+      "Semi-permanent": 1755,
+      "Improvised": 151,
+      "Un-classified": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6148",
+    "parent_values": {
+      "Permanent": 8020,
+      "Semi-permanent": 1142,
+      "Improvised": 72,
+      "Un-classified": 0
+    },
+    "sum_child_values": {
+      "Permanent": 7464,
+      "Semi-permanent": 1030,
+      "Improvised": 72,
+      "Un-classified": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6218",
+    "parent_values": {
+      "Permanent": 11368,
+      "Semi-permanent": 3648,
+      "Improvised": 374,
+      "Un-classified": 0
+    },
+    "sum_child_values": {
+      "Permanent": 11152,
+      "Semi-permanent": 3609,
+      "Improvised": 365,
+      "Un-classified": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6233",
+    "parent_values": {
+      "Permanent": 13601,
+      "Semi-permanent": 2557,
+      "Improvised": 330,
+      "Un-classified": 0
+    },
+    "sum_child_values": {
+      "Permanent": 13180,
+      "Semi-permanent": 2537,
+      "Improvised": 330,
+      "Un-classified": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-7118",
+    "parent_values": {
+      "Permanent": 7831,
+      "Semi-permanent": 1919,
+      "Improvised": 13,
+      "Un-classified": 1
+    },
+    "sum_child_values": {
+      "Permanent": 7641,
+      "Semi-permanent": 1858,
+      "Improvised": 13,
+      "Un-classified": 1
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-7127",
+    "parent_values": {
+      "Permanent": 10567,
+      "Semi-permanent": 2015,
+      "Improvised": 8,
+      "Un-classified": 0
+    },
+    "sum_child_values": {
+      "Permanent": 10254,
+      "Semi-permanent": 1990,
+      "Improvised": 7,
+      "Un-classified": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-7133",
+    "parent_values": {
+      "Permanent": 16535,
+      "Semi-permanent": 976,
+      "Improvised": 23,
+      "Un-classified": 0
+    },
+    "sum_child_values": {
+      "Permanent": 15755,
+      "Semi-permanent": 950,
+      "Improvised": 20,
+      "Un-classified": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-8124",
+    "parent_values": {
+      "Permanent": 14577,
+      "Semi-permanent": 8914,
+      "Improvised": 39,
+      "Un-classified": 0
+    },
+    "sum_child_values": {
+      "Permanent": 14058,
+      "Semi-permanent": 8793,
+      "Improvised": 39,
+      "Un-classified": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-8215",
+    "parent_values": {
+      "Permanent": 444,
+      "Semi-permanent": 126,
+      "Improvised": 6,
+      "Un-classified": 0
+    },
+    "sum_child_values": {
+      "Permanent": 8084,
+      "Semi-permanent": 4001,
+      "Improvised": 16,
+      "Un-classified": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-9118",
+    "parent_values": {
+      "Permanent": 16373,
+      "Semi-permanent": 5177,
+      "Improvised": 51,
+      "Un-classified": 0
+    },
+    "sum_child_values": {
+      "Permanent": 9438,
+      "Semi-permanent": 3476,
+      "Improvised": 21,
+      "Un-classified": 0
+    }
+  }
+]

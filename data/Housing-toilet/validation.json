@@ -1,0 +1,1011 @@
+[
+  {
+    "validation": "ent_coverage",
+    "ent_type_name": "dsd",
+    "missing_ent_ids": [
+      "LK-2307",
+      "LK-3137",
+      "LK-2310",
+      "LK-9119",
+      "LK-3128",
+      "LK-3135",
+      "LK-2314",
+      "LK-2302",
+      "LK-2313"
+    ]
+  },
+  {
+    "validation": "ent_coverage",
+    "ent_type_name": "gnd",
+    "missing_ent_ids": [
+      "LK-5224005",
+      "LK-5327010",
+      "LK-5104013",
+      "LK-3127175",
+      "LK-8215055",
+      "LK-3127220",
+      "LK-5221095",
+      "LK-1306275",
+      "LK-9118205",
+      "LK-4112175",
+      "LK-3124020",
+      "LK-5124009",
+      "LK-7127130",
+      "LK-4130005",
+      "LK-1209415",
+      "LK-5112210",
+      "LK-6124215",
+      "LK-5333005",
+      "LK-6218135",
+      "LK-1212370",
+      "LK-4506005",
+      "LK-8124160",
+      "LK-5327005",
+      "LK-2203155",
+      "LK-4112110",
+      "LK-5333010",
+      "LK-5112215",
+      "LK-5124030",
+      "LK-5112235",
+      "LK-4130155",
+      "LK-5133019",
+      "LK-4124090",
+      "LK-5215110",
+      "LK-9119060",
+      "LK-5333030",
+      "LK-5112230",
+      "LK-4112205",
+      "LK-5221100",
+      "LK-5109022",
+      "LK-4112150",
+      "LK-3127165",
+      "LK-5112200",
+      "LK-5109065",
+      "LK-5327185",
+      "LK-4409020",
+      "LK-5136230",
+      "LK-2309380",
+      "LK-5224050",
+      "LK-1339265",
+      "LK-4112190",
+      "LK-6124225",
+      "LK-4133055",
+      "LK-7210065",
+      "LK-5333035",
+      "LK-5218090",
+      "LK-5115015",
+      "LK-4112200",
+      "LK-5127018",
+      "LK-5112014",
+      "LK-4512020",
+      "LK-4112225",
+      "LK-9118195",
+      "LK-9118200",
+      "LK-5112016",
+      "LK-5104055",
+      "LK-5104005",
+      "LK-1227590",
+      "LK-5218025",
+      "LK-5112006",
+      "LK-2203295",
+      "LK-5112115",
+      "LK-9118190",
+      "LK-5109012",
+      "LK-6233095",
+      "LK-5221050",
+      "LK-5333015",
+      "LK-7118190",
+      "LK-4503015",
+      "LK-2203160",
+      "LK-4112220",
+      "LK-5109021",
+      "LK-4503090",
+      "LK-7133080",
+      "LK-4415015",
+      "LK-5104004",
+      "LK-4112215",
+      "LK-5315010",
+      "LK-5104003",
+      "LK-4112185",
+      "LK-5110025",
+      "LK-5136235",
+      "LK-4124030",
+      "LK-4133065",
+      "LK-5212205",
+      "LK-9118185",
+      "LK-5124065",
+      "LK-9118175",
+      "LK-5110020",
+      "LK-4409035",
+      "LK-4112145",
+      "LK-5224065",
+      "LK-9118165",
+      "LK-5333020",
+      "LK-4409005",
+      "LK-4415155",
+      "LK-4112195",
+      "LK-5333025",
+      "LK-5124017",
+      "LK-9118180",
+      "LK-5133060",
+      "LK-4503045",
+      "LK-4112180",
+      "LK-5124070",
+      "LK-5218030",
+      "LK-3248160",
+      "LK-9118170",
+      "LK-5130011",
+      "LK-4112155",
+      "LK-5224055",
+      "LK-4112210",
+      "LK-4112120",
+      "LK-5224060",
+      "LK-4409040",
+      "LK-5112120",
+      "LK-1339260",
+      "LK-6124210",
+      "LK-4409050",
+      "LK-5327020"
+    ]
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-53",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 83647,
+      "Water seal and connected to a piped sewer system": 2656,
+      "Pour flush toilet (Not water seal)": 4406,
+      "Direct pit": 2526,
+      "Other": 75,
+      "Not using a toilet": 3641
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 81288,
+      "Water seal and connected to a piped sewer system": 2640,
+      "Pour flush toilet (Not water seal)": 4293,
+      "Direct pit": 2526,
+      "Other": 74,
+      "Not using a toilet": 3571
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-82",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 102560,
+      "Water seal and connected to a piped sewer system": 4331,
+      "Pour flush toilet (Not water seal)": 2248,
+      "Direct pit": 8610,
+      "Other": 72,
+      "Not using a toilet": 2316
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 92059,
+      "Water seal and connected to a piped sewer system": 3961,
+      "Pour flush toilet (Not water seal)": 2040,
+      "Direct pit": 7915,
+      "Other": 65,
+      "Not using a toilet": 1932
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1209",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 37366,
+      "Water seal and connected to a piped sewer system": 706,
+      "Pour flush toilet (Not water seal)": 460,
+      "Direct pit": 228,
+      "Other": 9,
+      "Not using a toilet": 72
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 36802,
+      "Water seal and connected to a piped sewer system": 701,
+      "Pour flush toilet (Not water seal)": 460,
+      "Direct pit": 225,
+      "Other": 8,
+      "Not using a toilet": 71
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1212",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 40883,
+      "Water seal and connected to a piped sewer system": 1235,
+      "Pour flush toilet (Not water seal)": 274,
+      "Direct pit": 648,
+      "Other": 17,
+      "Not using a toilet": 113
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 40643,
+      "Water seal and connected to a piped sewer system": 1235,
+      "Pour flush toilet (Not water seal)": 274,
+      "Direct pit": 642,
+      "Other": 17,
+      "Not using a toilet": 113
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1227",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 43474,
+      "Water seal and connected to a piped sewer system": 939,
+      "Pour flush toilet (Not water seal)": 287,
+      "Direct pit": 460,
+      "Other": 10,
+      "Not using a toilet": 43
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 42910,
+      "Water seal and connected to a piped sewer system": 935,
+      "Pour flush toilet (Not water seal)": 287,
+      "Direct pit": 458,
+      "Other": 10,
+      "Not using a toilet": 43
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1306",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 26266,
+      "Water seal and connected to a piped sewer system": 612,
+      "Pour flush toilet (Not water seal)": 201,
+      "Direct pit": 169,
+      "Other": 0,
+      "Not using a toilet": 15
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 26046,
+      "Water seal and connected to a piped sewer system": 611,
+      "Pour flush toilet (Not water seal)": 201,
+      "Direct pit": 168,
+      "Other": 0,
+      "Not using a toilet": 15
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1339",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 14116,
+      "Water seal and connected to a piped sewer system": 264,
+      "Pour flush toilet (Not water seal)": 49,
+      "Direct pit": 131,
+      "Other": 0,
+      "Not using a toilet": 99
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 13598,
+      "Water seal and connected to a piped sewer system": 262,
+      "Pour flush toilet (Not water seal)": 47,
+      "Direct pit": 122,
+      "Other": 0,
+      "Not using a toilet": 97
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2203",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 15680,
+      "Water seal and connected to a piped sewer system": 865,
+      "Pour flush toilet (Not water seal)": 427,
+      "Direct pit": 2064,
+      "Other": 19,
+      "Not using a toilet": 114
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 14969,
+      "Water seal and connected to a piped sewer system": 852,
+      "Pour flush toilet (Not water seal)": 412,
+      "Direct pit": 1935,
+      "Other": 19,
+      "Not using a toilet": 110
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2303",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 20352,
+      "Water seal and connected to a piped sewer system": 1149,
+      "Pour flush toilet (Not water seal)": 1433,
+      "Direct pit": 1568,
+      "Other": 22,
+      "Not using a toilet": 1363
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 11409,
+      "Water seal and connected to a piped sewer system": 766,
+      "Pour flush toilet (Not water seal)": 1079,
+      "Direct pit": 1112,
+      "Other": 20,
+      "Not using a toilet": 1207
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2306",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 21587,
+      "Water seal and connected to a piped sewer system": 679,
+      "Pour flush toilet (Not water seal)": 962,
+      "Direct pit": 750,
+      "Other": 3,
+      "Not using a toilet": 269
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 13608,
+      "Water seal and connected to a piped sewer system": 486,
+      "Pour flush toilet (Not water seal)": 431,
+      "Direct pit": 501,
+      "Other": 2,
+      "Not using a toilet": 174
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2309",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 22692,
+      "Water seal and connected to a piped sewer system": 850,
+      "Pour flush toilet (Not water seal)": 2439,
+      "Direct pit": 1325,
+      "Other": 15,
+      "Not using a toilet": 771
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 13608,
+      "Water seal and connected to a piped sewer system": 484,
+      "Pour flush toilet (Not water seal)": 501,
+      "Direct pit": 626,
+      "Other": 5,
+      "Not using a toilet": 575
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2312",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 40956,
+      "Water seal and connected to a piped sewer system": 3403,
+      "Pour flush toilet (Not water seal)": 2144,
+      "Direct pit": 3434,
+      "Other": 54,
+      "Not using a toilet": 2151
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 18101,
+      "Water seal and connected to a piped sewer system": 1476,
+      "Pour flush toilet (Not water seal)": 588,
+      "Direct pit": 1320,
+      "Other": 16,
+      "Not using a toilet": 445
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2315",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 39086,
+      "Water seal and connected to a piped sewer system": 3171,
+      "Pour flush toilet (Not water seal)": 2615,
+      "Direct pit": 3379,
+      "Other": 54,
+      "Not using a toilet": 2506
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 11179,
+      "Water seal and connected to a piped sewer system": 160,
+      "Pour flush toilet (Not water seal)": 33,
+      "Direct pit": 259,
+      "Other": 2,
+      "Not using a toilet": 190
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3124",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 13285,
+      "Water seal and connected to a piped sewer system": 461,
+      "Pour flush toilet (Not water seal)": 316,
+      "Direct pit": 314,
+      "Other": 5,
+      "Not using a toilet": 41
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 13056,
+      "Water seal and connected to a piped sewer system": 461,
+      "Pour flush toilet (Not water seal)": 314,
+      "Direct pit": 311,
+      "Other": 5,
+      "Not using a toilet": 40
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3127",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 18514,
+      "Water seal and connected to a piped sewer system": 534,
+      "Pour flush toilet (Not water seal)": 219,
+      "Direct pit": 356,
+      "Other": 4,
+      "Not using a toilet": 45
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 10788,
+      "Water seal and connected to a piped sewer system": 459,
+      "Pour flush toilet (Not water seal)": 124,
+      "Direct pit": 239,
+      "Other": 3,
+      "Not using a toilet": 31
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3136",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 23165,
+      "Water seal and connected to a piped sewer system": 692,
+      "Pour flush toilet (Not water seal)": 815,
+      "Direct pit": 754,
+      "Other": 4,
+      "Not using a toilet": 114
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 6673,
+      "Water seal and connected to a piped sewer system": 183,
+      "Pour flush toilet (Not water seal)": 268,
+      "Direct pit": 18,
+      "Other": 1,
+      "Not using a toilet": 12
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3248",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 13174,
+      "Water seal and connected to a piped sewer system": 27,
+      "Pour flush toilet (Not water seal)": 55,
+      "Direct pit": 190,
+      "Other": 6,
+      "Not using a toilet": 32
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 12897,
+      "Water seal and connected to a piped sewer system": 27,
+      "Pour flush toilet (Not water seal)": 55,
+      "Direct pit": 190,
+      "Other": 5,
+      "Not using a toilet": 32
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4130",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 13313,
+      "Water seal and connected to a piped sewer system": 332,
+      "Pour flush toilet (Not water seal)": 629,
+      "Direct pit": 133,
+      "Other": 11,
+      "Not using a toilet": 1780
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 12851,
+      "Water seal and connected to a piped sewer system": 314,
+      "Pour flush toilet (Not water seal)": 629,
+      "Direct pit": 131,
+      "Other": 10,
+      "Not using a toilet": 1778
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4133",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 15111,
+      "Water seal and connected to a piped sewer system": 246,
+      "Pour flush toilet (Not water seal)": 611,
+      "Direct pit": 365,
+      "Other": 3,
+      "Not using a toilet": 140
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 14323,
+      "Water seal and connected to a piped sewer system": 235,
+      "Pour flush toilet (Not water seal)": 611,
+      "Direct pit": 160,
+      "Other": 3,
+      "Not using a toilet": 139
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4415",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 5352,
+      "Water seal and connected to a piped sewer system": 369,
+      "Pour flush toilet (Not water seal)": 491,
+      "Direct pit": 64,
+      "Other": 5,
+      "Not using a toilet": 1526
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 5352,
+      "Water seal and connected to a piped sewer system": 369,
+      "Pour flush toilet (Not water seal)": 491,
+      "Direct pit": 64,
+      "Other": 5,
+      "Not using a toilet": 1493
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5110",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 3813,
+      "Water seal and connected to a piped sewer system": 58,
+      "Pour flush toilet (Not water seal)": 247,
+      "Direct pit": 36,
+      "Other": 26,
+      "Not using a toilet": 2580
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 3805,
+      "Water seal and connected to a piped sewer system": 58,
+      "Pour flush toilet (Not water seal)": 247,
+      "Direct pit": 35,
+      "Other": 26,
+      "Not using a toilet": 2463
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5112",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 14538,
+      "Water seal and connected to a piped sewer system": 187,
+      "Pour flush toilet (Not water seal)": 539,
+      "Direct pit": 175,
+      "Other": 10,
+      "Not using a toilet": 3586
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 12299,
+      "Water seal and connected to a piped sewer system": 187,
+      "Pour flush toilet (Not water seal)": 539,
+      "Direct pit": 174,
+      "Other": 7,
+      "Not using a toilet": 3554
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5115",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 5695,
+      "Water seal and connected to a piped sewer system": 134,
+      "Pour flush toilet (Not water seal)": 113,
+      "Direct pit": 12,
+      "Other": 6,
+      "Not using a toilet": 16
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 4672,
+      "Water seal and connected to a piped sewer system": 121,
+      "Pour flush toilet (Not water seal)": 6,
+      "Direct pit": 8,
+      "Other": 6,
+      "Not using a toilet": 16
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5124",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 10709,
+      "Water seal and connected to a piped sewer system": 152,
+      "Pour flush toilet (Not water seal)": 14,
+      "Direct pit": 9,
+      "Other": 6,
+      "Not using a toilet": 17
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 7559,
+      "Water seal and connected to a piped sewer system": 143,
+      "Pour flush toilet (Not water seal)": 13,
+      "Direct pit": 7,
+      "Other": 5,
+      "Not using a toilet": 14
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5133",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 6932,
+      "Water seal and connected to a piped sewer system": 185,
+      "Pour flush toilet (Not water seal)": 275,
+      "Direct pit": 43,
+      "Other": 0,
+      "Not using a toilet": 2093
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 6801,
+      "Water seal and connected to a piped sewer system": 185,
+      "Pour flush toilet (Not water seal)": 275,
+      "Direct pit": 43,
+      "Other": 0,
+      "Not using a toilet": 2034
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5212",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 13347,
+      "Water seal and connected to a piped sewer system": 227,
+      "Pour flush toilet (Not water seal)": 234,
+      "Direct pit": 679,
+      "Other": 8,
+      "Not using a toilet": 488
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 13014,
+      "Water seal and connected to a piped sewer system": 175,
+      "Pour flush toilet (Not water seal)": 234,
+      "Direct pit": 655,
+      "Other": 8,
+      "Not using a toilet": 479
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5215",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 9770,
+      "Water seal and connected to a piped sewer system": 479,
+      "Pour flush toilet (Not water seal)": 131,
+      "Direct pit": 412,
+      "Other": 1,
+      "Not using a toilet": 203
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 9482,
+      "Water seal and connected to a piped sewer system": 479,
+      "Pour flush toilet (Not water seal)": 124,
+      "Direct pit": 358,
+      "Other": 1,
+      "Not using a toilet": 198
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5218",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 11288,
+      "Water seal and connected to a piped sewer system": 647,
+      "Pour flush toilet (Not water seal)": 1752,
+      "Direct pit": 972,
+      "Other": 30,
+      "Not using a toilet": 395
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 10833,
+      "Water seal and connected to a piped sewer system": 646,
+      "Pour flush toilet (Not water seal)": 1752,
+      "Direct pit": 972,
+      "Other": 30,
+      "Not using a toilet": 394
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5221",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 7113,
+      "Water seal and connected to a piped sewer system": 141,
+      "Pour flush toilet (Not water seal)": 352,
+      "Direct pit": 50,
+      "Other": 1,
+      "Not using a toilet": 12
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 6099,
+      "Water seal and connected to a piped sewer system": 139,
+      "Pour flush toilet (Not water seal)": 351,
+      "Direct pit": 50,
+      "Other": 0,
+      "Not using a toilet": 12
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5224",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 10005,
+      "Water seal and connected to a piped sewer system": 284,
+      "Pour flush toilet (Not water seal)": 234,
+      "Direct pit": 70,
+      "Other": 2,
+      "Not using a toilet": 63
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 8827,
+      "Water seal and connected to a piped sewer system": 282,
+      "Pour flush toilet (Not water seal)": 17,
+      "Direct pit": 67,
+      "Other": 2,
+      "Not using a toilet": 31
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5327",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 13117,
+      "Water seal and connected to a piped sewer system": 379,
+      "Pour flush toilet (Not water seal)": 559,
+      "Direct pit": 132,
+      "Other": 11,
+      "Not using a toilet": 587
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 12862,
+      "Water seal and connected to a piped sewer system": 378,
+      "Pour flush toilet (Not water seal)": 559,
+      "Direct pit": 132,
+      "Other": 11,
+      "Not using a toilet": 587
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5333",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 357,
+      "Water seal and connected to a piped sewer system": 8,
+      "Pour flush toilet (Not water seal)": 16,
+      "Direct pit": 1,
+      "Other": 2,
+      "Not using a toilet": 5
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 954,
+      "Water seal and connected to a piped sewer system": 7,
+      "Pour flush toilet (Not water seal)": 0,
+      "Direct pit": 0,
+      "Other": 1,
+      "Not using a toilet": 42
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6124",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 15052,
+      "Water seal and connected to a piped sewer system": 438,
+      "Pour flush toilet (Not water seal)": 182,
+      "Direct pit": 118,
+      "Other": 9,
+      "Not using a toilet": 349
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 14513,
+      "Water seal and connected to a piped sewer system": 422,
+      "Pour flush toilet (Not water seal)": 175,
+      "Direct pit": 105,
+      "Other": 9,
+      "Not using a toilet": 339
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6145",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 16847,
+      "Water seal and connected to a piped sewer system": 232,
+      "Pour flush toilet (Not water seal)": 71,
+      "Direct pit": 42,
+      "Other": 2,
+      "Not using a toilet": 138
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 17400,
+      "Water seal and connected to a piped sewer system": 340,
+      "Pour flush toilet (Not water seal)": 71,
+      "Direct pit": 44,
+      "Other": 2,
+      "Not using a toilet": 147
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6148",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 8578,
+      "Water seal and connected to a piped sewer system": 329,
+      "Pour flush toilet (Not water seal)": 142,
+      "Direct pit": 100,
+      "Other": 0,
+      "Not using a toilet": 129
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 8025,
+      "Water seal and connected to a piped sewer system": 221,
+      "Pour flush toilet (Not water seal)": 142,
+      "Direct pit": 98,
+      "Other": 0,
+      "Not using a toilet": 120
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6218",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 13438,
+      "Water seal and connected to a piped sewer system": 281,
+      "Pour flush toilet (Not water seal)": 485,
+      "Direct pit": 580,
+      "Other": 4,
+      "Not using a toilet": 917
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 13208,
+      "Water seal and connected to a piped sewer system": 281,
+      "Pour flush toilet (Not water seal)": 485,
+      "Direct pit": 580,
+      "Other": 4,
+      "Not using a toilet": 876
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6233",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 16092,
+      "Water seal and connected to a piped sewer system": 81,
+      "Pour flush toilet (Not water seal)": 145,
+      "Direct pit": 14,
+      "Other": 18,
+      "Not using a toilet": 258
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 15661,
+      "Water seal and connected to a piped sewer system": 76,
+      "Pour flush toilet (Not water seal)": 145,
+      "Direct pit": 8,
+      "Other": 18,
+      "Not using a toilet": 258
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-7118",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 8625,
+      "Water seal and connected to a piped sewer system": 189,
+      "Pour flush toilet (Not water seal)": 287,
+      "Direct pit": 421,
+      "Other": 2,
+      "Not using a toilet": 368
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 8424,
+      "Water seal and connected to a piped sewer system": 184,
+      "Pour flush toilet (Not water seal)": 287,
+      "Direct pit": 385,
+      "Other": 2,
+      "Not using a toilet": 359
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-7127",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 11488,
+      "Water seal and connected to a piped sewer system": 346,
+      "Pour flush toilet (Not water seal)": 389,
+      "Direct pit": 333,
+      "Other": 2,
+      "Not using a toilet": 121
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 11150,
+      "Water seal and connected to a piped sewer system": 346,
+      "Pour flush toilet (Not water seal)": 388,
+      "Direct pit": 326,
+      "Other": 2,
+      "Not using a toilet": 121
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-7133",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 16564,
+      "Water seal and connected to a piped sewer system": 747,
+      "Pour flush toilet (Not water seal)": 104,
+      "Direct pit": 200,
+      "Other": 3,
+      "Not using a toilet": 71
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 15741,
+      "Water seal and connected to a piped sewer system": 743,
+      "Pour flush toilet (Not water seal)": 104,
+      "Direct pit": 200,
+      "Other": 3,
+      "Not using a toilet": 71
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-8124",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 21123,
+      "Water seal and connected to a piped sewer system": 1143,
+      "Pour flush toilet (Not water seal)": 915,
+      "Direct pit": 784,
+      "Other": 7,
+      "Not using a toilet": 85
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 20498,
+      "Water seal and connected to a piped sewer system": 1121,
+      "Pour flush toilet (Not water seal)": 915,
+      "Direct pit": 784,
+      "Other": 7,
+      "Not using a toilet": 85
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-8215",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 530,
+      "Water seal and connected to a piped sewer system": 27,
+      "Pour flush toilet (Not water seal)": 1,
+      "Direct pit": 14,
+      "Other": 0,
+      "Not using a toilet": 7
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 10501,
+      "Water seal and connected to a piped sewer system": 370,
+      "Pour flush toilet (Not water seal)": 208,
+      "Direct pit": 695,
+      "Other": 7,
+      "Not using a toilet": 384
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-9118",
+    "parent_values": {
+      "Water seal and connected to a septic tank": 19664,
+      "Water seal and connected to a piped sewer system": 781,
+      "Pour flush toilet (Not water seal)": 204,
+      "Direct pit": 913,
+      "Other": 12,
+      "Not using a toilet": 175
+    },
+    "sum_child_values": {
+      "Water seal and connected to a septic tank": 12077,
+      "Water seal and connected to a piped sewer system": 424,
+      "Pour flush toilet (Not water seal)": 89,
+      "Direct pit": 360,
+      "Other": 5,
+      "Not using a toilet": 86
+    }
+  }
+]

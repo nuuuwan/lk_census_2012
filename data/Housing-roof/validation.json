@@ -1,0 +1,1026 @@
+[
+  {
+    "validation": "ent_coverage",
+    "ent_type_name": "dsd",
+    "missing_ent_ids": [
+      "LK-2307",
+      "LK-3137",
+      "LK-2310",
+      "LK-9119",
+      "LK-3128",
+      "LK-3135",
+      "LK-2314",
+      "LK-2302",
+      "LK-2313"
+    ]
+  },
+  {
+    "validation": "ent_coverage",
+    "ent_type_name": "gnd",
+    "missing_ent_ids": [
+      "LK-5224005",
+      "LK-5327010",
+      "LK-5104013",
+      "LK-3127175",
+      "LK-8215055",
+      "LK-3127220",
+      "LK-5221095",
+      "LK-1306275",
+      "LK-9118205",
+      "LK-4112175",
+      "LK-3124020",
+      "LK-5124009",
+      "LK-7127130",
+      "LK-4130005",
+      "LK-1209415",
+      "LK-5112210",
+      "LK-6124215",
+      "LK-5333005",
+      "LK-6218135",
+      "LK-8124160",
+      "LK-4506005",
+      "LK-5327005",
+      "LK-2203155",
+      "LK-4112110",
+      "LK-5333010",
+      "LK-5112215",
+      "LK-5124030",
+      "LK-5112235",
+      "LK-4130155",
+      "LK-5133019",
+      "LK-4124090",
+      "LK-5215110",
+      "LK-9119060",
+      "LK-5333030",
+      "LK-5112230",
+      "LK-4112205",
+      "LK-5221100",
+      "LK-5109022",
+      "LK-4112150",
+      "LK-3127165",
+      "LK-5112200",
+      "LK-5109065",
+      "LK-5327185",
+      "LK-4409020",
+      "LK-5136230",
+      "LK-2309380",
+      "LK-5224050",
+      "LK-1339265",
+      "LK-4112190",
+      "LK-6124225",
+      "LK-4133055",
+      "LK-7210065",
+      "LK-5333035",
+      "LK-5115015",
+      "LK-4112200",
+      "LK-5127018",
+      "LK-5112014",
+      "LK-4512020",
+      "LK-4112225",
+      "LK-9118195",
+      "LK-9118200",
+      "LK-5112016",
+      "LK-5104055",
+      "LK-5104005",
+      "LK-1227590",
+      "LK-5112006",
+      "LK-2203295",
+      "LK-5112115",
+      "LK-9118190",
+      "LK-5109012",
+      "LK-6233095",
+      "LK-5221050",
+      "LK-5333015",
+      "LK-4503015",
+      "LK-2203160",
+      "LK-4112220",
+      "LK-5109021",
+      "LK-4503090",
+      "LK-7133080",
+      "LK-4415015",
+      "LK-5104004",
+      "LK-4112215",
+      "LK-5315010",
+      "LK-5104003",
+      "LK-4112185",
+      "LK-5110025",
+      "LK-5136235",
+      "LK-4124030",
+      "LK-4133065",
+      "LK-5212205",
+      "LK-9118185",
+      "LK-5124065",
+      "LK-9118175",
+      "LK-5110020",
+      "LK-4409035",
+      "LK-4112145",
+      "LK-5224065",
+      "LK-9118165",
+      "LK-5333020",
+      "LK-4409005",
+      "LK-4415155",
+      "LK-4112195",
+      "LK-5333025",
+      "LK-5124017",
+      "LK-9118180",
+      "LK-5133060",
+      "LK-4503045",
+      "LK-4112180",
+      "LK-5124070",
+      "LK-3248160",
+      "LK-9118170",
+      "LK-5130011",
+      "LK-4112155",
+      "LK-5224055",
+      "LK-4112210",
+      "LK-4112120",
+      "LK-5224060",
+      "LK-4409040",
+      "LK-5112120",
+      "LK-1339260",
+      "LK-6124210",
+      "LK-4409050",
+      "LK-5327020"
+    ]
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-53",
+    "parent_values": {
+      "Tile": 48603,
+      "Asbestos": 29881,
+      "Concrete": 1558,
+      "Zink Aluminium sheet": 925,
+      "Metal sheet": 11344,
+      "Cadjan/Palmyrah/Straw": 3213,
+      "Other": 155
+    },
+    "sum_child_values": {
+      "Tile": 46846,
+      "Asbestos": 29763,
+      "Concrete": 1555,
+      "Zink Aluminium sheet": 921,
+      "Metal sheet": 10734,
+      "Cadjan/Palmyrah/Straw": 3167,
+      "Other": 147
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-82",
+    "parent_values": {
+      "Tile": 83579,
+      "Asbestos": 20441,
+      "Concrete": 1192,
+      "Zink Aluminium sheet": 675,
+      "Metal sheet": 10766,
+      "Cadjan/Palmyrah/Straw": 2414,
+      "Other": 436
+    },
+    "sum_child_values": {
+      "Tile": 75991,
+      "Asbestos": 18277,
+      "Concrete": 1036,
+      "Zink Aluminium sheet": 627,
+      "Metal sheet": 8823,
+      "Cadjan/Palmyrah/Straw": 2263,
+      "Other": 385
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1209",
+    "parent_values": {
+      "Tile": 30198,
+      "Asbestos": 4723,
+      "Concrete": 305,
+      "Zink Aluminium sheet": 490,
+      "Metal sheet": 2172,
+      "Cadjan/Palmyrah/Straw": 813,
+      "Other": 26
+    },
+    "sum_child_values": {
+      "Tile": 29725,
+      "Asbestos": 4672,
+      "Concrete": 299,
+      "Zink Aluminium sheet": 477,
+      "Metal sheet": 2147,
+      "Cadjan/Palmyrah/Straw": 810,
+      "Other": 26
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1227",
+    "parent_values": {
+      "Tile": 29254,
+      "Asbestos": 12175,
+      "Concrete": 1434,
+      "Zink Aluminium sheet": 256,
+      "Metal sheet": 1627,
+      "Cadjan/Palmyrah/Straw": 149,
+      "Other": 29
+    },
+    "sum_child_values": {
+      "Tile": 29037,
+      "Asbestos": 11865,
+      "Concrete": 1405,
+      "Zink Aluminium sheet": 256,
+      "Metal sheet": 1618,
+      "Cadjan/Palmyrah/Straw": 149,
+      "Other": 29
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1306",
+    "parent_values": {
+      "Tile": 9240,
+      "Asbestos": 15586,
+      "Concrete": 975,
+      "Zink Aluminium sheet": 113,
+      "Metal sheet": 1009,
+      "Cadjan/Palmyrah/Straw": 11,
+      "Other": 14
+    },
+    "sum_child_values": {
+      "Tile": 9181,
+      "Asbestos": 15443,
+      "Concrete": 966,
+      "Zink Aluminium sheet": 111,
+      "Metal sheet": 1008,
+      "Cadjan/Palmyrah/Straw": 11,
+      "Other": 14
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1339",
+    "parent_values": {
+      "Tile": 9800,
+      "Asbestos": 3724,
+      "Concrete": 96,
+      "Zink Aluminium sheet": 76,
+      "Metal sheet": 831,
+      "Cadjan/Palmyrah/Straw": 16,
+      "Other": 19
+    },
+    "sum_child_values": {
+      "Tile": 9523,
+      "Asbestos": 3615,
+      "Concrete": 94,
+      "Zink Aluminium sheet": 76,
+      "Metal sheet": 688,
+      "Cadjan/Palmyrah/Straw": 16,
+      "Other": 18
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2203",
+    "parent_values": {
+      "Tile": 10423,
+      "Asbestos": 5315,
+      "Concrete": 354,
+      "Zink Aluminium sheet": 237,
+      "Metal sheet": 1765,
+      "Cadjan/Palmyrah/Straw": 953,
+      "Other": 6
+    },
+    "sum_child_values": {
+      "Tile": 10015,
+      "Asbestos": 5050,
+      "Concrete": 345,
+      "Zink Aluminium sheet": 235,
+      "Metal sheet": 1630,
+      "Cadjan/Palmyrah/Straw": 902,
+      "Other": 6
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2303",
+    "parent_values": {
+      "Tile": 618,
+      "Asbestos": 8773,
+      "Concrete": 565,
+      "Zink Aluminium sheet": 331,
+      "Metal sheet": 14878,
+      "Cadjan/Palmyrah/Straw": 56,
+      "Other": 261
+    },
+    "sum_child_values": {
+      "Tile": 324,
+      "Asbestos": 3463,
+      "Concrete": 302,
+      "Zink Aluminium sheet": 188,
+      "Metal sheet": 10879,
+      "Cadjan/Palmyrah/Straw": 45,
+      "Other": 130
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2306",
+    "parent_values": {
+      "Tile": 8335,
+      "Asbestos": 8703,
+      "Concrete": 1224,
+      "Zink Aluminium sheet": 309,
+      "Metal sheet": 5195,
+      "Cadjan/Palmyrah/Straw": 55,
+      "Other": 51
+    },
+    "sum_child_values": {
+      "Tile": 5558,
+      "Asbestos": 5615,
+      "Concrete": 814,
+      "Zink Aluminium sheet": 134,
+      "Metal sheet": 2818,
+      "Cadjan/Palmyrah/Straw": 36,
+      "Other": 26
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2309",
+    "parent_values": {
+      "Tile": 6652,
+      "Asbestos": 7403,
+      "Concrete": 765,
+      "Zink Aluminium sheet": 449,
+      "Metal sheet": 11950,
+      "Cadjan/Palmyrah/Straw": 85,
+      "Other": 300
+    },
+    "sum_child_values": {
+      "Tile": 2593,
+      "Asbestos": 4277,
+      "Concrete": 606,
+      "Zink Aluminium sheet": 242,
+      "Metal sheet": 7643,
+      "Cadjan/Palmyrah/Straw": 37,
+      "Other": 145
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2312",
+    "parent_values": {
+      "Tile": 2337,
+      "Asbestos": 9014,
+      "Concrete": 1881,
+      "Zink Aluminium sheet": 744,
+      "Metal sheet": 36768,
+      "Cadjan/Palmyrah/Straw": 90,
+      "Other": 404
+    },
+    "sum_child_values": {
+      "Tile": 473,
+      "Asbestos": 5093,
+      "Concrete": 803,
+      "Zink Aluminium sheet": 556,
+      "Metal sheet": 14520,
+      "Cadjan/Palmyrah/Straw": 28,
+      "Other": 91
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2315",
+    "parent_values": {
+      "Tile": 3382,
+      "Asbestos": 14149,
+      "Concrete": 1939,
+      "Zink Aluminium sheet": 377,
+      "Metal sheet": 29813,
+      "Cadjan/Palmyrah/Straw": 158,
+      "Other": 426
+    },
+    "sum_child_values": {
+      "Tile": 361,
+      "Asbestos": 6607,
+      "Concrete": 529,
+      "Zink Aluminium sheet": 93,
+      "Metal sheet": 4016,
+      "Cadjan/Palmyrah/Straw": 13,
+      "Other": 92
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3124",
+    "parent_values": {
+      "Tile": 7876,
+      "Asbestos": 5099,
+      "Concrete": 138,
+      "Zink Aluminium sheet": 31,
+      "Metal sheet": 1224,
+      "Cadjan/Palmyrah/Straw": 9,
+      "Other": 16
+    },
+    "sum_child_values": {
+      "Tile": 7727,
+      "Asbestos": 5018,
+      "Concrete": 138,
+      "Zink Aluminium sheet": 31,
+      "Metal sheet": 1219,
+      "Cadjan/Palmyrah/Straw": 9,
+      "Other": 16
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3127",
+    "parent_values": {
+      "Tile": 11543,
+      "Asbestos": 6752,
+      "Concrete": 141,
+      "Zink Aluminium sheet": 26,
+      "Metal sheet": 1034,
+      "Cadjan/Palmyrah/Straw": 43,
+      "Other": 51
+    },
+    "sum_child_values": {
+      "Tile": 6965,
+      "Asbestos": 3838,
+      "Concrete": 77,
+      "Zink Aluminium sheet": 15,
+      "Metal sheet": 644,
+      "Cadjan/Palmyrah/Straw": 38,
+      "Other": 33
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3136",
+    "parent_values": {
+      "Tile": 16854,
+      "Asbestos": 6984,
+      "Concrete": 425,
+      "Zink Aluminium sheet": 68,
+      "Metal sheet": 818,
+      "Cadjan/Palmyrah/Straw": 42,
+      "Other": 91
+    },
+    "sum_child_values": {
+      "Tile": 4237,
+      "Asbestos": 2424,
+      "Concrete": 165,
+      "Zink Aluminium sheet": 14,
+      "Metal sheet": 170,
+      "Cadjan/Palmyrah/Straw": 6,
+      "Other": 32
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3248",
+    "parent_values": {
+      "Tile": 10623,
+      "Asbestos": 1908,
+      "Concrete": 241,
+      "Zink Aluminium sheet": 25,
+      "Metal sheet": 444,
+      "Cadjan/Palmyrah/Straw": 76,
+      "Other": 13
+    },
+    "sum_child_values": {
+      "Tile": 10491,
+      "Asbestos": 1815,
+      "Concrete": 220,
+      "Zink Aluminium sheet": 25,
+      "Metal sheet": 424,
+      "Cadjan/Palmyrah/Straw": 75,
+      "Other": 13
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4130",
+    "parent_values": {
+      "Tile": 8597,
+      "Asbestos": 4554,
+      "Concrete": 21,
+      "Zink Aluminium sheet": 76,
+      "Metal sheet": 521,
+      "Cadjan/Palmyrah/Straw": 2230,
+      "Other": 17
+    },
+    "sum_child_values": {
+      "Tile": 8240,
+      "Asbestos": 4470,
+      "Concrete": 21,
+      "Zink Aluminium sheet": 75,
+      "Metal sheet": 515,
+      "Cadjan/Palmyrah/Straw": 2196,
+      "Other": 17
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4133",
+    "parent_values": {
+      "Tile": 8495,
+      "Asbestos": 6211,
+      "Concrete": 222,
+      "Zink Aluminium sheet": 27,
+      "Metal sheet": 747,
+      "Cadjan/Palmyrah/Straw": 287,
+      "Other": 78
+    },
+    "sum_child_values": {
+      "Tile": 7950,
+      "Asbestos": 5854,
+      "Concrete": 201,
+      "Zink Aluminium sheet": 26,
+      "Metal sheet": 718,
+      "Cadjan/Palmyrah/Straw": 285,
+      "Other": 72
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4415",
+    "parent_values": {
+      "Tile": 2656,
+      "Asbestos": 896,
+      "Concrete": 33,
+      "Zink Aluminium sheet": 15,
+      "Metal sheet": 2659,
+      "Cadjan/Palmyrah/Straw": 1248,
+      "Other": 170
+    },
+    "sum_child_values": {
+      "Tile": 2656,
+      "Asbestos": 896,
+      "Concrete": 33,
+      "Zink Aluminium sheet": 15,
+      "Metal sheet": 2643,
+      "Cadjan/Palmyrah/Straw": 1245,
+      "Other": 156
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5110",
+    "parent_values": {
+      "Tile": 3825,
+      "Asbestos": 29,
+      "Concrete": 23,
+      "Zink Aluminium sheet": 35,
+      "Metal sheet": 1312,
+      "Cadjan/Palmyrah/Straw": 1505,
+      "Other": 4
+    },
+    "sum_child_values": {
+      "Tile": 3825,
+      "Asbestos": 29,
+      "Concrete": 23,
+      "Zink Aluminium sheet": 35,
+      "Metal sheet": 1210,
+      "Cadjan/Palmyrah/Straw": 1483,
+      "Other": 4
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5112",
+    "parent_values": {
+      "Tile": 13065,
+      "Asbestos": 318,
+      "Concrete": 124,
+      "Zink Aluminium sheet": 54,
+      "Metal sheet": 2859,
+      "Cadjan/Palmyrah/Straw": 2476,
+      "Other": 33
+    },
+    "sum_child_values": {
+      "Tile": 11141,
+      "Asbestos": 292,
+      "Concrete": 123,
+      "Zink Aluminium sheet": 45,
+      "Metal sheet": 2760,
+      "Cadjan/Palmyrah/Straw": 2279,
+      "Other": 24
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5115",
+    "parent_values": {
+      "Tile": 5185,
+      "Asbestos": 78,
+      "Concrete": 181,
+      "Zink Aluminium sheet": 11,
+      "Metal sheet": 303,
+      "Cadjan/Palmyrah/Straw": 173,
+      "Other": 10
+    },
+    "sum_child_values": {
+      "Tile": 4230,
+      "Asbestos": 48,
+      "Concrete": 158,
+      "Zink Aluminium sheet": 11,
+      "Metal sheet": 229,
+      "Cadjan/Palmyrah/Straw": 129,
+      "Other": 6
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5124",
+    "parent_values": {
+      "Tile": 10227,
+      "Asbestos": 183,
+      "Concrete": 98,
+      "Zink Aluminium sheet": 15,
+      "Metal sheet": 268,
+      "Cadjan/Palmyrah/Straw": 46,
+      "Other": 2
+    },
+    "sum_child_values": {
+      "Tile": 8629,
+      "Asbestos": 160,
+      "Concrete": 77,
+      "Zink Aluminium sheet": 11,
+      "Metal sheet": 220,
+      "Cadjan/Palmyrah/Straw": 38,
+      "Other": 2
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5133",
+    "parent_values": {
+      "Tile": 6284,
+      "Asbestos": 369,
+      "Concrete": 51,
+      "Zink Aluminium sheet": 120,
+      "Metal sheet": 1415,
+      "Cadjan/Palmyrah/Straw": 1147,
+      "Other": 44
+    },
+    "sum_child_values": {
+      "Tile": 6182,
+      "Asbestos": 343,
+      "Concrete": 51,
+      "Zink Aluminium sheet": 116,
+      "Metal sheet": 1365,
+      "Cadjan/Palmyrah/Straw": 1139,
+      "Other": 44
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5212",
+    "parent_values": {
+      "Tile": 5702,
+      "Asbestos": 5923,
+      "Concrete": 76,
+      "Zink Aluminium sheet": 264,
+      "Metal sheet": 2790,
+      "Cadjan/Palmyrah/Straw": 156,
+      "Other": 28
+    },
+    "sum_child_values": {
+      "Tile": 5588,
+      "Asbestos": 5717,
+      "Concrete": 73,
+      "Zink Aluminium sheet": 262,
+      "Metal sheet": 2705,
+      "Cadjan/Palmyrah/Straw": 150,
+      "Other": 28
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5215",
+    "parent_values": {
+      "Tile": 2626,
+      "Asbestos": 5904,
+      "Concrete": 216,
+      "Zink Aluminium sheet": 98,
+      "Metal sheet": 2028,
+      "Cadjan/Palmyrah/Straw": 60,
+      "Other": 8
+    },
+    "sum_child_values": {
+      "Tile": 2516,
+      "Asbestos": 5770,
+      "Concrete": 216,
+      "Zink Aluminium sheet": 98,
+      "Metal sheet": 1930,
+      "Cadjan/Palmyrah/Straw": 49,
+      "Other": 7
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5221",
+    "parent_values": {
+      "Tile": 6138,
+      "Asbestos": 167,
+      "Concrete": 742,
+      "Zink Aluminium sheet": 43,
+      "Metal sheet": 427,
+      "Cadjan/Palmyrah/Straw": 43,
+      "Other": 47
+    },
+    "sum_child_values": {
+      "Tile": 5270,
+      "Asbestos": 160,
+      "Concrete": 694,
+      "Zink Aluminium sheet": 39,
+      "Metal sheet": 363,
+      "Cadjan/Palmyrah/Straw": 40,
+      "Other": 42
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5224",
+    "parent_values": {
+      "Tile": 8109,
+      "Asbestos": 255,
+      "Concrete": 1570,
+      "Zink Aluminium sheet": 50,
+      "Metal sheet": 286,
+      "Cadjan/Palmyrah/Straw": 50,
+      "Other": 22
+    },
+    "sum_child_values": {
+      "Tile": 6858,
+      "Asbestos": 246,
+      "Concrete": 1495,
+      "Zink Aluminium sheet": 42,
+      "Metal sheet": 225,
+      "Cadjan/Palmyrah/Straw": 43,
+      "Other": 18
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5327",
+    "parent_values": {
+      "Tile": 6406,
+      "Asbestos": 4174,
+      "Concrete": 30,
+      "Zink Aluminium sheet": 45,
+      "Metal sheet": 3321,
+      "Cadjan/Palmyrah/Straw": 718,
+      "Other": 8
+    },
+    "sum_child_values": {
+      "Tile": 6303,
+      "Asbestos": 4123,
+      "Concrete": 30,
+      "Zink Aluminium sheet": 45,
+      "Metal sheet": 3239,
+      "Cadjan/Palmyrah/Straw": 699,
+      "Other": 8
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5333",
+    "parent_values": {
+      "Tile": 251,
+      "Asbestos": 7,
+      "Concrete": 2,
+      "Zink Aluminium sheet": 11,
+      "Metal sheet": 113,
+      "Cadjan/Palmyrah/Straw": 2,
+      "Other": 1
+    },
+    "sum_child_values": {
+      "Tile": 744,
+      "Asbestos": 21,
+      "Concrete": 0,
+      "Zink Aluminium sheet": 0,
+      "Metal sheet": 206,
+      "Cadjan/Palmyrah/Straw": 21,
+      "Other": 8
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6124",
+    "parent_values": {
+      "Tile": 11324,
+      "Asbestos": 2503,
+      "Concrete": 127,
+      "Zink Aluminium sheet": 154,
+      "Metal sheet": 911,
+      "Cadjan/Palmyrah/Straw": 938,
+      "Other": 42
+    },
+    "sum_child_values": {
+      "Tile": 10867,
+      "Asbestos": 2445,
+      "Concrete": 124,
+      "Zink Aluminium sheet": 153,
+      "Metal sheet": 869,
+      "Cadjan/Palmyrah/Straw": 920,
+      "Other": 41
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6145",
+    "parent_values": {
+      "Tile": 14311,
+      "Asbestos": 1146,
+      "Concrete": 88,
+      "Zink Aluminium sheet": 250,
+      "Metal sheet": 659,
+      "Cadjan/Palmyrah/Straw": 801,
+      "Other": 0
+    },
+    "sum_child_values": {
+      "Tile": 14832,
+      "Asbestos": 1182,
+      "Concrete": 89,
+      "Zink Aluminium sheet": 271,
+      "Metal sheet": 675,
+      "Cadjan/Palmyrah/Straw": 874,
+      "Other": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6148",
+    "parent_values": {
+      "Tile": 7579,
+      "Asbestos": 531,
+      "Concrete": 39,
+      "Zink Aluminium sheet": 103,
+      "Metal sheet": 428,
+      "Cadjan/Palmyrah/Straw": 554,
+      "Other": 0
+    },
+    "sum_child_values": {
+      "Tile": 7058,
+      "Asbestos": 495,
+      "Concrete": 38,
+      "Zink Aluminium sheet": 82,
+      "Metal sheet": 412,
+      "Cadjan/Palmyrah/Straw": 481,
+      "Other": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6218",
+    "parent_values": {
+      "Tile": 10685,
+      "Asbestos": 730,
+      "Concrete": 39,
+      "Zink Aluminium sheet": 96,
+      "Metal sheet": 328,
+      "Cadjan/Palmyrah/Straw": 3485,
+      "Other": 27
+    },
+    "sum_child_values": {
+      "Tile": 10472,
+      "Asbestos": 716,
+      "Concrete": 38,
+      "Zink Aluminium sheet": 96,
+      "Metal sheet": 328,
+      "Cadjan/Palmyrah/Straw": 3450,
+      "Other": 26
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6233",
+    "parent_values": {
+      "Tile": 10727,
+      "Asbestos": 2775,
+      "Concrete": 200,
+      "Zink Aluminium sheet": 267,
+      "Metal sheet": 790,
+      "Cadjan/Palmyrah/Straw": 1690,
+      "Other": 39
+    },
+    "sum_child_values": {
+      "Tile": 10489,
+      "Asbestos": 2593,
+      "Concrete": 195,
+      "Zink Aluminium sheet": 267,
+      "Metal sheet": 778,
+      "Cadjan/Palmyrah/Straw": 1687,
+      "Other": 38
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-7127",
+    "parent_values": {
+      "Tile": 7822,
+      "Asbestos": 4081,
+      "Concrete": 68,
+      "Zink Aluminium sheet": 162,
+      "Metal sheet": 374,
+      "Cadjan/Palmyrah/Straw": 77,
+      "Other": 6
+    },
+    "sum_child_values": {
+      "Tile": 7664,
+      "Asbestos": 3918,
+      "Concrete": 67,
+      "Zink Aluminium sheet": 157,
+      "Metal sheet": 366,
+      "Cadjan/Palmyrah/Straw": 73,
+      "Other": 6
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-7133",
+    "parent_values": {
+      "Tile": 2962,
+      "Asbestos": 13298,
+      "Concrete": 646,
+      "Zink Aluminium sheet": 73,
+      "Metal sheet": 467,
+      "Cadjan/Palmyrah/Straw": 81,
+      "Other": 7
+    },
+    "sum_child_values": {
+      "Tile": 2932,
+      "Asbestos": 12630,
+      "Concrete": 561,
+      "Zink Aluminium sheet": 71,
+      "Metal sheet": 443,
+      "Cadjan/Palmyrah/Straw": 81,
+      "Other": 7
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-8124",
+    "parent_values": {
+      "Tile": 4292,
+      "Asbestos": 11230,
+      "Concrete": 519,
+      "Zink Aluminium sheet": 273,
+      "Metal sheet": 7167,
+      "Cadjan/Palmyrah/Straw": 16,
+      "Other": 33
+    },
+    "sum_child_values": {
+      "Tile": 4279,
+      "Asbestos": 10755,
+      "Concrete": 468,
+      "Zink Aluminium sheet": 270,
+      "Metal sheet": 7069,
+      "Cadjan/Palmyrah/Straw": 16,
+      "Other": 33
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-8215",
+    "parent_values": {
+      "Tile": 213,
+      "Asbestos": 186,
+      "Concrete": 62,
+      "Zink Aluminium sheet": 1,
+      "Metal sheet": 111,
+      "Cadjan/Palmyrah/Straw": 3,
+      "Other": 0
+    },
+    "sum_child_values": {
+      "Tile": 7588,
+      "Asbestos": 2164,
+      "Concrete": 156,
+      "Zink Aluminium sheet": 48,
+      "Metal sheet": 1943,
+      "Cadjan/Palmyrah/Straw": 151,
+      "Other": 51
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-9118",
+    "parent_values": {
+      "Tile": 6355,
+      "Asbestos": 11530,
+      "Concrete": 581,
+      "Zink Aluminium sheet": 80,
+      "Metal sheet": 3013,
+      "Cadjan/Palmyrah/Straw": 22,
+      "Other": 20
+    },
+    "sum_child_values": {
+      "Tile": 3649,
+      "Asbestos": 6645,
+      "Concrete": 313,
+      "Zink Aluminium sheet": 61,
+      "Metal sheet": 2247,
+      "Cadjan/Palmyrah/Straw": 9,
+      "Other": 11
+    }
+  }
+]

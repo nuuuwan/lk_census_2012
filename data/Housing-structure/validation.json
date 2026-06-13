@@ -1,0 +1,1269 @@
+[
+  {
+    "validation": "ent_coverage",
+    "ent_type_name": "dsd",
+    "missing_ent_ids": [
+      "LK-2307",
+      "LK-3137",
+      "LK-2310",
+      "LK-9119",
+      "LK-3128",
+      "LK-3135",
+      "LK-2314",
+      "LK-2302",
+      "LK-2313"
+    ]
+  },
+  {
+    "validation": "ent_coverage",
+    "ent_type_name": "gnd",
+    "missing_ent_ids": [
+      "LK-5224005",
+      "LK-5327010",
+      "LK-5104013",
+      "LK-3127175",
+      "LK-8215055",
+      "LK-3127220",
+      "LK-5221095",
+      "LK-1306275",
+      "LK-9118205",
+      "LK-4112175",
+      "LK-3124020",
+      "LK-5124009",
+      "LK-7127130",
+      "LK-4130005",
+      "LK-1209415",
+      "LK-5112210",
+      "LK-6124215",
+      "LK-5333005",
+      "LK-6218135",
+      "LK-1212370",
+      "LK-4506005",
+      "LK-8124160",
+      "LK-5327005",
+      "LK-2203155",
+      "LK-4112110",
+      "LK-5333010",
+      "LK-5112215",
+      "LK-5124030",
+      "LK-5112235",
+      "LK-4130155",
+      "LK-5133019",
+      "LK-4124090",
+      "LK-5215110",
+      "LK-9119060",
+      "LK-5333030",
+      "LK-5112230",
+      "LK-4112205",
+      "LK-5221100",
+      "LK-5109022",
+      "LK-4112150",
+      "LK-3127165",
+      "LK-5112200",
+      "LK-5109065",
+      "LK-5327185",
+      "LK-4409020",
+      "LK-5136230",
+      "LK-2309380",
+      "LK-5224050",
+      "LK-1339265",
+      "LK-4112190",
+      "LK-6124225",
+      "LK-4133055",
+      "LK-7210065",
+      "LK-5333035",
+      "LK-5218090",
+      "LK-5115015",
+      "LK-4112200",
+      "LK-5127018",
+      "LK-5112014",
+      "LK-4512020",
+      "LK-4112225",
+      "LK-9118195",
+      "LK-9118200",
+      "LK-5112016",
+      "LK-5104055",
+      "LK-5104005",
+      "LK-1227590",
+      "LK-5218025",
+      "LK-5112006",
+      "LK-2203295",
+      "LK-5112115",
+      "LK-9118190",
+      "LK-5109012",
+      "LK-6233095",
+      "LK-5221050",
+      "LK-5333015",
+      "LK-7118190",
+      "LK-4503015",
+      "LK-2203160",
+      "LK-4112220",
+      "LK-5109021",
+      "LK-4503090",
+      "LK-7133080",
+      "LK-4415015",
+      "LK-5104004",
+      "LK-4112215",
+      "LK-5315010",
+      "LK-5104003",
+      "LK-4112185",
+      "LK-5110025",
+      "LK-5136235",
+      "LK-4124030",
+      "LK-4133065",
+      "LK-5212205",
+      "LK-9118185",
+      "LK-5124065",
+      "LK-9118175",
+      "LK-5110020",
+      "LK-4409035",
+      "LK-4112145",
+      "LK-5224065",
+      "LK-9118165",
+      "LK-5333020",
+      "LK-4409005",
+      "LK-4415155",
+      "LK-4112195",
+      "LK-5333025",
+      "LK-5124017",
+      "LK-9118180",
+      "LK-5133060",
+      "LK-4503045",
+      "LK-4112180",
+      "LK-5124070",
+      "LK-5218030",
+      "LK-3248160",
+      "LK-9118170",
+      "LK-5130011",
+      "LK-4112155",
+      "LK-5224055",
+      "LK-4112210",
+      "LK-4112120",
+      "LK-5224060",
+      "LK-4409040",
+      "LK-5112120",
+      "LK-1339260",
+      "LK-6124210",
+      "LK-4409050",
+      "LK-5327020"
+    ]
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-53",
+    "parent_values": {
+      "Single 1 story": 89054,
+      "Single 2 story": 1979,
+      "Single 2+ story": 359,
+      "Attached house/Annex": 207,
+      "Flat": 95,
+      "Condominium": 0,
+      "Twin house": 1138,
+      "Row/Line room": 634,
+      "Hut/Shanty": 2213
+    },
+    "sum_child_values": {
+      "Single 1 story": 86574,
+      "Single 2 story": 1977,
+      "Single 2+ story": 351,
+      "Attached house/Annex": 207,
+      "Flat": 95,
+      "Condominium": 0,
+      "Twin house": 1138,
+      "Row/Line room": 629,
+      "Hut/Shanty": 2162
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-82",
+    "parent_values": {
+      "Single 1 story": 114903,
+      "Single 2 story": 1840,
+      "Single 2+ story": 59,
+      "Attached house/Annex": 210,
+      "Flat": 47,
+      "Condominium": 0,
+      "Twin house": 376,
+      "Row/Line room": 1262,
+      "Hut/Shanty": 806
+    },
+    "sum_child_values": {
+      "Single 1 story": 103657,
+      "Single 2 story": 1590,
+      "Single 2+ story": 54,
+      "Attached house/Annex": 184,
+      "Flat": 18,
+      "Condominium": 0,
+      "Twin house": 336,
+      "Row/Line room": 808,
+      "Hut/Shanty": 755
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1209",
+    "parent_values": {
+      "Single 1 story": 36809,
+      "Single 2 story": 1261,
+      "Single 2+ story": 11,
+      "Attached house/Annex": 38,
+      "Flat": 0,
+      "Condominium": 0,
+      "Twin house": 70,
+      "Row/Line room": 124,
+      "Hut/Shanty": 414
+    },
+    "sum_child_values": {
+      "Single 1 story": 36244,
+      "Single 2 story": 1257,
+      "Single 2+ story": 11,
+      "Attached house/Annex": 38,
+      "Flat": 0,
+      "Condominium": 0,
+      "Twin house": 70,
+      "Row/Line room": 124,
+      "Hut/Shanty": 412
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1212",
+    "parent_values": {
+      "Single 1 story": 39973,
+      "Single 2 story": 2268,
+      "Single 2+ story": 38,
+      "Attached house/Annex": 136,
+      "Flat": 15,
+      "Condominium": 0,
+      "Twin house": 44,
+      "Row/Line room": 95,
+      "Hut/Shanty": 383
+    },
+    "sum_child_values": {
+      "Single 1 story": 39760,
+      "Single 2 story": 2243,
+      "Single 2+ story": 38,
+      "Attached house/Annex": 132,
+      "Flat": 15,
+      "Condominium": 0,
+      "Twin house": 44,
+      "Row/Line room": 95,
+      "Hut/Shanty": 380
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1227",
+    "parent_values": {
+      "Single 1 story": 40126,
+      "Single 2 story": 3705,
+      "Single 2+ story": 93,
+      "Attached house/Annex": 360,
+      "Flat": 75,
+      "Condominium": 0,
+      "Twin house": 130,
+      "Row/Line room": 294,
+      "Hut/Shanty": 141
+    },
+    "sum_child_values": {
+      "Single 1 story": 39632,
+      "Single 2 story": 3635,
+      "Single 2+ story": 92,
+      "Attached house/Annex": 360,
+      "Flat": 75,
+      "Condominium": 0,
+      "Twin house": 130,
+      "Row/Line room": 294,
+      "Hut/Shanty": 141
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1306",
+    "parent_values": {
+      "Single 1 story": 23846,
+      "Single 2 story": 2544,
+      "Single 2+ story": 71,
+      "Attached house/Annex": 303,
+      "Flat": 10,
+      "Condominium": 0,
+      "Twin house": 136,
+      "Row/Line room": 9,
+      "Hut/Shanty": 29
+    },
+    "sum_child_values": {
+      "Single 1 story": 23644,
+      "Single 2 story": 2541,
+      "Single 2+ story": 71,
+      "Attached house/Annex": 300,
+      "Flat": 10,
+      "Condominium": 0,
+      "Twin house": 130,
+      "Row/Line room": 9,
+      "Hut/Shanty": 29
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1339",
+    "parent_values": {
+      "Single 1 story": 13998,
+      "Single 2 story": 348,
+      "Single 2+ story": 3,
+      "Attached house/Annex": 58,
+      "Flat": 0,
+      "Condominium": 0,
+      "Twin house": 9,
+      "Row/Line room": 134,
+      "Hut/Shanty": 12
+    },
+    "sum_child_values": {
+      "Single 1 story": 13477,
+      "Single 2 story": 337,
+      "Single 2+ story": 3,
+      "Attached house/Annex": 58,
+      "Flat": 0,
+      "Condominium": 0,
+      "Twin house": 9,
+      "Row/Line room": 134,
+      "Hut/Shanty": 12
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2203",
+    "parent_values": {
+      "Single 1 story": 18404,
+      "Single 2 story": 412,
+      "Single 2+ story": 29,
+      "Attached house/Annex": 29,
+      "Flat": 6,
+      "Condominium": 0,
+      "Twin house": 51,
+      "Row/Line room": 40,
+      "Hut/Shanty": 82
+    },
+    "sum_child_values": {
+      "Single 1 story": 17547,
+      "Single 2 story": 400,
+      "Single 2+ story": 29,
+      "Attached house/Annex": 29,
+      "Flat": 6,
+      "Condominium": 0,
+      "Twin house": 51,
+      "Row/Line room": 40,
+      "Hut/Shanty": 81
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2303",
+    "parent_values": {
+      "Single 1 story": 16563,
+      "Single 2 story": 1132,
+      "Single 2+ story": 224,
+      "Attached house/Annex": 129,
+      "Flat": 77,
+      "Condominium": 0,
+      "Twin house": 670,
+      "Row/Line room": 6519,
+      "Hut/Shanty": 168
+    },
+    "sum_child_values": {
+      "Single 1 story": 8343,
+      "Single 2 story": 725,
+      "Single 2+ story": 207,
+      "Attached house/Annex": 93,
+      "Flat": 23,
+      "Condominium": 0,
+      "Twin house": 505,
+      "Row/Line room": 5316,
+      "Hut/Shanty": 119
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2306",
+    "parent_values": {
+      "Single 1 story": 19833,
+      "Single 2 story": 1056,
+      "Single 2+ story": 93,
+      "Attached house/Annex": 123,
+      "Flat": 10,
+      "Condominium": 0,
+      "Twin house": 271,
+      "Row/Line room": 2414,
+      "Hut/Shanty": 72
+    },
+    "sum_child_values": {
+      "Single 1 story": 12654,
+      "Single 2 story": 592,
+      "Single 2+ story": 73,
+      "Attached house/Annex": 81,
+      "Flat": 5,
+      "Condominium": 0,
+      "Twin house": 106,
+      "Row/Line room": 1475,
+      "Hut/Shanty": 15
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2309",
+    "parent_values": {
+      "Single 1 story": 19471,
+      "Single 2 story": 974,
+      "Single 2+ story": 181,
+      "Attached house/Annex": 309,
+      "Flat": 19,
+      "Condominium": 0,
+      "Twin house": 645,
+      "Row/Line room": 5803,
+      "Hut/Shanty": 202
+    },
+    "sum_child_values": {
+      "Single 1 story": 10062,
+      "Single 2 story": 629,
+      "Single 2+ story": 132,
+      "Attached house/Annex": 200,
+      "Flat": 13,
+      "Condominium": 0,
+      "Twin house": 440,
+      "Row/Line room": 3982,
+      "Hut/Shanty": 85
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2312",
+    "parent_values": {
+      "Single 1 story": 21650,
+      "Single 2 story": 2375,
+      "Single 2+ story": 466,
+      "Attached house/Annex": 1365,
+      "Flat": 415,
+      "Condominium": 0,
+      "Twin house": 2742,
+      "Row/Line room": 21794,
+      "Hut/Shanty": 431
+    },
+    "sum_child_values": {
+      "Single 1 story": 12165,
+      "Single 2 story": 1143,
+      "Single 2+ story": 152,
+      "Attached house/Annex": 738,
+      "Flat": 27,
+      "Condominium": 0,
+      "Twin house": 836,
+      "Row/Line room": 6244,
+      "Hut/Shanty": 259
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2315",
+    "parent_values": {
+      "Single 1 story": 20602,
+      "Single 2 story": 2896,
+      "Single 2+ story": 438,
+      "Attached house/Annex": 1577,
+      "Flat": 475,
+      "Condominium": 0,
+      "Twin house": 4728,
+      "Row/Line room": 19170,
+      "Hut/Shanty": 358
+    },
+    "sum_child_values": {
+      "Single 1 story": 9267,
+      "Single 2 story": 588,
+      "Single 2+ story": 70,
+      "Attached house/Annex": 69,
+      "Flat": 197,
+      "Condominium": 0,
+      "Twin house": 353,
+      "Row/Line room": 1123,
+      "Hut/Shanty": 44
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3124",
+    "parent_values": {
+      "Single 1 story": 12596,
+      "Single 2 story": 594,
+      "Single 2+ story": 19,
+      "Attached house/Annex": 37,
+      "Flat": 2,
+      "Condominium": 0,
+      "Twin house": 140,
+      "Row/Line room": 942,
+      "Hut/Shanty": 63
+    },
+    "sum_child_values": {
+      "Single 1 story": 12365,
+      "Single 2 story": 590,
+      "Single 2+ story": 19,
+      "Attached house/Annex": 37,
+      "Flat": 2,
+      "Condominium": 0,
+      "Twin house": 140,
+      "Row/Line room": 942,
+      "Hut/Shanty": 63
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3127",
+    "parent_values": {
+      "Single 1 story": 18135,
+      "Single 2 story": 926,
+      "Single 2+ story": 28,
+      "Attached house/Annex": 26,
+      "Flat": 8,
+      "Condominium": 0,
+      "Twin house": 56,
+      "Row/Line room": 298,
+      "Hut/Shanty": 113
+    },
+    "sum_child_values": {
+      "Single 1 story": 10769,
+      "Single 2 story": 579,
+      "Single 2+ story": 13,
+      "Attached house/Annex": 20,
+      "Flat": 5,
+      "Condominium": 0,
+      "Twin house": 18,
+      "Row/Line room": 135,
+      "Hut/Shanty": 71
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3136",
+    "parent_values": {
+      "Single 1 story": 23042,
+      "Single 2 story": 1882,
+      "Single 2+ story": 56,
+      "Attached house/Annex": 37,
+      "Flat": 66,
+      "Condominium": 0,
+      "Twin house": 13,
+      "Row/Line room": 19,
+      "Hut/Shanty": 167
+    },
+    "sum_child_values": {
+      "Single 1 story": 6103,
+      "Single 2 story": 817,
+      "Single 2+ story": 44,
+      "Attached house/Annex": 20,
+      "Flat": 0,
+      "Condominium": 0,
+      "Twin house": 9,
+      "Row/Line room": 4,
+      "Hut/Shanty": 51
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3248",
+    "parent_values": {
+      "Single 1 story": 12380,
+      "Single 2 story": 767,
+      "Single 2+ story": 42,
+      "Attached house/Annex": 28,
+      "Flat": 42,
+      "Condominium": 0,
+      "Twin house": 16,
+      "Row/Line room": 5,
+      "Hut/Shanty": 50
+    },
+    "sum_child_values": {
+      "Single 1 story": 12138,
+      "Single 2 story": 746,
+      "Single 2+ story": 42,
+      "Attached house/Annex": 28,
+      "Flat": 42,
+      "Condominium": 0,
+      "Twin house": 16,
+      "Row/Line room": 1,
+      "Hut/Shanty": 50
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4130",
+    "parent_values": {
+      "Single 1 story": 14399,
+      "Single 2 story": 213,
+      "Single 2+ story": 10,
+      "Attached house/Annex": 3,
+      "Flat": 2,
+      "Condominium": 0,
+      "Twin house": 10,
+      "Row/Line room": 7,
+      "Hut/Shanty": 1372
+    },
+    "sum_child_values": {
+      "Single 1 story": 13935,
+      "Single 2 story": 212,
+      "Single 2+ story": 10,
+      "Attached house/Annex": 1,
+      "Flat": 2,
+      "Condominium": 0,
+      "Twin house": 10,
+      "Row/Line room": 7,
+      "Hut/Shanty": 1357
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4133",
+    "parent_values": {
+      "Single 1 story": 14983,
+      "Single 2 story": 859,
+      "Single 2+ story": 91,
+      "Attached house/Annex": 11,
+      "Flat": 10,
+      "Condominium": 0,
+      "Twin house": 4,
+      "Row/Line room": 0,
+      "Hut/Shanty": 109
+    },
+    "sum_child_values": {
+      "Single 1 story": 14113,
+      "Single 2 story": 778,
+      "Single 2+ story": 90,
+      "Attached house/Annex": 11,
+      "Flat": 8,
+      "Condominium": 0,
+      "Twin house": 4,
+      "Row/Line room": 0,
+      "Hut/Shanty": 102
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4415",
+    "parent_values": {
+      "Single 1 story": 4802,
+      "Single 2 story": 190,
+      "Single 2+ story": 47,
+      "Attached house/Annex": 2,
+      "Flat": 1,
+      "Condominium": 0,
+      "Twin house": 2,
+      "Row/Line room": 11,
+      "Hut/Shanty": 2622
+    },
+    "sum_child_values": {
+      "Single 1 story": 4799,
+      "Single 2 story": 190,
+      "Single 2+ story": 46,
+      "Attached house/Annex": 2,
+      "Flat": 1,
+      "Condominium": 0,
+      "Twin house": 2,
+      "Row/Line room": 11,
+      "Hut/Shanty": 2593
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5110",
+    "parent_values": {
+      "Single 1 story": 4882,
+      "Single 2 story": 87,
+      "Single 2+ story": 71,
+      "Attached house/Annex": 1,
+      "Flat": 0,
+      "Condominium": 0,
+      "Twin house": 3,
+      "Row/Line room": 2,
+      "Hut/Shanty": 1687
+    },
+    "sum_child_values": {
+      "Single 1 story": 4882,
+      "Single 2 story": 86,
+      "Single 2+ story": 71,
+      "Attached house/Annex": 1,
+      "Flat": 0,
+      "Condominium": 0,
+      "Twin house": 3,
+      "Row/Line room": 2,
+      "Hut/Shanty": 1564
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5112",
+    "parent_values": {
+      "Single 1 story": 15925,
+      "Single 2 story": 248,
+      "Single 2+ story": 22,
+      "Attached house/Annex": 10,
+      "Flat": 0,
+      "Condominium": 0,
+      "Twin house": 2,
+      "Row/Line room": 11,
+      "Hut/Shanty": 2711
+    },
+    "sum_child_values": {
+      "Single 1 story": 13813,
+      "Single 2 story": 245,
+      "Single 2+ story": 22,
+      "Attached house/Annex": 10,
+      "Flat": 0,
+      "Condominium": 0,
+      "Twin house": 2,
+      "Row/Line room": 11,
+      "Hut/Shanty": 2561
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5115",
+    "parent_values": {
+      "Single 1 story": 5561,
+      "Single 2 story": 125,
+      "Single 2+ story": 4,
+      "Attached house/Annex": 0,
+      "Flat": 3,
+      "Condominium": 0,
+      "Twin house": 6,
+      "Row/Line room": 0,
+      "Hut/Shanty": 242
+    },
+    "sum_child_values": {
+      "Single 1 story": 4504,
+      "Single 2 story": 96,
+      "Single 2+ story": 4,
+      "Attached house/Annex": 0,
+      "Flat": 3,
+      "Condominium": 0,
+      "Twin house": 6,
+      "Row/Line room": 0,
+      "Hut/Shanty": 198
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5124",
+    "parent_values": {
+      "Single 1 story": 9988,
+      "Single 2 story": 475,
+      "Single 2+ story": 11,
+      "Attached house/Annex": 4,
+      "Flat": 4,
+      "Condominium": 0,
+      "Twin house": 19,
+      "Row/Line room": 1,
+      "Hut/Shanty": 337
+    },
+    "sum_child_values": {
+      "Single 1 story": 7026,
+      "Single 2 story": 423,
+      "Single 2+ story": 9,
+      "Attached house/Annex": 4,
+      "Flat": 1,
+      "Condominium": 0,
+      "Twin house": 17,
+      "Row/Line room": 1,
+      "Hut/Shanty": 208
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5133",
+    "parent_values": {
+      "Single 1 story": 8684,
+      "Single 2 story": 92,
+      "Single 2+ story": 119,
+      "Attached house/Annex": 4,
+      "Flat": 2,
+      "Condominium": 0,
+      "Twin house": 1,
+      "Row/Line room": 0,
+      "Hut/Shanty": 528
+    },
+    "sum_child_values": {
+      "Single 1 story": 8494,
+      "Single 2 story": 92,
+      "Single 2+ story": 119,
+      "Attached house/Annex": 4,
+      "Flat": 2,
+      "Condominium": 0,
+      "Twin house": 1,
+      "Row/Line room": 0,
+      "Hut/Shanty": 528
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5212",
+    "parent_values": {
+      "Single 1 story": 14611,
+      "Single 2 story": 196,
+      "Single 2+ story": 3,
+      "Attached house/Annex": 16,
+      "Flat": 0,
+      "Condominium": 0,
+      "Twin house": 60,
+      "Row/Line room": 4,
+      "Hut/Shanty": 49
+    },
+    "sum_child_values": {
+      "Single 1 story": 14202,
+      "Single 2 story": 191,
+      "Single 2+ story": 3,
+      "Attached house/Annex": 14,
+      "Flat": 0,
+      "Condominium": 0,
+      "Twin house": 60,
+      "Row/Line room": 4,
+      "Hut/Shanty": 49
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5215",
+    "parent_values": {
+      "Single 1 story": 9801,
+      "Single 2 story": 309,
+      "Single 2+ story": 7,
+      "Attached house/Annex": 52,
+      "Flat": 12,
+      "Condominium": 0,
+      "Twin house": 680,
+      "Row/Line room": 61,
+      "Hut/Shanty": 18
+    },
+    "sum_child_values": {
+      "Single 1 story": 9447,
+      "Single 2 story": 309,
+      "Single 2+ story": 7,
+      "Attached house/Annex": 52,
+      "Flat": 12,
+      "Condominium": 0,
+      "Twin house": 680,
+      "Row/Line room": 61,
+      "Hut/Shanty": 18
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5218",
+    "parent_values": {
+      "Single 1 story": 13896,
+      "Single 2 story": 535,
+      "Single 2+ story": 18,
+      "Attached house/Annex": 6,
+      "Flat": 20,
+      "Condominium": 0,
+      "Twin house": 11,
+      "Row/Line room": 15,
+      "Hut/Shanty": 329
+    },
+    "sum_child_values": {
+      "Single 1 story": 13483,
+      "Single 2 story": 519,
+      "Single 2+ story": 18,
+      "Attached house/Annex": 4,
+      "Flat": 20,
+      "Condominium": 0,
+      "Twin house": 11,
+      "Row/Line room": 15,
+      "Hut/Shanty": 323
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5221",
+    "parent_values": {
+      "Single 1 story": 6414,
+      "Single 2 story": 395,
+      "Single 2+ story": 22,
+      "Attached house/Annex": 5,
+      "Flat": 556,
+      "Condominium": 0,
+      "Twin house": 0,
+      "Row/Line room": 18,
+      "Hut/Shanty": 197
+    },
+    "sum_child_values": {
+      "Single 1 story": 5499,
+      "Single 2 story": 348,
+      "Single 2+ story": 21,
+      "Attached house/Annex": 5,
+      "Flat": 554,
+      "Condominium": 0,
+      "Twin house": 0,
+      "Row/Line room": 18,
+      "Hut/Shanty": 163
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5224",
+    "parent_values": {
+      "Single 1 story": 8828,
+      "Single 2 story": 821,
+      "Single 2+ story": 18,
+      "Attached house/Annex": 3,
+      "Flat": 510,
+      "Condominium": 0,
+      "Twin house": 66,
+      "Row/Line room": 0,
+      "Hut/Shanty": 96
+    },
+    "sum_child_values": {
+      "Single 1 story": 7495,
+      "Single 2 story": 750,
+      "Single 2+ story": 18,
+      "Attached house/Annex": 3,
+      "Flat": 510,
+      "Condominium": 0,
+      "Twin house": 66,
+      "Row/Line room": 0,
+      "Hut/Shanty": 85
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5327",
+    "parent_values": {
+      "Single 1 story": 12935,
+      "Single 2 story": 118,
+      "Single 2+ story": 64,
+      "Attached house/Annex": 1,
+      "Flat": 2,
+      "Condominium": 0,
+      "Twin house": 355,
+      "Row/Line room": 463,
+      "Hut/Shanty": 764
+    },
+    "sum_child_values": {
+      "Single 1 story": 12735,
+      "Single 2 story": 118,
+      "Single 2+ story": 64,
+      "Attached house/Annex": 1,
+      "Flat": 2,
+      "Condominium": 0,
+      "Twin house": 355,
+      "Row/Line room": 463,
+      "Hut/Shanty": 709
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5333",
+    "parent_values": {
+      "Single 1 story": 384,
+      "Single 2 story": 2,
+      "Single 2+ story": 1,
+      "Attached house/Annex": 0,
+      "Flat": 0,
+      "Condominium": 0,
+      "Twin house": 0,
+      "Row/Line room": 0,
+      "Hut/Shanty": 0
+    },
+    "sum_child_values": {
+      "Single 1 story": 960,
+      "Single 2 story": 1,
+      "Single 2+ story": 7,
+      "Attached house/Annex": 0,
+      "Flat": 0,
+      "Condominium": 0,
+      "Twin house": 0,
+      "Row/Line room": 0,
+      "Hut/Shanty": 32
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6124",
+    "parent_values": {
+      "Single 1 story": 15525,
+      "Single 2 story": 295,
+      "Single 2+ story": 41,
+      "Attached house/Annex": 30,
+      "Flat": 1,
+      "Condominium": 0,
+      "Twin house": 17,
+      "Row/Line room": 13,
+      "Hut/Shanty": 77
+    },
+    "sum_child_values": {
+      "Single 1 story": 14961,
+      "Single 2 story": 280,
+      "Single 2+ story": 40,
+      "Attached house/Annex": 30,
+      "Flat": 1,
+      "Condominium": 0,
+      "Twin house": 17,
+      "Row/Line room": 13,
+      "Hut/Shanty": 77
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6145",
+    "parent_values": {
+      "Single 1 story": 16715,
+      "Single 2 story": 390,
+      "Single 2+ story": 2,
+      "Attached house/Annex": 26,
+      "Flat": 3,
+      "Condominium": 0,
+      "Twin house": 3,
+      "Row/Line room": 23,
+      "Hut/Shanty": 93
+    },
+    "sum_child_values": {
+      "Single 1 story": 17374,
+      "Single 2 story": 398,
+      "Single 2+ story": 2,
+      "Attached house/Annex": 26,
+      "Flat": 3,
+      "Condominium": 0,
+      "Twin house": 3,
+      "Row/Line room": 23,
+      "Hut/Shanty": 94
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6148",
+    "parent_values": {
+      "Single 1 story": 8965,
+      "Single 2 story": 133,
+      "Single 2+ story": 0,
+      "Attached house/Annex": 11,
+      "Flat": 0,
+      "Condominium": 0,
+      "Twin house": 5,
+      "Row/Line room": 13,
+      "Hut/Shanty": 107
+    },
+    "sum_child_values": {
+      "Single 1 story": 8306,
+      "Single 2 story": 125,
+      "Single 2+ story": 0,
+      "Attached house/Annex": 11,
+      "Flat": 0,
+      "Condominium": 0,
+      "Twin house": 5,
+      "Row/Line room": 13,
+      "Hut/Shanty": 106
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6218",
+    "parent_values": {
+      "Single 1 story": 14183,
+      "Single 2 story": 183,
+      "Single 2+ story": 8,
+      "Attached house/Annex": 11,
+      "Flat": 2,
+      "Condominium": 0,
+      "Twin house": 68,
+      "Row/Line room": 5,
+      "Hut/Shanty": 930
+    },
+    "sum_child_values": {
+      "Single 1 story": 13928,
+      "Single 2 story": 181,
+      "Single 2+ story": 8,
+      "Attached house/Annex": 11,
+      "Flat": 2,
+      "Condominium": 0,
+      "Twin house": 67,
+      "Row/Line room": 5,
+      "Hut/Shanty": 924
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6233",
+    "parent_values": {
+      "Single 1 story": 15101,
+      "Single 2 story": 830,
+      "Single 2+ story": 27,
+      "Attached house/Annex": 41,
+      "Flat": 5,
+      "Condominium": 0,
+      "Twin house": 14,
+      "Row/Line room": 19,
+      "Hut/Shanty": 451
+    },
+    "sum_child_values": {
+      "Single 1 story": 14699,
+      "Single 2 story": 794,
+      "Single 2+ story": 27,
+      "Attached house/Annex": 40,
+      "Flat": 5,
+      "Condominium": 0,
+      "Twin house": 14,
+      "Row/Line room": 18,
+      "Hut/Shanty": 450
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-7118",
+    "parent_values": {
+      "Single 1 story": 9619,
+      "Single 2 story": 88,
+      "Single 2+ story": 2,
+      "Attached house/Annex": 3,
+      "Flat": 1,
+      "Condominium": 0,
+      "Twin house": 13,
+      "Row/Line room": 0,
+      "Hut/Shanty": 38
+    },
+    "sum_child_values": {
+      "Single 1 story": 9369,
+      "Single 2 story": 88,
+      "Single 2+ story": 2,
+      "Attached house/Annex": 3,
+      "Flat": 1,
+      "Condominium": 0,
+      "Twin house": 12,
+      "Row/Line room": 0,
+      "Hut/Shanty": 38
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-7127",
+    "parent_values": {
+      "Single 1 story": 12350,
+      "Single 2 story": 185,
+      "Single 2+ story": 9,
+      "Attached house/Annex": 6,
+      "Flat": 2,
+      "Condominium": 0,
+      "Twin house": 9,
+      "Row/Line room": 4,
+      "Hut/Shanty": 25
+    },
+    "sum_child_values": {
+      "Single 1 story": 12022,
+      "Single 2 story": 176,
+      "Single 2+ story": 9,
+      "Attached house/Annex": 6,
+      "Flat": 2,
+      "Condominium": 0,
+      "Twin house": 9,
+      "Row/Line room": 4,
+      "Hut/Shanty": 23
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-7133",
+    "parent_values": {
+      "Single 1 story": 15281,
+      "Single 2 story": 1781,
+      "Single 2+ story": 40,
+      "Attached house/Annex": 171,
+      "Flat": 47,
+      "Condominium": 0,
+      "Twin house": 151,
+      "Row/Line room": 32,
+      "Hut/Shanty": 31
+    },
+    "sum_child_values": {
+      "Single 1 story": 14645,
+      "Single 2 story": 1660,
+      "Single 2+ story": 37,
+      "Attached house/Annex": 168,
+      "Flat": 38,
+      "Condominium": 0,
+      "Twin house": 141,
+      "Row/Line room": 10,
+      "Hut/Shanty": 26
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-8124",
+    "parent_values": {
+      "Single 1 story": 16720,
+      "Single 2 story": 1063,
+      "Single 2+ story": 83,
+      "Attached house/Annex": 480,
+      "Flat": 18,
+      "Condominium": 0,
+      "Twin house": 867,
+      "Row/Line room": 4229,
+      "Hut/Shanty": 70
+    },
+    "sum_child_values": {
+      "Single 1 story": 16154,
+      "Single 2 story": 996,
+      "Single 2+ story": 79,
+      "Attached house/Annex": 477,
+      "Flat": 18,
+      "Condominium": 0,
+      "Twin house": 867,
+      "Row/Line room": 4229,
+      "Hut/Shanty": 70
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-8215",
+    "parent_values": {
+      "Single 1 story": 474,
+      "Single 2 story": 82,
+      "Single 2+ story": 6,
+      "Attached house/Annex": 5,
+      "Flat": 4,
+      "Condominium": 0,
+      "Twin house": 2,
+      "Row/Line room": 0,
+      "Hut/Shanty": 3
+    },
+    "sum_child_values": {
+      "Single 1 story": 11246,
+      "Single 2 story": 250,
+      "Single 2+ story": 5,
+      "Attached house/Annex": 26,
+      "Flat": 29,
+      "Condominium": 0,
+      "Twin house": 40,
+      "Row/Line room": 454,
+      "Hut/Shanty": 51
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-9118",
+    "parent_values": {
+      "Single 1 story": 18866,
+      "Single 2 story": 868,
+      "Single 2+ story": 60,
+      "Attached house/Annex": 140,
+      "Flat": 23,
+      "Condominium": 0,
+      "Twin house": 275,
+      "Row/Line room": 1325,
+      "Hut/Shanty": 44
+    },
+    "sum_child_values": {
+      "Single 1 story": 11032,
+      "Single 2 story": 466,
+      "Single 2+ story": 29,
+      "Attached house/Annex": 53,
+      "Flat": 8,
+      "Condominium": 0,
+      "Twin house": 100,
+      "Row/Line room": 1220,
+      "Hut/Shanty": 27
+    }
+  }
+]

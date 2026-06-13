@@ -1,0 +1,1081 @@
+[
+  {
+    "validation": "ent_coverage",
+    "ent_type_name": "dsd",
+    "missing_ent_ids": [
+      "LK-2307",
+      "LK-3137",
+      "LK-2310",
+      "LK-9119",
+      "LK-3128",
+      "LK-3135",
+      "LK-2314",
+      "LK-2302",
+      "LK-2313"
+    ]
+  },
+  {
+    "validation": "ent_coverage",
+    "ent_type_name": "gnd",
+    "missing_ent_ids": [
+      "LK-5224005",
+      "LK-5327010",
+      "LK-5104013",
+      "LK-3127175",
+      "LK-8215055",
+      "LK-3127220",
+      "LK-5221095",
+      "LK-1306275",
+      "LK-9118205",
+      "LK-4112175",
+      "LK-5124009",
+      "LK-7127130",
+      "LK-4130005",
+      "LK-1209415",
+      "LK-5112210",
+      "LK-6124215",
+      "LK-5333005",
+      "LK-6218135",
+      "LK-8124160",
+      "LK-4506005",
+      "LK-5327005",
+      "LK-2203155",
+      "LK-4112110",
+      "LK-5333010",
+      "LK-5112215",
+      "LK-5124030",
+      "LK-5112235",
+      "LK-4130155",
+      "LK-5133019",
+      "LK-4124090",
+      "LK-5215110",
+      "LK-9119060",
+      "LK-5333030",
+      "LK-5112230",
+      "LK-4112205",
+      "LK-5221100",
+      "LK-5109022",
+      "LK-4112150",
+      "LK-3127165",
+      "LK-5112200",
+      "LK-5109065",
+      "LK-5327185",
+      "LK-4409020",
+      "LK-5136230",
+      "LK-2309380",
+      "LK-5224050",
+      "LK-1339265",
+      "LK-4112190",
+      "LK-6124225",
+      "LK-4133055",
+      "LK-7210065",
+      "LK-5333035",
+      "LK-5115015",
+      "LK-4112200",
+      "LK-5127018",
+      "LK-5112014",
+      "LK-4512020",
+      "LK-4112225",
+      "LK-9118195",
+      "LK-9118200",
+      "LK-5112016",
+      "LK-5104055",
+      "LK-5104005",
+      "LK-1227590",
+      "LK-5112006",
+      "LK-2203295",
+      "LK-5112115",
+      "LK-9118190",
+      "LK-5109012",
+      "LK-6233095",
+      "LK-5221050",
+      "LK-5333015",
+      "LK-4503015",
+      "LK-2203160",
+      "LK-4112220",
+      "LK-5109021",
+      "LK-4503090",
+      "LK-7133080",
+      "LK-4415015",
+      "LK-5104004",
+      "LK-4112215",
+      "LK-5315010",
+      "LK-5104003",
+      "LK-4112185",
+      "LK-5110025",
+      "LK-5136235",
+      "LK-4124030",
+      "LK-4133065",
+      "LK-5212205",
+      "LK-9118185",
+      "LK-5124065",
+      "LK-9118175",
+      "LK-5110020",
+      "LK-4409035",
+      "LK-4112145",
+      "LK-5224065",
+      "LK-9118165",
+      "LK-5333020",
+      "LK-4409005",
+      "LK-4415155",
+      "LK-4112195",
+      "LK-5333025",
+      "LK-5124017",
+      "LK-9118180",
+      "LK-5133060",
+      "LK-4503045",
+      "LK-4112180",
+      "LK-5124070",
+      "LK-3248160",
+      "LK-9118170",
+      "LK-5130011",
+      "LK-4112155",
+      "LK-5224055",
+      "LK-4112210",
+      "LK-4112120",
+      "LK-5224060",
+      "LK-4409040",
+      "LK-5112120",
+      "LK-1339260",
+      "LK-6124210",
+      "LK-4409050",
+      "LK-5327020"
+    ]
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-53",
+    "parent_values": {
+      "Brick": 59386,
+      "Cement block/Stone": 27250,
+      "Cabook": 248,
+      "Soil bricks": 401,
+      "Mud": 2980,
+      "Cadjan/Palmyrah": 1110,
+      "Plank/Metal Sheet": 4162,
+      "Other": 142
+    },
+    "sum_child_values": {
+      "Brick": 57912,
+      "Cement block/Stone": 26422,
+      "Cabook": 242,
+      "Soil bricks": 401,
+      "Mud": 2966,
+      "Cadjan/Palmyrah": 1070,
+      "Plank/Metal Sheet": 3979,
+      "Other": 141
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-82",
+    "parent_values": {
+      "Brick": 92620,
+      "Cement block/Stone": 5042,
+      "Cabook": 233,
+      "Soil bricks": 4660,
+      "Mud": 16416,
+      "Cadjan/Palmyrah": 117,
+      "Plank/Metal Sheet": 221,
+      "Other": 194
+    },
+    "sum_child_values": {
+      "Brick": 83922,
+      "Cement block/Stone": 4356,
+      "Cabook": 221,
+      "Soil bricks": 4147,
+      "Mud": 14279,
+      "Cadjan/Palmyrah": 110,
+      "Plank/Metal Sheet": 191,
+      "Other": 176
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1209",
+    "parent_values": {
+      "Brick": 24410,
+      "Cement block/Stone": 11022,
+      "Cabook": 164,
+      "Soil bricks": 420,
+      "Mud": 1325,
+      "Cadjan/Palmyrah": 186,
+      "Plank/Metal Sheet": 1150,
+      "Other": 50
+    },
+    "sum_child_values": {
+      "Brick": 24019,
+      "Cement block/Stone": 10864,
+      "Cabook": 163,
+      "Soil bricks": 420,
+      "Mud": 1324,
+      "Cadjan/Palmyrah": 185,
+      "Plank/Metal Sheet": 1132,
+      "Other": 49
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1227",
+    "parent_values": {
+      "Brick": 18042,
+      "Cement block/Stone": 21447,
+      "Cabook": 451,
+      "Soil bricks": 1197,
+      "Mud": 3310,
+      "Cadjan/Palmyrah": 30,
+      "Plank/Metal Sheet": 376,
+      "Other": 71
+    },
+    "sum_child_values": {
+      "Brick": 17903,
+      "Cement block/Stone": 21052,
+      "Cabook": 449,
+      "Soil bricks": 1175,
+      "Mud": 3306,
+      "Cadjan/Palmyrah": 30,
+      "Plank/Metal Sheet": 373,
+      "Other": 71
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1306",
+    "parent_values": {
+      "Brick": 4738,
+      "Cement block/Stone": 15534,
+      "Cabook": 5690,
+      "Soil bricks": 197,
+      "Mud": 283,
+      "Cadjan/Palmyrah": 4,
+      "Plank/Metal Sheet": 484,
+      "Other": 18
+    },
+    "sum_child_values": {
+      "Brick": 4717,
+      "Cement block/Stone": 15430,
+      "Cabook": 5601,
+      "Soil bricks": 197,
+      "Mud": 283,
+      "Cadjan/Palmyrah": 4,
+      "Plank/Metal Sheet": 484,
+      "Other": 18
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1339",
+    "parent_values": {
+      "Brick": 1504,
+      "Cement block/Stone": 9654,
+      "Cabook": 289,
+      "Soil bricks": 1792,
+      "Mud": 1179,
+      "Cadjan/Palmyrah": 2,
+      "Plank/Metal Sheet": 82,
+      "Other": 60
+    },
+    "sum_child_values": {
+      "Brick": 1461,
+      "Cement block/Stone": 9319,
+      "Cabook": 281,
+      "Soil bricks": 1681,
+      "Mud": 1158,
+      "Cadjan/Palmyrah": 0,
+      "Plank/Metal Sheet": 78,
+      "Other": 52
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2203",
+    "parent_values": {
+      "Brick": 16721,
+      "Cement block/Stone": 302,
+      "Cabook": 6,
+      "Soil bricks": 178,
+      "Mud": 1745,
+      "Cadjan/Palmyrah": 52,
+      "Plank/Metal Sheet": 31,
+      "Other": 18
+    },
+    "sum_child_values": {
+      "Brick": 16039,
+      "Cement block/Stone": 267,
+      "Cabook": 6,
+      "Soil bricks": 172,
+      "Mud": 1607,
+      "Cadjan/Palmyrah": 49,
+      "Plank/Metal Sheet": 28,
+      "Other": 15
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2303",
+    "parent_values": {
+      "Brick": 1444,
+      "Cement block/Stone": 21355,
+      "Cabook": 266,
+      "Soil bricks": 621,
+      "Mud": 1293,
+      "Cadjan/Palmyrah": 12,
+      "Plank/Metal Sheet": 418,
+      "Other": 73
+    },
+    "sum_child_values": {
+      "Brick": 986,
+      "Cement block/Stone": 12681,
+      "Cabook": 166,
+      "Soil bricks": 403,
+      "Mud": 764,
+      "Cadjan/Palmyrah": 10,
+      "Plank/Metal Sheet": 273,
+      "Other": 48
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2306",
+    "parent_values": {
+      "Brick": 5698,
+      "Cement block/Stone": 14826,
+      "Cabook": 564,
+      "Soil bricks": 1918,
+      "Mud": 764,
+      "Cadjan/Palmyrah": 6,
+      "Plank/Metal Sheet": 72,
+      "Other": 24
+    },
+    "sum_child_values": {
+      "Brick": 3869,
+      "Cement block/Stone": 9413,
+      "Cabook": 404,
+      "Soil bricks": 743,
+      "Mud": 520,
+      "Cadjan/Palmyrah": 5,
+      "Plank/Metal Sheet": 33,
+      "Other": 14
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2309",
+    "parent_values": {
+      "Brick": 8427,
+      "Cement block/Stone": 11028,
+      "Cabook": 35,
+      "Soil bricks": 6960,
+      "Mud": 734,
+      "Cadjan/Palmyrah": 13,
+      "Plank/Metal Sheet": 224,
+      "Other": 183
+    },
+    "sum_child_values": {
+      "Brick": 4033,
+      "Cement block/Stone": 7924,
+      "Cabook": 19,
+      "Soil bricks": 2871,
+      "Mud": 432,
+      "Cadjan/Palmyrah": 7,
+      "Plank/Metal Sheet": 145,
+      "Other": 112
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2312",
+    "parent_values": {
+      "Brick": 4421,
+      "Cement block/Stone": 40286,
+      "Cabook": 495,
+      "Soil bricks": 1167,
+      "Mud": 2081,
+      "Cadjan/Palmyrah": 13,
+      "Plank/Metal Sheet": 2396,
+      "Other": 379
+    },
+    "sum_child_values": {
+      "Brick": 3243,
+      "Cement block/Stone": 14672,
+      "Cabook": 218,
+      "Soil bricks": 432,
+      "Mud": 717,
+      "Cadjan/Palmyrah": 7,
+      "Plank/Metal Sheet": 2186,
+      "Other": 89
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2315",
+    "parent_values": {
+      "Brick": 995,
+      "Cement block/Stone": 45778,
+      "Cabook": 293,
+      "Soil bricks": 720,
+      "Mud": 1621,
+      "Cadjan/Palmyrah": 12,
+      "Plank/Metal Sheet": 609,
+      "Other": 216
+    },
+    "sum_child_values": {
+      "Brick": 205,
+      "Cement block/Stone": 10559,
+      "Cabook": 42,
+      "Soil bricks": 126,
+      "Mud": 473,
+      "Cadjan/Palmyrah": 2,
+      "Plank/Metal Sheet": 281,
+      "Other": 23
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3127",
+    "parent_values": {
+      "Brick": 8875,
+      "Cement block/Stone": 8026,
+      "Cabook": 474,
+      "Soil bricks": 591,
+      "Mud": 1145,
+      "Cadjan/Palmyrah": 8,
+      "Plank/Metal Sheet": 456,
+      "Other": 15
+    },
+    "sum_child_values": {
+      "Brick": 5177,
+      "Cement block/Stone": 4840,
+      "Cabook": 195,
+      "Soil bricks": 366,
+      "Mud": 693,
+      "Cadjan/Palmyrah": 7,
+      "Plank/Metal Sheet": 321,
+      "Other": 11
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3136",
+    "parent_values": {
+      "Brick": 10748,
+      "Cement block/Stone": 11700,
+      "Cabook": 179,
+      "Soil bricks": 902,
+      "Mud": 1005,
+      "Cadjan/Palmyrah": 18,
+      "Plank/Metal Sheet": 545,
+      "Other": 185
+    },
+    "sum_child_values": {
+      "Brick": 2614,
+      "Cement block/Stone": 3356,
+      "Cabook": 103,
+      "Soil bricks": 419,
+      "Mud": 360,
+      "Cadjan/Palmyrah": 5,
+      "Plank/Metal Sheet": 165,
+      "Other": 26
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3248",
+    "parent_values": {
+      "Brick": 10894,
+      "Cement block/Stone": 1492,
+      "Cabook": 58,
+      "Soil bricks": 231,
+      "Mud": 466,
+      "Cadjan/Palmyrah": 5,
+      "Plank/Metal Sheet": 157,
+      "Other": 27
+    },
+    "sum_child_values": {
+      "Brick": 10638,
+      "Cement block/Stone": 1491,
+      "Cabook": 58,
+      "Soil bricks": 228,
+      "Mud": 460,
+      "Cadjan/Palmyrah": 5,
+      "Plank/Metal Sheet": 156,
+      "Other": 27
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4130",
+    "parent_values": {
+      "Brick": 234,
+      "Cement block/Stone": 13209,
+      "Cabook": 5,
+      "Soil bricks": 41,
+      "Mud": 1235,
+      "Cadjan/Palmyrah": 924,
+      "Plank/Metal Sheet": 323,
+      "Other": 45
+    },
+    "sum_child_values": {
+      "Brick": 225,
+      "Cement block/Stone": 12775,
+      "Cabook": 5,
+      "Soil bricks": 41,
+      "Mud": 1214,
+      "Cadjan/Palmyrah": 914,
+      "Plank/Metal Sheet": 315,
+      "Other": 45
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4133",
+    "parent_values": {
+      "Brick": 417,
+      "Cement block/Stone": 14390,
+      "Cabook": 41,
+      "Soil bricks": 69,
+      "Mud": 416,
+      "Cadjan/Palmyrah": 247,
+      "Plank/Metal Sheet": 354,
+      "Other": 133
+    },
+    "sum_child_values": {
+      "Brick": 406,
+      "Cement block/Stone": 13483,
+      "Cabook": 39,
+      "Soil bricks": 65,
+      "Mud": 408,
+      "Cadjan/Palmyrah": 246,
+      "Plank/Metal Sheet": 334,
+      "Other": 125
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4415",
+    "parent_values": {
+      "Brick": 230,
+      "Cement block/Stone": 4077,
+      "Cabook": 2,
+      "Soil bricks": 44,
+      "Mud": 495,
+      "Cadjan/Palmyrah": 1546,
+      "Plank/Metal Sheet": 985,
+      "Other": 298
+    },
+    "sum_child_values": {
+      "Brick": 230,
+      "Cement block/Stone": 4077,
+      "Cabook": 2,
+      "Soil bricks": 44,
+      "Mud": 495,
+      "Cadjan/Palmyrah": 1539,
+      "Plank/Metal Sheet": 974,
+      "Other": 283
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5110",
+    "parent_values": {
+      "Brick": 3338,
+      "Cement block/Stone": 1006,
+      "Cabook": 25,
+      "Soil bricks": 5,
+      "Mud": 135,
+      "Cadjan/Palmyrah": 836,
+      "Plank/Metal Sheet": 1353,
+      "Other": 35
+    },
+    "sum_child_values": {
+      "Brick": 3337,
+      "Cement block/Stone": 1006,
+      "Cabook": 25,
+      "Soil bricks": 5,
+      "Mud": 125,
+      "Cadjan/Palmyrah": 818,
+      "Plank/Metal Sheet": 1258,
+      "Other": 35
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5112",
+    "parent_values": {
+      "Brick": 12646,
+      "Cement block/Stone": 1949,
+      "Cabook": 29,
+      "Soil bricks": 9,
+      "Mud": 560,
+      "Cadjan/Palmyrah": 1647,
+      "Plank/Metal Sheet": 2050,
+      "Other": 39
+    },
+    "sum_child_values": {
+      "Brick": 10794,
+      "Cement block/Stone": 1863,
+      "Cabook": 28,
+      "Soil bricks": 9,
+      "Mud": 555,
+      "Cadjan/Palmyrah": 1510,
+      "Plank/Metal Sheet": 1870,
+      "Other": 35
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5115",
+    "parent_values": {
+      "Brick": 5433,
+      "Cement block/Stone": 103,
+      "Cabook": 1,
+      "Soil bricks": 0,
+      "Mud": 12,
+      "Cadjan/Palmyrah": 83,
+      "Plank/Metal Sheet": 306,
+      "Other": 3
+    },
+    "sum_child_values": {
+      "Brick": 4450,
+      "Cement block/Stone": 41,
+      "Cabook": 1,
+      "Soil bricks": 0,
+      "Mud": 11,
+      "Cadjan/Palmyrah": 55,
+      "Plank/Metal Sheet": 252,
+      "Other": 1
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5124",
+    "parent_values": {
+      "Brick": 10003,
+      "Cement block/Stone": 121,
+      "Cabook": 0,
+      "Soil bricks": 0,
+      "Mud": 1,
+      "Cadjan/Palmyrah": 34,
+      "Plank/Metal Sheet": 680,
+      "Other": 0
+    },
+    "sum_child_values": {
+      "Brick": 8542,
+      "Cement block/Stone": 21,
+      "Cabook": 0,
+      "Soil bricks": 0,
+      "Mud": 1,
+      "Cadjan/Palmyrah": 30,
+      "Plank/Metal Sheet": 543,
+      "Other": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5133",
+    "parent_values": {
+      "Brick": 7062,
+      "Cement block/Stone": 528,
+      "Cabook": 3,
+      "Soil bricks": 2,
+      "Mud": 1386,
+      "Cadjan/Palmyrah": 239,
+      "Plank/Metal Sheet": 170,
+      "Other": 40
+    },
+    "sum_child_values": {
+      "Brick": 6960,
+      "Cement block/Stone": 497,
+      "Cabook": 3,
+      "Soil bricks": 2,
+      "Mud": 1335,
+      "Cadjan/Palmyrah": 237,
+      "Plank/Metal Sheet": 166,
+      "Other": 40
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5212",
+    "parent_values": {
+      "Brick": 12553,
+      "Cement block/Stone": 559,
+      "Cabook": 5,
+      "Soil bricks": 196,
+      "Mud": 1567,
+      "Cadjan/Palmyrah": 6,
+      "Plank/Metal Sheet": 46,
+      "Other": 7
+    },
+    "sum_child_values": {
+      "Brick": 12181,
+      "Cement block/Stone": 557,
+      "Cabook": 4,
+      "Soil bricks": 192,
+      "Mud": 1532,
+      "Cadjan/Palmyrah": 6,
+      "Plank/Metal Sheet": 44,
+      "Other": 7
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5215",
+    "parent_values": {
+      "Brick": 9197,
+      "Cement block/Stone": 596,
+      "Cabook": 2,
+      "Soil bricks": 79,
+      "Mud": 971,
+      "Cadjan/Palmyrah": 8,
+      "Plank/Metal Sheet": 76,
+      "Other": 11
+    },
+    "sum_child_values": {
+      "Brick": 8926,
+      "Cement block/Stone": 594,
+      "Cabook": 2,
+      "Soil bricks": 73,
+      "Mud": 898,
+      "Cadjan/Palmyrah": 7,
+      "Plank/Metal Sheet": 75,
+      "Other": 11
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5221",
+    "parent_values": {
+      "Brick": 6408,
+      "Cement block/Stone": 792,
+      "Cabook": 8,
+      "Soil bricks": 2,
+      "Mud": 61,
+      "Cadjan/Palmyrah": 39,
+      "Plank/Metal Sheet": 245,
+      "Other": 52
+    },
+    "sum_child_values": {
+      "Brick": 5474,
+      "Cement block/Stone": 781,
+      "Cabook": 6,
+      "Soil bricks": 1,
+      "Mud": 50,
+      "Cadjan/Palmyrah": 35,
+      "Plank/Metal Sheet": 213,
+      "Other": 48
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5224",
+    "parent_values": {
+      "Brick": 9385,
+      "Cement block/Stone": 623,
+      "Cabook": 16,
+      "Soil bricks": 3,
+      "Mud": 8,
+      "Cadjan/Palmyrah": 40,
+      "Plank/Metal Sheet": 248,
+      "Other": 19
+    },
+    "sum_child_values": {
+      "Brick": 8027,
+      "Cement block/Stone": 622,
+      "Cabook": 16,
+      "Soil bricks": 3,
+      "Mud": 1,
+      "Cadjan/Palmyrah": 36,
+      "Plank/Metal Sheet": 206,
+      "Other": 16
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5327",
+    "parent_values": {
+      "Brick": 9419,
+      "Cement block/Stone": 2699,
+      "Cabook": 62,
+      "Soil bricks": 13,
+      "Mud": 401,
+      "Cadjan/Palmyrah": 325,
+      "Plank/Metal Sheet": 1741,
+      "Other": 42
+    },
+    "sum_child_values": {
+      "Brick": 9253,
+      "Cement block/Stone": 2656,
+      "Cabook": 62,
+      "Soil bricks": 13,
+      "Mud": 400,
+      "Cadjan/Palmyrah": 322,
+      "Plank/Metal Sheet": 1699,
+      "Other": 42
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5333",
+    "parent_values": {
+      "Brick": 261,
+      "Cement block/Stone": 95,
+      "Cabook": 0,
+      "Soil bricks": 0,
+      "Mud": 3,
+      "Cadjan/Palmyrah": 6,
+      "Plank/Metal Sheet": 21,
+      "Other": 1
+    },
+    "sum_child_values": {
+      "Brick": 563,
+      "Cement block/Stone": 354,
+      "Cabook": 1,
+      "Soil bricks": 0,
+      "Mud": 3,
+      "Cadjan/Palmyrah": 23,
+      "Plank/Metal Sheet": 55,
+      "Other": 1
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6124",
+    "parent_values": {
+      "Brick": 14895,
+      "Cement block/Stone": 93,
+      "Cabook": 0,
+      "Soil bricks": 61,
+      "Mud": 868,
+      "Cadjan/Palmyrah": 25,
+      "Plank/Metal Sheet": 16,
+      "Other": 41
+    },
+    "sum_child_values": {
+      "Brick": 14357,
+      "Cement block/Stone": 90,
+      "Cabook": 0,
+      "Soil bricks": 60,
+      "Mud": 831,
+      "Cadjan/Palmyrah": 25,
+      "Plank/Metal Sheet": 16,
+      "Other": 40
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6145",
+    "parent_values": {
+      "Brick": 15936,
+      "Cement block/Stone": 408,
+      "Cabook": 4,
+      "Soil bricks": 131,
+      "Mud": 509,
+      "Cadjan/Palmyrah": 109,
+      "Plank/Metal Sheet": 148,
+      "Other": 10
+    },
+    "sum_child_values": {
+      "Brick": 16557,
+      "Cement block/Stone": 413,
+      "Cabook": 4,
+      "Soil bricks": 133,
+      "Mud": 543,
+      "Cadjan/Palmyrah": 110,
+      "Plank/Metal Sheet": 153,
+      "Other": 10
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6148",
+    "parent_values": {
+      "Brick": 8546,
+      "Cement block/Stone": 89,
+      "Cabook": 3,
+      "Soil bricks": 44,
+      "Mud": 419,
+      "Cadjan/Palmyrah": 52,
+      "Plank/Metal Sheet": 60,
+      "Other": 21
+    },
+    "sum_child_values": {
+      "Brick": 7925,
+      "Cement block/Stone": 84,
+      "Cabook": 3,
+      "Soil bricks": 42,
+      "Mud": 385,
+      "Cadjan/Palmyrah": 51,
+      "Plank/Metal Sheet": 55,
+      "Other": 21
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6218",
+    "parent_values": {
+      "Brick": 10142,
+      "Cement block/Stone": 1707,
+      "Cabook": 23,
+      "Soil bricks": 19,
+      "Mud": 323,
+      "Cadjan/Palmyrah": 2247,
+      "Plank/Metal Sheet": 926,
+      "Other": 3
+    },
+    "sum_child_values": {
+      "Brick": 9935,
+      "Cement block/Stone": 1692,
+      "Cabook": 23,
+      "Soil bricks": 19,
+      "Mud": 322,
+      "Cadjan/Palmyrah": 2237,
+      "Plank/Metal Sheet": 896,
+      "Other": 2
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6233",
+    "parent_values": {
+      "Brick": 11736,
+      "Cement block/Stone": 2048,
+      "Cabook": 14,
+      "Soil bricks": 230,
+      "Mud": 275,
+      "Cadjan/Palmyrah": 614,
+      "Plank/Metal Sheet": 1568,
+      "Other": 3
+    },
+    "sum_child_values": {
+      "Brick": 11323,
+      "Cement block/Stone": 2033,
+      "Cabook": 14,
+      "Soil bricks": 230,
+      "Mud": 275,
+      "Cadjan/Palmyrah": 613,
+      "Plank/Metal Sheet": 1556,
+      "Other": 3
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-7127",
+    "parent_values": {
+      "Brick": 11489,
+      "Cement block/Stone": 253,
+      "Cabook": 34,
+      "Soil bricks": 111,
+      "Mud": 689,
+      "Cadjan/Palmyrah": 2,
+      "Plank/Metal Sheet": 9,
+      "Other": 3
+    },
+    "sum_child_values": {
+      "Brick": 11166,
+      "Cement block/Stone": 250,
+      "Cabook": 34,
+      "Soil bricks": 109,
+      "Mud": 679,
+      "Cadjan/Palmyrah": 2,
+      "Plank/Metal Sheet": 8,
+      "Other": 3
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-7133",
+    "parent_values": {
+      "Brick": 16462,
+      "Cement block/Stone": 670,
+      "Cabook": 9,
+      "Soil bricks": 32,
+      "Mud": 303,
+      "Cadjan/Palmyrah": 4,
+      "Plank/Metal Sheet": 50,
+      "Other": 4
+    },
+    "sum_child_values": {
+      "Brick": 15696,
+      "Cement block/Stone": 644,
+      "Cabook": 9,
+      "Soil bricks": 32,
+      "Mud": 301,
+      "Cadjan/Palmyrah": 4,
+      "Plank/Metal Sheet": 35,
+      "Other": 4
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-8124",
+    "parent_values": {
+      "Brick": 7091,
+      "Cement block/Stone": 8911,
+      "Cabook": 676,
+      "Soil bricks": 6175,
+      "Mud": 561,
+      "Cadjan/Palmyrah": 6,
+      "Plank/Metal Sheet": 68,
+      "Other": 42
+    },
+    "sum_child_values": {
+      "Brick": 6801,
+      "Cement block/Stone": 8694,
+      "Cabook": 601,
+      "Soil bricks": 6121,
+      "Mud": 558,
+      "Cadjan/Palmyrah": 6,
+      "Plank/Metal Sheet": 67,
+      "Other": 42
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-8215",
+    "parent_values": {
+      "Brick": 441,
+      "Cement block/Stone": 64,
+      "Cabook": 0,
+      "Soil bricks": 5,
+      "Mud": 54,
+      "Cadjan/Palmyrah": 1,
+      "Plank/Metal Sheet": 8,
+      "Other": 3
+    },
+    "sum_child_values": {
+      "Brick": 8698,
+      "Cement block/Stone": 686,
+      "Cabook": 12,
+      "Soil bricks": 513,
+      "Mud": 2137,
+      "Cadjan/Palmyrah": 7,
+      "Plank/Metal Sheet": 30,
+      "Other": 18
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-9118",
+    "parent_values": {
+      "Brick": 6100,
+      "Cement block/Stone": 11897,
+      "Cabook": 197,
+      "Soil bricks": 1283,
+      "Mud": 2008,
+      "Cadjan/Palmyrah": 6,
+      "Plank/Metal Sheet": 81,
+      "Other": 29
+    },
+    "sum_child_values": {
+      "Brick": 2609,
+      "Cement block/Stone": 8167,
+      "Cabook": 160,
+      "Soil bricks": 852,
+      "Mud": 1092,
+      "Cadjan/Palmyrah": 2,
+      "Plank/Metal Sheet": 42,
+      "Other": 11
+    }
+  }
+]

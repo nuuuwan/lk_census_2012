@@ -1,0 +1,904 @@
+[
+  {
+    "validation": "ent_coverage",
+    "ent_type_name": "dsd",
+    "missing_ent_ids": [
+      "LK-2307",
+      "LK-3137",
+      "LK-2310",
+      "LK-9119",
+      "LK-3128",
+      "LK-3135",
+      "LK-2314",
+      "LK-2302",
+      "LK-2313"
+    ]
+  },
+  {
+    "validation": "ent_coverage",
+    "ent_type_name": "gnd",
+    "missing_ent_ids": [
+      "LK-5224005",
+      "LK-5327010",
+      "LK-5104013",
+      "LK-3127175",
+      "LK-8215055",
+      "LK-3127220",
+      "LK-5221095",
+      "LK-1306275",
+      "LK-9118205",
+      "LK-4112175",
+      "LK-5124009",
+      "LK-7127130",
+      "LK-4130005",
+      "LK-1209415",
+      "LK-5112210",
+      "LK-6124215",
+      "LK-5333005",
+      "LK-6218135",
+      "LK-8124160",
+      "LK-4506005",
+      "LK-5327005",
+      "LK-2203155",
+      "LK-4112110",
+      "LK-5333010",
+      "LK-5112215",
+      "LK-5124030",
+      "LK-5112235",
+      "LK-4130155",
+      "LK-5133019",
+      "LK-4124090",
+      "LK-5215110",
+      "LK-9119060",
+      "LK-5333030",
+      "LK-5112230",
+      "LK-4112205",
+      "LK-5221100",
+      "LK-5109022",
+      "LK-4112150",
+      "LK-3127165",
+      "LK-5112200",
+      "LK-5109065",
+      "LK-5327185",
+      "LK-4409020",
+      "LK-5136230",
+      "LK-2309380",
+      "LK-5224050",
+      "LK-1339265",
+      "LK-4112190",
+      "LK-6124225",
+      "LK-4133055",
+      "LK-7210065",
+      "LK-5333035",
+      "LK-5115015",
+      "LK-4112200",
+      "LK-5127018",
+      "LK-5112014",
+      "LK-4512020",
+      "LK-4112225",
+      "LK-9118195",
+      "LK-9118200",
+      "LK-5112016",
+      "LK-5104055",
+      "LK-5104005",
+      "LK-1227590",
+      "LK-5112006",
+      "LK-2203295",
+      "LK-5112115",
+      "LK-9118190",
+      "LK-5109012",
+      "LK-6233095",
+      "LK-5221050",
+      "LK-5333015",
+      "LK-4503015",
+      "LK-2203160",
+      "LK-4112220",
+      "LK-5109021",
+      "LK-4503090",
+      "LK-7133080",
+      "LK-4415015",
+      "LK-5104004",
+      "LK-4112215",
+      "LK-5315010",
+      "LK-5104003",
+      "LK-4112185",
+      "LK-5110025",
+      "LK-5136235",
+      "LK-4124030",
+      "LK-4133065",
+      "LK-5212205",
+      "LK-9118185",
+      "LK-5124065",
+      "LK-9118175",
+      "LK-5110020",
+      "LK-4409035",
+      "LK-4112145",
+      "LK-5224065",
+      "LK-9118165",
+      "LK-5333020",
+      "LK-4409005",
+      "LK-4415155",
+      "LK-4112195",
+      "LK-5333025",
+      "LK-5124017",
+      "LK-9118180",
+      "LK-5133060",
+      "LK-4503045",
+      "LK-4112180",
+      "LK-5124070",
+      "LK-9118170",
+      "LK-5130011",
+      "LK-4112155",
+      "LK-5224055",
+      "LK-4112210",
+      "LK-4112120",
+      "LK-5224060",
+      "LK-4409040",
+      "LK-5112120",
+      "LK-1339260",
+      "LK-6124210",
+      "LK-4409050",
+      "LK-5327020"
+    ]
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-53",
+    "parent_values": {
+      "Firewood": 79875,
+      "Kerosene": 2974,
+      "Gas": 13394,
+      "Electricity": 462,
+      "Saw dust/Paddy husk/": 67,
+      "Other": 179
+    },
+    "sum_child_values": {
+      "Firewood": 77381,
+      "Kerosene": 2931,
+      "Gas": 13381,
+      "Electricity": 454,
+      "Saw dust/Paddy husk/": 67,
+      "Other": 178
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-82",
+    "parent_values": {
+      "Firewood": 115523,
+      "Kerosene": 298,
+      "Gas": 3867,
+      "Electricity": 326,
+      "Saw dust/Paddy husk/": 5,
+      "Other": 118
+    },
+    "sum_child_values": {
+      "Firewood": 104400,
+      "Kerosene": 253,
+      "Gas": 2914,
+      "Electricity": 304,
+      "Saw dust/Paddy husk/": 5,
+      "Other": 96
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1209",
+    "parent_values": {
+      "Firewood": 36341,
+      "Kerosene": 100,
+      "Gas": 2250,
+      "Electricity": 24,
+      "Saw dust/Paddy husk/": 5,
+      "Other": 121
+    },
+    "sum_child_values": {
+      "Firewood": 35817,
+      "Kerosene": 92,
+      "Gas": 2209,
+      "Electricity": 24,
+      "Saw dust/Paddy husk/": 5,
+      "Other": 120
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1227",
+    "parent_values": {
+      "Firewood": 35769,
+      "Kerosene": 573,
+      "Gas": 8639,
+      "Electricity": 51,
+      "Saw dust/Paddy husk/": 17,
+      "Other": 164
+    },
+    "sum_child_values": {
+      "Firewood": 35400,
+      "Kerosene": 566,
+      "Gas": 8447,
+      "Electricity": 49,
+      "Saw dust/Paddy husk/": 17,
+      "Other": 164
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1306",
+    "parent_values": {
+      "Firewood": 19063,
+      "Kerosene": 414,
+      "Gas": 7616,
+      "Electricity": 29,
+      "Saw dust/Paddy husk/": 53,
+      "Other": 88
+    },
+    "sum_child_values": {
+      "Firewood": 18854,
+      "Kerosene": 411,
+      "Gas": 7608,
+      "Electricity": 29,
+      "Saw dust/Paddy husk/": 51,
+      "Other": 88
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1339",
+    "parent_values": {
+      "Firewood": 13917,
+      "Kerosene": 28,
+      "Gas": 688,
+      "Electricity": 6,
+      "Saw dust/Paddy husk/": 4,
+      "Other": 16
+    },
+    "sum_child_values": {
+      "Firewood": 13411,
+      "Kerosene": 28,
+      "Gas": 663,
+      "Electricity": 6,
+      "Saw dust/Paddy husk/": 4,
+      "Other": 14
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2203",
+    "parent_values": {
+      "Firewood": 18362,
+      "Kerosene": 43,
+      "Gas": 713,
+      "Electricity": 15,
+      "Saw dust/Paddy husk/": 2,
+      "Other": 34
+    },
+    "sum_child_values": {
+      "Firewood": 17520,
+      "Kerosene": 43,
+      "Gas": 685,
+      "Electricity": 15,
+      "Saw dust/Paddy husk/": 1,
+      "Other": 33
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2303",
+    "parent_values": {
+      "Firewood": 23986,
+      "Kerosene": 255,
+      "Gas": 1531,
+      "Electricity": 92,
+      "Saw dust/Paddy husk/": 6,
+      "Other": 17
+    },
+    "sum_child_values": {
+      "Firewood": 14336,
+      "Kerosene": 182,
+      "Gas": 982,
+      "Electricity": 75,
+      "Saw dust/Paddy husk/": 5,
+      "Other": 13
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2306",
+    "parent_values": {
+      "Firewood": 23261,
+      "Kerosene": 59,
+      "Gas": 884,
+      "Electricity": 36,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 10
+    },
+    "sum_child_values": {
+      "Firewood": 14506,
+      "Kerosene": 41,
+      "Gas": 626,
+      "Electricity": 24,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 5
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2309",
+    "parent_values": {
+      "Firewood": 26522,
+      "Kerosene": 151,
+      "Gas": 1353,
+      "Electricity": 57,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 9
+    },
+    "sum_child_values": {
+      "Firewood": 14608,
+      "Kerosene": 119,
+      "Gas": 1030,
+      "Electricity": 35,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 7
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2312",
+    "parent_values": {
+      "Firewood": 40064,
+      "Kerosene": 1685,
+      "Gas": 9998,
+      "Electricity": 289,
+      "Saw dust/Paddy husk/": 60,
+      "Other": 46
+    },
+    "sum_child_values": {
+      "Firewood": 14604,
+      "Kerosene": 827,
+      "Gas": 6317,
+      "Electricity": 130,
+      "Saw dust/Paddy husk/": 41,
+      "Other": 27
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2315",
+    "parent_values": {
+      "Firewood": 42860,
+      "Kerosene": 1252,
+      "Gas": 6468,
+      "Electricity": 158,
+      "Saw dust/Paddy husk/": 33,
+      "Other": 40
+    },
+    "sum_child_values": {
+      "Firewood": 10548,
+      "Kerosene": 68,
+      "Gas": 1172,
+      "Electricity": 22,
+      "Saw dust/Paddy husk/": 2,
+      "Other": 11
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3127",
+    "parent_values": {
+      "Firewood": 17477,
+      "Kerosene": 43,
+      "Gas": 2095,
+      "Electricity": 13,
+      "Saw dust/Paddy husk/": 2,
+      "Other": 42
+    },
+    "sum_child_values": {
+      "Firewood": 10127,
+      "Kerosene": 30,
+      "Gas": 1450,
+      "Electricity": 8,
+      "Saw dust/Paddy husk/": 2,
+      "Other": 27
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3136",
+    "parent_values": {
+      "Firewood": 20562,
+      "Kerosene": 145,
+      "Gas": 4662,
+      "Electricity": 22,
+      "Saw dust/Paddy husk/": 28,
+      "Other": 125
+    },
+    "sum_child_values": {
+      "Firewood": 4885,
+      "Kerosene": 39,
+      "Gas": 2172,
+      "Electricity": 11,
+      "Saw dust/Paddy husk/": 2,
+      "Other": 46
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4130",
+    "parent_values": {
+      "Firewood": 15672,
+      "Kerosene": 255,
+      "Gas": 250,
+      "Electricity": 14,
+      "Saw dust/Paddy husk/": 4,
+      "Other": 3
+    },
+    "sum_child_values": {
+      "Firewood": 15200,
+      "Kerosene": 253,
+      "Gas": 242,
+      "Electricity": 11,
+      "Saw dust/Paddy husk/": 4,
+      "Other": 3
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4133",
+    "parent_values": {
+      "Firewood": 12921,
+      "Kerosene": 971,
+      "Gas": 2442,
+      "Electricity": 57,
+      "Saw dust/Paddy husk/": 24,
+      "Other": 61
+    },
+    "sum_child_values": {
+      "Firewood": 12190,
+      "Kerosene": 889,
+      "Gas": 2258,
+      "Electricity": 55,
+      "Saw dust/Paddy husk/": 23,
+      "Other": 56
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4415",
+    "parent_values": {
+      "Firewood": 7531,
+      "Kerosene": 145,
+      "Gas": 115,
+      "Electricity": 14,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 2
+    },
+    "sum_child_values": {
+      "Firewood": 7502,
+      "Kerosene": 141,
+      "Gas": 115,
+      "Electricity": 14,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 2
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5110",
+    "parent_values": {
+      "Firewood": 6501,
+      "Kerosene": 144,
+      "Gas": 110,
+      "Electricity": 5,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "sum_child_values": {
+      "Firewood": 6381,
+      "Kerosene": 138,
+      "Gas": 110,
+      "Electricity": 5,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5112",
+    "parent_values": {
+      "Firewood": 17754,
+      "Kerosene": 360,
+      "Gas": 872,
+      "Electricity": 13,
+      "Saw dust/Paddy husk/": 27,
+      "Other": 9
+    },
+    "sum_child_values": {
+      "Firewood": 15746,
+      "Kerosene": 344,
+      "Gas": 641,
+      "Electricity": 13,
+      "Saw dust/Paddy husk/": 7,
+      "Other": 9
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5115",
+    "parent_values": {
+      "Firewood": 4474,
+      "Kerosene": 64,
+      "Gas": 1306,
+      "Electricity": 9,
+      "Saw dust/Paddy husk/": 118,
+      "Other": 5
+    },
+    "sum_child_values": {
+      "Firewood": 3658,
+      "Kerosene": 45,
+      "Gas": 1007,
+      "Electricity": 9,
+      "Saw dust/Paddy husk/": 106,
+      "Other": 4
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5124",
+    "parent_values": {
+      "Firewood": 1863,
+      "Kerosene": 1040,
+      "Gas": 7801,
+      "Electricity": 36,
+      "Saw dust/Paddy husk/": 138,
+      "Other": 29
+    },
+    "sum_child_values": {
+      "Firewood": 1561,
+      "Kerosene": 875,
+      "Gas": 6578,
+      "Electricity": 36,
+      "Saw dust/Paddy husk/": 119,
+      "Other": 26
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5133",
+    "parent_values": {
+      "Firewood": 9177,
+      "Kerosene": 191,
+      "Gas": 154,
+      "Electricity": 3,
+      "Saw dust/Paddy husk/": 3,
+      "Other": 0
+    },
+    "sum_child_values": {
+      "Firewood": 9002,
+      "Kerosene": 176,
+      "Gas": 154,
+      "Electricity": 3,
+      "Saw dust/Paddy husk/": 3,
+      "Other": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5212",
+    "parent_values": {
+      "Firewood": 14451,
+      "Kerosene": 17,
+      "Gas": 482,
+      "Electricity": 24,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 9
+    },
+    "sum_child_values": {
+      "Firewood": 14051,
+      "Kerosene": 15,
+      "Gas": 466,
+      "Electricity": 24,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 9
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5215",
+    "parent_values": {
+      "Firewood": 8701,
+      "Kerosene": 51,
+      "Gas": 2185,
+      "Electricity": 26,
+      "Saw dust/Paddy husk/": 2,
+      "Other": 31
+    },
+    "sum_child_values": {
+      "Firewood": 8349,
+      "Kerosene": 51,
+      "Gas": 2184,
+      "Electricity": 26,
+      "Saw dust/Paddy husk/": 2,
+      "Other": 30
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5221",
+    "parent_values": {
+      "Firewood": 4277,
+      "Kerosene": 783,
+      "Gas": 2198,
+      "Electricity": 32,
+      "Saw dust/Paddy husk/": 375,
+      "Other": 4
+    },
+    "sum_child_values": {
+      "Firewood": 3647,
+      "Kerosene": 752,
+      "Gas": 1968,
+      "Electricity": 29,
+      "Saw dust/Paddy husk/": 251,
+      "Other": 4
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5224",
+    "parent_values": {
+      "Firewood": 3393,
+      "Kerosene": 1992,
+      "Gas": 5071,
+      "Electricity": 54,
+      "Saw dust/Paddy husk/": 131,
+      "Other": 17
+    },
+    "sum_child_values": {
+      "Firewood": 2516,
+      "Kerosene": 1951,
+      "Gas": 4588,
+      "Electricity": 40,
+      "Saw dust/Paddy husk/": 115,
+      "Other": 16
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5327",
+    "parent_values": {
+      "Firewood": 13797,
+      "Kerosene": 152,
+      "Gas": 814,
+      "Electricity": 7,
+      "Saw dust/Paddy husk/": 2,
+      "Other": 13
+    },
+    "sum_child_values": {
+      "Firewood": 13557,
+      "Kerosene": 148,
+      "Gas": 802,
+      "Electricity": 7,
+      "Saw dust/Paddy husk/": 2,
+      "Other": 13
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5333",
+    "parent_values": {
+      "Firewood": 385,
+      "Kerosene": 3,
+      "Gas": 1,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    },
+    "sum_child_values": {
+      "Firewood": 988,
+      "Kerosene": 14,
+      "Gas": 2,
+      "Electricity": 0,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6124",
+    "parent_values": {
+      "Firewood": 15754,
+      "Kerosene": 18,
+      "Gas": 329,
+      "Electricity": 16,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 31
+    },
+    "sum_child_values": {
+      "Firewood": 15180,
+      "Kerosene": 18,
+      "Gas": 318,
+      "Electricity": 16,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 31
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6145",
+    "parent_values": {
+      "Firewood": 16773,
+      "Kerosene": 26,
+      "Gas": 513,
+      "Electricity": 5,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 15
+    },
+    "sum_child_values": {
+      "Firewood": 17441,
+      "Kerosene": 26,
+      "Gas": 516,
+      "Electricity": 5,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 16
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6148",
+    "parent_values": {
+      "Firewood": 9187,
+      "Kerosene": 6,
+      "Gas": 76,
+      "Electricity": 2,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 7
+    },
+    "sum_child_values": {
+      "Firewood": 8519,
+      "Kerosene": 6,
+      "Gas": 73,
+      "Electricity": 2,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 6
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6218",
+    "parent_values": {
+      "Firewood": 14620,
+      "Kerosene": 96,
+      "Gas": 928,
+      "Electricity": 35,
+      "Saw dust/Paddy husk/": 1,
+      "Other": 25
+    },
+    "sum_child_values": {
+      "Firewood": 14372,
+      "Kerosene": 88,
+      "Gas": 913,
+      "Electricity": 35,
+      "Saw dust/Paddy husk/": 1,
+      "Other": 25
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6233",
+    "parent_values": {
+      "Firewood": 12278,
+      "Kerosene": 1052,
+      "Gas": 3176,
+      "Electricity": 26,
+      "Saw dust/Paddy husk/": 13,
+      "Other": 63
+    },
+    "sum_child_values": {
+      "Firewood": 12048,
+      "Kerosene": 1024,
+      "Gas": 2997,
+      "Electricity": 25,
+      "Saw dust/Paddy husk/": 13,
+      "Other": 59
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-7127",
+    "parent_values": {
+      "Firewood": 12327,
+      "Kerosene": 9,
+      "Gas": 327,
+      "Electricity": 10,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 6
+    },
+    "sum_child_values": {
+      "Firewood": 11989,
+      "Kerosene": 8,
+      "Gas": 320,
+      "Electricity": 10,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 6
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-7133",
+    "parent_values": {
+      "Firewood": 10112,
+      "Kerosene": 110,
+      "Gas": 7366,
+      "Electricity": 52,
+      "Saw dust/Paddy husk/": 2,
+      "Other": 47
+    },
+    "sum_child_values": {
+      "Firewood": 9763,
+      "Kerosene": 99,
+      "Gas": 6908,
+      "Electricity": 44,
+      "Saw dust/Paddy husk/": 1,
+      "Other": 47
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-8124",
+    "parent_values": {
+      "Firewood": 22469,
+      "Kerosene": 95,
+      "Gas": 1438,
+      "Electricity": 33,
+      "Saw dust/Paddy husk/": 13,
+      "Other": 9
+    },
+    "sum_child_values": {
+      "Firewood": 21975,
+      "Kerosene": 90,
+      "Gas": 1293,
+      "Electricity": 33,
+      "Saw dust/Paddy husk/": 10,
+      "Other": 9
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-8215",
+    "parent_values": {
+      "Firewood": 368,
+      "Kerosene": 3,
+      "Gas": 193,
+      "Electricity": 4,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 11
+    },
+    "sum_child_values": {
+      "Firewood": 11123,
+      "Kerosene": 45,
+      "Gas": 953,
+      "Electricity": 22,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 22
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-9118",
+    "parent_values": {
+      "Firewood": 19515,
+      "Kerosene": 94,
+      "Gas": 2101,
+      "Electricity": 21,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 18
+    },
+    "sum_child_values": {
+      "Firewood": 12097,
+      "Kerosene": 44,
+      "Gas": 883,
+      "Electricity": 9,
+      "Saw dust/Paddy husk/": 0,
+      "Other": 8
+    }
+  }
+]

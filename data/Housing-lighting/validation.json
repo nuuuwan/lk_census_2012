@@ -1,0 +1,990 @@
+[
+  {
+    "validation": "ent_coverage",
+    "ent_type_name": "dsd",
+    "missing_ent_ids": [
+      "LK-2307",
+      "LK-3137",
+      "LK-2310",
+      "LK-9119",
+      "LK-3128",
+      "LK-3135",
+      "LK-2314",
+      "LK-2302",
+      "LK-2313"
+    ]
+  },
+  {
+    "validation": "ent_coverage",
+    "ent_type_name": "gnd",
+    "missing_ent_ids": [
+      "LK-5224005",
+      "LK-5327010",
+      "LK-5104013",
+      "LK-3127175",
+      "LK-8215055",
+      "LK-3127220",
+      "LK-5221095",
+      "LK-1306275",
+      "LK-9118205",
+      "LK-4112175",
+      "LK-3124020",
+      "LK-5124009",
+      "LK-7127130",
+      "LK-4130005",
+      "LK-1209415",
+      "LK-5112210",
+      "LK-6124215",
+      "LK-5333005",
+      "LK-6218135",
+      "LK-8124160",
+      "LK-4506005",
+      "LK-5327005",
+      "LK-2203155",
+      "LK-4112110",
+      "LK-5333010",
+      "LK-5112215",
+      "LK-5124030",
+      "LK-5112235",
+      "LK-4130155",
+      "LK-5133019",
+      "LK-4124090",
+      "LK-5215110",
+      "LK-9119060",
+      "LK-5333030",
+      "LK-5112230",
+      "LK-4112205",
+      "LK-5221100",
+      "LK-5109022",
+      "LK-4112150",
+      "LK-3127165",
+      "LK-5112200",
+      "LK-5109065",
+      "LK-5327185",
+      "LK-4409020",
+      "LK-5136230",
+      "LK-2309380",
+      "LK-5224050",
+      "LK-1339265",
+      "LK-4112190",
+      "LK-6124225",
+      "LK-4133055",
+      "LK-7210065",
+      "LK-5333035",
+      "LK-5218090",
+      "LK-5115015",
+      "LK-4112200",
+      "LK-5127018",
+      "LK-5112014",
+      "LK-4512020",
+      "LK-4112225",
+      "LK-9118195",
+      "LK-9118200",
+      "LK-5112016",
+      "LK-5104055",
+      "LK-5104005",
+      "LK-1227590",
+      "LK-5218025",
+      "LK-5112006",
+      "LK-2203295",
+      "LK-5112115",
+      "LK-9118190",
+      "LK-5109012",
+      "LK-6233095",
+      "LK-5221050",
+      "LK-5333015",
+      "LK-7118190",
+      "LK-4503015",
+      "LK-2203160",
+      "LK-4112220",
+      "LK-5109021",
+      "LK-4503090",
+      "LK-7133080",
+      "LK-4415015",
+      "LK-5104004",
+      "LK-4112215",
+      "LK-5315010",
+      "LK-5104003",
+      "LK-4112185",
+      "LK-5110025",
+      "LK-5136235",
+      "LK-4124030",
+      "LK-4133065",
+      "LK-5212205",
+      "LK-9118185",
+      "LK-5124065",
+      "LK-9118175",
+      "LK-5110020",
+      "LK-4409035",
+      "LK-4112145",
+      "LK-5224065",
+      "LK-9118165",
+      "LK-5333020",
+      "LK-4409005",
+      "LK-4415155",
+      "LK-4112195",
+      "LK-5333025",
+      "LK-5124017",
+      "LK-9118180",
+      "LK-5133060",
+      "LK-4503045",
+      "LK-4112180",
+      "LK-5124070",
+      "LK-5218030",
+      "LK-3248160",
+      "LK-9118170",
+      "LK-5130011",
+      "LK-4112155",
+      "LK-5224055",
+      "LK-4112210",
+      "LK-4112120",
+      "LK-5224060",
+      "LK-4409040",
+      "LK-5112120",
+      "LK-1339260",
+      "LK-6124210",
+      "LK-4409050",
+      "LK-5327020"
+    ]
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-53",
+    "parent_values": {
+      "Electricity - National Electricity Network": 73896,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 22700,
+      "Solar power": 239,
+      "Bio Gas": 0,
+      "Other": 116
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 72937,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 21131,
+      "Solar power": 208,
+      "Bio Gas": 0,
+      "Other": 116
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-82",
+    "parent_values": {
+      "Electricity - National Electricity Network": 83412,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 32907,
+      "Solar power": 3768,
+      "Bio Gas": 2,
+      "Other": 48
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 75113,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 29492,
+      "Solar power": 3319,
+      "Bio Gas": 2,
+      "Other": 46
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1209",
+    "parent_values": {
+      "Electricity - National Electricity Network": 35713,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 3091,
+      "Solar power": 7,
+      "Bio Gas": 2,
+      "Other": 28
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 35166,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 3065,
+      "Solar power": 7,
+      "Bio Gas": 1,
+      "Other": 28
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1227",
+    "parent_values": {
+      "Electricity - National Electricity Network": 43517,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 1671,
+      "Solar power": 5,
+      "Bio Gas": 0,
+      "Other": 20
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 42953,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 1665,
+      "Solar power": 5,
+      "Bio Gas": 0,
+      "Other": 20
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1306",
+    "parent_values": {
+      "Electricity - National Electricity Network": 26526,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 698,
+      "Solar power": 1,
+      "Bio Gas": 0,
+      "Other": 38
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 26306,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 696,
+      "Solar power": 1,
+      "Bio Gas": 0,
+      "Other": 38
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1339",
+    "parent_values": {
+      "Electricity - National Electricity Network": 12751,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 1767,
+      "Solar power": 130,
+      "Bio Gas": 1,
+      "Other": 10
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 12326,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 1660,
+      "Solar power": 129,
+      "Bio Gas": 1,
+      "Other": 10
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2203",
+    "parent_values": {
+      "Electricity - National Electricity Network": 15933,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 3070,
+      "Solar power": 157,
+      "Bio Gas": 1,
+      "Other": 8
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 15278,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 2868,
+      "Solar power": 143,
+      "Bio Gas": 1,
+      "Other": 7
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2303",
+    "parent_values": {
+      "Electricity - National Electricity Network": 22232,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 3633,
+      "Solar power": 6,
+      "Bio Gas": 0,
+      "Other": 16
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 13442,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 2137,
+      "Solar power": 4,
+      "Bio Gas": 0,
+      "Other": 10
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2306",
+    "parent_values": {
+      "Electricity - National Electricity Network": 20829,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 3333,
+      "Solar power": 84,
+      "Bio Gas": 0,
+      "Other": 4
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 13141,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 2036,
+      "Solar power": 22,
+      "Bio Gas": 0,
+      "Other": 3
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2309",
+    "parent_values": {
+      "Electricity - National Electricity Network": 23387,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 4543,
+      "Solar power": 150,
+      "Bio Gas": 0,
+      "Other": 12
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 13252,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 2420,
+      "Solar power": 115,
+      "Bio Gas": 0,
+      "Other": 12
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2312",
+    "parent_values": {
+      "Electricity - National Electricity Network": 46940,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 5065,
+      "Solar power": 89,
+      "Bio Gas": 3,
+      "Other": 45
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 19866,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 2000,
+      "Solar power": 56,
+      "Bio Gas": 0,
+      "Other": 24
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2315",
+    "parent_values": {
+      "Electricity - National Electricity Network": 46054,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 4716,
+      "Solar power": 14,
+      "Bio Gas": 1,
+      "Other": 26
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 10598,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 1209,
+      "Solar power": 8,
+      "Bio Gas": 0,
+      "Other": 8
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3124",
+    "parent_values": {
+      "Electricity - National Electricity Network": 12927,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 1447,
+      "Solar power": 34,
+      "Bio Gas": 0,
+      "Other": 14
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 12714,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 1425,
+      "Solar power": 34,
+      "Bio Gas": 0,
+      "Other": 14
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3127",
+    "parent_values": {
+      "Electricity - National Electricity Network": 18081,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 1577,
+      "Solar power": 4,
+      "Bio Gas": 0,
+      "Other": 10
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 10649,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 985,
+      "Solar power": 3,
+      "Bio Gas": 0,
+      "Other": 7
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3136",
+    "parent_values": {
+      "Electricity - National Electricity Network": 24552,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 971,
+      "Solar power": 1,
+      "Bio Gas": 0,
+      "Other": 20
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 6939,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 208,
+      "Solar power": 0,
+      "Bio Gas": 0,
+      "Other": 8
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3248",
+    "parent_values": {
+      "Electricity - National Electricity Network": 12733,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 729,
+      "Solar power": 1,
+      "Bio Gas": 0,
+      "Other": 21
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 12459,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 725,
+      "Solar power": 1,
+      "Bio Gas": 0,
+      "Other": 21
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4130",
+    "parent_values": {
+      "Electricity - National Electricity Network": 10296,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 5870,
+      "Solar power": 25,
+      "Bio Gas": 0,
+      "Other": 7
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 9884,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 5798,
+      "Solar power": 25,
+      "Bio Gas": 0,
+      "Other": 6
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4133",
+    "parent_values": {
+      "Electricity - National Electricity Network": 14887,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 1549,
+      "Solar power": 35,
+      "Bio Gas": 0,
+      "Other": 5
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 13926,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 1505,
+      "Solar power": 35,
+      "Bio Gas": 0,
+      "Other": 5
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4415",
+    "parent_values": {
+      "Electricity - National Electricity Network": 2466,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 5171,
+      "Solar power": 166,
+      "Bio Gas": 0,
+      "Other": 4
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 2466,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 5138,
+      "Solar power": 166,
+      "Bio Gas": 0,
+      "Other": 4
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5110",
+    "parent_values": {
+      "Electricity - National Electricity Network": 2041,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 4676,
+      "Solar power": 43,
+      "Bio Gas": 0,
+      "Other": 0
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 2041,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 4550,
+      "Solar power": 43,
+      "Bio Gas": 0,
+      "Other": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5112",
+    "parent_values": {
+      "Electricity - National Electricity Network": 10315,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 8669,
+      "Solar power": 36,
+      "Bio Gas": 4,
+      "Other": 11
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 8405,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 8311,
+      "Solar power": 36,
+      "Bio Gas": 4,
+      "Other": 4
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5115",
+    "parent_values": {
+      "Electricity - National Electricity Network": 5420,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 548,
+      "Solar power": 1,
+      "Bio Gas": 0,
+      "Other": 7
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 4442,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 380,
+      "Solar power": 1,
+      "Bio Gas": 0,
+      "Other": 6
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5124",
+    "parent_values": {
+      "Electricity - National Electricity Network": 10623,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 279,
+      "Solar power": 2,
+      "Bio Gas": 0,
+      "Other": 3
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 8956,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 234,
+      "Solar power": 2,
+      "Bio Gas": 0,
+      "Other": 3
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5133",
+    "parent_values": {
+      "Electricity - National Electricity Network": 4154,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 5286,
+      "Solar power": 88,
+      "Bio Gas": 0,
+      "Other": 0
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 4154,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 5111,
+      "Solar power": 73,
+      "Bio Gas": 0,
+      "Other": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5212",
+    "parent_values": {
+      "Electricity - National Electricity Network": 12472,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 2425,
+      "Solar power": 79,
+      "Bio Gas": 0,
+      "Other": 7
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 12100,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 2381,
+      "Solar power": 77,
+      "Bio Gas": 0,
+      "Other": 7
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5215",
+    "parent_values": {
+      "Electricity - National Electricity Network": 9519,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 1392,
+      "Solar power": 70,
+      "Bio Gas": 0,
+      "Other": 15
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 9271,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 1293,
+      "Solar power": 63,
+      "Bio Gas": 0,
+      "Other": 15
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5218",
+    "parent_values": {
+      "Electricity - National Electricity Network": 13002,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 2068,
+      "Solar power": 0,
+      "Bio Gas": 0,
+      "Other": 14
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 12564,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 2049,
+      "Solar power": 0,
+      "Bio Gas": 0,
+      "Other": 14
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5221",
+    "parent_values": {
+      "Electricity - National Electricity Network": 7114,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 554,
+      "Solar power": 0,
+      "Bio Gas": 0,
+      "Other": 1
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 6176,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 475,
+      "Solar power": 0,
+      "Bio Gas": 0,
+      "Other": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5224",
+    "parent_values": {
+      "Electricity - National Electricity Network": 10314,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 337,
+      "Solar power": 0,
+      "Bio Gas": 0,
+      "Other": 7
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 8987,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 232,
+      "Solar power": 0,
+      "Bio Gas": 0,
+      "Other": 7
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5327",
+    "parent_values": {
+      "Electricity - National Electricity Network": 9127,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 5618,
+      "Solar power": 33,
+      "Bio Gas": 0,
+      "Other": 7
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 8981,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 5510,
+      "Solar power": 33,
+      "Bio Gas": 0,
+      "Other": 5
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5333",
+    "parent_values": {
+      "Electricity - National Electricity Network": 132,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 252,
+      "Solar power": 5,
+      "Bio Gas": 0,
+      "Other": 0
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 336,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 661,
+      "Solar power": 7,
+      "Bio Gas": 0,
+      "Other": 0
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6124",
+    "parent_values": {
+      "Electricity - National Electricity Network": 12047,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 3310,
+      "Solar power": 785,
+      "Bio Gas": 0,
+      "Other": 6
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 11578,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 3202,
+      "Solar power": 777,
+      "Bio Gas": 0,
+      "Other": 6
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6145",
+    "parent_values": {
+      "Electricity - National Electricity Network": 15719,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 1587,
+      "Solar power": 22,
+      "Bio Gas": 0,
+      "Other": 4
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 16323,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 1654,
+      "Solar power": 22,
+      "Bio Gas": 1,
+      "Other": 4
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6148",
+    "parent_values": {
+      "Electricity - National Electricity Network": 8074,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 1187,
+      "Solar power": 14,
+      "Bio Gas": 1,
+      "Other": 2
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 7470,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 1120,
+      "Solar power": 14,
+      "Bio Gas": 0,
+      "Other": 2
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6218",
+    "parent_values": {
+      "Electricity - National Electricity Network": 12142,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 3318,
+      "Solar power": 233,
+      "Bio Gas": 0,
+      "Other": 12
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 11902,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 3287,
+      "Solar power": 233,
+      "Bio Gas": 0,
+      "Other": 12
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6233",
+    "parent_values": {
+      "Electricity - National Electricity Network": 15118,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 1466,
+      "Solar power": 6,
+      "Bio Gas": 0,
+      "Other": 18
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 14682,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 1464,
+      "Solar power": 6,
+      "Bio Gas": 0,
+      "Other": 14
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-7118",
+    "parent_values": {
+      "Electricity - National Electricity Network": 8004,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 1789,
+      "Solar power": 97,
+      "Bio Gas": 1,
+      "Other": 1
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 7809,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 1736,
+      "Solar power": 94,
+      "Bio Gas": 1,
+      "Other": 1
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-7127",
+    "parent_values": {
+      "Electricity - National Electricity Network": 10455,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 2023,
+      "Solar power": 197,
+      "Bio Gas": 0,
+      "Other": 4
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 10148,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 1986,
+      "Solar power": 195,
+      "Bio Gas": 0,
+      "Other": 4
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-7133",
+    "parent_values": {
+      "Electricity - National Electricity Network": 16771,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 894,
+      "Solar power": 20,
+      "Bio Gas": 0,
+      "Other": 4
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 15961,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 883,
+      "Solar power": 15,
+      "Bio Gas": 0,
+      "Other": 3
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-8124",
+    "parent_values": {
+      "Electricity - National Electricity Network": 21943,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 2079,
+      "Solar power": 21,
+      "Bio Gas": 0,
+      "Other": 14
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 21319,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 2056,
+      "Solar power": 21,
+      "Bio Gas": 0,
+      "Other": 14
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-8215",
+    "parent_values": {
+      "Electricity - National Electricity Network": 508,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 69,
+      "Solar power": 1,
+      "Bio Gas": 0,
+      "Other": 1
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 8299,
+      "Electricity - Rural Hydro Electricity Projects": 0,
+      "Kerosene": 3415,
+      "Solar power": 449,
+      "Bio Gas": 0,
+      "Other": 2
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-9118",
+    "parent_values": {
+      "Electricity - National Electricity Network": 18352,
+      "Electricity - Rural Hydro Electricity Projects": 38,
+      "Kerosene": 3119,
+      "Solar power": 234,
+      "Bio Gas": 1,
+      "Other": 5
+    },
+    "sum_child_values": {
+      "Electricity - National Electricity Network": 11010,
+      "Electricity - Rural Hydro Electricity Projects": 21,
+      "Kerosene": 1888,
+      "Solar power": 117,
+      "Bio Gas": 1,
+      "Other": 4
+    }
+  }
+]
