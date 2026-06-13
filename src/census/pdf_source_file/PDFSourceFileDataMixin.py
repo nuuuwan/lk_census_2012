@@ -123,20 +123,22 @@ class PDFSourceFileDataMixin:
         new_data_list = []
         no_ent_list = []
         for data in tqdm(data_list, desc="Expanding data"):
+            output = cls._expand_data(
+                previous_ent_type,
+                previous_ent_id,
+                data,
+                no_ent_list,
+            )
+            if output is None:
+                continue
             (
                 new_data,
                 previous_ent_type,
                 previous_ent_id,
                 data,
                 no_ent_list,
-            ) = cls._expand_data(
-                previous_ent_type,
-                previous_ent_id,
-                data,
-                no_ent_list,
-            )
-            if new_data is not None:
-                new_data_list.append(new_data)
+            ) = output
+            new_data_list.append(new_data)
 
         if no_ent_list:
             log.error(f"🛑 {len(no_ent_list)} entries had no matching ent.")
