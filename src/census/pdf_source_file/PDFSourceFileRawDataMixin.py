@@ -141,14 +141,14 @@ class PDFSourceFileRawDataMixin:
 
         clusters.sort(key=lambda c: c["count"], reverse=True)
 
-        for cluster in clusters:
-            log.debug(
-                f'{cluster["count"]:d}'
-                + "\t"
-                + "\t".join(
-                    [(f"{s[0]}...{s[1]}") for s in cluster["samples"][:4]]
-                ),
-            )
+        # for cluster in clusters:
+        #     log.debug(
+        #         f'{cluster["count"]:d}'
+        #         + "\t"
+        #         + "\t".join(
+        #             [(f"{s[0]}...{s[1]}") for s in cluster["samples"][:4]]
+        #         ),
+        #     )
 
         clusters = clusters[: n_columns - 1]
 
@@ -210,13 +210,24 @@ class PDFSourceFileRawDataMixin:
             return None
         region_name = re.sub(r"[^\x00-\x7F]+", " ", region_name)
         region_name = region_name.strip()
-        if "Population" in region_name or "District" in region_name:
+
+        for invalid_region_name_text in ["District", "Population"]:
+            if invalid_region_name_text in region_name:
+                return None
+
+        if not d["total_value"]:
             return None
 
-        values = {
-            field: ParseUtils.parse_int(d[field]) for field in self.fields
-        }
-        total_value_from_source = ParseUtils.parse_int(d["total_value"])
+        try:
+            values = {
+                field: ParseUtils.parse_int(d[field]) for field in self.fields
+            }
+            total_value_from_source = ParseUtils.parse_int(d["total_value"])
+        except Exception as e:
+            log.debug(f"{region_name=}, {d=}")
+            raise e
+        if total_value_from_source == 0:
+            return None
 
         total_value = sum(values.values())
         if total_value != total_value_from_source:
@@ -234,26 +245,46 @@ class PDFSourceFileRawDataMixin:
             total_value_from_source=total_value_from_source,
         )
 
-    def process_page(self, columns, i_page):
+    def process_page(
+        self,
+        i_page,
+        columns,
+        table_areas,
+    ):
         dfs = []
+        try:
+            tables = camelot.read_pdf(
+                self.local_path,
+                pages=str(i_page),
+                flavor="stream",
+                edge_tol=500,
+                row_tol=self.row_tol,
+                strip_text="\n",
+                columns=[columns],
+                table_areas=table_areas,
+            )
+        except Exception as e:
+            log.debug(f"column_names={self.column_names}")
+            log.debug(f"{i_page=}")
+            log.debug(f"{columns=}")
+            raise e
 
-        tables = camelot.read_pdf(
-            self.local_path,
-            pages=str(i_page),
-            flavor="stream",
-            edge_tol=500,
-            row_tol=self.row_tol,
-            strip_text="\n",
-            columns=[columns],
-        )
         for table in tables:
             dfs.append(self._normalize_columns(table.df))
 
         if i_page == 1:
             camelot.plot(tables[0], kind="grid").savefig(
-                f"debug_page_{i_page}.png", dpi=300
+                f"debug_{self.doc_id}_{i_page}.png", dpi=300
             )
         return dfs
+
+    def _compute_table_areas(self, page_layouts):
+        page_layout = page_layouts[0]
+        y0 = min(e.y0 for e in page_layout if isinstance(e, LTTextContainer))
+        y1 = max(e.y1 for e in page_layout if isinstance(e, LTTextContainer))
+        x0 = min(e.x0 for e in page_layout if isinstance(e, LTTextContainer))
+        x1 = max(e.x1 for e in page_layout if isinstance(e, LTTextContainer))
+        return [f"{x0},{y0},{x1},{y1}"]
 
     def build_raw_data(self):
         if os.path.exists(self.raw_data_path):
@@ -277,11 +308,15 @@ class PDFSourceFileRawDataMixin:
         n_pages = doc.catalog["Pages"].resolve()["Count"]
         last_page = min(n_pages, self.MAX_PAGES_TO_PROCESS)
 
+        table_areas = self._compute_table_areas(
+            page_layouts_for_analysis,
+        )
+
         dfs = []
         for i_page in tqdm(
             range(1, last_page + 1), desc="Extracting raw data"
         ):
-            dfs_for_page = self.process_page(columns, i_page)
+            dfs_for_page = self.process_page(i_page, columns, table_areas)
             dfs.extend(dfs_for_page)
 
         if not dfs:
