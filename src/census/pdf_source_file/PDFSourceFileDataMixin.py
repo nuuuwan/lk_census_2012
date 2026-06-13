@@ -14,9 +14,9 @@ class PDFSourceFileDataMixin:
     MAX_NO_ENT_LIST = 10
     MIN_DATA_LIST_SIZE = 30
 
-    @classmethod
+    @staticmethod
     @cache
-    def _remap_region_name(cls, region_name):
+    def _remap_region_name(region_name):
         idx = Corrections.GND_RENAME_MAP | Corrections.DSD_RENAME_MAP
         for item in Corrections.DSD_UPDATE_MAP:
             name = item.get("name")
@@ -82,15 +82,19 @@ class PDFSourceFileDataMixin:
 
         return filter_ent_type_and_id_list
 
-    @classmethod
+    @staticmethod
     @cache
-    def get_ent_info(cls, previous_ent_type, previous_ent_id, region_name):
-        filter_ent_type_and_id_list = cls.get_filter_ent_type_and_id_list(
-            previous_ent_type,
-            previous_ent_id,
+    def get_ent_info(previous_ent_type, previous_ent_id, region_name):
+        filter_ent_type_and_id_list = (
+            PDFSourceFileDataMixin.get_filter_ent_type_and_id_list(
+                previous_ent_type,
+                previous_ent_id,
+            )
         )
 
-        alt_region_name = cls._remap_region_name(region_name)
+        alt_region_name = PDFSourceFileDataMixin._remap_region_name(
+            region_name
+        )
 
         ents = Ent.list_from_name_fuzzy(
             [region_name, alt_region_name],
