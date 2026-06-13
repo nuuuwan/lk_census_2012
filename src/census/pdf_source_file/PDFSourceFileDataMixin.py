@@ -1,4 +1,5 @@
 import os
+from functools import cache
 
 from tqdm import tqdm
 
@@ -14,6 +15,7 @@ class PDFSourceFileDataMixin:
     MIN_DATA_LIST_SIZE = 30
 
     @classmethod
+    @cache
     def _remap_region_name(cls, region_name):
         idx = Corrections.GND_RENAME_MAP | Corrections.DSD_RENAME_MAP
         for item in Corrections.DSD_UPDATE_MAP:
@@ -81,13 +83,12 @@ class PDFSourceFileDataMixin:
         return filter_ent_type_and_id_list
 
     @classmethod
-    def get_ent(cls, previous_ent_type, previous_ent_id, data):
+    def get_ent_info(cls, previous_ent_type, previous_ent_id, region_name):
         filter_ent_type_and_id_list = cls.get_filter_ent_type_and_id_list(
             previous_ent_type,
             previous_ent_id,
         )
 
-        region_name = data["region_name"]
         alt_region_name = cls._remap_region_name(region_name)
 
         ents = Ent.list_from_name_fuzzy(
@@ -106,12 +107,12 @@ class PDFSourceFileDataMixin:
     def _expand_data(
         cls, previous_ent_type, previous_ent_id, data, no_ent_list
     ):
-        ent_id, ent_name = cls.get_ent(
-            previous_ent_type, previous_ent_id, data
+        region_name = data["region_name"]
+        ent_id, ent_name = cls.get_ent_info(
+            previous_ent_type, previous_ent_id, region_name
         )
 
         if ent_id is None:
-            region_name = data["region_name"]
             log.error(f'No match: "{region_name}" ({previous_ent_id=})')
             no_ent_list.append((region_name, previous_ent_id))
             if len(no_ent_list) > cls.MAX_NO_ENT_LIST:
