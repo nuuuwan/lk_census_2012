@@ -12,6 +12,14 @@ log = Log("EntType")
 class EntType:
     name: str
 
+    def __hash__(self):
+        return hash(self.name)
+
+    def __eq__(self, other):
+        if not isinstance(other, EntType):
+            return False
+        return self.name == other.name
+
     @staticmethod
     def from_id(id: str):
         if id == "LK":
