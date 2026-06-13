@@ -5,6 +5,8 @@ import camelot
 import pandas as pd
 from pdfminer.high_level import extract_pages
 from pdfminer.layout import LTTextContainer, LTTextLine
+from pdfminer.pdfdocument import PDFDocument
+from pdfminer.pdfparser import PDFParser
 from tqdm import tqdm
 
 from census.pdf_source_file.ParseUtils import ParseUtils
@@ -15,6 +17,7 @@ log = Log("PDFSourceFileRawDataMixin")
 
 class PDFSourceFileRawDataMixin:
     MAX_PAGES_TO_PROCESS = 3
+    MAX_PAGES_FOR_LAYOUT_ANALYSIS = 3
 
     DASH_MAP = {
         "\u2010": "-",
@@ -251,13 +254,20 @@ class PDFSourceFileRawDataMixin:
 
         # Lay out every page once with pdfminer so column inference and
         # camelot share one coordinate frame.
-        page_layouts = list(extract_pages(self.local_path))
-        n_pages = len(page_layouts)
-        last_page = min(n_pages, self.MAX_PAGES_TO_PROCESS or n_pages)
+        page_layouts_for_analysis = list(
+            extract_pages(
+                self.local_path,
+                page_numbers=range(self.MAX_PAGES_FOR_LAYOUT_ANALYSIS),
+            )
+        )
 
         columns = self._infer_columns(
-            page_layouts[: self.MAX_PAGES_TO_PROCESS], self.n_columns
+            page_layouts_for_analysis, self.n_columns
         )
+
+        doc = PDFDocument(PDFParser(open(self.local_path, "rb")))
+        n_pages = doc.catalog["Pages"].resolve()["Count"]
+        last_page = min(n_pages, self.MAX_PAGES_TO_PROCESS)
 
         dfs = []
         for i_page in tqdm(
