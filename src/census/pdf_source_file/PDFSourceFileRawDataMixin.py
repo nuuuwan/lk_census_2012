@@ -205,6 +205,7 @@ class PDFSourceFileRawDataMixin:
             log.debug(f"Dropping {n_dropped} malformed rows.")
         return df[mask].reset_index(drop=True)
 
+    # flake8: noqa: CFQ004
     def remap_raw_data(self, d):
         if "region_name" not in d:
             return None
@@ -244,10 +245,8 @@ class PDFSourceFileRawDataMixin:
                         log.debug(f"{region_name=}")
                         log.debug(f"{values=}")
 
-                        raise ValueError(
-                            f"Invalid correction key: {k} not in {
-                                values.keys()}"
-                        )
+                        raise ValueError(f"Invalid correction key: {k} not in {
+                                values.keys()}")
 
         total_value = sum(values.values())
 
