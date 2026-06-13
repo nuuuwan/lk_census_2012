@@ -1,0 +1,623 @@
+[
+  {
+    "validation": "ent_coverage",
+    "ent_type_name": "dsd",
+    "missing_ent_ids": [
+      "LK-3135",
+      "LK-2314",
+      "LK-2302",
+      "LK-9119",
+      "LK-3128",
+      "LK-2310",
+      "LK-2313",
+      "LK-2307",
+      "LK-3137"
+    ]
+  },
+  {
+    "validation": "ent_coverage",
+    "ent_type_name": "gnd",
+    "missing_ent_ids": [
+      "LK-9118190",
+      "LK-5221100",
+      "LK-5124009",
+      "LK-4409035",
+      "LK-5327005",
+      "LK-4503090",
+      "LK-5124030",
+      "LK-5224050",
+      "LK-1209415",
+      "LK-5112120",
+      "LK-5133060",
+      "LK-4409040",
+      "LK-5109065",
+      "LK-4133055",
+      "LK-6124210",
+      "LK-5221095",
+      "LK-5112014",
+      "LK-9118195",
+      "LK-4409020",
+      "LK-5104004",
+      "LK-5133019",
+      "LK-8215055",
+      "LK-4112200",
+      "LK-9118170",
+      "LK-5327010",
+      "LK-2203160",
+      "LK-7133080",
+      "LK-5221050",
+      "LK-2203295",
+      "LK-4503015",
+      "LK-6124225",
+      "LK-1306275",
+      "LK-4112175",
+      "LK-4112190",
+      "LK-3127165",
+      "LK-6218135",
+      "LK-5124017",
+      "LK-8124160",
+      "LK-5112215",
+      "LK-5104005",
+      "LK-5104013",
+      "LK-4112205",
+      "LK-9118200",
+      "LK-5224065",
+      "LK-1339260",
+      "LK-5112016",
+      "LK-5136230",
+      "LK-4124090",
+      "LK-5212205",
+      "LK-4112155",
+      "LK-5112230",
+      "LK-7127130",
+      "LK-5224055",
+      "LK-4112145",
+      "LK-9118165",
+      "LK-3127220",
+      "LK-4130005",
+      "LK-5110025",
+      "LK-4415015",
+      "LK-5112210",
+      "LK-5112115",
+      "LK-5127018",
+      "LK-5215110",
+      "LK-4415155",
+      "LK-4112185",
+      "LK-5104003",
+      "LK-7210065",
+      "LK-4112120",
+      "LK-4112150",
+      "LK-1227590",
+      "LK-5112006",
+      "LK-4503045",
+      "LK-5104055",
+      "LK-4112220",
+      "LK-1339265",
+      "LK-5109022",
+      "LK-4512020",
+      "LK-9119060",
+      "LK-9118205",
+      "LK-5115015",
+      "LK-4130155",
+      "LK-4112215",
+      "LK-6233095",
+      "LK-4409050",
+      "LK-4112210",
+      "LK-5224060",
+      "LK-5124070",
+      "LK-9118185",
+      "LK-5130011",
+      "LK-4124030",
+      "LK-4133065",
+      "LK-2309380",
+      "LK-4506005",
+      "LK-5115040",
+      "LK-4112180",
+      "LK-4112195",
+      "LK-3127175",
+      "LK-5327185",
+      "LK-5112200",
+      "LK-2203155",
+      "LK-5109012",
+      "LK-4112110",
+      "LK-9118175",
+      "LK-5109021",
+      "LK-5124065",
+      "LK-6124215",
+      "LK-9118180",
+      "LK-5136235",
+      "LK-5112095",
+      "LK-5112235"
+    ]
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-82",
+    "parent_values": {
+      "Employed": 173166,
+      "Unemployed": 11589,
+      "Economically not active": 145739
+    },
+    "sum_child_values": {
+      "Employed": 156111,
+      "Unemployed": 10200,
+      "Economically not active": 129682
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1209",
+    "parent_values": {
+      "Employed": 55653,
+      "Unemployed": 3229,
+      "Economically not active": 52809
+    },
+    "sum_child_values": {
+      "Employed": 54790,
+      "Unemployed": 3205,
+      "Economically not active": 52005
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1227",
+    "parent_values": {
+      "Employed": 64445,
+      "Unemployed": 4215,
+      "Economically not active": 68795
+    },
+    "sum_child_values": {
+      "Employed": 63740,
+      "Unemployed": 4151,
+      "Economically not active": 67948
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1306",
+    "parent_values": {
+      "Employed": 39441,
+      "Unemployed": 2123,
+      "Economically not active": 41310
+    },
+    "sum_child_values": {
+      "Employed": 39120,
+      "Unemployed": 2104,
+      "Economically not active": 40841
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1339",
+    "parent_values": {
+      "Employed": 21635,
+      "Unemployed": 1567,
+      "Economically not active": 18326
+    },
+    "sum_child_values": {
+      "Employed": 20836,
+      "Unemployed": 1481,
+      "Economically not active": 17640
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2203",
+    "parent_values": {
+      "Employed": 24485,
+      "Unemployed": 1526,
+      "Economically not active": 25021
+    },
+    "sum_child_values": {
+      "Employed": 23357,
+      "Unemployed": 1441,
+      "Economically not active": 23940
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2303",
+    "parent_values": {
+      "Employed": 37108,
+      "Unemployed": 3341,
+      "Economically not active": 32919
+    },
+    "sum_child_values": {
+      "Employed": 23841,
+      "Unemployed": 2107,
+      "Economically not active": 18885
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2306",
+    "parent_values": {
+      "Employed": 34305,
+      "Unemployed": 2097,
+      "Economically not active": 28196
+    },
+    "sum_child_values": {
+      "Employed": 21189,
+      "Unemployed": 1351,
+      "Economically not active": 18025
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2309",
+    "parent_values": {
+      "Employed": 39938,
+      "Unemployed": 2421,
+      "Economically not active": 32807
+    },
+    "sum_child_values": {
+      "Employed": 23595,
+      "Unemployed": 1337,
+      "Economically not active": 18373
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2312",
+    "parent_values": {
+      "Employed": 85096,
+      "Unemployed": 6760,
+      "Economically not active": 59091
+    },
+    "sum_child_values": {
+      "Employed": 38116,
+      "Unemployed": 2359,
+      "Economically not active": 25137
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2315",
+    "parent_values": {
+      "Employed": 78507,
+      "Unemployed": 8496,
+      "Economically not active": 59429
+    },
+    "sum_child_values": {
+      "Employed": 15148,
+      "Unemployed": 1505,
+      "Economically not active": 15293
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3127",
+    "parent_values": {
+      "Employed": 26268,
+      "Unemployed": 2391,
+      "Economically not active": 28331
+    },
+    "sum_child_values": {
+      "Employed": 14935,
+      "Unemployed": 1424,
+      "Economically not active": 17742
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3136",
+    "parent_values": {
+      "Employed": 32475,
+      "Unemployed": 3593,
+      "Economically not active": 40247
+    },
+    "sum_child_values": {
+      "Employed": 8960,
+      "Unemployed": 903,
+      "Economically not active": 11335
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4130",
+    "parent_values": {
+      "Employed": 18887,
+      "Unemployed": 2842,
+      "Economically not active": 28112
+    },
+    "sum_child_values": {
+      "Employed": 18354,
+      "Unemployed": 2831,
+      "Economically not active": 27180
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4133",
+    "parent_values": {
+      "Employed": 18149,
+      "Unemployed": 2463,
+      "Economically not active": 33003
+    },
+    "sum_child_values": {
+      "Employed": 17057,
+      "Unemployed": 2362,
+      "Economically not active": 30829
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4415",
+    "parent_values": {
+      "Employed": 9168,
+      "Unemployed": 879,
+      "Economically not active": 10673
+    },
+    "sum_child_values": {
+      "Employed": 9134,
+      "Unemployed": 879,
+      "Economically not active": 10634
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5112",
+    "parent_values": {
+      "Employed": 22282,
+      "Unemployed": 1979,
+      "Economically not active": 26338
+    },
+    "sum_child_values": {
+      "Employed": 18884,
+      "Unemployed": 1668,
+      "Economically not active": 23064
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5115",
+    "parent_values": {
+      "Employed": 7101,
+      "Unemployed": 780,
+      "Economically not active": 8754
+    },
+    "sum_child_values": {
+      "Employed": 5280,
+      "Unemployed": 601,
+      "Economically not active": 6678
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5124",
+    "parent_values": {
+      "Employed": 10250,
+      "Unemployed": 601,
+      "Economically not active": 15569
+    },
+    "sum_child_values": {
+      "Employed": 8602,
+      "Unemployed": 531,
+      "Economically not active": 13186
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5133",
+    "parent_values": {
+      "Employed": 9132,
+      "Unemployed": 1094,
+      "Economically not active": 14827
+    },
+    "sum_child_values": {
+      "Employed": 8919,
+      "Unemployed": 1082,
+      "Economically not active": 14548
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5212",
+    "parent_values": {
+      "Employed": 20789,
+      "Unemployed": 1708,
+      "Economically not active": 20662
+    },
+    "sum_child_values": {
+      "Employed": 20263,
+      "Unemployed": 1667,
+      "Economically not active": 20081
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5215",
+    "parent_values": {
+      "Employed": 17689,
+      "Unemployed": 838,
+      "Economically not active": 13497
+    },
+    "sum_child_values": {
+      "Employed": 17153,
+      "Unemployed": 803,
+      "Economically not active": 13003
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5221",
+    "parent_values": {
+      "Employed": 8193,
+      "Unemployed": 1640,
+      "Economically not active": 11910
+    },
+    "sum_child_values": {
+      "Employed": 7140,
+      "Unemployed": 1411,
+      "Economically not active": 10149
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5224",
+    "parent_values": {
+      "Employed": 11446,
+      "Unemployed": 1683,
+      "Economically not active": 17920
+    },
+    "sum_child_values": {
+      "Employed": 10601,
+      "Unemployed": 1453,
+      "Economically not active": 16393
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5327",
+    "parent_values": {
+      "Employed": 15210,
+      "Unemployed": 1428,
+      "Economically not active": 20484
+    },
+    "sum_child_values": {
+      "Employed": 14978,
+      "Unemployed": 1381,
+      "Economically not active": 20131
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6124",
+    "parent_values": {
+      "Employed": 20186,
+      "Unemployed": 1291,
+      "Economically not active": 21108
+    },
+    "sum_child_values": {
+      "Employed": 19442,
+      "Unemployed": 1222,
+      "Economically not active": 20354
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6145",
+    "parent_values": {
+      "Employed": 24605,
+      "Unemployed": 1462,
+      "Economically not active": 22030
+    },
+    "sum_child_values": {
+      "Employed": 25623,
+      "Unemployed": 1503,
+      "Economically not active": 22807
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6148",
+    "parent_values": {
+      "Employed": 13105,
+      "Unemployed": 675,
+      "Economically not active": 11046
+    },
+    "sum_child_values": {
+      "Employed": 12087,
+      "Unemployed": 634,
+      "Economically not active": 10269
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6218",
+    "parent_values": {
+      "Employed": 18893,
+      "Unemployed": 1217,
+      "Economically not active": 22357
+    },
+    "sum_child_values": {
+      "Employed": 18525,
+      "Unemployed": 1182,
+      "Economically not active": 21890
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6233",
+    "parent_values": {
+      "Employed": 22237,
+      "Unemployed": 1294,
+      "Economically not active": 23146
+    },
+    "sum_child_values": {
+      "Employed": 21726,
+      "Unemployed": 1262,
+      "Economically not active": 22484
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-7127",
+    "parent_values": {
+      "Employed": 18404,
+      "Unemployed": 746,
+      "Economically not active": 15168
+    },
+    "sum_child_values": {
+      "Employed": 18020,
+      "Unemployed": 730,
+      "Economically not active": 14633
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-7133",
+    "parent_values": {
+      "Employed": 26712,
+      "Unemployed": 1381,
+      "Economically not active": 24650
+    },
+    "sum_child_values": {
+      "Employed": 25223,
+      "Unemployed": 1291,
+      "Economically not active": 22677
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-8124",
+    "parent_values": {
+      "Employed": 34717,
+      "Unemployed": 2254,
+      "Economically not active": 29301
+    },
+    "sum_child_values": {
+      "Employed": 33905,
+      "Unemployed": 2209,
+      "Economically not active": 28342
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-8215",
+    "parent_values": {
+      "Employed": 1055,
+      "Unemployed": 71,
+      "Economically not active": 813
+    },
+    "sum_child_values": {
+      "Employed": 17055,
+      "Unemployed": 1389,
+      "Economically not active": 16057
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-9118",
+    "parent_values": {
+      "Employed": 31087,
+      "Unemployed": 2224,
+      "Economically not active": 27852
+    },
+    "sum_child_values": {
+      "Employed": 19278,
+      "Unemployed": 1292,
+      "Economically not active": 15917
+    }
+  }
+]

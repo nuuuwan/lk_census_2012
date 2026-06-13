@@ -1,0 +1,553 @@
+[
+  {
+    "validation": "ent_coverage",
+    "ent_type_name": "dsd",
+    "missing_ent_ids": [
+      "LK-3135",
+      "LK-2314",
+      "LK-2302",
+      "LK-9119",
+      "LK-3128",
+      "LK-2310",
+      "LK-2313",
+      "LK-2307",
+      "LK-3137"
+    ]
+  },
+  {
+    "validation": "ent_coverage",
+    "ent_type_name": "gnd",
+    "missing_ent_ids": [
+      "LK-9118190",
+      "LK-5221100",
+      "LK-5124009",
+      "LK-4409035",
+      "LK-5327005",
+      "LK-4503090",
+      "LK-5124030",
+      "LK-5224050",
+      "LK-5224005",
+      "LK-1209415",
+      "LK-5112120",
+      "LK-5133060",
+      "LK-4409040",
+      "LK-5109065",
+      "LK-4133055",
+      "LK-6124210",
+      "LK-5221095",
+      "LK-5112014",
+      "LK-9118195",
+      "LK-4409020",
+      "LK-5104004",
+      "LK-5133019",
+      "LK-8215055",
+      "LK-4112200",
+      "LK-9118170",
+      "LK-5327010",
+      "LK-2203160",
+      "LK-7133080",
+      "LK-5221050",
+      "LK-2203295",
+      "LK-4503015",
+      "LK-6124225",
+      "LK-1306275",
+      "LK-4112175",
+      "LK-4112190",
+      "LK-3127165",
+      "LK-6218135",
+      "LK-5124017",
+      "LK-8124160",
+      "LK-5112215",
+      "LK-5104005",
+      "LK-5104013",
+      "LK-4112205",
+      "LK-9118200",
+      "LK-5224065",
+      "LK-1339260",
+      "LK-5112016",
+      "LK-5136230",
+      "LK-4124090",
+      "LK-5212205",
+      "LK-4112155",
+      "LK-5112230",
+      "LK-7127130",
+      "LK-5224055",
+      "LK-4112145",
+      "LK-9118165",
+      "LK-3127220",
+      "LK-4130005",
+      "LK-5110025",
+      "LK-4415015",
+      "LK-5112210",
+      "LK-5112115",
+      "LK-5127018",
+      "LK-5215110",
+      "LK-4415155",
+      "LK-4112185",
+      "LK-5104003",
+      "LK-7210065",
+      "LK-4112120",
+      "LK-4112150",
+      "LK-1227590",
+      "LK-5112006",
+      "LK-4503045",
+      "LK-5104055",
+      "LK-4112220",
+      "LK-1339265",
+      "LK-5109022",
+      "LK-4512020",
+      "LK-9119060",
+      "LK-9118205",
+      "LK-5115015",
+      "LK-4130155",
+      "LK-4112215",
+      "LK-6233095",
+      "LK-4409050",
+      "LK-4112210",
+      "LK-5224060",
+      "LK-5124070",
+      "LK-9118185",
+      "LK-5130011",
+      "LK-4124030",
+      "LK-4133065",
+      "LK-2309380",
+      "LK-4506005",
+      "LK-5115040",
+      "LK-4112180",
+      "LK-4112195",
+      "LK-3127175",
+      "LK-5327185",
+      "LK-5112200",
+      "LK-2203155",
+      "LK-5109012",
+      "LK-4112110",
+      "LK-9118175",
+      "LK-5109021",
+      "LK-5124065",
+      "LK-6124215",
+      "LK-9118180",
+      "LK-5136235",
+      "LK-5112235"
+    ]
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-82",
+    "parent_values": {
+      "Male": 224168,
+      "Female": 226890
+    },
+    "sum_child_values": {
+      "Male": 200647,
+      "Female": 203422
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1209",
+    "parent_values": {
+      "Male": 70089,
+      "Female": 74417
+    },
+    "sum_child_values": {
+      "Male": 69046,
+      "Female": 73241
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1227",
+    "parent_values": {
+      "Male": 86489,
+      "Female": 93076
+    },
+    "sum_child_values": {
+      "Male": 85399,
+      "Female": 91967
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1306",
+    "parent_values": {
+      "Male": 52959,
+      "Female": 56277
+    },
+    "sum_child_values": {
+      "Male": 52373,
+      "Female": 55698
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-1339",
+    "parent_values": {
+      "Male": 26301,
+      "Female": 28327
+    },
+    "sum_child_values": {
+      "Male": 25297,
+      "Female": 27243
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2203",
+    "parent_values": {
+      "Male": 33619,
+      "Female": 36423
+    },
+    "sum_child_values": {
+      "Male": 32128,
+      "Female": 34794
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2303",
+    "parent_values": {
+      "Male": 48527,
+      "Female": 52653
+    },
+    "sum_child_values": {
+      "Male": 29939,
+      "Female": 31988
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2306",
+    "parent_values": {
+      "Male": 42156,
+      "Female": 46372
+    },
+    "sum_child_values": {
+      "Male": 26348,
+      "Female": 29023
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2309",
+    "parent_values": {
+      "Male": 49878,
+      "Female": 54241
+    },
+    "sum_child_values": {
+      "Male": 28754,
+      "Female": 31059
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2312",
+    "parent_values": {
+      "Male": 102338,
+      "Female": 109756
+    },
+    "sum_child_values": {
+      "Male": 43535,
+      "Female": 45721
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-2315",
+    "parent_values": {
+      "Male": 97448,
+      "Female": 108275
+    },
+    "sum_child_values": {
+      "Male": 19932,
+      "Female": 23228
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3127",
+    "parent_values": {
+      "Male": 35757,
+      "Female": 39251
+    },
+    "sum_child_values": {
+      "Male": 21395,
+      "Female": 23276
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-3136",
+    "parent_values": {
+      "Male": 49104,
+      "Female": 52805
+    },
+    "sum_child_values": {
+      "Male": 12920,
+      "Female": 14155
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4130",
+    "parent_values": {
+      "Male": 30483,
+      "Female": 34221
+    },
+    "sum_child_values": {
+      "Male": 29600,
+      "Female": 33265
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4133",
+    "parent_values": {
+      "Male": 31624,
+      "Female": 36518
+    },
+    "sum_child_values": {
+      "Male": 29630,
+      "Female": 34240
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-4415",
+    "parent_values": {
+      "Male": 14622,
+      "Female": 14351
+    },
+    "sum_child_values": {
+      "Male": 14566,
+      "Female": 14305
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5112",
+    "parent_values": {
+      "Male": 35948,
+      "Female": 39530
+    },
+    "sum_child_values": {
+      "Male": 31582,
+      "Female": 34754
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5115",
+    "parent_values": {
+      "Male": 11621,
+      "Female": 13022
+    },
+    "sum_child_values": {
+      "Male": 8674,
+      "Female": 9927
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5124",
+    "parent_values": {
+      "Male": 18635,
+      "Female": 21721
+    },
+    "sum_child_values": {
+      "Male": 15732,
+      "Female": 18322
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5133",
+    "parent_values": {
+      "Male": 16369,
+      "Female": 19853
+    },
+    "sum_child_values": {
+      "Male": 16016,
+      "Female": 19435
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5212",
+    "parent_values": {
+      "Male": 28825,
+      "Female": 29500
+    },
+    "sum_child_values": {
+      "Male": 28080,
+      "Female": 28667
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5215",
+    "parent_values": {
+      "Male": 21422,
+      "Female": 22407
+    },
+    "sum_child_values": {
+      "Male": 20658,
+      "Female": 21755
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5221",
+    "parent_values": {
+      "Male": 13844,
+      "Female": 15956
+    },
+    "sum_child_values": {
+      "Male": 11920,
+      "Female": 13729
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5224",
+    "parent_values": {
+      "Male": 21583,
+      "Female": 23049
+    },
+    "sum_child_values": {
+      "Male": 18844,
+      "Female": 20052
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-5327",
+    "parent_values": {
+      "Male": 27762,
+      "Female": 28859
+    },
+    "sum_child_values": {
+      "Male": 27282,
+      "Female": 28331
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6124",
+    "parent_values": {
+      "Male": 27699,
+      "Female": 29786
+    },
+    "sum_child_values": {
+      "Male": 26705,
+      "Female": 28728
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6145",
+    "parent_values": {
+      "Male": 30800,
+      "Female": 32942
+    },
+    "sum_child_values": {
+      "Male": 31960,
+      "Female": 34162
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6148",
+    "parent_values": {
+      "Male": 15561,
+      "Female": 16825
+    },
+    "sum_child_values": {
+      "Male": 14401,
+      "Female": 15605
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6218",
+    "parent_values": {
+      "Male": 29525,
+      "Female": 32113
+    },
+    "sum_child_values": {
+      "Male": 29065,
+      "Female": 31486
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-6233",
+    "parent_values": {
+      "Male": 29918,
+      "Female": 32597
+    },
+    "sum_child_values": {
+      "Male": 29192,
+      "Female": 31741
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-7127",
+    "parent_values": {
+      "Male": 23019,
+      "Female": 23973
+    },
+    "sum_child_values": {
+      "Male": 22412,
+      "Female": 23299
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-7133",
+    "parent_values": {
+      "Male": 33995,
+      "Female": 35742
+    },
+    "sum_child_values": {
+      "Male": 31321,
+      "Female": 33856
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-8124",
+    "parent_values": {
+      "Male": 42925,
+      "Female": 47646
+    },
+    "sum_child_values": {
+      "Male": 41714,
+      "Female": 46297
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-8215",
+    "parent_values": {
+      "Male": 1336,
+      "Female": 1195
+    },
+    "sum_child_values": {
+      "Male": 23521,
+      "Female": 23468
+    }
+  },
+  {
+    "validation": "totals",
+    "parent_ent_id": "LK-9118",
+    "parent_values": {
+      "Male": 39754,
+      "Female": 41809
+    },
+    "sum_child_values": {
+      "Male": 23585,
+      "Female": 24990
+    }
+  }
+]
